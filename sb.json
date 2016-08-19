@@ -1,0 +1,140 @@
+[
+    {
+        "stageNo": "Sandy Bazaar"
+    },
+    {
+        "stageNo": 11,
+        "hitPts": "Happiny",
+        "type": 2000,
+        "moves": "Normal",
+        "captureRate": 15,
+        "initialBoardSetup": "Base: 70%\nBonus: 2% /move",
+        "pokemon": "None",
+        "recommendedParty": 4,
+        "clearingStrategy": "[Audino]\n\nAny 3",
+        "srankingStrategy": "Match Audinos to Mega evolve it. It is\nreally easy to beat. This also\nintroduces you to Mega Evolution.",
+        "notes": "Moves: At least 5 moves left\nThis may be your first stage to S-Rank.\nCome back here with Fighting Types to\nS-Rank it",
+        "mobileNotes": "She'll give you a heart since she \ncant wait to see.... Also the end of\ntutorial"
+    },
+    {
+        "stageNo": 12,
+        "hitPts": "Mareep",
+        "type": 1411,
+        "moves": "Electric",
+        "captureRate": 16,
+        "initialBoardSetup": "Base: 40%\nBonus: 4% /move",
+        "pokemon": "Board: None\nInitial: Adds 3 Mareeps\nTimer: None",
+        "recommendedParty": 3,
+        "clearingStrategy": "[Audino]\n\nAny 2",
+        "srankingStrategy": "The Disruption was not really\nthreatening. Just match the 3\nMareeps and its straightforward from\nhere",
+        "notes": "Moves: At least 8 moves left\nNot really hard. Dont try to add Mareeps.\nIt is not very effective and will not help\nyou in a long run"
+    },
+    {
+        "stageNo": 13,
+        "hitPts": "Purrloin",
+        "type": 1194,
+        "moves": "Dark",
+        "captureRate": 15,
+        "initialBoardSetup": "Base: 70%\nBonus: 2% /move",
+        "pokemon": "Board: None\nInitial: None\nTimer: Adds 3 Rocks",
+        "recommendedParty": 4,
+        "clearingStrategy": "[Audino]\n\nTogepi, Any",
+        "srankingStrategy": "Still easy to beat. Just go and make\nsome combos",
+        "notes": "Moves: At least 5 moves left\nJust make sure you dont collect Wooden \nBlocks and match more Super Effectives"
+    },
+    {
+        "stageNo": 14,
+        "hitPts": "Torchic",
+        "type": 491,
+        "moves": "Fire",
+        "captureRate": 5,
+        "initialBoardSetup": "Base: 5%\nBonus: 9% /move",
+        "pokemon": "Board: 15 Rocks\nInitial: None\nTimer: None",
+        "recommendedParty": 4,
+        "clearingStrategy": "[Audino]\n\nSquirtle, Any",
+        "srankingStrategy": "Swap A2 with D6 for an easy win",
+        "notes": "Moves: At least 2 moves left\nYour first move should be a match at the\ncenter of the board. This will clear most\nrocks for you to combo and clear it at\nyour next turn. Also Move+5 will S-Rank\nthis if needed"
+    },
+    {
+        "stageNo": 15,
+        "hitPts": "Phanpy",
+        "type": 1803,
+        "moves": "Ground",
+        "captureRate": 13,
+        "initialBoardSetup": "Base: 30%\nBonus: 6% /move",
+        "pokemon": "Board: 2nd & 4th Column: 3 Rocks at top.\nInitial: None\nTimer: None",
+        "recommendedParty": 4,
+        "clearingStrategy": "[Audino]\n\nSquirtle, Bulbasaur, Any",
+        "srankingStrategy": "Not much I can say about it.",
+        "notes": "Moves: At least 5 moves left\nJust make sure to destroy the disruption\nat the boards first before going for combo"
+    },
+    {
+        "stageNo": 16,
+        "hitPts": "Nidoran(F)",
+        "type": 398,
+        "moves": "Poison",
+        "captureRate": 3,
+        "initialBoardSetup": "Base: 70%\nBonus:10% /move",
+        "pokemon": "Board: 4th Column is Rocks as well as 2\n           more blocks and 4 Nidorans.\nInitial: None\nTimer: None",
+        "recommendedParty": 4,
+        "clearingStrategy": "[Audino]\n\nEspurr, Phanpy",
+        "srankingStrategy": "Switch C3 (third column, third row)\nwith E2 (fifth column, second row)",
+        "notes": "Moves: At least 1 moves left\nIf you follow the Clearing strategy, you'll\nS-Rank it"
+    },
+    {
+        "stageNo": 17,
+        "hitPts": "Nidoran(M)",
+        "type": 2268,
+        "moves": "Poison",
+        "captureRate": 15,
+        "initialBoardSetup": "Base: 20%\nBonus:6% /move",
+        "pokemon": "Board: None.\nInitial: Adds 3 Nidoran M\nTimer: Adds 3 Nidoran F. Then will\n          alternate between M and F after \n          every 4 turns",
+        "recommendedParty": 4,
+        "clearingStrategy": "[Audino]\n\nEspurr, Phanpy",
+        "srankingStrategy": "Bring Nidoran F and Nidoran M for\neasy combos.",
+        "notes": "Moves: At least 5 moves left\nBring both Nidorans here. Although at later\nlevels, 4 Super Effective will be better"
+    },
+    {
+        "stageNo": 18,
+        "hitPts": "Klefki",
+        "type": 1755,
+        "moves": "Steel",
+        "captureRate": 16,
+        "initialBoardSetup": "Base: 5%\nBonus:6% /move",
+        "pokemon": "Board: None.\nInitial: Adds 5 Klefki\nTimer: None",
+        "recommendedParty": 4,
+        "clearingStrategy": "Charmander, Torchic, \nPhanpy, Any",
+        "srankingStrategy": "Not much I can say. If you want, match\nthe Klefkis so you can combo well",
+        "notes": "Moves: At least 5 moves left\nStill relatively easy even with the Klefkis"
+    },
+    {
+        "stageNo": 19,
+        "hitPts": "Kangaskhan",
+        "type": 1244,
+        "moves": "Normal",
+        "captureRate": 15,
+        "initialBoardSetup": "Base: 70%\nBonus:2% /move",
+        "pokemon": "Board: None.\nInitial: None\nTimer: Adds 3 Rocks every 3 turns",
+        "recommendedParty": 4,
+        "clearingStrategy": "[Audino]\n\nAny 3 Pokemon",
+        "srankingStrategy": "Combo will do this. Just watch out for\nthe disruptions",
+        "notes": "Moves: At least 5 moves left\nStill easy for now"
+    },
+    {
+        "stageNo": 20,
+        "hitPts": "Mega Kangaskhan",
+        "type": 2463,
+        "moves": "Normal",
+        "captureRate": 20,
+        "initialBoardSetup": "Base: N/A\nBonus: N/A",
+        "pokemon": "Board: None.\nInitial: None\nTimer: Places 4 Rocks every 3 turns\n\nHalf Health: Adds 2x2 Rocks every 3 turns",
+        "recommendedParty": 4,
+        "clearingStrategy": "[Audino]\n\nAny 3 Pokemon",
+        "srankingStrategy": "Just same with Kangaskhan except\nthis one is 4 blocks.",
+        "notes": "Moves: At least 5 moves left\nStill not hard to S-Rank. If you cannot do it\nnow, then gather some fighting type\nPokemons first",
+        "mobileNotes": "Second Mega Stone"
+    },
+    {
+        "stageNo": "-END-"
+    }
+]
