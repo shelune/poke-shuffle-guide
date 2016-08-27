@@ -1,0 +1,141 @@
+[
+    {
+        "nf": "Night Festival"
+    },
+    {
+        "nf": 21,
+        "hitPts": "Buneary",
+        "type": 3257,
+        "moves": "Normal",
+        "captureRate": 30,
+        "initialBoardSetup": "Base: 50%\nBonus:2% /move",
+        "pokemon": "Board: 1st-4th column is Rocks\nInitial: None\nTimer: None\n\nNotes: 15 Rocks in each Column will skyfall\n           before your Pokemon",
+        "recommendedParty": 4,
+        "clearingStrategy": "[Any]\n\nAny 3",
+        "srankingStrategy": "Good stage for Low Level grinding.\nNothing much to say here",
+        "notes": "Moves: At least 10 moves left\nIf you cannot S-Rank it now, come back\nhere if you get Fighting Types. Also\nMove+5 will do this if needed"
+    },
+    {
+        "nf": 22,
+        "hitPts": "Treecko",
+        "type": 1978,
+        "moves": "Grass",
+        "captureRate": 15,
+        "initialBoardSetup": "Base: 5%\nBonus:3% /move",
+        "pokemon": "Board: In the center: 4 Treeckos in Barriers.\n           2 Treecko at the top and bottom\nInitial: None\nTimer: Add 2 Barriers every 4 turns",
+        "recommendedParty": 4,
+        "clearingStrategy": "[Any]\n\nCharmander, Torchic,\nNidoran F or M",
+        "srankingStrategy": "This time, you are introduced to Barriers.\nUse the Treeckos at the Top or Bottom\nto clear the Treeckos in Barrier. Then \nproceed at combos while clearing\nthose Barrier at the top",
+        "notes": "Moves: At least 6 moves left\nCome back later for stronger SE Pokemons\nif you cannot do it now. Bringing Treecko\ncan clear out the board Treeckos but its not\nvery effective to be worth it.",
+        "mobileNotes": "Another low catch rate one.."
+    },
+    {
+        "nf": 23,
+        "hitPts": "Pikachu",
+        "type": 903,
+        "moves": "Electric",
+        "captureRate": 7,
+        "initialBoardSetup": "Base: 30%\nBonus:10% /move",
+        "pokemon": "Board: 4 Pichus in the center and 4 corners\nInitial: None\nTimer: Adds a Pikachu and a Pichu every 2\n          turns",
+        "recommendedParty": 4,
+        "clearingStrategy": "[Any]\n\nPhanpy, Any 2",
+        "srankingStrategy": "Nothing you can do about the Pichus\nexcept if you bring your own Pichu. \nDont bother with them and just make\nyour combos",
+        "notes": "Moves: At least 2 moves left\nA Ground Type Team can finish this in 2-4 \nturns which would be enough to S-Rank this.\nBut 5 turns with low health is rather very easy",
+        "mobileNotes": "Pokemons Main Mascot"
+    },
+    {
+        "nf": 24,
+        "hitPts": "Sableye",
+        "type": 2095,
+        "moves": "Dark",
+        "captureRate": 15,
+        "initialBoardSetup": "Base: 55%\nBonus:3% /move",
+        "pokemon": "Board: None\nInitial: Adds a Sableye\nTimer: Adds 3 Barriers every 4 turns.\n          Adds a Sableye every 3 turns.\n          Repeat.",
+        "recommendedParty": 4,
+        "clearingStrategy": "[Any]\n\nTogepi, Any 2",
+        "srankingStrategy": "Dont bother with the Sableyes. Focus\non comboing and getting rid of barriers",
+        "notes": "Moves: At least 5 moves left\nHeracross and Volbeat can finish this easily"
+    },
+    {
+        "nf": 25,
+        "hitPts": "Litwick",
+        "type": 1734,
+        "moves": "Ghost",
+        "captureRate": 16,
+        "initialBoardSetup": "Base: 45%\nBonus:4% /move",
+        "pokemon": "Board: Cross shaped Rocks (See Picture)\n           3 Litwicks on its top\nInitial: None\nTimer: None",
+        "recommendedParty": 4,
+        "clearingStrategy": "Sableye, Purrloin, Any 2",
+        "srankingStrategy": "I dont recommend a Mega here since \nboth of them are not very effective. \nEliminate the Woods then match the\nLitwick if you want (It is super\neffective)",
+        "notes": "Moves: At least 6 moves left\nBringing Litwick can get this one"
+    },
+    {
+        "nf": 26,
+        "hitPts": "Chingling",
+        "type": 1978,
+        "moves": "Psychic",
+        "captureRate": 15,
+        "initialBoardSetup": "Base: 80%\nBonus:2% /move",
+        "pokemon": "Board: None\nInitial: None\nTimer: Adds 2 Barriers every 3 turns",
+        "recommendedParty": 4,
+        "clearingStrategy": "[Any Mega]\n\nSableye, Purrloin,\nLitwick",
+        "srankingStrategy": "Very easy stage. Can fall in 4-6 turns",
+        "notes": "Moves: At least 5 moves left\nHeracross and Volbeat can finish this easily"
+    },
+    {
+        "nf": 27,
+        "hitPts": "Swirlix",
+        "type": 2474,
+        "moves": "Fairy",
+        "captureRate": 16,
+        "initialBoardSetup": "Base: 70%\nBonus:2% /move",
+        "pokemon": "Board: 1st, 2nd, 5th, 6th column in Barrier\nInitial: None\nTimer: None",
+        "recommendedParty": 4,
+        "clearingStrategy": "[Any]\n\nKlefki, Both Nidorans",
+        "srankingStrategy": "Easy even with the barriers this is easy.\nAudino and Kangaskhan will enjoy\ntheir Mega effects here",
+        "notes": "Moves: At least 6 moves left\nIf you cannot S-Rank it now, wait for\nNidoran evolutions and Mega Mawile"
+    },
+    {
+        "nf": 28,
+        "hitPts": "Volbeat",
+        "type": 2045,
+        "moves": "Bug",
+        "captureRate": 15,
+        "initialBoardSetup": "Base: 30%\nBonus:5% /move",
+        "pokemon": "None",
+        "recommendedParty": 4,
+        "clearingStrategy": "[Any]\n\nCharmander,\nTorchic, Any",
+        "srankingStrategy": "Pretty straightforward stage.\nNo disruption",
+        "notes": "Moves: At least 5 moves left\nVery easy to S-Rank"
+    },
+    {
+        "nf": 29,
+        "hitPts": "Illumise",
+        "type": 1859,
+        "moves": "Bug",
+        "captureRate": 15,
+        "initialBoardSetup": "Base: 30%\nBonus:5% /move",
+        "pokemon": "Board: None\nInitial: None\nTimer: Place 3 Illumise after 3 turns.\n          Adds 3 Barriers in 3 turns.\n          Repeat.",
+        "recommendedParty": 4,
+        "clearingStrategy": "[Any]\n\nCharmander,\nTorchic, Any",
+        "srankingStrategy": "Much like Sableye. Just do combos",
+        "notes": "Moves: At least 5 moves left\nGet stronger Pokemons if you cannot\nS-Rank now"
+    },
+    {
+        "nf": 30,
+        "hitPts": "Mega Sableye",
+        "type": 4386,
+        "moves": "Dark",
+        "captureRate": 20,
+        "initialBoardSetup": "Base: N/A\nBonus: N/A",
+        "pokemon": "Board: None\nInitial: Adds 4 Barriers\nTimer: Adds 4 Barriers every 4 turns.\n\nHalf Health: Adds 4 Barriers every 3 turns.",
+        "recommendedParty": 4,
+        "clearingStrategy": "[Any]\n\nVolbeat, Illumise,\nSwirlix",
+        "srankingStrategy": "Can be hard depending on the barrier\ndisruption. But hey, you have Volbeat\nnow. Do match of 4 to trigger Crowd\nControl which will deal huge damage\nwhile making sure the top row isn't\nin barrier",
+        "notes": "Moves: At least 6 moves left\n\nVery easy to S-Rank itemless\n\nFor now skip S-Ranking it now. A team of\nMega Lucario or any decent Mega and\nMove+5 will also do this",
+        "mobileNotes": "3rd Mega Stone"
+    },
+    {
+        "nf": "-END-"
+    }
+]
