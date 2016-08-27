@@ -1,0 +1,25 @@
+{
+  "name": "ShuffleDex",
+  "description": "Walkthrough for Pokemon Shuffle",
+  "main": "",
+  "authors": [
+    "Your Name <you@example.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "pokemon"
+  ],
+  "moduleType": [],
+  "homepage": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/scripts/src",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.3"
+  }
+}

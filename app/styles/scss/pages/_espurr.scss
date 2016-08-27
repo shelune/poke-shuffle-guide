@@ -1,0 +1,37 @@
+.single-pokemon {
+	color: $color-dark;
+}
+
+.stage {
+	&__number {
+		font-size: 4rem;
+		text-align: center;
+		margin-bottom: 40px;
+	}
+	&__info {
+		&--basic {
+			@include clearfix;
+			margin-bottom: 80px;
+			padding-bottom: 80px;
+			border-bottom: 1px solid $color-gray;
+		}
+		
+		&--setup {
+			
+		}
+	}
+}
+
+.setup {
+	> h2 {
+		font-size: 2rem;
+		text-align: left;
+		margin-bottom: 20px;
+	}
+	
+	&__layout {
+		margin: 0 auto;
+		max-width: 100%;
+	}
+	
+}
