@@ -108,7 +108,7 @@ gulp.task('styles', function() {
                 //the final filename of our combined css file
                 .pipe(concat('styles.css'))
                 //get our sources via sourceMaps
-                .pipe(sourceMaps.write())
+                //.pipe(sourceMaps.write())
                 //where to save our final, compressed css file
                 .pipe(gulp.dest('app/styles'))
                 //notify browserSync to refresh
