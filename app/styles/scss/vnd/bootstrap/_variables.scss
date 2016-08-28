@@ -43,8 +43,20 @@
 // Grayscale and brand colors for use across Bootstrap.
 
 $color-dark: #3f3f3f;
-$color-white: #000000;
+$color-black: #000000;
+$color-white: #ffffff;
 $color-gray: #a59f9f;
+
+$color-text: $color-dark;
+$color-text-light: #6d6464;
+$color-text-white:  $color-white;
+
+$color-bg-dark: #262626;
+$color-bg-light: #eae8e8;
+$color-bg-white:  $color-white;
+
+$color-border: $color-gray;
+$color-border-white: $color-white;
 
 $gray-dark:                 #373a3c !default;
 $gray:                      #55595c !default;

@@ -16,7 +16,6 @@
 	<header class="base-header">
 		<nav class="base-header__nav">
 			<ul>
-				<li>Home</li>
 				<li>Stages</li>
 			</ul>
 		</nav>
@@ -26,21 +25,33 @@
 		<div class="container">
 			<h1 class="stage__number">Stage 1</h1>
 			<div class="stage__info--basic">
+				<h2>Overview</h2>
 				<div class="row">
-					<div class="col-xs-4 info__overview">
+					<div class="col-xs info__overview">
 						<figure>
-							<img src="https://placekitten.com/200" alt="Espurr?" class="stage__thumbnail">
+							<img src="images/icons/icon_788.png" alt="Espurr?" class="stage__thumbnail">
 							<figcaption class="stage__name">
 								Espurr
 							</figcaption>
 						</figure>
 					</div>
-					<div class="col-xs-6 info__figures">
-						<div class=""><strong>Type: </strong> Normal</div>
-						<div class=""><strong>Hit Points: </strong> 200</div>
-						<div class=""><strong>Catch Rate: </strong>75% + 5% per move</div>
-						<div class=""><strong>S-Rank: </strong>9 / 18 Moves</div>
+					<div class="col-xs info__figures">
+						<h3>Stage Info</h3>
+						<ul>
+							<li class=""><strong>Type </strong> Normal</li>
+							<li class=""><strong>Hit Points </strong> 200</li>
+							<li class=""><strong>Catch Rate </strong>75% + 5% per move</li>
+							<li class=""><strong>S-Rank </strong>9 / 18 Moves</li>
+						</ul>
 					</div>
+					<div class="col-xs info__stats">
+						<h3>Personal Info</h3>
+						<ul>
+							<li><strong>Base Power </strong> 60</li>
+							<li><strong>Ability </strong>Power of 4</li>
+						</ul>
+					</div>
+					
 				</div>
 			</div>
 			<div class="stage__info--setup">
@@ -49,22 +60,22 @@
 						<h2>Board Setup</h2>
 						<img src="http://i.imgur.com/xCN7l0K.png" alt="boardsetup" class="setup__layout">
 					</div>
-					<div class="setup setup__disruption col-xs-8">
+					<div class="setup setup__disruption col-xs">
 						<h2>Disruption</h2>
 						<div class="row">
-							<div class="setup__disruption--board col-xs-3">
+							<div class="setup__disruption--board col-xs">
 								<h4>Board</h4>
 								<ul class="setup__disruption-content">
 									<li>1st-4th column is Rocks</li>
 								</ul>
 							</div>
-							<div class="setup__disruption--initial col-xs-3">
+							<div class="setup__disruption--initial col-xs">
 								<h4>Initial</h4>
 								<ul class="setup__disruption-content">
 									<li>Adds 4 Barriers</li>
 								</ul>
 							</div>
-							<div class="setup__disruption--timer col-xs-3">
+							<div class="setup__disruption--timer col-xs">
 								<h4>Timer</h4>
 								<ul class="setup__disruption-content">
 									<li>Adds 3 Barriers every 4 turns.</li>
@@ -78,32 +89,80 @@
 			</div>
 			<div class="board__info--strategy">
 				<div class="strategy__team">
-					<div class="col-xs slot slot--mega">
-						<span>Lucario</span>
-						<span>Garchomp</span>
-						<span>Gengar</span>
-					</div>
-					<div class="col-xs slot slot--main">
-						<span>Ninetales</span>
-						<span>Marowak</span>
-						<span>Stunfisk</span>
-					</div>
-					<div class="col-xs slot slot--expert">
-						<span>Blaziken</span>
-						<span>Heatran</span>
-						<span>Lucario</span>
-						<span>Moltres</span>
-					</div>
-					<div class="col-xs slot slot--event">
-						Groudon
+					<h2>Recommended Team</h2>
+					<div class="row">
+						<div class="col-xs strategy-slot startegy-slot--mega">
+							<h3>Mega Pokemon</h3>
+							<div class="strategy-slot__options">
+								<span style="background-image: url(images/icons/icon_45.png)">Lucario</span>
+								<span style="background-image: url(images/icons/icon_44.png)">Garchomp</span>
+								<span style="background-image: url(images/icons/icon_10.png)">Gengar</span>
+							</div>
+						</div>
+						<div class="col-xs strategy-slot strategy-slot--main">
+							<h3>Main Stage Pokemon</h3>
+							<div class="strategy-slot__options">
+								<span style="background-image: url(images/icons/icon_08.png)">Ninetales</span>
+								<span style="background-image: url(images/icons/icon_08.png)">Marowak</span>
+								<span style="background-image: url(images/icons/icon_08.png)">Stunfisk</span>
+							</div>
+						</div>
+						<div class="col-xs strategy-slot strategy-slot--expert">
+							<h3>Expert Stage Pokemon</h3>
+							<div class="strategy-slot__options">
+								<span style="background-image: url(images/icons/icon_08.png)">Blaziken</span>
+								<span style="background-image: url(images/icons/icon_08.png)">Heatran</span>
+								<span style="background-image: url(images/icons/icon_08.png)">Lucario</span>
+								<span style="background-image: url(images/icons/icon_08.png)">Moltres</span>
+							</div>
+						</div>
+						<div class="col-xs strategy-slot strategy-slot--event">
+							<h3>Special Stage Pokemon</h3>
+							<div class="strategy-slot__options">
+								<span style="background-image: url(images/icons/icon_08.png)">Groudon</span>
+							</div>
+						</div>
 					</div>
 				</div>
 				<div class="strategy__walkthrough">
-					
+					<h2>Strategy</h2>
+					<div class="row">
+						<div class="col-xs strategy__walkthrough--clearing">
+							<h3>Clearing</h3>
+							<div class="strategy__walkthrough-content">
+								<p>Switch F3 with B6 for a big combo
+									eliminating the barriers at 3rd and
+									4th column.</p>
+							</div>
+						</div>
+						<div class="col-xs strategy__walkthrough--srank">
+							<h3>S-Rank</h3>
+							<div class="strategy__walkthrough-content">
+								<strong>Moves: At least 27 moves left</strong>
+								<p class="strategy__walkthrough-content">
+									A good Fighting Team will also do this with
+									Move+5. But eventually, you'll get this
+									S-Ranked when you train your fightings here
+
+									Complexity will overkill this if you are
+									having real trouble. Note that even with
+									4 Fighting Types (No Mega) this is
+									really hard
+
+									For Garchomp, Mega Start+Move+5
+									wii do this
+								</p>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
 	</main>
+	
+	<footer class="main-footer">
+		<span>© Shelune 2016</span>
+	</footer>
 
 	<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 	<script>
