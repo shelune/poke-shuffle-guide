@@ -753,8 +753,5 @@
         "srankingStrategy": "Moves: At least 10 moves left\n\nGo full item run, you need all these items\nto S rank this level.",
         "notes": "Congratulations! You get a Mega-\nMewtwoite X",
         "mobileNotes": "  "
-    },
-    {
-        "stageNo": "-END-"
     }
 ]
