@@ -1,5 +1,6 @@
 //vendor
-@import "vnd/bootstrap/_variables";
+@import "../vnd/bootstrap/_bootstrap-grid";
+@import "../vnd/bootstrap/mixins/_breakpoints";
 
 //misc settings
 @import 'config/_settings';

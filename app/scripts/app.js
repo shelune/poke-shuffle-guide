@@ -871,7 +871,7 @@ References:
 						}
 					});
 				}
-				
+
 				// handle capture rate
 				handleCaptureRate(captureRate);
 				$('.stage-power').text(basePower);
@@ -895,6 +895,4 @@ References:
 			$('.stage-capture-bonus').text(captureRateBonus);
 		}
 	};
-
-	var handle
 })();

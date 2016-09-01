@@ -118,7 +118,7 @@ gulp.task('styles', function() {
 //compiling our SCSS files for deployment
 gulp.task('styles-deploy', function() {
     //the initializer / master SCSS file, which will just be a file that imports everything
-    return gulp.src('app/styles/scss/init.scss')
+    return gulp.src(['app/styles/scss/**/*.scss', '!app/scss/**/_*.scss'])
                 .pipe(plumber())
                 //include SCSS includes folder
                 .pipe(sass({

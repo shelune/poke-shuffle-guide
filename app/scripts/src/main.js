@@ -1,9 +1,7 @@
 ;(function () {
-<<<<<<< HEAD
 	var jsonUrl = 'https://rawgit.com/shelune/poke-shuffle-guide/master/app/scripts/assets/pv.json';
 	
 	var currentArea, hitPoints, stageName, stageType, stageMoves, teamLimit, recommendedParty, srankStrat, captureRate, clearStrat, disruptions, disruptionBoard, disruptionInit, disruptionTimer;
-=======
 
 	// URL for resources
 	var jsonUrl = 'https://rawgit.com/shelune/poke-shuffle-guide/master/app/scripts/assets/stageGuides/cn.json';
@@ -98,4 +96,5 @@
 			$('.stage-capture-bonus').text(captureRateBonus);
 		}
 	};
+	
 })();
