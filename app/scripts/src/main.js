@@ -1,7 +1,18 @@
 ;(function () {
-	var jsonUrl = 'https://rawgit.com/shelune/poke-shuffle-guide/master/app/scripts/assets/cn.json';
-	
+
+	// URL for resources
+	var jsonUrl = 'https://rawgit.com/shelune/poke-shuffle-guide/master/app/scripts/assets/stageGuides/cn.json';
+	var stageTypesUrl = 'https://rawgit.com/shelune/poke-shuffle-guide/master/app/scripts/assets/stageTypes.json';
+
+	// setup reference to stage types
+	var stageTypes;
+
+	//
 	var currentArea, hitPoints, stageName, stageType, stageMoves, teamLimit, recommendedParty, srankStrat, captureRate, clearStrat, disruptions;
+
+	$.getJSON(stageTypes, function (data) {
+		stageTypesUrl = data;
+	});
 	
 	var stageData = $('body').attr('stage-data');
 	console.log('searched stage is ' + stageData);
@@ -31,9 +42,6 @@
 				$('span.stage-limit').text(teamLimit);
 				$('span.stage-moves').text(stageMoves);
 				$('.stage-name').text(stageName);
-				
-				console.log(disruptions);
-
 			}	
 		});
 				

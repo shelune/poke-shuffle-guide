@@ -39,6 +39,10 @@
 	&__overview {
 		text-align: center;
 		align-self: center;
+
+		@include respond-to(sm) {
+				flex-basis: 100%;
+			}
 	}
 	
 	&__figures, &__stats {
