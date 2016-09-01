@@ -30,7 +30,7 @@
 				stageMoves = item['moves'];
 				teamLimit = item['pokemon'];
 				recommendedParty = item['recommendedParty'];
-				captureRate = item['captureRate'];
+				captureRate = splitBreakLine(item['captureRate']);
 				srankStrat = item['srankingStrategy'];
 				clearStrat = item['clearingStrategy'];
 				disruptions = item['disruptions'];
@@ -38,12 +38,30 @@
 				$('.stage__thumbnail').attr('src', 'images/icons/icon_' + stageData + '.png');
 				$('span.stage-type').text(stageType);
 				$('span.stage-hp').text(hitPoints);
-				$('span.stage-capture').text(captureRate);
 				$('span.stage-limit').text(teamLimit);
 				$('span.stage-moves').text(stageMoves);
 				$('.stage-name').text(stageName);
+
+				// handle capture rate
+				handleCaptureRate(captureRate);
 			}	
 		});
 				
 	});
+
+	var splitBreakLine = function (data) {
+		return data.split('\n');
+	}
+
+	var handleCaptureRate = function (captureRate) {
+		if (captureRate.length < 2) {
+			$('.stage-capture').text('N/A');
+			$('.stage-capture-add').text('N/A');	
+		} else {
+			var captureRateInit = parseInt(captureRate[0].slice(5, -1));
+			$('.stage-capture').text(captureRateInit);
+			var captureRateBonus = parseInt(captureRate[1].slice(6, -1));
+			$('.stage-capture-bonus').text(captureRateBonus);
+		}
+	}
 })();
