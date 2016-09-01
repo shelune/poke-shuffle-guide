@@ -811,7 +811,9 @@ References:
 	var stageTypes;
 
 	//
-	var currentArea, hitPoints, stageName, stageType, stageMoves, teamLimit, recommendedParty, srankStrat, captureRate, clearStrat, disruptions;
+	var currentArea, hitPoints, stageName, stageType, stageMoves, 
+			teamLimit, recommendedParty, srankStrat, clearStrat, disruptions,
+			basePower, ability, captureRate;
 
 	$.getJSON(stageTypes, function (data) {
 		stageTypesUrl = data;
@@ -837,6 +839,8 @@ References:
 				srankStrat = item['srankingStrategy'];
 				clearStrat = item['clearingStrategy'];
 				disruptions = item['disruptions'];
+				basePower = item['basePower'];
+				ability = item['ability'];
 				
 				$('.stage__thumbnail').attr('src', 'images/icons/icon_' + stageData + '.png');
 				$('span.stage-type').text(stageType);
@@ -847,6 +851,8 @@ References:
 
 				// handle capture rate
 				handleCaptureRate(captureRate);
+				$('.stage-power').text(basePower);
+				$('.stage-ability').text(ability);
 			}	
 		});
 				
@@ -866,5 +872,7 @@ References:
 			var captureRateBonus = parseInt(captureRate[1].slice(6, -1));
 			$('.stage-capture-bonus').text(captureRateBonus);
 		}
-	}
+	};
+
+	var handle
 })();
