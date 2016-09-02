@@ -182,14 +182,9 @@
 			> h3 {
 				padding-bottom: 10px;
 				border-bottom: 5px solid $color-border;
+				margin-bottom: 10px;
 			}
-		}
-		
-		&-content {
-			margin-top: 10px;
-		}
 
-		&--clearing, &--srank {
 			@include media-breakpoint-down(sm) {
 				flex-basis: 100%;
 				margin-bottom: 20px;
