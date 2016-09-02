@@ -4,3 +4,4 @@ node_modules
 app/styles/styles.css
 bower_components
 dist/
+app/scripts/app.js
