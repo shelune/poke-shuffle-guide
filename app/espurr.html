@@ -11,8 +11,8 @@
 	<link rel="stylesheet" href="styles/styles.css">
 </head>
 
-<body class="single-pokemon" stage-data="204">
-
+<body class="single-pokemon" stage-data="299">
+	<!--
 	<header class="base-header">
 		<nav class="base-header__nav">
 			<ul>
@@ -20,6 +20,7 @@
 			</ul>
 		</nav>
 	</header>
+	-->
 
 	<main class="content stage">
 		<div class="container">
@@ -41,7 +42,7 @@
 							<li><strong>Type </strong> <span class="stage-type">---</span></li>
 							<li><strong>Hit Points </strong> <span class="stage-hp"></span></li>
 							<li><strong>Moves </strong><span class="stage-moves">---</span></li>
-							<li><strong>S-Rank </strong> <span>---</span></li>
+							<li><strong>S-Rank </strong><span><span class="stage-srank-moves">---</span> / <span class="stage-moves">---</span> moves</span></li>
 						</ul>
 					</div>
 					<div class="col-xs info__stats">
@@ -67,21 +68,19 @@
 							<div class="setup__disruption--board col-xs">
 								<h4>Board</h4>
 								<ul class="setup__disruption-content">
-									<li>1st-4th column is Rocks</li>
+									<li>---</li>
 								</ul>
 							</div>
 							<div class="setup__disruption--initial col-xs">
 								<h4>Initial</h4>
 								<ul class="setup__disruption-content">
-									<li>Adds 4 Barriers</li>
+									<li>---</li>
 								</ul>
 							</div>
 							<div class="setup__disruption--timer col-xs">
 								<h4>Timer</h4>
 								<ul class="setup__disruption-content">
-									<li>Adds 3 Barriers every 4 turns.</li>
-									<li>Adds a Sableye every 3 turns.</li>
-									<li>Adds 2 Barriers every 3 turns</li>
+									<li>---</li>
 								</ul>
 							</div>
 						</div>
@@ -130,18 +129,16 @@
 					<div class="row">
 						<div class="col-xs strategy__walkthrough--clearing">
 							<h3>Clearing</h3>
-							<div class="strategy__walkthrough-content">
-								<p>---</p>
-							</div>
+							<p class="strategy__walkthrough-content clearing">
+								---
+							</p>
 						</div>
 						<div class="col-xs strategy__walkthrough--srank">
 							<h3>S-Rank</h3>
-							<div class="strategy__walkthrough-content">
-								<strong>Moves: At least --- moves left</strong>
-								<p class="strategy__walkthrough-content">
-									---
-								</p>
-							</div>
+							<strong>Moves: At least <span class="stage-srank-moves">---</span> moves left</strong>
+							<p class="strategy__walkthrough-content srank">
+								---
+							</p>
 						</div>
 					</div>
 				</div>
