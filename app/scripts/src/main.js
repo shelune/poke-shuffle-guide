@@ -77,6 +77,7 @@
 		return data;
 	});
 	
+	// setup stage id
 	function getStage(stageId) {
 		var stageUrls = [];
 		stageCollections.forEach(function (stages){
@@ -87,11 +88,9 @@
 		return stageUrls;
 	}
 	
-	// setup stage id
 	var stageId = $('body').attr('stage-data');
 	console.log('searched stage is ' + stageId);
 	var stageUrl = getStage(stageId).shift();
-	console.log(stageUrl);
 
 	// variables for individual stage info
 	var currentArea, stageIcon, hitPoints, stageName, stageType, stageMoves, 
@@ -130,7 +129,6 @@
 				$('.stage-number').text(stageId);
 				
 				var disruptionArr = disruptions.split(/\n/);
-				console.log(disruptionArr);
 				
 				if (disruptionArr.length <= 1) {
 					disruptionBoard = 'None';
@@ -147,6 +145,10 @@
 						}
 					});
 				}
+				
+				console.log('disruption board: ' + disruptionBoard);
+				console.log('disruption initial: ' + disruptionInit);
+				console.log('disruption timer: ' + disruptionTimer);
 
 				
 				handleStageIcon(stageIcon);
