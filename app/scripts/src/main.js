@@ -95,8 +95,8 @@
 	}
 	
 	var stageId = $('body').attr('stage-data');
-	console.log('searched stage is ' + stageId);
 	var stageUrl = getStage(stageId);
+	console.log(stageUrl);
 
 	// variables for individual stage info
 	var currentArea, stageIcon, hitPoints, stageName, stageType, stageMoves, 
@@ -113,6 +113,16 @@
 			return data;
 		});
 	};
+
+
+	// handle HP
+	var handleHP = function(hitPts) {
+		$('span.stage-hp').text(hitPts);
+		if ($('span.stage-hp').text().includes('\n')) {
+			var nerfs = $('span.stage-hp').text().split('\n');
+			$('span.stage-hp').html('<del>' + nerfs[0] + '</del> ' + nerfs[1]);
+		}
+	}
 	
 	// handle capture rate display
 	var handleCaptureRate = function (captureRate) {
@@ -232,21 +242,30 @@
 			return value != "";
 		});
 
+		// match pokemon with icon to display out on recommended party
 		result.forEach(function (pokemon) {
-			pokemon.trim();
-			for (var key in pokemonCollection.responseJSON) {
-				var tempStages = pokemonCollection.responseJSON[key];
-				tempStages.forEach(function (value) {
-					if (value.pokemonName.toLowerCase() === pokemon.toLowerCase()) {
-						console.log('got ' + pokemon + ' in ' + key);
-						$('.strategy-slot--' + key).find('.strategy-slot__options').append('<span style="background-image: url(' + value.pokemonIcon + ')">Groudon</span>');
+			pokemon = pokemon.trim();
+			if (pokemon.startsWith('[')) {
+				pokemon = pokemon.slice(1, -1).toLowerCase();
+				pokemonCollection.responseJSON['mega'].forEach(function (value) {
+					if (value.pokemonName.toLowerCase().includes(pokemon)) {
+						$('.strategy-slot--mega').find('.strategy-slot__options').append('<span style="background-image: url(' + value.pokemonIcon + ')"></span>');
 					}
 				});
+			} else {
+				for (var key in pokemonCollection.responseJSON) {
+					var tempStages = pokemonCollection.responseJSON[key];
+					tempStages.forEach(function (value) {
+						if (value.pokemonName.toLowerCase().startsWith(pokemon.toLowerCase())) {
+							$('.strategy-slot--' + key).find('.strategy-slot__options').append('<span style="background-image: url(' + value.pokemonIcon + ')"></span>');
+						}
+					});
+				}
 			}
 		});
 
 		//console.log('concat:');
-		//console.log(result);
+		console.log(result);
 	};
 
 	var loadStageData = function (stageUrl) {
@@ -275,13 +294,13 @@
 					ability = item['ability'];
 					
 					$('span.stage-type').text(stageType);
-					$('span.stage-hp').text(hitPoints);
 					$('span.stage-limit').text(teamLimit);
 					$('span.stage-moves').text(stageMoves);
 					$('.stage-name').text(stageName);
 					$('.stage-number').text(stageId);
 					$('title').text(stageName);
 					
+					handleHP(hitPoints);
 					handleStageIcon(stageIcon);
 					handleCaptureRate(captureRate);
 					handleBasePower(basePower);
