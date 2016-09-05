@@ -177,6 +177,33 @@
 		$('.stage-ability').text(ability);
 	};
 
+	var handleDisruptions = function(disruptions) {
+		var disruptionArr = disruptions.split(/\n/);
+					
+		if (disruptionArr.length <= 1) {
+			disruptionBoard = 'None';
+			disruptionInit = 'None';
+			disruptionTimer = 'None';
+		} else {
+			$.each(disruptionArr, function(line, value) {
+				if (value.toLowerCase().startsWith('board')) {
+					var separator = value.indexOf(':');
+					disruptionBoard = value.slice(separator, value.length);
+				} else if (value.toLowerCase().startsWith('initial')) {
+					var separator = value.indexOf(':');
+					disruptionInit = value.slice(separator, value.length);
+				} else if (value.toLowerCase().startsWith('timer')) {
+					var separator = value.indexOf(':');
+					disruptionTimer = value.slice(separator, value.length);
+				}
+			});
+		}
+				
+		console.log('disruption board: ' + disruptionBoard);
+		console.log('disruption initial: ' + disruptionInit);
+		console.log('disruption timer: ' + disruptionTimer);
+	}
+
 	var loadStageData = function (stageUrl) {
 		$.getJSON(stageUrl, function (data) {
 		// get the area name
@@ -192,13 +219,15 @@
 					stageMoves = item['moves'];
 					boardLayout = item['initialBoardSetup'];
 					teamLimit = item['pokemon'];
-					recommendedParty = splitBreakLine(item['recommendedParty']);
+					recommendedParty = item['recommendedParty'];
 					captureRate = splitBreakLine(item['captureRate']);
 					srankStrat = item['srankingStrategy'];
 					clearStrat = item['clearingStrategy'];
 					disruptions = item['disruptions'];
 					basePower = item['basePower'];
 					ability = item['ability'];
+
+					console.log(recommendedParty);
 					
 					$('span.stage-type').text(stageType);
 					$('span.stage-hp').text(hitPoints);
@@ -208,42 +237,15 @@
 					$('.stage-number').text(stageId);
 					$('title').text(stageName);
 					
-					var disruptionArr = disruptions.split(/\n/);
-					
-					if (disruptionArr.length <= 1) {
-						disruptionBoard = 'None';
-						disruptionInit = 'None';
-						disruptionTimer = 'None';
-					} else {
-						$.each(disruptionArr, function(line, value) {
-							if (value.includes('Board:')) {
-								disruptionBoard = value.slice(6, value.length);
-							} else if (value.includes('Initial')) {
-								disruptionInit = value.slice(8, value.length);
-							} else if (value.includes('Timer')) {
-								disruptionTimer = value.slice(6, value.length);
-							}
-						});
-					}
-					
-					console.log('disruption board: ' + disruptionBoard);
-					console.log('disruption initial: ' + disruptionInit);
-					console.log('disruption timer: ' + disruptionTimer);
-
-					
 					handleStageIcon(stageIcon);
-
 					handleCaptureRate(captureRate);
 					handleBasePower(basePower);
 					handleAbility(ability);
-					
-					handleStageLayout(boardLayout);
-
-					
+					handleStageLayout(boardLayout);					
 					handleStageClearing(clearStrat);
-
-					
 					handleStageSRank(srankStrat);
+
+					handleDisruptions(disruptions);
 				}	
 			});
 		});
