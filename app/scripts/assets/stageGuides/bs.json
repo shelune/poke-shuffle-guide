@@ -831,6 +831,7 @@
     },
     {
         "stageNo": 450,
+        "icon": 1000,
         "name": "Hoopa\n(Unbound)",
         "hitPts": 28000,
         "type": "Dark",

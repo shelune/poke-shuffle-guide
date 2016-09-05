@@ -177,6 +177,7 @@
 		$('.stage-ability').text(ability);
 	};
 
+	// TODO : better formatting without having format the source data
 	var handleDisruptions = function(disruptions) {
 		var disruptionArr = disruptions.split(/\n/);
 					
@@ -202,12 +203,45 @@
 		console.log('disruption board: ' + disruptionBoard);
 		console.log('disruption initial: ' + disruptionInit);
 		console.log('disruption timer: ' + disruptionTimer);
-	}
+	};
+
+	var handleParty = function(recommendedParty) {
+		var choices = recommendedParty.split('\n');
+		var result = [];
+		console.log(choices);
+
+		// split & put each pokemon into new array
+		choices.forEach(function (choice) {
+			if (choice.includes('/')) {
+				var tempChoices = choice.split('/');
+				result = result.concat(tempChoices);
+			}
+			else if (choice.includes(',')) {
+				var tempChoices = choice.split(',');
+				result = result.concat(tempChoices);
+			} 
+			else {
+				result.push(choice);
+			}
+		});
+
+		// filter out empty values
+		result = result.filter(function (value) {
+			console.log('element: ' + value);
+			return value != "";
+		});
+
+		console.log('concat:');
+		console.log(result);
+	};
 
 	var loadStageData = function (stageUrl) {
+
 		$.getJSON(stageUrl, function (data) {
+			console.log(stageUrl);
 		// get the area name
 			currentArea = data.shift()['stageNo'];
+			console.log(currentArea);
 			
 			data.map(function (item) {
 				
@@ -226,8 +260,6 @@
 					disruptions = item['disruptions'];
 					basePower = item['basePower'];
 					ability = item['ability'];
-
-					console.log(recommendedParty);
 					
 					$('span.stage-type').text(stageType);
 					$('span.stage-hp').text(hitPoints);
@@ -245,11 +277,13 @@
 					handleStageClearing(clearStrat);
 					handleStageSRank(srankStrat);
 
-					handleDisruptions(disruptions);
+					// handleDisruptions(disruptions);
+					handleParty(recommendedParty);
 				}	
 			});
 		});
 	};
 
 	loadStageData(stageUrl);
+
 })();
