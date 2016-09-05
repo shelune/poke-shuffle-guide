@@ -226,7 +226,6 @@
 	var handleParty = function(recommendedParty) {
 		var choices = recommendedParty.split('\n');
 		var result = [];
-		var megaSlots = [], mainStageSlots = [], expertStageSlots = [], specialSlots = [];
 
 		// split & put each pokemon into new array
 		choices.forEach(function (choice) {
@@ -253,7 +252,8 @@
 			pokemon = pokemon.trim();
 			if (pokemon.startsWith('[')) {
 				pokemon = pokemon.slice(1, -1).toLowerCase();
-				pokemonCollection.responseJSON['mega'].forEach(function (value) {
+				console.log(pokemonCollection);
+				pokemonCollection['responseJSON']['mega'].forEach(function (value) {
 					if (value.pokemonName.toLowerCase().includes(pokemon)) {
 						$('.strategy-slot--mega').find('.strategy-slot__options').append('<span style="background-image: url(' + value.pokemonIcon + ')"></span>');
 					}
