@@ -16,7 +16,9 @@
         "clearingStrategy": "Consider bringing Tyranitar to eject\nsome of the Pansear and match the\nleftover ones. Other than that, the stage\nis not hard to beat.\n\nLugia can be better to clear the\nPansear, even though it is not\nSuper Effective",
         "srankingStrategy": "Moves: At least 7 moves left\n\nCatching Pansear and bringing it is the\nbest option to S rank this stage itemless. It \nis not that easy though, you need to combo\nquite a lot. M-Gengar can work too.\n\nMoves +5 is helpful in case you can't catch\nPansear and want to move on with S ranks.",
         "notes": "  ",
-        "mobileNotes": "  "
+        "mobileNotes": "  ",
+        "basePower": 50,
+        "ability": "Counterattack"
     },
     {
         "stageNo": 302,
@@ -32,7 +34,9 @@
         "clearingStrategy": "Bringing Block Smash+ Pokémon\nreally helps here. Gengar is the best\nMega, as this is a 3 Pokémon stage.\n\nActivate Block Smash+, and the\ncombos will follow.\n\nIf you happen to have none of the\nBlock Smash+ Pokémon, the stage\nwill be less easy but not undoable\nitemless. Simple Block Smash will\nstill help.",
         "srankingStrategy": "Moves: At least 4 moves left\n\nDoable itemless with Block Smash+.\nWithout that, consider bringing a Moves +5\nto give time to the Metal blocks to\ndisappear.",
         "notes": "  ",
-        "mobileNotes": "  "
+        "mobileNotes": "  ",
+        "basePower": 40,
+        "ability": "Paralyze"
     },
     {
         "stageNo": 303,
@@ -48,7 +52,9 @@
         "clearingStrategy": "  Doable itemless. The disruption will\nclear a lot of the Barriers, and anyways\nPhantump is Super Effective, so do\nnot be afraid to match some of them\nto clear the board a bit.",
         "srankingStrategy": "Moves: At least 6 moves left\n\nSame as Pansear, bringing Phantump can\nyield an itemless S rank.\n\nNothing more than Moves +5 is needed,\neven without bringing Phantump.",
         "notes": "     ",
-        "mobileNotes": "  "
+        "mobileNotes": "  ",
+        "basePower": 50,
+        "ability": "Stabilize"
     },
     {
         "stageNo": 304,
@@ -64,7 +70,9 @@
         "clearingStrategy": "Dialga is very useful to get rid of \nMetal blocks to clear the board \na bit. Other Block Smash+ work too,\nbut Dialga is the most powerful of\nthem.\n\nIf you don't have Dialga, just try to\nmake the metal blocks fall on the\nbottom, to make combos in the top\nrows.\n\nDoable itemless.",
         "srankingStrategy": "Moves: At least 10 moves left\n\nDoable itemless with a Block Smash+\nPokémon. The disruptions won't be an\nissue as you will have depleted most\nof the HP bar already.",
         "notes": "     ",
-        "mobileNotes": "  "
+        "mobileNotes": "  ",
+        "basePower": 50,
+        "ability": "Paralyze"
     },
     {
         "stageNo": 305,
@@ -80,7 +88,9 @@
         "clearingStrategy": "  Bringing Dialga (or a Block Smash+)\nhelps quite a bit to remove early the\nmetal blocks in the middle.\nAfter that, it also helps for removing\nthe disruptions when they are metal.\n\nOther than that it's a pretty straight-\nforward stage, Mewtwo or Garchomp\nboth work fine as Mega here.\nNo items needed.",
         "srankingStrategy": "Moves: At least 7 moves left\n\nA Moves +5 is needed here to secure the\nS rank. Just get rid of rocks early, and pile\nup the damage.",
         "notes": "     ",
-        "mobileNotes": "  "
+        "mobileNotes": "  ",
+        "basePower": 50,
+        "ability": "Barrier Bash"
     },
     {
         "stageNo": 306,
@@ -96,7 +106,9 @@
         "clearingStrategy": "First move: C5 <-> D5. Will remove\nall barriers. Easy to finish the stage\nafter that.\n\nNo items needed.",
         "srankingStrategy": "Moves: At least 0 moves left\n\nClearing strategy will do it.",
         "notes": "     ",
-        "mobileNotes": "  "
+        "mobileNotes": "  ",
+        "basePower": 60,
+        "ability": "Sleep Charm"
     },
     {
         "stageNo": 307,
@@ -112,7 +124,9 @@
         "clearingStrategy": "So the set up is really bad. Bringing a\nBlock Smash+ AND a Barrier Bash+\nis very helpful (Gallade and Diancie).\nActivate one or the other to slowly\nclear the board and then damage a lot\nwith Genesect and M-Heracross.\nNo items are needed with this.\n\nIf you don't have Gallade or/and\nDiancie, this gets a lot harder.\nYou may need a Moves +5 to clear.",
         "srankingStrategy": "Moves: At least 10 moves left\n\nMoves +5 may not be enough, so throw in\na Disruption Delay too to have a clear board\nfaster and get this right. I see no good\nPokémon to use Mega Start with on this\nstage unfortunately. Maybe Gardevoir.",
         "notes": "     ",
-        "mobileNotes": "  "
+        "mobileNotes": "  ",
+        "basePower": 60,
+        "ability": "Stabilize"
     },
     {
         "stageNo": 308,
@@ -128,7 +142,9 @@
         "clearingStrategy": "The disruptions are really annoying on\nthis stage. If you don't have Giratina or\nDarkrai, it will be hard to deal a lot of\ndamage or to prevent disruptions.\nAbsol's Mind zap can do wonders here\nif it activates.\n\nA Moves +5 should do it instead of a\nDisruption Delay to clear,just make\nsure to always match near the Rocks,\nand try to activate Absol when the\nDisruption counter hits 1.\n\nKeeping Gengar as Mega is the best\ncall here.",
         "srankingStrategy": "Moves: At least 7 moves left\n\nDisruption Delay (and Moves +5) should \nsecure this, without these 2 it is very \ninconsistent to get good results, especially\nwhen Absol and Darkrai troll you and never\ndo anything.\n\nIf you buy a DD, then do not bring Absol,\nget a stronger Pokémon instead, like\nYveltal.\n\nGengar is the best mega here.",
         "notes": "     ",
-        "mobileNotes": "  "
+        "mobileNotes": "  ",
+        "basePower": 60,
+        "ability": "Swap+"
     },
     {
         "stageNo": 309,
@@ -144,7 +160,9 @@
         "clearingStrategy": "  Stage doable itemless. M-Gengar\nbecause it's a 3 Pokémon stage,\nBisharp to remove rocks, and\nGenesect for damage.\n\nEven without Bisharp, the stage is \ndoable itemless, just be careful to\nmatch near top rocks first.",
         "srankingStrategy": "Moves: At least 6 moves left\n\nDoable itemless. Moves +5 is you find\nyourself always short on moves. Should\nS rank with luck after some tries.",
         "notes": "     ",
-        "mobileNotes": "  "
+        "mobileNotes": "  ",
+        "basePower": 60,
+        "ability": "Stabilize+"
     },
     {
         "stageNo": 310,
@@ -159,7 +177,9 @@
         "clearingStrategy": "This level is doable itemless, however\nyou will be reliant on combos, and\nactivationd Block Smash+ with\nDialga. The clouds are not really\na problem, just takes time to scout\nthe board.\n\nIf you cannot deal more than 2/3\nof the HP bar itemless, throw in a \nDisruption Delay using M Garchomp\nor M Mewtwo Y and you will get through\nthis level.",
         "srankingStrategy": "Moves: At least 10 moves left\n\nDisruption Delay and Moves +5 are a must\nhave for this S rank. Mega Mewtwo Y works\nwell to get it. Add Dialga or Golurk if you\nhave it for the Block Smash+ ability.",
         "notes": "     ",
-        "mobileNotes": "  "
+        "mobileNotes": "  ",
+        "basePower": 60,
+        "ability": "Quirky+"
     },
     {
         "stageNo": 311,
@@ -175,7 +195,9 @@
         "clearingStrategy": "Stage is easy to beat itemless, try\nto make the disruptions fall to the\nbottom so you can ccombo relatively\neasily on the rest of the board.\n\nZekrom and Gigalith are super nice\nsince they have Block Smash+ and\nit always activates in a 4 match.\n\nCan bring Tyranitar too to remove\nthe disrupted Spearow, but they are\nnot that much of a problem.",
         "srankingStrategy": "Moves: At least 4 moves left\n\nA bit reliant on luck to do itemless, but\nit depends whether you want to invest a\nMoves +5 to guarantee this S rank.",
         "notes": "     ",
-        "mobileNotes": "  "
+        "mobileNotes": "  ",
+        "basePower": 30,
+        "ability": "Last-Ditch Effort"
     },
     {
         "stageNo": 312,
@@ -191,7 +213,9 @@
         "clearingStrategy": "Stage is not that hard to beat,\nremove the rocks as fast as possible\nto deal damage. Getting the barriers\nis a plus, but by that time the disruption\nshould happen again, so do not\nworry too much about removing the\nbarriers, you can beat the level\nfine without focusing on them.",
         "srankingStrategy": "Moves: At least 7 moves left\n\nDid it itemless with M-Gengar, Shaymin,\nZekrom and Roserade. Have Shaymin\nactivate Sleep Charm and this will\nbe an easy S rank itemless.\n\nMoves +5 if you do not have\nthe patience.",
         "notes": "     ",
-        "mobileNotes": "  "
+        "mobileNotes": "  ",
+        "basePower": 50,
+        "ability": "Counterattack"
     },
     {
         "stageNo": 313,
@@ -207,7 +231,9 @@
         "clearingStrategy": "Easy stage, no need for items.\nHave Palkia try to remove barriers to\ndeal more damage in between the \ndisruptions, and that's it. The HP\nis not very high, you should not have\ntrouble beating this stage.\n\nKyogre can help too with Rock Break,\nit's not that bad.",
         "srankingStrategy": "Moves: At least 12 moves left\n\nThis can be done itemless if you get some\ngood combos, but should you struggle, a\nMoves +5 is enough, no Disruption Delay\nis needed here.",
         "notes": "     ",
-        "mobileNotes": "  "
+        "mobileNotes": "  ",
+        "basePower": 50,
+        "ability": "Risk-Taker"
     },
     {
         "stageNo": 314,
@@ -223,7 +249,9 @@
         "clearingStrategy": "First move B3-E3 (or E4-B4) will \nremove  all the Spheal. Be careful \nnot to activate Eject with Tyranitar, \nelse you will not remove everything.\n\nAfter that the stage will become super\neasy.",
         "srankingStrategy": "Moves: At least 0 moves left\n\nClearing strategy will do this.",
         "notes": "     ",
-        "mobileNotes": "  "
+        "mobileNotes": "  ",
+        "basePower": 40,
+        "ability": "Crowd Control"
     },
     {
         "stageNo": 315,
@@ -239,7 +267,9 @@
         "clearingStrategy": "  M-Gengar will do wonders here again.\nMake sure your first match removes\nas many rocks as possible, then\nthe combos will follow.",
         "srankingStrategy": "Moves: At least 3 moves left\n\nAfter some tries itemless you should get it,\nit's just about luck from the combos.",
         "notes": "     ",
-        "mobileNotes": "  "
+        "mobileNotes": "  ",
+        "basePower": 50,
+        "ability": "Counterattack"
     },
     {
         "stageNo": 316,
@@ -255,7 +285,9 @@
         "clearingStrategy": "Easy stage. Just match in the middle\nand you will beat it, because it does\nnot have a lot of HP.",
         "srankingStrategy": "Moves: At least 8 moves left\n\nMoves +5 will get you this.",
         "notes": "     ",
-        "mobileNotes": "  "
+        "mobileNotes": "  ",
+        "basePower": 50,
+        "ability": "Rock Break"
     },
     {
         "stageNo": 317,
@@ -271,7 +303,9 @@
         "clearingStrategy": "Gengar coupled with Gallade, Dialga\nand Tyranitar can beat this stage\nitemless. Focus on removing the\nmetal blocks first, then either match\nthe Sealeo together or eject them\nslowly with Sealeo or Tyranitar.\n\nDoable itemless, Mawile and Lucario\nwork fine as Mega too, and should you\nstruggle, Moves +5 should be enough\nto beat this stage.",
         "srankingStrategy": "Moves: At least 7 moves left\n\nIt is nice to try to catch Sealeo and bring it\nin place of Tyranitar. Managed to S rank\nitemless with Gengar, Gallade, Dialga and\nSealeo. It's very combo reliant, so\nMoves +5 serves as a nice safety.\n\nIf you bring Sealeo there is no point in buying\na Disruption Delay. Get a DD only if you're\nnot bringing Sealeo to S rank this, and if\nMoves +5 will not be enough judged from\nyour itemless tries.",
         "notes": "     ",
-        "mobileNotes": "  "
+        "mobileNotes": "  ",
+        "basePower": 60,
+        "ability": "Eject"
     },
     {
         "stageNo": 318,
@@ -287,7 +321,9 @@
         "clearingStrategy": "This stage is annoying. Doable without\nitems, but annoying. Try to match the\nFearow on the left as soon as possible\nto free some space for combos.\n\nThen use Tyranitar to eject the ones\ncoming from disruptions. With M-\nAmpharos, you will clean up the rest.\n\nZekrom will come into play for the \nending, taking care of the Metal blocks.",
         "srankingStrategy": "Moves: At least 10 moves left\n\nBringing Fearow to S rank this stage is\nhelpful. If you manage to get lucky with\nthe abilities and even from board start,\nyou don't need a Moves +5 for the S rank.\nIt is however a nice help in case you\ndo not want to try many times.\n",
         "notes": "     ",
-        "mobileNotes": "  "
+        "mobileNotes": "  ",
+        "basePower": 60,
+        "ability": "Rock Break+"
     },
     {
         "stageNo": 319,
@@ -303,7 +339,9 @@
         "clearingStrategy": "  Lugia is really helpful to eject the\nMankey, so that you can focus on\nevolving M Mewtwo Y to deal tons\nof damage. The level is not hard to\nbeat itemless, you may need a few\ntries but it's very doable itemless.",
         "srankingStrategy": "Moves: At least 7 moves left\n\nBringing Mankey can yield an itemless\nS rank quite easily. If you can't manage\nto catch it, bring a Moves +5 to secure it\nwith a Psychic Team and Lugia.",
         "notes": "     ",
-        "mobileNotes": "  "
+        "mobileNotes": "  ",
+        "basePower": 50,
+        "ability": "Crowd Control"
     },
     {
         "stageNo": 320,
@@ -319,7 +357,9 @@
         "clearingStrategy": "Hard board, hard disruptions, this stage\nis definitely hard. Dialga or Gallade\nare again very helpful to remove the\nmetal blocks.\n\nOverall I think this stage is hardly\nbeatable itemless, you might require\na Disruption Delay to beat it\ncomfortably.\n\nGarchomp works OK as Mega, Lucario\ntoo.",
         "srankingStrategy": "Moves: At least 10 moves left\n\nI went Disruption Delay, Mega Start and\nMoves +5 with M-Garchomp and the team\non the screenshot. Every one of these items\nwas useful. Going with less is very risky\nI feel.\nThe item to drop would be Mega Start, and \nthen replace Garchomp with M-Gengar,\nthat can definitely work.",
         "notes": "     ",
-        "mobileNotes": "  "
+        "mobileNotes": "  ",
+        "basePower": 70,
+        "ability": "Dragon Talon"
     },
     {
         "stageNo": 321,
@@ -335,7 +375,9 @@
         "clearingStrategy": "  Seems hard at first glance, but quite\neasy when you remove the barriers\nand match some Magikarp.\n\nLugia is nice for this level when\nejecting 3 of them, worked well\nwith Gengar as Mega.",
         "srankingStrategy": "Moves: At least 8 moves left\n\nDid it itemless with Gengar, Zekrom,\nLugia and Shaymin. Did not even need\nsleep charm, so this seems like a solid\nstrategy.\n\nIf you managed to catch Magikarp, this\nshould be really easy with bringing it.",
         "notes": "     ",
-        "mobileNotes": "  "
+        "mobileNotes": "  ",
+        "basePower": 30,
+        "ability": "Swap++"
     },
     {
         "stageNo": 322,
@@ -351,7 +393,9 @@
         "clearingStrategy": "  Palkia and Gigalith are a great help\nto fight against the possiblee disruptions\n\nStage beatable itemless, with Gengar \nas Mega or Garchomp.",
         "srankingStrategy": "Moves: At least 7 moves left\n\nMoves +5 is a nice safety net, even though\nit's possible to combo your way into\nan itemless S rank with some luck.\n\nNo real need of a Disruption Delay.",
         "notes": "     ",
-        "mobileNotes": "  "
+        "mobileNotes": "  ",
+        "basePower": 60,
+        "ability": "Paralyze"
     },
     {
         "stageNo": 323,
@@ -367,7 +411,9 @@
         "clearingStrategy": "Easy stage, although it's hard to\nprepare for whatever disruption\nit will throw at you. I find Abomasnow\nto deal with all of them since he evolves\nsuper fast.\n\nThe HP is quite low anyways so\nyou will have no trouble with this\nstage. If you do, set a team for\n2 of the 3 possible disruptions, and\nkeep on playing until you get lucky\nwith them :)",
         "srankingStrategy": "Moves: At least 10 moves left\n\nDoable itemless if the disruption RNG\nis with you.",
         "notes": "     ",
-        "mobileNotes": "  "
+        "mobileNotes": "  ",
+        "basePower": 50,
+        "ability": "Crowd Control"
     },
     {
         "stageNo": 324,
@@ -383,7 +429,9 @@
         "clearingStrategy": "It is a pretty good idea to bring Dialga\nheree, there are a lot of Metal blocks.\n\nAbomasnow or Glalie are nice for \nclearing disruptions too, haven't tried\nwith Blastoire or Venusaur.\n\nThe stage is beatable itemless if you\nbring a Block Smash+ Pokémon,\nelse you might require a Moves +5\nto give you more time to beat it.",
         "srankingStrategy": "Moves: At least 7 moves left\n\nPossible itemless with a Block Smash+\nPokémon if you manage to trigger it\nconsistently while keeping up combos (so\nnot that easy).\n\nMoves +5 is a good safety net.\n\nFull Candied Rayquaza is apparently very\nstrong, it can be a better version of \nM-Gengar",
         "notes": "     ",
-        "mobileNotes": "  "
+        "mobileNotes": "  ",
+        "basePower": 50,
+        "ability": "Heavy Hitter"
     },
     {
         "stageNo": 325,
@@ -399,7 +447,9 @@
         "clearingStrategy": "  Solution: B5-B6; D5-B4",
         "srankingStrategy": "Moves: At least 0 moves left\n\nClearing strategy will do this.",
         "notes": "     ",
-        "mobileNotes": "  "
+        "mobileNotes": "  ",
+        "basePower": 50,
+        "ability": "Barrier Bash"
     },
     {
         "stageNo": 326,
@@ -415,7 +465,9 @@
         "clearingStrategy": "Stage is really not hard. Remove the\nBarriers bits by bits while getting some\ncombos and you'll be fine.",
         "srankingStrategy": "Moves: At least 10 moves left\n\nDoable itemless.",
         "notes": "     ",
-        "mobileNotes": "  "
+        "mobileNotes": "  ",
+        "basePower": 50,
+        "ability": "Quirky"
     },
     {
         "stageNo": 327,
@@ -431,7 +483,9 @@
         "clearingStrategy": "Stage beatable itemless. Abomasnow\nor Glalie do a nice job at clearing the\ndisruptions. Kyogre can remove some\nadditional rocks too.",
         "srankingStrategy": "Moves: At least 7 moves left\n\nCan be done itemless. Moves +5 in case\nyou're short on moves when doing it\nitemless.",
         "notes": "     ",
-        "mobileNotes": "  "
+        "mobileNotes": "  ",
+        "basePower": 40,
+        "ability": "Prank"
     },
     {
         "stageNo": 328,
@@ -447,7 +501,9 @@
         "clearingStrategy": "First move: F1-A4. Will clear all\nnon support Pokémon.\n\nWith M-Garchomp or M-Gengar, the\nstage is easy to clear. No worries here.\n\nNo particular pokémon needed either,\nCamerupt and Power of 4 is nice,\nbut Marowak and Stunfisk are also\ngood here with hitting Streak.",
         "srankingStrategy": "Moves: At least 6 moves left\n\nPossible itemless, skyfall smiled to me\nand I managed to get this S rank itemless.\n\nMoves +5 is a good safety net, you should\nnot need a Disruption Delay for this one.",
         "notes": "     ",
-        "mobileNotes": "  "
+        "mobileNotes": "  ",
+        "basePower": 60,
+        "ability": "Crowd Control"
     },
     {
         "stageNo": 329,
@@ -463,7 +519,9 @@
         "clearingStrategy": "Stage is beatable itemless. Bring your\nGengar as Mega, it works\nfine. Machamp can eject the\ndisrupted Teddiursa, but you can also\nchoose to match them.",
         "srankingStrategy": "Moves: At least 4 moves left\n\nDoable itemless If you caught Teddiursa,\nconsider bringing it with M-Gengar, S rank\nwill be easy that way.\n\nStill can work itemless without Teddiursa,\nit will still be easy to get combos rolling.\nOf course, Moves +5 will secure this very\neasily provided you always beat the stage\nitemless.",
         "notes": "     ",
-        "mobileNotes": "  "
+        "mobileNotes": "  ",
+        "basePower": 50,
+        "ability": "Swap"
     },
     {
         "stageNo": 330,
@@ -479,7 +537,9 @@
         "clearingStrategy": "Metal blocks are skyfalling on this\nstage, so bringing M-Aerodactyl is\na good  move.\nOn top of that, a lot of barriers will be\nspawned, and no Ground pokémon\ndeals well with that. If you have Gliscor,\nnow is its time to shine.\n\nDisruption Delay is not a must have\nto complete the stage, but is helpful\nif your pokémon are not that strong.",
         "srankingStrategy": "Moves: At least 10 moves left\n\nBest strategy is M-Aero with Mega Start \nand Moves +5. Better not activate Gliscor's\nability in that setup to get the damage on\nM-Aero.\n\nIt is not crazy to consider adding a \nDisruption Delay on top of MS and +5, \njust to be safe.",
         "notes": "     ",
-        "mobileNotes": "  "
+        "mobileNotes": "  ",
+        "basePower": 70,
+        "ability": "Power of 4+"
     },
     {
         "stageNo": 331,
@@ -495,7 +555,9 @@
         "clearingStrategy": "Annoying stage. Beatable itemless\nbut also dependant on how combos\nfavours you. Zekrom is super nice\nto remove the metal blocks, you may\nwant to bring another Block Smash+\nif you do not have Zekrom.\n\nTropius is nice to eject the Simipour\naway",
         "srankingStrategy": "Moves: At least 7 moves left\n\nIt's possible with only Moves +5, but not\ngonna lie, Disruption Delay is super useful\nhere.",
         "notes": "     ",
-        "mobileNotes": "  "
+        "mobileNotes": "  ",
+        "basePower": 60,
+        "ability": "Quake"
     },
     {
         "stageNo": 332,
@@ -511,7 +573,9 @@
         "clearingStrategy": "Easy stage, you should have no trouble\nbeating it.\n\nM-Gengar does wonders here again.",
         "srankingStrategy": "Moves: At least 4 moves left\n\nDoable itemless.",
         "notes": "     ",
-        "mobileNotes": "  "
+        "mobileNotes": "  ",
+        "basePower": 50,
+        "ability": "Rock Break+"
     },
     {
         "stageNo": 333,
@@ -527,7 +591,9 @@
         "clearingStrategy": "Easy stage to beat itemless.\nFirst move: F2-B6 removes all\nSmoochum (careful not to acitvate\nEject with Tyranitar)\n\nBring\nDialga or Talonflame to remove Rocks\nfast, and then just arrange for the\nSmoochums to match each other.",
         "srankingStrategy": "Moves: At least 6 moves left\n\nMoves +5 will do this easily. It is a bit\nharder to get it without Moves +5, so unless\nyou are willing to try a lot of times, get a\nMoves +5.\n\nYou can also bring Smoochum if you\ncaught it, for an itemless S rank.",
         "notes": "     ",
-        "mobileNotes": "  "
+        "mobileNotes": "  ",
+        "basePower": 50,
+        "ability": "Quirky"
     },
     {
         "stageNo": 334,
@@ -543,7 +609,9 @@
         "clearingStrategy": "While Abomasnow can mega evolve \nquite quickly, I found that Gengar\nworks OK as mega if you don't have\nthe former. Talonflame is really helpful,\nas there will be metal blocks. \nCan be barriers too, so bring also\nReshiram or Emboar (or Avalugg).\n\nStage doable itemless, or with\nMoves +5 if you lack some of the\nPokémon with key abilities.",
         "srankingStrategy": "Moves: At least 7 moves left\n\nCan be done with only Moves +5, but is\nreliant on luck (combos and abilities \nactivations).\nI raged after missing by\n1 move 3 times in a row, and went with\nMoves +5 and Disruption Delay.\nGengar was my Mega, was having more\nsuccess than with Abomasnow.",
         "notes": "     ",
-        "mobileNotes": "  "
+        "mobileNotes": "  ",
+        "basePower": 60,
+        "ability": "Astonish"
     },
     {
         "stageNo": 335,
@@ -559,7 +627,9 @@
         "clearingStrategy": "You can place a Lumineon on F3 to\nremove the barriers, and then again in\nF3 or A2 or A5 or D5 to get rid of\na lot. But they will come again...\nZekrom is useful to get rid earlier of the\nmetal in the bottom right.\n\nThen it's about combos again, you can\nalso try to activate Shaymin's Sleep\nCharm to give you some time. And\nthen Virizion deals the damages.",
         "srankingStrategy": "Moves: At least 10 moves left\n\nMoves +5 is good enough here. Else,\nyou can bring Lumineon if you caught it,\nand you can do this stage itemless\nwith that.",
         "notes": "     ",
-        "mobileNotes": "  "
+        "mobileNotes": "  ",
+        "basePower": 60,
+        "ability": "Quirky++"
     },
     {
         "stageNo": 336,
@@ -575,7 +645,9 @@
         "clearingStrategy": "Lord Helix was blessed with an easy\nstage. M-Gengar acts as a Complexity\n-1, so he is pretty effective here.\nZekrom takes care of the metal blocks,\nbut even without it the stage is easy\nitemless.",
         "srankingStrategy": "Moves: At least 7 moves left\n\nDoable itemless with the team showed in\nthe board setup.\n\nIt is not crazy to think about adding a\nMoves +5 to secure the S rank, it is a bit\nluck reliant. But not more is needed.",
         "notes": "     ",
-        "mobileNotes": "  "
+        "mobileNotes": "  ",
+        "basePower": 50,
+        "ability": "Sleep Charm"
     },
     {
         "stageNo": 337,
@@ -591,7 +663,9 @@
         "clearingStrategy": "Easy stage itemless. Match near the\nRocks to make 3 Weeble match, and\nthey will make the others match too.\nRepeat after every disruption.",
         "srankingStrategy": "Moves: At least 6 moves left\n\nDoable itemless, Mega Mewtwo Y does a\nnice job with 2 more Psychic types and\nyour best Super Effective.\n\nMoves +5 if you find yourself always\nshort.",
         "notes": "     ",
-        "mobileNotes": "  "
+        "mobileNotes": "  ",
+        "basePower": 30,
+        "ability": "Mind Zap"
     },
     {
         "stageNo": 338,
@@ -607,7 +681,9 @@
         "clearingStrategy": "Easy stage to beat. The disruptions\ncan make some of the Sentret\ndisappear, or you have Machamp\nfor that too.\n\nBring Gallade in case Sentret disrupts\nMetal blocks, which can happen\ndespite the patch notes saying\ndifferently.",
         "srankingStrategy": "Moves: At least 4 moves left\n\nDoable itemless if the disruptions are\nfavourable. Else, Moves +5 is more than\nenough to secure it.",
         "notes": "     ",
-        "mobileNotes": "  "
+        "mobileNotes": "  ",
+        "basePower": 30,
+        "ability": "Crowd Control"
     },
     {
         "stageNo": 339,
@@ -623,7 +699,9 @@
         "clearingStrategy": "  This stage is harder. Disruptions can\nbe quickly overwhelming. Gallade and\nMachamp can take care of them,\nbut they appear at a fast rate.\n\nGengar or Rayquaza work nice as\nMega here, it's possible to finish\nthe stage itemless with some \ncombo luck.",
         "srankingStrategy": "Moves: At least 7 moves left\n\nI don't think getting a Disruption Delay\nis too much of an overkill here. It is\npossible to S rank with only Moves +5,\nbut it takes a lot of luck to do so.\n\nI tried my newly acquired Mega Mewtwo X,\nI must say it does OK. But I couldn't make it\nbetter enough to get rid of an item.",
         "notes": "     ",
-        "mobileNotes": "  "
+        "mobileNotes": "  ",
+        "basePower": 60,
+        "ability": "Astonish"
     },
     {
         "stageNo": 340,
@@ -639,7 +717,9 @@
         "clearingStrategy": "Did someone say hard stage? Well,\nthere you are. Disruption Delay is\npretty much non negociable here,\nthe disruptions are atrocious, and there\nis no Block Smash+ super effective\npokémon ._.\nThere is Keldeo but at this rate I feel\nit is useless. Maybe bringing a\nBlock Smash+ isnt that bad, also\nAbomasnow or Glalie evolve quite\nfast and could take care of all\nthose blocks. Abomasnow would\ndeal better with Barriers on row 1.",
         "srankingStrategy": "Moves: At least 10 moves left\n\nGGRRRRRRRRR\nMoves +5, Disruption Delay, and Mega\nStart with M-Rayquaza + Optimise (I have\n0 candies on my Rayquaza) did the trick\nwith exactly 10 moves left.",
         "notes": "     ",
-        "mobileNotes": "  "
+        "mobileNotes": "  ",
+        "basePower": 60,
+        "ability": "Block Smash+"
     },
     {
         "stageNo": 341,
@@ -655,7 +735,9 @@
         "clearingStrategy": "It's possible to remove quite a lot of\nKakuuna by matching near the Rocks,\nsince there are predetermined Kakuna\nin the skyfall too. Overall not a bad\nstage to beat itemless, I have had\nsame success with Mewtwo Y or\nGarchomp. Gengar works fine as\nMega too. Just make the Kakuna\nmatch without matching them directly,\nand that will be  enough damage to\nbeat this stage itemless.",
         "srankingStrategy": "Moves: At least 7 moves left\n\nDoable with only Moves +5, but to be\nhonest I also used a Disruption Delay\nafter failing 3 times by 2 moves. It's not\nthat easy when you don't have nice setups\nto remove the Kakuna.",
         "notes": "     ",
-        "mobileNotes": "  "
+        "mobileNotes": "  ",
+        "basePower": 40,
+        "ability": "Last-Ditch Effort"
     },
     {
         "stageNo": 342,
@@ -671,7 +753,9 @@
         "clearingStrategy": "  M-Medicham is nice and removes a\nlot of the disruptions. Stage beatable\nitemless, especially if you manage to\ntrigger Block Smash+ with Gallade\nearly on to mega evolve Medicham.",
         "srankingStrategy": "Moves: At least 10 moves left\n\nMoves+5 and Disruption Delay are nice,\nbut if you use DD then you can use Gengar\nas Mega instead of Medicham, will bring\nmore combo power.",
         "notes": "     ",
-        "mobileNotes": "  "
+        "mobileNotes": "  ",
+        "basePower": 70,
+        "ability": "Risk-Taker"
     },
     {
         "stageNo": 343,
@@ -687,7 +771,9 @@
         "clearingStrategy": "Disruptions are pretty bad here.\nDisruption Delay is highly recommended\n\nOther than that, Mewtwo X + 2 Psychic\nand your best Super effective will takt it\neasily with Disruption Delay. Not much\nmore to add.",
         "srankingStrategy": "Moves: At least 7 moves left\n\nYou can get the S rank using the Disruption\nDelay only, but Moves +5 is a very nice\nsafety net (one day I will stop repeating\nthat I promise)",
         "notes": "     ",
-        "mobileNotes": "  "
+        "mobileNotes": "  ",
+        "basePower": 50,
+        "ability": "Counterattack"
     },
     {
         "stageNo": 344,
@@ -703,7 +789,9 @@
         "clearingStrategy": "  This stage is easy to beat when you\nmanage to take care of the barriers\nand when the Primape can match\neach other after the disruptions.\n\nVery doable itemless.",
         "srankingStrategy": "Moves: At least 4 moves left\n\nGengar, Lugia and Cresselia are all you \nneed against what Primeape throws at you.\n\nIf you caught Primeape, you can also bring\nit instead of Lugia and it's super easy.",
         "notes": "     ",
-        "mobileNotes": "  "
+        "mobileNotes": "  ",
+        "basePower": 60,
+        "ability": "Power of 5+"
     },
     {
         "stageNo": 345,
@@ -719,7 +807,9 @@
         "clearingStrategy": "  Bring on the Block Smash+ crew to\nbeat this stage without much trouble.\n\nHere again, M-Gengar works fine if\nyou manage to remove the metal blocks\nright after they are spawned.\n\nNo items needed.",
         "srankingStrategy": "Moves: At least 10 moves left\n\nPossible with Moves +5 only if you bring\nthe Block Smash+ crew. Will require some\ngood combos though while matching the\nBlock Smash+ to instantly remove the\ndisruptions.\n\nSafer call is Moves +5 and Disruption\nDelay, and you can bring your best Super\nEffective instead of only Block Smash +\n(especially to replace Talonflame which is\nonly BP 60)",
         "notes": "     ",
-        "mobileNotes": "  "
+        "mobileNotes": "  ",
+        "basePower": 60,
+        "ability": "Barrier Bash+"
     },
     {
         "stageNo": 346,
@@ -735,7 +825,9 @@
         "clearingStrategy": "Just do so that you get the Krokorok\nmatch in second column, and you\nwill beat this stage.\n\nC5-D5 and then F5-C3 should work to\naccomplish that.",
         "srankingStrategy": "Moves: At least 0 moves left\n\nClear the stage and that's it. Free S rank\nin the bag.",
         "notes": "     ",
-        "mobileNotes": "  "
+        "mobileNotes": "  ",
+        "basePower": 50,
+        "ability": "Astonish"
     },
     {
         "stageNo": 347,
@@ -751,7 +843,9 @@
         "clearingStrategy": "Buy a Disruption Delay. Really. The\ndisruptions are awful.\nWih that said, a Psychic team with\nM-Mewtwo Y will take care of this\nstage.",
         "srankingStrategy": "Moves: At least 7 moves left\n\nDisruption Delay can be enough on its own,\nbut Moves +5 is a huge help here, will\nbe an almost guaranteed S rank with.",
         "notes": "     ",
-        "mobileNotes": "  "
+        "mobileNotes": "  ",
+        "basePower": 70,
+        "ability": "Power of 5+"
     },
     {
         "stageNo": 348,
@@ -767,7 +861,9 @@
         "clearingStrategy": "Your classic Gengar team for a 3\npokémon level. No need for items,\nstage is easy to beat.",
         "srankingStrategy": "Moves: At least 4 moves left\n\nDoable itemless.",
         "notes": "     ",
-        "mobileNotes": "  "
+        "mobileNotes": "  ",
+        "basePower": 70,
+        "ability": "Cloud Clear+"
     },
     {
         "stageNo": 349,
@@ -783,7 +879,9 @@
         "clearingStrategy": "No super effective Block Smash+\npokémon again, thanks a lot.\nStage is doable itemless, you can\nstill bring a Block Smash+ poké\nso that you don\"t get overwhelmed.\n\nDisruption Delay is still nice to consider\nfor this stage. Don't bring Abomasnow\nor Glalie if you buy a DD though, bring\nGengar instead.",
         "srankingStrategy": "Moves: At least 10 moves left\n\nDisruption Delay and Moves +5 are really\nnice here. Can use Gengar as Mega with\nthese, works as a Complexity-1 and\nno metal to deal with so Gengar is optimal.",
         "notes": "     ",
-        "mobileNotes": "  "
+        "mobileNotes": "  ",
+        "basePower": 70,
+        "ability": "Risk-Taker"
     },
     {
         "stageNo": 350,
@@ -799,6 +897,8 @@
         "clearingStrategy": "I am not sure what is the minimum\nneeded for this stage as I jumped to\nfull item run immediately to get the S\nrank, since I want them all anyways.\n\nMewtwo is the added support, and is\nsuper effective. But if you take it as\nyour mega, then Happiny happens...\nI haven't tried with Mega Slowbro really,\nbut Mewtwo Y is a really good mega\nand acts a bit like a Complexity -1,\nso it should be OK.\n\nDisruption Delay and Moves +5 is\nprobably enough to get it, considering\nI took around 70% HP itemless on my\nitemless try.\n\n There is sadly\nno one super effective with Block\nSmash+, hence the usefulness of\nDisruption Delay.",
         "srankingStrategy": "Moves: At least 10 moves left\n\nGo full item run, you need all these items\nto S rank this level.",
         "notes": "Congratulations! You get a Mega-\nMewtwoite X",
-        "mobileNotes": "  "
+        "mobileNotes": "  ",
+        "basePower": 80,
+        "ability": "Mega Effects: Erases Pokémon (max 3) of the same type as this Pokémon."
     }
 ]

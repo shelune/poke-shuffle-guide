@@ -238,7 +238,6 @@
 	var loadStageData = function (stageUrl) {
 
 		$.getJSON(stageUrl, function (data) {
-			console.log(stageUrl);
 		// get the area name
 			currentArea = data.shift()['stageNo'];
 			console.log(currentArea);
