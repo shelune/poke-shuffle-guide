@@ -91,6 +91,13 @@
 	var stageId = $('body').attr('stage-data');
 	console.log('searched stage is ' + stageId);
 	var stageUrl = getStage(stageId).shift();
+	
+	$('.stage-selector').keyup(function () {
+		console.log($(this).val());
+		$('body').attr('stage-data', $(this).val());
+		stageId = $('body').attr('stage-data');
+		var stageUrl = getStage(stageId).shift();
+	});
 
 	// variables for individual stage info
 	var currentArea, stageIcon, hitPoints, stageName, stageType, stageMoves, 
@@ -126,7 +133,6 @@
 				$('span.stage-limit').text(teamLimit);
 				$('span.stage-moves').text(stageMoves);
 				$('.stage-name').text(stageName);
-				$('.stage-number').text(stageId);
 				
 				var disruptionArr = disruptions.split(/\n/);
 				
