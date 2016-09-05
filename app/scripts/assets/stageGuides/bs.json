@@ -164,7 +164,7 @@
         "moves": 20,
         "captureRate": "Base: 15%\nBonus: 4% /move",
         "initialBoardSetup": "http://i.imgur.com/wE0tfLJ.png",
-        "disruptions": "Board: Barriers in row 5\nInitial: Adds 4 Metal\nTimer: Adds 4 Metal every 3 moves\n\nHP≤9000: Adds 4 Barriers every 2 moves\n",
+        "disruptions": "Board: Barriers in row 5\nInitial: Adds 4Mega Effects: Erases Pokémon and disruptions around three spots you tap. Metal\nTimer: Adds 4 Metal every 3 moves\n\nHP≤9000: Adds 4 Barriers every 2 moves\n",
         "pokemon": 4,
         "recommendedParty": "[Garchomp]/[Rayquaza]/\n[Gengar]\n\nExcadrill, Krookodile,\nGolurk, Marowak\n\nGliscor\n\nLandorus T+L, Groudon",
         "clearingStrategy": "Almost the same stage as Eelektrik,\nand just as annoying. Golurk is\nnice to remove the Metal. Other than\nthat, there is not much else to do than\njust dealing damage.",
@@ -338,8 +338,8 @@
         "recommendedParty": "[Garchomp]/[Lucario]/\n[Medicham]/[Sceptile]/\n[Swampert]/[Steelix]\n\nConkeldurr, Roserade,\nMilotic, Aggron\n\nGallade, Suicune, \nVirizion, Cobalion\n\nShaymin, Landorus T+L,\nKyurem",
         "clearingStrategy": "No added support for this Mega\nbattle, it's quite a relief.\n\nThe disruptions hit quite hard though,\nso unless Groudon or Shaymin or\nBellossom delay them consistently,\nyou better buy a Disruption Delay\nto crush this stage.",
         "srankingStrategy": "Moves: At least 10 moves left\n\nDisruption Delay and Moves +5 will do this.\nSkill boosted Groundon/Bellossom can\navoid you buying the DD, but you never\nknow with % activation...",
-        "basePower": "--",
-        "ability": "--"
+        "basePower": "80",
+        "ability": "Mega Effects: Erases Pokémon and disruptions around three spots you tap."
     },
     {
         "stageNo": 421,
