@@ -3,71 +3,71 @@
 	var stageCollections = [
 		{
 			levelCap: 10,
-			stageUrl: 'https://rawgit.com/shelune/poke-shuffle-guide/master/app/scripts/assets/stageGuides/pb.json'
+			stageUrl: 'pb'
 		},
 		{
 			levelCap: 20,
-			stageUrl: 'https://rawgit.com/shelune/poke-shuffle-guide/master/app/scripts/assets/stageGuides/sb.json'
+			stageUrl: 'sb'
 		},
 		{
 			levelCap: 30,
-			stageUrl: 'https://rawgit.com/shelune/poke-shuffle-guide/master/app/scripts/assets/stageGuides/nf.json'
+			stageUrl: 'nf'
 		},
 		{
 			levelCap: 45,
-			stageUrl: 'https://rawgit.com/shelune/poke-shuffle-guide/master/app/scripts/assets/stageGuides/ia.json'
+			stageUrl: 'ia'
 		},
 		{
 			levelCap: 60,
-			stageUrl: 'https://rawgit.com/shelune/poke-shuffle-guide/master/app/scripts/assets/stageGuides/rp.json'
+			stageUrl: 'rp'
 		},
 		{
 			levelCap: 75,
-			stageUrl: 'https://rawgit.com/shelune/poke-shuffle-guide/master/app/scripts/assets/stageGuides/gr.json'
+			stageUrl: 'gr'
 		},
 		{
 			levelCap: 90,
-			stageUrl: 'https://rawgit.com/shelune/poke-shuffle-guide/master/app/scripts/assets/stageGuides/ss.json'
+			stageUrl: 'ss'
 		},
 		{
 			levelCap: 105,
-			stageUrl: 'https://rawgit.com/shelune/poke-shuffle-guide/master/app/scripts/assets/stageGuides/sm.json'
+			stageUrl: 'sm'
 		},
 		{
 			levelCap: 135,
-			stageUrl: 'https://rawgit.com/shelune/poke-shuffle-guide/master/app/scripts/assets/stageGuides/cn.json'
+			stageUrl: 'cn'
 		},
 		{
 			levelCap: 150,
-			stageUrl: 'https://rawgit.com/shelune/poke-shuffle-guide/master/app/scripts/assets/stageGuides/jv.json'
+			stageUrl: 'jv'
 		},
 		{
 			levelCap: 180,
-			stageUrl: 'https://rawgit.com/shelune/poke-shuffle-guide/master/app/scripts/assets/stageGuides/ww.json'
+			stageUrl: 'ww'
 		},
 		{
 			levelCap: 210,
-			stageUrl: 'https://rawgit.com/shelune/poke-shuffle-guide/master/app/scripts/assets/stageGuides/pv.json'
+			stageUrl: 'pv'
 		},
 		{
 			levelCap: 240,
-			stageUrl: 'https://rawgit.com/shelune/poke-shuffle-guide/master/app/scripts/assets/stageGuides/at.json'
+			stageUrl: 'at'
 		},
 		{
 			levelCap: 300,
-			stageUrl: 'https://rawgit.com/shelune/poke-shuffle-guide/master/app/scripts/assets/stageGuides/rc.json'
+			stageUrl: 'rc'
 		},
 		{
 			levelCap: 350,
-			stageUrl: 'https://rawgit.com/shelune/poke-shuffle-guide/master/app/scripts/assets/stageGuides/du.json'
+			stageUrl: 'du'
 		},
 		{
 			levelCap: 400,
-			stageUrl: 'https://rawgit.com/shelune/poke-shuffle-guide/master/app/scripts/assets/stageGuides/vp.json'
+			stageUrl: 'vp'
 		},
 		{
 			levelCap: 450,
-			stageUrl: 'https://rawgit.com/shelune/poke-shuffle-guide/master/app/scripts/assets/stageGuides/bs.json'
+			stageUrl: 'bs'
 		}
 	];
 	
@@ -82,7 +82,7 @@
 		var stageUrls = [];
 		stageCollections.forEach(function (stages){
 			if (stageId <= stages.levelCap) {
-				stageUrls.push(stages.stageUrl);
+				stageUrls.push('https://rawgit.com/shelune/poke-shuffle-guide/master/app/scripts/assets/stageGuides/' + stages.stageUrl + '.json');
 			}
 		});  
 		if (stageUrls.length < 1) {
