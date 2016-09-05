@@ -71,6 +71,10 @@
 				display: flex;
 				justify-content: space-between;
 			}
+
+			span {
+					text-align: right;
+			}
 			
 			strong {
 				display: inline-block;
@@ -168,6 +172,7 @@
 				background-position: 50%;
 				background-size: cover;
 				display: inline-block;
+				margin-right: 5px;
 			}
 		}
 

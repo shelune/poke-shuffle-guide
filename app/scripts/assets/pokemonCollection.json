@@ -1,0 +1,2854 @@
+{
+    "main": [
+        {
+            "pokemonName": "Bulbasaur",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/001.png"
+        },
+        {
+            "pokemonName": "Ivysaur",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/002.png"
+        },
+        {
+            "pokemonName": "Charmander",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/004.png"
+        },
+        {
+            "pokemonName": "Charmeleon",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/005.png"
+        },
+        {
+            "pokemonName": "Squirtle",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/007.png"
+        },
+        {
+            "pokemonName": "Wartortle",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/008.png"
+        },
+        {
+            "pokemonName": "Pidgey",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/016.png"
+        },
+        {
+            "pokemonName": "Pidgeotto",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/017.png"
+        },
+        {
+            "pokemonName": "Pidgeot",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/018.png"
+        },
+        {
+            "pokemonName": "Espurr",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/677.png"
+        },
+        {
+            "pokemonName": "Meowstic",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/678.png"
+        },
+        {
+            "pokemonName": "Meowstic",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/678-f.png"
+        },
+        {
+            "pokemonName": "Pichu",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/172.png"
+        },
+        {
+            "pokemonName": "Pikachu",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/025.png"
+        },
+        {
+            "pokemonName": "Raichu",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/026.png"
+        },
+        {
+            "pokemonName": "Togepi",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/175.png"
+        },
+        {
+            "pokemonName": "Togetic",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/176.png"
+        },
+        {
+            "pokemonName": "Togekiss",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/468.png"
+        },
+        {
+            "pokemonName": "Bonsly",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/438.png"
+        },
+        {
+            "pokemonName": "Sudowoodo",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/185.png"
+        },
+        {
+            "pokemonName": "Vaporeon",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/134.png"
+        },
+        {
+            "pokemonName": "Jolteon",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/135.png"
+        },
+        {
+            "pokemonName": "Flareon",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/136.png"
+        },
+        {
+            "pokemonName": "Espeon",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/196.png"
+        },
+        {
+            "pokemonName": "Umbreon",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/197.png"
+        },
+        {
+            "pokemonName": "Leafeon",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/470.png"
+        },
+        {
+            "pokemonName": "Glaceon",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/471.png"
+        },
+        {
+            "pokemonName": "Sylveon",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/700.png"
+        },
+        {
+            "pokemonName": "Audino",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/531.png"
+        },
+        {
+            "pokemonName": "Mega Audino",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/531-m.png"
+        },
+        {
+            "pokemonName": "Purrloin",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/509.png"
+        },
+        {
+            "pokemonName": "Liepard",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/510.png"
+        },
+        {
+            "pokemonName": "Mareep",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/179.png"
+        },
+        {
+            "pokemonName": "Flaaffy",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/180.png"
+        },
+        {
+            "pokemonName": "Ampharos",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/181.png"
+        },
+        {
+            "pokemonName": "Mega Ampharos",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/181-m.png"
+        },
+        {
+            "pokemonName": "Happiny",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/440.png"
+        },
+        {
+            "pokemonName": "Chansey",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/113.png"
+        },
+        {
+            "pokemonName": "Blissey",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/242.png"
+        },
+        {
+            "pokemonName": "Swablu",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/333.png"
+        },
+        {
+            "pokemonName": "Altaria",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/334.png"
+        },
+        {
+            "pokemonName": "Mega Altaria",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/334-m.png"
+        },
+        {
+            "pokemonName": "Phanpy",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/231.png"
+        },
+        {
+            "pokemonName": "Donphan",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/232.png"
+        },
+        {
+            "pokemonName": "Heracross",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/214.png"
+        },
+        {
+            "pokemonName": "Mega Heracross",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/214-m.png"
+        },
+        {
+            "pokemonName": "Nidoran♀",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/029.png"
+        },
+        {
+            "pokemonName": "Nidorina",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/030.png"
+        },
+        {
+            "pokemonName": "Nidoqueen",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/031.png"
+        },
+        {
+            "pokemonName": "Nidoran♂",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/032.png"
+        },
+        {
+            "pokemonName": "Nidorino",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/033.png"
+        },
+        {
+            "pokemonName": "Nidoking",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/034.png"
+        },
+        {
+            "pokemonName": "Buneary",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/427.png"
+        },
+        {
+            "pokemonName": "Lopunny",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/428.png"
+        },
+        {
+            "pokemonName": "Mega Lopunny",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/428-m.png"
+        },
+        {
+            "pokemonName": "Klefki",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/707.png"
+        },
+        {
+            "pokemonName": "Kangaskhan",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/115.png"
+        },
+        {
+            "pokemonName": "Mega Kangaskhan",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/115-m.png"
+        },
+        {
+            "pokemonName": "Azurill",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/298.png"
+        },
+        {
+            "pokemonName": "Marill",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/183.png"
+        },
+        {
+            "pokemonName": "Azumarill",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/184.png"
+        },
+        {
+            "pokemonName": "Vulpix",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/037.png"
+        },
+        {
+            "pokemonName": "Ninetales",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/038.png"
+        },
+        {
+            "pokemonName": "Zorua",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/570.png"
+        },
+        {
+            "pokemonName": "Zoroark",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/571.png"
+        },
+        {
+            "pokemonName": "Litwick",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/607.png"
+        },
+        {
+            "pokemonName": "Lampent",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/608.png"
+        },
+        {
+            "pokemonName": "Chandelure",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/609.png"
+        },
+        {
+            "pokemonName": "Chingling",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/433.png"
+        },
+        {
+            "pokemonName": "Chimecho",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/358.png"
+        },
+        {
+            "pokemonName": "Swirlix",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/684.png"
+        },
+        {
+            "pokemonName": "Slurpuff",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/685.png"
+        },
+        {
+            "pokemonName": "Volbeat",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/313.png"
+        },
+        {
+            "pokemonName": "Illumise",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/314.png"
+        },
+        {
+            "pokemonName": "Sableye",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/302.png"
+        },
+        {
+            "pokemonName": "Mega Sableye",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/302-m.png"
+        },
+        {
+            "pokemonName": "Surskit",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/283.png"
+        },
+        {
+            "pokemonName": "Masquerain",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/284.png"
+        },
+        {
+            "pokemonName": "Riolu",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/447.png"
+        },
+        {
+            "pokemonName": "Taillow",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/276.png"
+        },
+        {
+            "pokemonName": "Swellow",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/277.png"
+        },
+        {
+            "pokemonName": "Slowpoke",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/079.png"
+        },
+        {
+            "pokemonName": "Slowbro",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/080.png"
+        },
+        {
+            "pokemonName": "Mega Slowbro",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/080-m.png"
+        },
+        {
+            "pokemonName": "Slowking",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/199.png"
+        },
+        {
+            "pokemonName": "Meowth",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/052.png"
+        },
+        {
+            "pokemonName": "Persian",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/053.png"
+        },
+        {
+            "pokemonName": "Corsola",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/222.png"
+        },
+        {
+            "pokemonName": "Croagunk",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/453.png"
+        },
+        {
+            "pokemonName": "Toxicroak",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/454.png"
+        },
+        {
+            "pokemonName": "Treecko",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/252.png"
+        },
+        {
+            "pokemonName": "Grovyle",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/253.png"
+        },
+        {
+            "pokemonName": "Torchic",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/255.png"
+        },
+        {
+            "pokemonName": "Combusken",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/256.png"
+        },
+        {
+            "pokemonName": "Mudkip",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/258.png"
+        },
+        {
+            "pokemonName": "Marshtomp",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/259.png"
+        },
+        {
+            "pokemonName": "Lapras",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/131.png"
+        },
+        {
+            "pokemonName": "Minccino",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/572.png"
+        },
+        {
+            "pokemonName": "Cinccino",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/573.png"
+        },
+        {
+            "pokemonName": "Vanillite",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/582.png"
+        },
+        {
+            "pokemonName": "Vanillish",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/583.png"
+        },
+        {
+            "pokemonName": "Vanilluxe",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/584.png"
+        },
+        {
+            "pokemonName": "Chatot",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/441.png"
+        },
+        {
+            "pokemonName": "Axew",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/610.png"
+        },
+        {
+            "pokemonName": "Fraxure",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/611.png"
+        },
+        {
+            "pokemonName": "Haxorus",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/612.png"
+        },
+        {
+            "pokemonName": "Hawlucha",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/701.png"
+        },
+        {
+            "pokemonName": "Buizel",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/418.png"
+        },
+        {
+            "pokemonName": "Floatzel",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/419.png"
+        },
+        {
+            "pokemonName": "Mawile",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/303.png"
+        },
+        {
+            "pokemonName": "Mega Mawile",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/303-m.png"
+        },
+        {
+            "pokemonName": "Gastly",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/092.png"
+        },
+        {
+            "pokemonName": "Haunter",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/093.png"
+        },
+        {
+            "pokemonName": "Gengar",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/094.png"
+        },
+        {
+            "pokemonName": "Mega Gengar",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/094-m.png"
+        },
+        {
+            "pokemonName": "Cubone",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/104.png"
+        },
+        {
+            "pokemonName": "Marowak",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/105.png"
+        },
+        {
+            "pokemonName": "Dratini",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/147.png"
+        },
+        {
+            "pokemonName": "Dragonair",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/148.png"
+        },
+        {
+            "pokemonName": "Amaura",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/698.png"
+        },
+        {
+            "pokemonName": "Aurorus",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/699.png"
+        },
+        {
+            "pokemonName": "Mienfoo",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/619.png"
+        },
+        {
+            "pokemonName": "Mienshao",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/620.png"
+        },
+        {
+            "pokemonName": "Snorunt",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/361.png"
+        },
+        {
+            "pokemonName": "Glalie",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/362.png"
+        },
+        {
+            "pokemonName": "Mega Glalie",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/362-m.png"
+        },
+        {
+            "pokemonName": "Froslass",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/478.png"
+        },
+        {
+            "pokemonName": "Gulpin",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/316.png"
+        },
+        {
+            "pokemonName": "Swalot",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/317.png"
+        },
+        {
+            "pokemonName": "Miltank",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/241.png"
+        },
+        {
+            "pokemonName": "Dedenne",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/702.png"
+        },
+        {
+            "pokemonName": "Cottonee",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/546.png"
+        },
+        {
+            "pokemonName": "Whimsicott",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/547.png"
+        },
+        {
+            "pokemonName": "Petilil",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/548.png"
+        },
+        {
+            "pokemonName": "Lilligant",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/549.png"
+        },
+        {
+            "pokemonName": "Bronzor",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/436.png"
+        },
+        {
+            "pokemonName": "Bronzong",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/437.png"
+        },
+        {
+            "pokemonName": "Emolga",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/587.png"
+        },
+        {
+            "pokemonName": "Scyther",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/123.png"
+        },
+        {
+            "pokemonName": "Scizor",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/212.png"
+        },
+        {
+            "pokemonName": "Mega Scizor",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/212-m.png"
+        },
+        {
+            "pokemonName": "Carbink",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/703.png"
+        },
+        {
+            "pokemonName": "Throh",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/538.png"
+        },
+        {
+            "pokemonName": "Sawk",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/539.png"
+        },
+        {
+            "pokemonName": "Skarmory",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/227.png"
+        },
+        {
+            "pokemonName": "Delibird",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/225.png"
+        },
+        {
+            "pokemonName": "Stunfisk",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/618.png"
+        },
+        {
+            "pokemonName": "Misdreavus",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/200.png"
+        },
+        {
+            "pokemonName": "Mismagius",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/429.png"
+        },
+        {
+            "pokemonName": "Aerodactyl",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/142.png"
+        },
+        {
+            "pokemonName": "Mega Aerodactyl",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/142-m.png"
+        },
+        {
+            "pokemonName": "Mega Mewtwo",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/150-m.png"
+        },
+        {
+            "pokemonName": "Mega Mewtwo",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/150-mx.png"
+        },
+        {
+            "pokemonName": "Mega Rayquaza",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/384-m.png"
+        },
+        {
+            "pokemonName": "Chespin",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/650.png"
+        },
+        {
+            "pokemonName": "Quilladin",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/651.png"
+        },
+        {
+            "pokemonName": "Fennekin",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/653.png"
+        },
+        {
+            "pokemonName": "Braixen",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/654.png"
+        },
+        {
+            "pokemonName": "Froakie",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/656.png"
+        },
+        {
+            "pokemonName": "Frogadier",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/657.png"
+        },
+        {
+            "pokemonName": "Munchlax",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/446.png"
+        },
+        {
+            "pokemonName": "Snorlax",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/143.png"
+        },
+        {
+            "pokemonName": "Onix",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/095.png"
+        },
+        {
+            "pokemonName": "Steelix",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/208.png"
+        },
+        {
+            "pokemonName": "Smeargle",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/235.png"
+        },
+        {
+            "pokemonName": "Larvesta",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/636.png"
+        },
+        {
+            "pokemonName": "Volcarona",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/637.png"
+        },
+        {
+            "pokemonName": "Feebas",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/349.png"
+        },
+        {
+            "pokemonName": "Milotic",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/350.png"
+        },
+        {
+            "pokemonName": "Poochyena",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/261.png"
+        },
+        {
+            "pokemonName": "Mightyena",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/262.png"
+        },
+        {
+            "pokemonName": "Trubbish",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/568.png"
+        },
+        {
+            "pokemonName": "Garbodor",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/569.png"
+        },
+        {
+            "pokemonName": "Hippopotas",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/449.png"
+        },
+        {
+            "pokemonName": "Hippowdon",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/450.png"
+        },
+        {
+            "pokemonName": "Bagon",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/371.png"
+        },
+        {
+            "pokemonName": "Shelgon",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/372.png"
+        },
+        {
+            "pokemonName": "Salamence",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/373.png"
+        },
+        {
+            "pokemonName": "Pancham",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/674.png"
+        },
+        {
+            "pokemonName": "Pangoro",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/675.png"
+        },
+        {
+            "pokemonName": "Yamask",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/562.png"
+        },
+        {
+            "pokemonName": "Cofagrigus",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/563.png"
+        },
+        {
+            "pokemonName": "Solosis",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/577.png"
+        },
+        {
+            "pokemonName": "Duosion",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/578.png"
+        },
+        {
+            "pokemonName": "Reuniclus",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/579.png"
+        },
+        {
+            "pokemonName": "Honedge",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/679.png"
+        },
+        {
+            "pokemonName": "Doublade",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/680.png"
+        },
+        {
+            "pokemonName": "Aegislash",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/681.png"
+        },
+        {
+            "pokemonName": "Drilbur",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/529.png"
+        },
+        {
+            "pokemonName": "Excadrill",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/530.png"
+        },
+        {
+            "pokemonName": "Larvitar",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/246.png"
+        },
+        {
+            "pokemonName": "Pupitar",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/247.png"
+        },
+        {
+            "pokemonName": "Tyranitar",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/248.png"
+        },
+        {
+            "pokemonName": "Mega Tyranitar",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/248-m.png"
+        },
+        {
+            "pokemonName": "Shuppet",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/353.png"
+        },
+        {
+            "pokemonName": "Banette",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/354.png"
+        },
+        {
+            "pokemonName": "Rufflet",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/627.png"
+        },
+        {
+            "pokemonName": "Braviary",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/628.png"
+        },
+        {
+            "pokemonName": "Bergmite",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/712.png"
+        },
+        {
+            "pokemonName": "Avalugg",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/713.png"
+        },
+        {
+            "pokemonName": "Snubbull",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/209.png"
+        },
+        {
+            "pokemonName": "Granbull",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/210.png"
+        },
+        {
+            "pokemonName": "Lickitung",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/108.png"
+        },
+        {
+            "pokemonName": "Lickilicky",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/463.png"
+        },
+        {
+            "pokemonName": "Timburr",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/532.png"
+        },
+        {
+            "pokemonName": "Gurdurr",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/533.png"
+        },
+        {
+            "pokemonName": "Conkeldurr",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/534.png"
+        },
+        {
+            "pokemonName": "Tangela",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/114.png"
+        },
+        {
+            "pokemonName": "Tangrowth",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/465.png"
+        },
+        {
+            "pokemonName": "Sneasel",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/215.png"
+        },
+        {
+            "pokemonName": "Weavile",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/461.png"
+        },
+        {
+            "pokemonName": "Blitzle",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/522.png"
+        },
+        {
+            "pokemonName": "Zebstrika",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/523.png"
+        },
+        {
+            "pokemonName": "Snivy",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/495.png"
+        },
+        {
+            "pokemonName": "Servine",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/496.png"
+        },
+        {
+            "pokemonName": "Serperior",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/497.png"
+        },
+        {
+            "pokemonName": "Oshawott",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/501.png"
+        },
+        {
+            "pokemonName": "Dewott",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/502.png"
+        },
+        {
+            "pokemonName": "Samurott",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/503.png"
+        },
+        {
+            "pokemonName": "Scatterbug",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/664.png"
+        },
+        {
+            "pokemonName": "Spewpa",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/665.png"
+        },
+        {
+            "pokemonName": "Vivillon",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/666.png"
+        },
+        {
+            "pokemonName": "Starly",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/396.png"
+        },
+        {
+            "pokemonName": "Staravia",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/397.png"
+        },
+        {
+            "pokemonName": "Staraptor",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/398.png"
+        },
+        {
+            "pokemonName": "Goomy",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/704.png"
+        },
+        {
+            "pokemonName": "Sliggoo",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/705.png"
+        },
+        {
+            "pokemonName": "Gothita",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/574.png"
+        },
+        {
+            "pokemonName": "Gothorita",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/575.png"
+        },
+        {
+            "pokemonName": "Gothitelle",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/576.png"
+        },
+        {
+            "pokemonName": "Mime Jr.",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/439.png"
+        },
+        {
+            "pokemonName": "Mr. Mime",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/122.png"
+        },
+        {
+            "pokemonName": "Ralts",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/280.png"
+        },
+        {
+            "pokemonName": "Kirlia",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/281.png"
+        },
+        {
+            "pokemonName": "Gardevoir",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/282.png"
+        },
+        {
+            "pokemonName": "Skitty",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/300.png"
+        },
+        {
+            "pokemonName": "Delcatty",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/301.png"
+        },
+        {
+            "pokemonName": "Klink",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/599.png"
+        },
+        {
+            "pokemonName": "Klang",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/600.png"
+        },
+        {
+            "pokemonName": "Klinklang",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/601.png"
+        },
+        {
+            "pokemonName": "Meditite",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/307.png"
+        },
+        {
+            "pokemonName": "Medicham",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/308.png"
+        },
+        {
+            "pokemonName": "Mega Medicham",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/308-m.png"
+        },
+        {
+            "pokemonName": "Grimer",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/088.png"
+        },
+        {
+            "pokemonName": "Muk",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/089.png"
+        },
+        {
+            "pokemonName": "Wingull",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/278.png"
+        },
+        {
+            "pokemonName": "Pelipper",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/279.png"
+        },
+        {
+            "pokemonName": "Bouffalant",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/626.png"
+        },
+        {
+            "pokemonName": "Pawniard",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/624.png"
+        },
+        {
+            "pokemonName": "Budew",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/406.png"
+        },
+        {
+            "pokemonName": "Roselia",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/315.png"
+        },
+        {
+            "pokemonName": "Roserade",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/407.png"
+        },
+        {
+            "pokemonName": "Machop",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/066.png"
+        },
+        {
+            "pokemonName": "Machoke",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/067.png"
+        },
+        {
+            "pokemonName": "Shinx",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/403.png"
+        },
+        {
+            "pokemonName": "Luxio",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/404.png"
+        },
+        {
+            "pokemonName": "Whismur",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/293.png"
+        },
+        {
+            "pokemonName": "Loudred",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/294.png"
+        },
+        {
+            "pokemonName": "Exploud",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/295.png"
+        },
+        {
+            "pokemonName": "Spritzee",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/682.png"
+        },
+        {
+            "pokemonName": "Aromatisse",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/683.png"
+        },
+        {
+            "pokemonName": "Deoxys",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/386.png"
+        },
+        {
+            "pokemonName": "Turtwig",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/387.png"
+        },
+        {
+            "pokemonName": "Grotle",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/388.png"
+        },
+        {
+            "pokemonName": "Torterra",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/389.png"
+        },
+        {
+            "pokemonName": "Chimchar",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/390.png"
+        },
+        {
+            "pokemonName": "Monferno",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/391.png"
+        },
+        {
+            "pokemonName": "Piplup",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/393.png"
+        },
+        {
+            "pokemonName": "Prinplup",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/394.png"
+        },
+        {
+            "pokemonName": "Empoleon",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/395.png"
+        },
+        {
+            "pokemonName": "Inkay",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/686.png"
+        },
+        {
+            "pokemonName": "Skiddo",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/672.png"
+        },
+        {
+            "pokemonName": "Gogoat",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/673.png"
+        },
+        {
+            "pokemonName": "Joltik",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/595.png"
+        },
+        {
+            "pokemonName": "Galvantula",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/596.png"
+        },
+        {
+            "pokemonName": "Rattata",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/019.png"
+        },
+        {
+            "pokemonName": "Raticate",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/020.png"
+        },
+        {
+            "pokemonName": "Snover",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/459.png"
+        },
+        {
+            "pokemonName": "Abomasnow",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/460.png"
+        },
+        {
+            "pokemonName": "Flab�b�",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/669.png"
+        },
+        {
+            "pokemonName": "Floette",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/670.png"
+        },
+        {
+            "pokemonName": "Florges",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/671.png"
+        },
+        {
+            "pokemonName": "Munna",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/517.png"
+        },
+        {
+            "pokemonName": "Musharna",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/518.png"
+        },
+        {
+            "pokemonName": "Doduo",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/084.png"
+        },
+        {
+            "pokemonName": "Dodrio",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/085.png"
+        },
+        {
+            "pokemonName": "Alomomola",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/594.png"
+        },
+        {
+            "pokemonName": "Aron",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/304.png"
+        },
+        {
+            "pokemonName": "Lairon",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/305.png"
+        },
+        {
+            "pokemonName": "Aggron",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/306.png"
+        },
+        {
+            "pokemonName": "Chinchou",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/170.png"
+        },
+        {
+            "pokemonName": "Lanturn",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/171.png"
+        },
+        {
+            "pokemonName": "Vullaby",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/629.png"
+        },
+        {
+            "pokemonName": "Mandibuzz",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/630.png"
+        },
+        {
+            "pokemonName": "Porygon",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/137.png"
+        },
+        {
+            "pokemonName": "Porygon2",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/233.png"
+        },
+        {
+            "pokemonName": "Spinarak",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/167.png"
+        },
+        {
+            "pokemonName": "Ariados",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/168.png"
+        },
+        {
+            "pokemonName": "Tympole",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/535.png"
+        },
+        {
+            "pokemonName": "Palpitoad",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/536.png"
+        },
+        {
+            "pokemonName": "Seismitoad",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/537.png"
+        },
+        {
+            "pokemonName": "Nosepass",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/299.png"
+        },
+        {
+            "pokemonName": "Probopass",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/476.png"
+        },
+        {
+            "pokemonName": "Makuhita",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/296.png"
+        },
+        {
+            "pokemonName": "Hariyama",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/297.png"
+        },
+        {
+            "pokemonName": "Igglybuff",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/174.png"
+        },
+        {
+            "pokemonName": "Jigglypuff",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/039.png"
+        },
+        {
+            "pokemonName": "Wigglytuff",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/040.png"
+        },
+        {
+            "pokemonName": "Swinub",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/220.png"
+        },
+        {
+            "pokemonName": "Piloswine",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/221.png"
+        },
+        {
+            "pokemonName": "Stunky",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/434.png"
+        },
+        {
+            "pokemonName": "Skuntank",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/435.png"
+        },
+        {
+            "pokemonName": "Gligar",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/207.png"
+        },
+        {
+            "pokemonName": "Weedle",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/013.png"
+        },
+        {
+            "pokemonName": "Kakuna",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/014.png"
+        },
+        {
+            "pokemonName": "Sentret",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/161.png"
+        },
+        {
+            "pokemonName": "Furret",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/162.png"
+        },
+        {
+            "pokemonName": "Exeggcute",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/102.png"
+        },
+        {
+            "pokemonName": "Exeggutor",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/103.png"
+        },
+        {
+            "pokemonName": "Finneon",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/456.png"
+        },
+        {
+            "pokemonName": "Lumineon",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/457.png"
+        },
+        {
+            "pokemonName": "Pansage",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/511.png"
+        },
+        {
+            "pokemonName": "Simisage",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/512.png"
+        },
+        {
+            "pokemonName": "Pansear",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/513.png"
+        },
+        {
+            "pokemonName": "Simisear",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/514.png"
+        },
+        {
+            "pokemonName": "Panpour",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/515.png"
+        },
+        {
+            "pokemonName": "Simipour",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/516.png"
+        },
+        {
+            "pokemonName": "Growlithe",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/058.png"
+        },
+        {
+            "pokemonName": "Magnemite",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/081.png"
+        },
+        {
+            "pokemonName": "Magneton",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/082.png"
+        },
+        {
+            "pokemonName": "Magnezone",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/462.png"
+        },
+        {
+            "pokemonName": "Murkrow",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/198.png"
+        },
+        {
+            "pokemonName": "Spheal",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/363.png"
+        },
+        {
+            "pokemonName": "Sealeo",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/364.png"
+        },
+        {
+            "pokemonName": "Skorupi",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/451.png"
+        },
+        {
+            "pokemonName": "Drapion",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/452.png"
+        },
+        {
+            "pokemonName": "Golett",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/622.png"
+        },
+        {
+            "pokemonName": "Golurk",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/623.png"
+        },
+        {
+            "pokemonName": "Tyrunt",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/696.png"
+        },
+        {
+            "pokemonName": "Tyrantrum",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/697.png"
+        },
+        {
+            "pokemonName": "Paras",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/046.png"
+        },
+        {
+            "pokemonName": "Parasect",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/047.png"
+        },
+        {
+            "pokemonName": "Teddiursa",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/216.png"
+        },
+        {
+            "pokemonName": "Ursaring",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/217.png"
+        },
+        {
+            "pokemonName": "Spoink",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/325.png"
+        },
+        {
+            "pokemonName": "Grumpig",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/326.png"
+        },
+        {
+            "pokemonName": "Koffing",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/109.png"
+        },
+        {
+            "pokemonName": "Weezing",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/110.png"
+        },
+        {
+            "pokemonName": "Sandile",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/551.png"
+        },
+        {
+            "pokemonName": "Krokorok",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/552.png"
+        },
+        {
+            "pokemonName": "Krookodile",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/553.png"
+        },
+        {
+            "pokemonName": "Phantump",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/708.png"
+        },
+        {
+            "pokemonName": "Trevenant",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/709.png"
+        },
+        {
+            "pokemonName": "Mankey",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/056.png"
+        },
+        {
+            "pokemonName": "Primeape",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/057.png"
+        },
+        {
+            "pokemonName": "Spearow",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/021.png"
+        },
+        {
+            "pokemonName": "Fearow",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/022.png"
+        },
+        {
+            "pokemonName": "Smoochum",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/238.png"
+        },
+        {
+            "pokemonName": "Jynx",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/124.png"
+        },
+        {
+            "pokemonName": "Omanyte",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/138.png"
+        },
+        {
+            "pokemonName": "Kabuto",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/140.png"
+        },
+        {
+            "pokemonName": "Magikarp",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/129.png"
+        },
+        {
+            "pokemonName": "Psyduck",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/054.png"
+        },
+        {
+            "pokemonName": "Golduck",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/055.png"
+        },
+        {
+            "pokemonName": "Yanma",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/193.png"
+        },
+        {
+            "pokemonName": "Lotad",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/270.png"
+        },
+        {
+            "pokemonName": "Lombre",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/271.png"
+        },
+        {
+            "pokemonName": "Glameow",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/431.png"
+        },
+        {
+            "pokemonName": "Purugly",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/432.png"
+        },
+        {
+            "pokemonName": "Scraggy",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/559.png"
+        },
+        {
+            "pokemonName": "Scrafty",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/560.png"
+        },
+        {
+            "pokemonName": "Binacle",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/688.png"
+        },
+        {
+            "pokemonName": "Barbaracle",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/689.png"
+        },
+        {
+            "pokemonName": "Elekid",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/239.png"
+        },
+        {
+            "pokemonName": "Electabuzz",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/125.png"
+        },
+        {
+            "pokemonName": "Magby",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/240.png"
+        },
+        {
+            "pokemonName": "Magmar",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/126.png"
+        },
+        {
+            "pokemonName": "Natu",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/177.png"
+        },
+        {
+            "pokemonName": "Xatu",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/178.png"
+        },
+        {
+            "pokemonName": "Trapinch",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/328.png"
+        },
+        {
+            "pokemonName": "Vibrava",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/329.png"
+        },
+        {
+            "pokemonName": "Flygon",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/330.png"
+        },
+        {
+            "pokemonName": "Shellos",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/422.png"
+        },
+        {
+            "pokemonName": "Gastrodon",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/423.png"
+        },
+        {
+            "pokemonName": "Patrat",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/504.png"
+        },
+        {
+            "pokemonName": "Watchog",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/505.png"
+        },
+        {
+            "pokemonName": "Skrelp",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/690.png"
+        },
+        {
+            "pokemonName": "Dragalge",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/691.png"
+        },
+        {
+            "pokemonName": "Rhyhorn",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/111.png"
+        },
+        {
+            "pokemonName": "Rhydon",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/112.png"
+        },
+        {
+            "pokemonName": "Unown",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/201-qm.png"
+        },
+        {
+            "pokemonName": "Unown",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/201-em.png"
+        },
+        {
+            "pokemonName": "Clamperl",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/366.png"
+        },
+        {
+            "pokemonName": "Huntail",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/367.png"
+        },
+        {
+            "pokemonName": "Gorebyss",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/368.png"
+        },
+        {
+            "pokemonName": "Cranidos",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/408.png"
+        },
+        {
+            "pokemonName": "Rampardos",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/409.png"
+        },
+        {
+            "pokemonName": "Shieldon",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/410.png"
+        },
+        {
+            "pokemonName": "Bastiodon",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/411.png"
+        },
+        {
+            "pokemonName": "Bunnelby",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/659.png"
+        },
+        {
+            "pokemonName": "Diggersby",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/660.png"
+        },
+        {
+            "pokemonName": "Horsea",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/116.png"
+        },
+        {
+            "pokemonName": "Seadra",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/117.png"
+        },
+        {
+            "pokemonName": "Slugma",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/218.png"
+        },
+        {
+            "pokemonName": "Magcargo",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/219.png"
+        },
+        {
+            "pokemonName": "Cacnea",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/331.png"
+        },
+        {
+            "pokemonName": "Cacturne",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/332.png"
+        },
+        {
+            "pokemonName": "Combee",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/415.png"
+        },
+        {
+            "pokemonName": "Vespiquen",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/416.png"
+        },
+        {
+            "pokemonName": "Deino",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/633.png"
+        },
+        {
+            "pokemonName": "Zweilous",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/634.png"
+        },
+        {
+            "pokemonName": "Mantine",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/226.png"
+        },
+        {
+            "pokemonName": "Hitmonchan",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/107.png"
+        },
+        {
+            "pokemonName": "Hitmontop",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/237.png"
+        },
+        {
+            "pokemonName": "Frillish",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/592.png"
+        },
+        {
+            "pokemonName": "Jellicent",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/593.png"
+        },
+        {
+            "pokemonName": "Chikorita",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/152.png"
+        },
+        {
+            "pokemonName": "Bayleef",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/153.png"
+        },
+        {
+            "pokemonName": "Cyndaquil",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/155.png"
+        },
+        {
+            "pokemonName": "Quilava",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/156.png"
+        },
+        {
+            "pokemonName": "Totodile",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/158.png"
+        },
+        {
+            "pokemonName": "Croconaw",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/159.png"
+        },
+        {
+            "pokemonName": "Feraligatr",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/160.png"
+        },
+        {
+            "pokemonName": "Geodude",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/074.png"
+        },
+        {
+            "pokemonName": "Graveler",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/075.png"
+        },
+        {
+            "pokemonName": "Golem",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/076.png"
+        },
+        {
+            "pokemonName": "Poliwag",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/060.png"
+        },
+        {
+            "pokemonName": "Poliwhirl",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/061.png"
+        },
+        {
+            "pokemonName": "Politoed",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/186.png"
+        },
+        {
+            "pokemonName": "Slakoth",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/287.png"
+        },
+        {
+            "pokemonName": "Vigoroth",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/288.png"
+        },
+        {
+            "pokemonName": "Slaking",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/289.png"
+        },
+        {
+            "pokemonName": "Venipede",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/543.png"
+        },
+        {
+            "pokemonName": "Whirlipede",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/544.png"
+        },
+        {
+            "pokemonName": "Scolipede",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/545.png"
+        },
+        {
+            "pokemonName": "Voltorb",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/100.png"
+        },
+        {
+            "pokemonName": "Seel",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/086.png"
+        },
+        {
+            "pokemonName": "Dewgong",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/087.png"
+        },
+        {
+            "pokemonName": "Tynamo",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/602.png"
+        },
+        {
+            "pokemonName": "Eelektrik",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/603.png"
+        },
+        {
+            "pokemonName": "Eelektross",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/604.png"
+        },
+        {
+            "pokemonName": "Hoopa",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/720-u.png"
+        }
+    ],
+    "expert": [
+        {
+            "pokemonName": "Venusaur",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/003.png"
+        },
+        {
+            "pokemonName": "Charizard",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/006.png"
+        },
+        {
+            "pokemonName": "Charizard",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/006.png"
+        },
+        {
+            "pokemonName": "Blastoise",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/009.png"
+        },
+        {
+            "pokemonName": "Absol",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/359.png"
+        },
+        {
+            "pokemonName": "Rotom",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/479.png"
+        },
+        {
+            "pokemonName": "Lucario",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/448.png"
+        },
+        {
+            "pokemonName": "Sceptile",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/254.png"
+        },
+        {
+            "pokemonName": "Blaziken",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/257.png"
+        },
+        {
+            "pokemonName": "Swampert",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/260.png"
+        },
+        {
+            "pokemonName": "Dragonite",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/149.png"
+        },
+        {
+            "pokemonName": "Articuno",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/144.png"
+        },
+        {
+            "pokemonName": "Zapdos",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/145.png"
+        },
+        {
+            "pokemonName": "Moltres",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/146.png"
+        },
+        {
+            "pokemonName": "Entei",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/244.png"
+        },
+        {
+            "pokemonName": "Suicune",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/245.png"
+        },
+        {
+            "pokemonName": "Heatran",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/485.png"
+        },
+        {
+            "pokemonName": "Xerneas",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/716.png"
+        },
+        {
+            "pokemonName": "Yveltal",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/717.png"
+        },
+        {
+            "pokemonName": "Mewtwo",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/150.png"
+        },
+        {
+            "pokemonName": "Chesnaught",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/652.png"
+        },
+        {
+            "pokemonName": "Delphox",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/655.png"
+        },
+        {
+            "pokemonName": "Greninja",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/658.png"
+        },
+        {
+            "pokemonName": "Genesect",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/649.png"
+        },
+        {
+            "pokemonName": "Goodra",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/706.png"
+        },
+        {
+            "pokemonName": "Gallade",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/475.png"
+        },
+        {
+            "pokemonName": "Cobalion",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/638.png"
+        },
+        {
+            "pokemonName": "Terrakion",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/639.png"
+        },
+        {
+            "pokemonName": "Virizion",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/640.png"
+        },
+        {
+            "pokemonName": "Bisharp",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/625.png"
+        },
+        {
+            "pokemonName": "Luxray",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/405.png"
+        },
+        {
+            "pokemonName": "Malamar",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/687.png"
+        },
+        {
+            "pokemonName": "Porygon-Z",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/474.png"
+        },
+        {
+            "pokemonName": "Mamoswine",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/473.png"
+        },
+        {
+            "pokemonName": "Gliscor",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/472.png"
+        },
+        {
+            "pokemonName": "Arcanine",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/059.png"
+        },
+        {
+            "pokemonName": "Honchkrow",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/430.png"
+        },
+        {
+            "pokemonName": "Walrein",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/365.png"
+        },
+        {
+            "pokemonName": "Yanmega",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/469.png"
+        },
+        {
+            "pokemonName": "Ludicolo",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/272.png"
+        },
+        {
+            "pokemonName": "Hydreigon",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/635.png"
+        }
+    ],
+    "special": [
+        {
+            "pokemonName": "Mega Venusaur",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/003-m.png"
+        },
+        {
+            "pokemonName": "Mega Charizard",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/006-m.png"
+        },
+        {
+            "pokemonName": "Mega Charizard",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/006-mx.png"
+        },
+        {
+            "pokemonName": "Mega Blastoise",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/009-m.png"
+        },
+        {
+            "pokemonName": "Pikachu",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/025-a.png"
+        },
+        {
+            "pokemonName": "Pikachu",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/025-w.png"
+        },
+        {
+            "pokemonName": "Raichu",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/026-w.png"
+        },
+        {
+            "pokemonName": "Eevee",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/133.png"
+        },
+        {
+            "pokemonName": "Mega Absol",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/359-m.png"
+        },
+        {
+            "pokemonName": "Rotom",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/479-h.png"
+        },
+        {
+            "pokemonName": "Rotom",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/479-w.png"
+        },
+        {
+            "pokemonName": "Rotom",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/479-f.png"
+        },
+        {
+            "pokemonName": "Rotom",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/479-s.png"
+        },
+        {
+            "pokemonName": "Rotom",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/479-m.png"
+        },
+        {
+            "pokemonName": "Mega Lucario",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/448-m.png"
+        },
+        {
+            "pokemonName": "Mega Sceptile",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/254-m.png"
+        },
+        {
+            "pokemonName": "Mega Blaziken",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/257-m.png"
+        },
+        {
+            "pokemonName": "Mega Swampert",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/260-m.png"
+        },
+        {
+            "pokemonName": "Raikou",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/243.png"
+        },
+        {
+            "pokemonName": "Mewtwo",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/150.png"
+        },
+        {
+            "pokemonName": "Mew",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/151.png"
+        },
+        {
+            "pokemonName": "Kyogre",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/382.png"
+        },
+        {
+            "pokemonName": "Groudon",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/383.png"
+        },
+        {
+            "pokemonName": "Rayquaza",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/384.png"
+        },
+        {
+            "pokemonName": "Pachirisu",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/417.png"
+        },
+        {
+            "pokemonName": "Tropius",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/357.png"
+        },
+        {
+            "pokemonName": "Sigilyph",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/561.png"
+        },
+        {
+            "pokemonName": "Farfetch'd",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/083.png"
+        },
+        {
+            "pokemonName": "Druddigon",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/621.png"
+        },
+        {
+            "pokemonName": "Keldeo",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/647.png"
+        },
+        {
+            "pokemonName": "Keldeo",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/647-r.png"
+        },
+        {
+            "pokemonName": "Greninja",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/658-a.png"
+        },
+        {
+            "pokemonName": "Mega Steelix",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/208-m.png"
+        },
+        {
+            "pokemonName": "Mega Banette",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/354-m.png"
+        },
+        {
+            "pokemonName": "Carvanha",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/318.png"
+        },
+        {
+            "pokemonName": "Sharpedo",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/319.png"
+        },
+        {
+            "pokemonName": "Mega Sharpedo",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/319-m.png"
+        },
+        {
+            "pokemonName": "Spinda",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/327.png"
+        },
+        {
+            "pokemonName": "Cherubi",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/420.png"
+        },
+        {
+            "pokemonName": "Cherrim",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/421.png"
+        },
+        {
+            "pokemonName": "Celebi",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/251.png"
+        },
+        {
+            "pokemonName": "Pinsir",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/127.png"
+        },
+        {
+            "pokemonName": "Regirock",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/377.png"
+        },
+        {
+            "pokemonName": "Regice",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/378.png"
+        },
+        {
+            "pokemonName": "Registeel",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/379.png"
+        },
+        {
+            "pokemonName": "Girafarig",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/203.png"
+        },
+        {
+            "pokemonName": "Kecleon",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/352.png"
+        },
+        {
+            "pokemonName": "Relicanth",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/369.png"
+        },
+        {
+            "pokemonName": "Shuckle",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/213.png"
+        },
+        {
+            "pokemonName": "Spiritomb",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/442.png"
+        },
+        {
+            "pokemonName": "Shaymin",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/492.png"
+        },
+        {
+            "pokemonName": "Shaymin",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/492-s.png"
+        },
+        {
+            "pokemonName": "Victini",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/494.png"
+        },
+        {
+            "pokemonName": "Giratina",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/487.png"
+        },
+        {
+            "pokemonName": "Giratina",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/487-o.png"
+        },
+        {
+            "pokemonName": "Dialga",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/483.png"
+        },
+        {
+            "pokemonName": "Palkia",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/484.png"
+        },
+        {
+            "pokemonName": "Electrike",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/309.png"
+        },
+        {
+            "pokemonName": "Manectric",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/310.png"
+        },
+        {
+            "pokemonName": "Mega Manectric",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/310-m.png"
+        },
+        {
+            "pokemonName": "Stantler",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/234.png"
+        },
+        {
+            "pokemonName": "Darumaka",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/554.png"
+        },
+        {
+            "pokemonName": "Darmanitan",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/555.png"
+        },
+        {
+            "pokemonName": "Phione",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/489.png"
+        },
+        {
+            "pokemonName": "Manaphy",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/490.png"
+        },
+        {
+            "pokemonName": "Tepig",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/498.png"
+        },
+        {
+            "pokemonName": "Pignite",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/499.png"
+        },
+        {
+            "pokemonName": "Emboar",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/500.png"
+        },
+        {
+            "pokemonName": "Wynaut",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/360.png"
+        },
+        {
+            "pokemonName": "Wobbuffet",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/202.png"
+        },
+        {
+            "pokemonName": "Torkoal",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/324.png"
+        },
+        {
+            "pokemonName": "Zangoose",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/335.png"
+        },
+        {
+            "pokemonName": "Seviper",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/336.png"
+        },
+        {
+            "pokemonName": "Luvdisc",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/370.png"
+        },
+        {
+            "pokemonName": "Jirachi",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/385.png"
+        },
+        {
+            "pokemonName": "Arceus",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/493.png"
+        },
+        {
+            "pokemonName": "Cresselia",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/488.png"
+        },
+        {
+            "pokemonName": "Furfrou",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/676.png"
+        },
+        {
+            "pokemonName": "Staryu",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/120.png"
+        },
+        {
+            "pokemonName": "Starmie",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/121.png"
+        },
+        {
+            "pokemonName": "Gible",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/443.png"
+        },
+        {
+            "pokemonName": "Gabite",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/444.png"
+        },
+        {
+            "pokemonName": "Garchomp",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/445.png"
+        },
+        {
+            "pokemonName": "Mega Garchomp",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/445-m.png"
+        },
+        {
+            "pokemonName": "Mega Gardevoir",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/282-m.png"
+        },
+        {
+            "pokemonName": "Darkrai",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/491.png"
+        },
+        {
+            "pokemonName": "Carnivine",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/455.png"
+        },
+        {
+            "pokemonName": "Lugia",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/249.png"
+        },
+        {
+            "pokemonName": "Ho-Oh",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/250.png"
+        },
+        {
+            "pokemonName": "Diancie",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/719.png"
+        },
+        {
+            "pokemonName": "Mega Diancie",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/719-m.png"
+        },
+        {
+            "pokemonName": "Latias",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/380.png"
+        },
+        {
+            "pokemonName": "Mega Latias",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/380-m.png"
+        },
+        {
+            "pokemonName": "Latios",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/381.png"
+        },
+        {
+            "pokemonName": "Mega Latios",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/381-m.png"
+        },
+        {
+            "pokemonName": "Zubat",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/041.png"
+        },
+        {
+            "pokemonName": "Golbat",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/042.png"
+        },
+        {
+            "pokemonName": "Crobat",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/169.png"
+        },
+        {
+            "pokemonName": "Pumpkaboo",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/710.png"
+        },
+        {
+            "pokemonName": "Gourgeist",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/711.png"
+        },
+        {
+            "pokemonName": "Duskull",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/355.png"
+        },
+        {
+            "pokemonName": "Dusclops",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/356.png"
+        },
+        {
+            "pokemonName": "Dusknoir",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/477.png"
+        },
+        {
+            "pokemonName": "Heatmor",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/631.png"
+        },
+        {
+            "pokemonName": "Durant",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/632.png"
+        },
+        {
+            "pokemonName": "Maractus",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/556.png"
+        },
+        {
+            "pokemonName": "Dunsparce",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/206.png"
+        },
+        {
+            "pokemonName": "Qwilfish",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/211.png"
+        },
+        {
+            "pokemonName": "Tornadus",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/641.png"
+        },
+        {
+            "pokemonName": "Thundurus",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/642.png"
+        },
+        {
+            "pokemonName": "Landorus",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/645.png"
+        },
+        {
+            "pokemonName": "Landorus",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/645-t.png"
+        },
+        {
+            "pokemonName": "Machamp",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/068.png"
+        },
+        {
+            "pokemonName": "Regigigas",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/486.png"
+        },
+        {
+            "pokemonName": "Infernape",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/392.png"
+        },
+        {
+            "pokemonName": "Fletchling",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/661.png"
+        },
+        {
+            "pokemonName": "Fletchinder",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/662.png"
+        },
+        {
+            "pokemonName": "Talonflame",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/663.png"
+        },
+        {
+            "pokemonName": "Numel",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/322.png"
+        },
+        {
+            "pokemonName": "Camerupt",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/323.png"
+        },
+        {
+            "pokemonName": "Roggenrola",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/524.png"
+        },
+        {
+            "pokemonName": "Boldore",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/525.png"
+        },
+        {
+            "pokemonName": "Gigalith",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/526.png"
+        },
+        {
+            "pokemonName": "Mega Abomasnow",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/460-m.png"
+        },
+        {
+            "pokemonName": "Reshiram",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/643.png"
+        },
+        {
+            "pokemonName": "Zekrom",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/644.png"
+        },
+        {
+            "pokemonName": "Kyurem",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/646.png"
+        },
+        {
+            "pokemonName": "Kyurem",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/646-w.png"
+        },
+        {
+            "pokemonName": "Beedrill",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/015.png"
+        },
+        {
+            "pokemonName": "Omastar",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/139.png"
+        },
+        {
+            "pokemonName": "Kabutops",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/141.png"
+        },
+        {
+            "pokemonName": "Magikarp",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/129-s.png"
+        },
+        {
+            "pokemonName": "Gyarados",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/130.png"
+        },
+        {
+            "pokemonName": "Mega Gyarados",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/130-m.png"
+        },
+        {
+            "pokemonName": "Gyarados",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/130-s.png"
+        },
+        {
+            "pokemonName": "Mega Gyarados",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/130-ms.png"
+        },
+        {
+            "pokemonName": "Oddish",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/043.png"
+        },
+        {
+            "pokemonName": "Gloom",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/044.png"
+        },
+        {
+            "pokemonName": "Vileplume",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/045.png"
+        },
+        {
+            "pokemonName": "Bellossom",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/182.png"
+        },
+        {
+            "pokemonName": "Tauros",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/128.png"
+        },
+        {
+            "pokemonName": "Abra",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/063.png"
+        },
+        {
+            "pokemonName": "Kadabra",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/064.png"
+        },
+        {
+            "pokemonName": "Alakazam",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/065.png"
+        },
+        {
+            "pokemonName": "Noibat",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/714.png"
+        },
+        {
+            "pokemonName": "Noivern",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/715.png"
+        },
+        {
+            "pokemonName": "Houndour",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/228.png"
+        },
+        {
+            "pokemonName": "Houndoom",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/229.png"
+        },
+        {
+            "pokemonName": "Pineco",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/204.png"
+        },
+        {
+            "pokemonName": "Forretress",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/205.png"
+        },
+        {
+            "pokemonName": "Hoothoot",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/163.png"
+        },
+        {
+            "pokemonName": "Noctowl",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/164.png"
+        },
+        {
+            "pokemonName": "Uxie",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/480.png"
+        },
+        {
+            "pokemonName": "Mesprit",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/481.png"
+        },
+        {
+            "pokemonName": "Azelf",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/482.png"
+        },
+        {
+            "pokemonName": "Cleffa",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/173.png"
+        },
+        {
+            "pokemonName": "Clefairy",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/035.png"
+        },
+        {
+            "pokemonName": "Clefable",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/036.png"
+        },
+        {
+            "pokemonName": "Deerling",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/585.png"
+        },
+        {
+            "pokemonName": "Sawsbuck",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/586.png"
+        },
+        {
+            "pokemonName": "Zygarde",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/718-10.png"
+        },
+        {
+            "pokemonName": "Zygarde",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/718.png"
+        },
+        {
+            "pokemonName": "Zygarde",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/718-c.png"
+        },
+        {
+            "pokemonName": "Electivire",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/466.png"
+        },
+        {
+            "pokemonName": "Magmortar",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/467.png"
+        },
+        {
+            "pokemonName": "Rhyperior",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/464.png"
+        },
+        {
+            "pokemonName": "Kingdra",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/230.png"
+        },
+        {
+            "pokemonName": "Lunatone",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/337.png"
+        },
+        {
+            "pokemonName": "Solrock",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/338.png"
+        },
+        {
+            "pokemonName": "Castform",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/351.png"
+        },
+        {
+            "pokemonName": "Mantyke",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/458.png"
+        },
+        {
+            "pokemonName": "Tyrogue",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/236.png"
+        },
+        {
+            "pokemonName": "Hitmonlee",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/106.png"
+        },
+        {
+            "pokemonName": "Frillish",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/592-f.png"
+        },
+        {
+            "pokemonName": "Jellicent",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/593-f.png"
+        },
+        {
+            "pokemonName": "Drowzee",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/096.png"
+        },
+        {
+            "pokemonName": "Hypno",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/097.png"
+        },
+        {
+            "pokemonName": "Elgyem",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/605.png"
+        },
+        {
+            "pokemonName": "Beheeyem",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/606.png"
+        },
+        {
+            "pokemonName": "Shellder",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/090.png"
+        },
+        {
+            "pokemonName": "Cloyster",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/091.png"
+        },
+        {
+            "pokemonName": "Pidove",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/519.png"
+        },
+        {
+            "pokemonName": "Tranquill",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/520.png"
+        },
+        {
+            "pokemonName": "Unfezant",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/521.png"
+        },
+        {
+            "pokemonName": "Meganium",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/154.png"
+        },
+        {
+            "pokemonName": "Typhlosion",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/157.png"
+        },
+        {
+            "pokemonName": "Poliwrath",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/062.png"
+        },
+        {
+            "pokemonName": "Electrode",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/101.png"
+        },
+        {
+            "pokemonName": "Hoopa",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/720.png"
+        }
+    ],
+    "mega": [
+        {
+            "pokemonName": "Mega Venusaur",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/003-m.png"
+        },
+        {
+            "pokemonName": "Mega Charizard",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/006-m.png"
+        },
+        {
+            "pokemonName": "Mega Charizard",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/006-mx.png"
+        },
+        {
+            "pokemonName": "Mega Blastoise",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/009-m.png"
+        },
+        {
+            "pokemonName": "Mega Audino",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/531-m.png"
+        },
+        {
+            "pokemonName": "Mega Absol",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/359-m.png"
+        },
+        {
+            "pokemonName": "Mega Ampharos",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/181-m.png"
+        },
+        {
+            "pokemonName": "Mega Altaria",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/334-m.png"
+        },
+        {
+            "pokemonName": "Mega Heracross",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/214-m.png"
+        },
+        {
+            "pokemonName": "Mega Lopunny",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/428-m.png"
+        },
+        {
+            "pokemonName": "Mega Kangaskhan",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/115-m.png"
+        },
+        {
+            "pokemonName": "Mega Sableye",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/302-m.png"
+        },
+        {
+            "pokemonName": "Mega Lucario",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/448-m.png"
+        },
+        {
+            "pokemonName": "Mega Slowbro",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/080-m.png"
+        },
+        {
+            "pokemonName": "Mega Sceptile",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/254-m.png"
+        },
+        {
+            "pokemonName": "Mega Blaziken",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/257-m.png"
+        },
+        {
+            "pokemonName": "Mega Swampert",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/260-m.png"
+        },
+        {
+            "pokemonName": "Mega Mawile",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/303-m.png"
+        },
+        {
+            "pokemonName": "Mega Gengar",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/094-m.png"
+        },
+        {
+            "pokemonName": "Mega Glalie",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/362-m.png"
+        },
+        {
+            "pokemonName": "Mega Scizor",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/212-m.png"
+        },
+        {
+            "pokemonName": "Mega Aerodactyl",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/142-m.png"
+        },
+        {
+            "pokemonName": "Mega Mewtwo",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/150-m.png"
+        },
+        {
+            "pokemonName": "Mega Mewtwo",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/150-mx.png"
+        },
+        {
+            "pokemonName": "Mega Rayquaza",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/384-m.png"
+        },
+        {
+            "pokemonName": "Mega Steelix",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/208-m.png"
+        },
+        {
+            "pokemonName": "Mega Tyranitar",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/248-m.png"
+        },
+        {
+            "pokemonName": "Mega Banette",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/354-m.png"
+        },
+        {
+            "pokemonName": "Mega Sharpedo",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/319-m.png"
+        },
+        {
+            "pokemonName": "Mega Manectric",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/310-m.png"
+        },
+        {
+            "pokemonName": "Mega Garchomp",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/445-m.png"
+        },
+        {
+            "pokemonName": "Mega Gardevoir",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/282-m.png"
+        },
+        {
+            "pokemonName": "Mega Diancie",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/719-m.png"
+        },
+        {
+            "pokemonName": "Mega Medicham",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/308-m.png"
+        },
+        {
+            "pokemonName": "Mega Latias",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/380-m.png"
+        },
+        {
+            "pokemonName": "Mega Latios",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/381-m.png"
+        },
+        {
+            "pokemonName": "Mega Abomasnow",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/460-m.png"
+        },
+        {
+            "pokemonName": "Mega Gyarados",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/130-m.png"
+        },
+        {
+            "pokemonName": "Mega Gyarados",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/130-ms.png"
+        }
+    ]
+}
