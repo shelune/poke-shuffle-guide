@@ -72,10 +72,12 @@
 	];
 	
 	// setup stage divisions
-	var stageDivisionsUrl = 'https://rawgit.com/shelune/poke-shuffle-guide/master/app/scripts/assets/pokemonCollection.json';
-	var stageDivisions = $.getJSON(stageDivisionsUrl, function (data) {
+	var pokemonCollectionUrl = 'https://rawgit.com/shelune/poke-shuffle-guide/master/app/scripts/assets/pokemonCollection.json';
+	var pokemonCollection = $.getJSON(pokemonCollectionUrl, function (data) {
 		return data;
 	});
+
+	console.log(pokemonCollection);
 	
 	// setup stage id
 	function getStage(stageId) {
@@ -208,7 +210,7 @@
 	var handleParty = function(recommendedParty) {
 		var choices = recommendedParty.split('\n');
 		var result = [];
-		console.log(choices);
+		var megaSlots = [], mainStageSlots = [], expertStageSlots = [], specialSlots = [];
 
 		// split & put each pokemon into new array
 		choices.forEach(function (choice) {
@@ -227,12 +229,24 @@
 
 		// filter out empty values
 		result = result.filter(function (value) {
-			console.log('element: ' + value);
 			return value != "";
 		});
 
-		console.log('concat:');
-		console.log(result);
+		result.forEach(function (pokemon) {
+			pokemon.trim();
+			for (var key in pokemonCollection.responseJSON) {
+				var tempStages = pokemonCollection.responseJSON[key];
+				tempStages.forEach(function (value) {
+					if (value.pokemonName.toLowerCase() === pokemon.toLowerCase()) {
+						console.log('got ' + pokemon + ' in ' + key);
+						$('.strategy-slot--' + key).find('.strategy-slot__options').append('<span style="background-image: url(' + value.pokemonIcon + ')">Groudon</span>');
+					}
+				});
+			}
+		});
+
+		//console.log('concat:');
+		//console.log(result);
 	};
 
 	var loadStageData = function (stageUrl) {
