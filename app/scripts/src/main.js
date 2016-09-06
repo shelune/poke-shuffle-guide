@@ -75,7 +75,6 @@
 	var pokemonCollectionUrl = 'https://rawgit.com/shelune/poke-shuffle-guide/master/app/scripts/assets/pokemonCollection.json';
 	var pokemonCollection;
 	$.getJSON(pokemonCollectionUrl, function (data) {
-		console.log(data);
 		pokemonCollection = data;
 	});
 	
@@ -106,7 +105,15 @@
 	var splitBreakLine = function (data) {
 		return data.split('\n');
 	}
+
+	var splitPeriod = function(data) {
+		return data.split('.');
+	}
 	
+	var splitSlash = function(data) {
+		return data.split('/');
+	}
+
 	var getPokemonDivisions = function(stageDivisionUrl) {
 		$.getJSON(stageDivisionUrl, function (data) {
 			return data;
@@ -193,6 +200,7 @@
 	// TODO : better formatting without having format the source data
 	var handleDisruptions = function(disruptions) {
 		var disruptionArr = disruptions.split(/\n/);
+		var disruptionArrBoard = [], disruptionArrInit = [], disruptionArrTimer = [];
 					
 		if (disruptionArr.length <= 1) {
 			disruptionBoard = 'None';
@@ -200,22 +208,41 @@
 			disruptionTimer = 'None';
 		} else {
 			$.each(disruptionArr, function(line, value) {
-				if (value.toLowerCase().startsWith('board')) {
+				if (value.toLowerCase().startsWith('board') && value.length > value.indexOf(':')) {
 					var separator = value.indexOf(':');
-					disruptionBoard = value.slice(separator, value.length);
-				} else if (value.toLowerCase().startsWith('initial')) {
+					disruptionBoard = value.slice(separator + 1, value.length);
+				} else if (value.toLowerCase().startsWith('initial') && value.length > value.indexOf(':')) {
 					var separator = value.indexOf(':');
-					disruptionInit = value.slice(separator, value.length);
-				} else if (value.toLowerCase().startsWith('timer')) {
+					disruptionInit = value.slice(separator + 1, value.length);
+				} else if (value.toLowerCase().startsWith('timer') && value.length > value.indexOf(':')) {
 					var separator = value.indexOf(':');
-					disruptionTimer = value.slice(separator, value.length);
+					disruptionTimer = value.slice(separator + 1, value.length);
 				}
 			});
 		}
+
+		disruptionArrTimer = splitPeriod(disruptionTimer);
+		disruptionArrInit = splitPeriod(disruptionInit);
+		disruptionArrBoard = splitPeriod(disruptionBoard);
+
+		$.each(disruptionArrTimer, function(index, value) {
+			value = value + '.';
+			$('[data-attr="stage-disruption-timer"]').append('<li>' + value.trim() + '</li>');
+		});
+
+		$.each(disruptionArrInit, function(index, value) {
+			value = value + '.';
+			$('[data-attr="stage-disruption-init"]').append('<li>' + value.trim() + '</li>');
+		});
+
+		$.each(disruptionArrBoard, function(index, value) {
+			value = value + '.';
+			$('[data-attr="stage-disruption-board"]').append('<li>' + value.trim() + '</li>');
+		});
 				
-		console.log('disruption board: ' + disruptionBoard);
-		console.log('disruption initial: ' + disruptionInit);
-		console.log('disruption timer: ' + disruptionTimer);
+		//console.log(disruptionBoard);
+		//console.log(disruptionInit);
+		//console.log(disruptionArrTimer);
 	};
 
 	// handle recommended team
@@ -248,7 +275,6 @@
 			pokemon = pokemon.trim();
 			if (pokemon.startsWith('[')) {
 				pokemon = pokemon.slice(1, -1).toLowerCase();
-				console.log(pokemonCollection);
 				pokemonCollection['mega'].forEach(function (value) {
 					if (value.pokemonName.toLowerCase().includes(pokemon) && !value.pokemonName.includes(' X')) {
 						$('[data-attr="stage-slots-mega"]').append('<span style="background-image: url(' + value.pokemonIcon + ')"></span>');
@@ -290,6 +316,7 @@
 	};
 
 	var resetData = function() {
+		$('ul[data-attr^="stage-disruption"]').empty();
 		$('span[data-attr^="stage-"]').text('---');
 		$('div[data-attr^="stage-slots-"]').empty();
 	};
@@ -341,13 +368,14 @@
 					handleStageClearing(clearStrat);
 					handleStageSRank(srankStrat);
 
-					// handleDisruptions(disruptions);
+					handleDisruptions(disruptions);
 					handleParty(recommendedParty);
 				}	
 			});
 		});
 	};
 
+	resetData();
 	loadStageData(stageUrl);
 
 })();
