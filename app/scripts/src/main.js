@@ -73,11 +73,11 @@
 	
 	// setup stage divisions
 	var pokemonCollectionUrl = 'https://rawgit.com/shelune/poke-shuffle-guide/master/app/scripts/assets/pokemonCollection.json';
-	var pokemonCollection = $.getJSON(pokemonCollectionUrl, function (data) {
-		return data;
+	var pokemonCollection;
+	$.getJSON(pokemonCollectionUrl, function (data) {
+		console.log(data);
+		pokemonCollection = data;
 	});
-
-	console.log(pokemonCollection);
 	
 	// setup stage id
 	function getStage(stageId) {
@@ -99,7 +99,8 @@
 		console.log($(this).val());
 		$('body').attr('stage-data', $(this).val());
 		stageId = $('body').attr('stage-data');
-		var stageUrl = getStage(stageId).shift();
+		var stageUrl = getStage(stageId);
+		loadStageData(stageUrl);
 	});
 	var stageUrl = getStage(stageId);
 	console.log(stageUrl);
@@ -253,14 +254,14 @@
 			if (pokemon.startsWith('[')) {
 				pokemon = pokemon.slice(1, -1).toLowerCase();
 				console.log(pokemonCollection);
-				pokemonCollection['responseJSON']['mega'].forEach(function (value) {
+				pokemonCollection['mega'].forEach(function (value) {
 					if (value.pokemonName.toLowerCase().includes(pokemon)) {
 						$('.strategy-slot--mega').find('.strategy-slot__options').append('<span style="background-image: url(' + value.pokemonIcon + ')"></span>');
 					}
 				});
 			} else {
-				for (var key in pokemonCollection.responseJSON) {
-					var tempStages = pokemonCollection.responseJSON[key];
+				for (var key in pokemonCollection) {
+					var tempStages = pokemonCollection[key];
 					tempStages.forEach(function (value) {
 						if (value.pokemonName.toLowerCase().startsWith(pokemon.toLowerCase())) {
 							$('.strategy-slot--' + key).find('.strategy-slot__options').append('<span style="background-image: url(' + value.pokemonIcon + ')"></span>');
