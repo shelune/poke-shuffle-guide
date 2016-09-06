@@ -152,6 +152,17 @@
 				line-height: 30px;
 				padding: 10px 0;
 				border-bottom: 1px solid $color-border;
+
+				ul {
+					padding-left: 20px;
+					> li {
+						border-bottom: 1px dotted $color-border;
+
+						&:last-child {
+							border-bottom: none;
+						}
+					}
+				}
 				
 				&:last-child {
 					border-bottom: none;
