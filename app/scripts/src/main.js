@@ -87,7 +87,7 @@
 				stageUrls.push('https://rawgit.com/shelune/poke-shuffle-guide/master/app/scripts/assets/stageGuides/' + stages.stageUrl + '.json');
 			}
 		});  
-		if (stageUrls.length > 1) {
+		if (stageUrls.length >= 1) {
 			return stageUrls.shift();
 		}
 		return "";
@@ -236,7 +236,7 @@
 		});
 
 		// filter out empty values
-		result = result.filter(function (value) {
+		result = unique(result).filter(function (value) {
 			return value != "";
 		});
 
@@ -247,7 +247,7 @@
 				pokemon = pokemon.slice(1, -1).toLowerCase();
 				console.log(pokemonCollection);
 				pokemonCollection['mega'].forEach(function (value) {
-					if (value.pokemonName.toLowerCase().includes(pokemon)) {
+					if (value.pokemonName.toLowerCase().includes(pokemon) && !value.pokemonName.includes(' X')) {
 						$('[data-attr="stage-slots-mega"]').append('<span style="background-image: url(' + value.pokemonIcon + ')"></span>');
 					}
 				});
@@ -290,6 +290,14 @@
 		$('span[data-attr^="stage-"]').text('---');
 		$('div[data-attr^="stage-slots-"]').empty();
 	};
+
+	function unique(list) {
+	  var result = [];
+	  $.each(list, function(i, e) {
+	    if ($.inArray(e, result) == -1) result.push(e);
+	  });
+	  return result;
+	}
 
 	var loadStageData = function (stageUrl) {
 
