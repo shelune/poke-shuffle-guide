@@ -29,7 +29,7 @@
             "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/016.png"
         },
         {
-            "pokemonName": "Pidgeotto",
+            "pokemonName": "Pidgeotto 2",
             "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/017.png"
         },
         {
@@ -205,7 +205,7 @@
             "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/707.png"
         },
         {
-            "pokemonName": "Kangaskhan",
+            "pokemonName": "Kangaskhan 10",
             "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/115.png"
         },
         {
@@ -277,7 +277,7 @@
             "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/302.png"
         },
         {
-            "pokemonName": "Surskit",
+            "pokemonName": "Surskit 10",
             "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/283.png"
         },
         {
@@ -509,7 +509,7 @@
             "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/587.png"
         },
         {
-            "pokemonName": "Scyther",
+            "pokemonName": "Scyther 10",
             "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/123.png"
         },
         {
@@ -1577,10 +1577,6 @@
             "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/226.png"
         },
         {
-            "pokemonName": "Hitmonchan",
-            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/107.png"
-        },
-        {
             "pokemonName": "Hitmontop",
             "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/237.png"
         },
@@ -1871,6 +1867,10 @@
         {
             "pokemonName": "Pikachu",
             "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/025-w.png"
+        },
+        {
+            "pokemonName": "Pikachu",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/025-ha.png"
         },
         {
             "pokemonName": "Raichu",
@@ -2473,6 +2473,10 @@
             "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/106.png"
         },
         {
+            "pokemonName": "Hitmonchan",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/107.png"
+        },
+        {
             "pokemonName": "Frillish",
             "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/592-f.png"
         },
@@ -2547,7 +2551,7 @@
             "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/006-m.png"
         },
         {
-            "pokemonName": "Mega Charizard",
+            "pokemonName": "Mega Charizard X",
             "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/006-mx.png"
         },
         {
@@ -2631,7 +2635,7 @@
             "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/150-m.png"
         },
         {
-            "pokemonName": "Mega Mewtwo",
+            "pokemonName": "Mega Mewtwo X",
             "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/150-mx.png"
         },
         {
