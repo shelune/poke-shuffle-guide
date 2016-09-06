@@ -4,14 +4,14 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Espurr</title>
+	<title data-attr="stage-name">Espurr</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 	<link rel="stylesheet" href="styles/styles.css">
 </head>
 
-<body class="single-pokemon" stage-data="234">
+<body class="single-pokemon" stage-data-id="234">
 	<!--
 	<header class="base-header">
 		<nav class="base-header__nav">
@@ -24,34 +24,34 @@
 
 	<main class="content stage">
 		<div class="container">
-			<h1 class="stage__number">Stage <input type="text" class="stage-selector" placeholder="??"></h1>
+			<h1 class="stage__number">Stage <input type="text" data-attr="stage-selector" class="stage-selector" placeholder="??"></h1>
 			<div class="stage__info--basic">
 				<h2>Overview</h2>
 				<div class="row">
 					<div class="col-xs info__overview">
 						<figure>
-							<img src="images/icons/icon_01.png" alt="Espurr?" class="stage__thumbnail">
+							<img src="images/icons/icon_01.png" alt="Espurr?" data-attr="stage-thumbnail" class="stage__thumbnail">
 							<figcaption>
-								<span class="stage-name">---</span>
-								<p><span class="stage-limit">--</span>-pokemon Stage</p>
+								<span data-attr="stage-name">---</span>
+								<p><span data-attr="stage-limit">--</span>-pokemon Stage</p>
 							</figcaption>
 						</figure>
 					</div>
 					<div class="col-xs info__figures">
 						<h3>Stage Info</h3>
 						<ul>
-							<li><strong>Type </strong> <span class="stage-type">---</span></li>
-							<li><strong>Hit Points </strong> <span class="stage-hp"></span></li>
-							<li><strong>Moves </strong><span class="stage-moves">---</span></li>
-							<li><strong>S-Rank </strong><span><span class="stage-srank-moves">---</span> / <span class="stage-moves">---</span> moves</span></li>
+							<li><strong>Type </strong> <span data-attr="stage-type">---</span></li>
+							<li><strong>Hit Points </strong> <span data-attr="stage-hp"></span></li>
+							<li><strong>Moves </strong><span data-attr="stage-moves">---</span></li>
+							<li><strong>S-Rank </strong><span><span data-attr="stage-srank-moves">---</span> / <span data-attr="stage-moves">---</span> moves</span></li>
 						</ul>
 					</div>
 					<div class="col-xs info__stats">
 						<h3>Personal Info</h3>
 						<ul>
-							<li><strong>Catch Rate </strong><span><span class="stage-capture">---</span>% + <span class="stage-capture-bonus">---</span>% per move</span></li>
-							<li><strong>Base Power </strong> <span class="stage-power">--</span></li>
-							<li><strong>Ability </strong><span class="stage-ability">--</span></li>
+							<li><strong>Catch Rate </strong><span><span data-attr="stage-capture">---</span>% + <span data-attr="stage-capture-bonus">---</span>% per move</span></li>
+							<li><strong>Base Power </strong> <span data-attr="stage-power">--</span></li>
+							<li><strong>Ability </strong><span data-attr="stage-ability">--</span></li>
 						</ul>
 					</div>
 					
@@ -61,26 +61,26 @@
 				<div class="row">
 					<div class="setup setup__board col-xs-2">
 						<h2>Board Setup</h2>
-						<img src="http://placehold.it/300x300" alt="boardsetup" class="setup__layout">
+						<img src="http://placehold.it/300x300" alt="boardsetup" data-attr="stage-setup-layout" class="setup__layout">
 					</div>
 					<div class="setup setup__disruption col-xs">
 						<h2>Disruption</h2>
 						<div class="row">
 							<div class="setup__disruption--board col-xs">
 								<h4>Board</h4>
-								<ul class="setup__disruption-content">
+								<ul class="setup__disruption-content" data-attr="stage-disruption-board">
 									<li>---</li>
 								</ul>
 							</div>
 							<div class="setup__disruption--initial col-xs">
 								<h4>Initial</h4>
-								<ul class="setup__disruption-content">
+								<ul class="setup__disruption-content" data-attr="stage-disruption-init">
 									<li>---</li>
 								</ul>
 							</div>
 							<div class="setup__disruption--timer col-xs">
 								<h4>Timer</h4>
-								<ul class="setup__disruption-content">
+								<ul class="setup__disruption-content" data-attr="stage-disruption-timer">
 									<li>---</li>
 								</ul>
 							</div>
@@ -90,29 +90,29 @@
 			</div>
 			<div class="board__info--strategy">
 				<div class="strategy__team">
-					<h2>Recommended Team (<span class="stage-limit"></span>-pokemon Stage)</h2>
+					<h2>Recommended Team (<span data-attr="stage-limit"></span>-pokemon Stage)</h2>
 					<div class="row">
 						<div class="col-xs strategy-slot strategy-slot--mega">
 							<h3>Mega Pokemon</h3>
-							<div class="strategy-slot__options">
+							<div class="strategy-slot__options" data-attr="stage-slots-mega">
 
 							</div>
 						</div>
 						<div class="col-xs strategy-slot strategy-slot--main">
 							<h3>Main Stage Pokemon</h3>
-							<div class="strategy-slot__options">
+							<div class="strategy-slot__options" data-attr="stage-slots-main">
 
 							</div>
 						</div>
 						<div class="col-xs strategy-slot strategy-slot--expert">
 							<h3>Expert Stage Pokemon</h3>
-							<div class="strategy-slot__options">
+							<div class="strategy-slot__options" data-attr="stage-slots-expert">
 
 							</div>
 						</div>
 						<div class="col-xs strategy-slot strategy-slot--special">
 							<h3>Special Stage Pokemon</h3>
-							<div class="strategy-slot__options">
+							<div class="strategy-slot__options" data-attr="stage-slots-special">
 
 							</div>
 						</div>
@@ -123,14 +123,14 @@
 					<div class="row">
 						<div class="col-xs strategy__walkthrough--clearing">
 							<h3>Clearing</h3>
-							<p class="strategy__walkthrough-content clearing">
+							<p class="strategy__walkthrough-content clearing" data-attr="stage-strategy-clearing">
 								---
 							</p>
 						</div>
 						<div class="col-xs strategy__walkthrough--srank">
 							<h3>S-Rank</h3>
-							<strong>Moves: At least <span class="stage-srank-moves">---</span> moves left</strong>
-							<p class="strategy__walkthrough-content srank">
+							<strong>Moves: At least <span data-attr="stage-srank-moves" class="stage-srank-moves">---</span> moves left</strong>
+							<p class="strategy__walkthrough-content srank" data-attr="stage-strategy-srank">
 								---
 							</p>
 						</div>

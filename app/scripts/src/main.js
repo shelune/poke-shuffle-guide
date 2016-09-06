@@ -87,21 +87,13 @@
 				stageUrls.push('https://rawgit.com/shelune/poke-shuffle-guide/master/app/scripts/assets/stageGuides/' + stages.stageUrl + '.json');
 			}
 		});  
-		if (stageUrls.length < 1) {
-			return "";
-		} else {
+		if (stageUrls.length > 1) {
 			return stageUrls.shift();
 		}
+		return "";
 	}
 	
-	var stageId = $('body').attr('stage-data');	
-	$('.stage-selector').keyup(function () {
-		console.log($(this).val());
-		$('body').attr('stage-data', $(this).val());
-		stageId = $('body').attr('stage-data');
-		var stageUrl = getStage(stageId);
-		loadStageData(stageUrl);
-	});
+	var stageId = $('body').attr('stage-data-id');	
 	var stageUrl = getStage(stageId);
 	console.log(stageUrl);
 
@@ -121,71 +113,71 @@
 		});
 	};
 
+	// handle stage selection
+	$('.stage-selector').change(function () {
+		console.log($(this).val());
+		$('body').attr('stage-data-id', $(this).val());
+		stageId = $('body').attr('stage-data-id');
+		var stageUrl = getStage(stageId);
+		resetData();
+		loadStageData(stageUrl);
+	});
 
 	// handle HP
 	var handleHP = function(hitPts) {
-		$('span.stage-hp').text(hitPts);
-		if ($('span.stage-hp').text().includes('\n')) {
-			var nerfs = $('span.stage-hp').text().split('\n');
-			$('span.stage-hp').html('<del>' + nerfs[0] + '</del> ' + nerfs[1]);
+		var hitpointsDisplay = $('[data-attr="stage-hp"]');
+		hitpointsDisplay.text(hitPts);
+		if (hitpointsDisplay.text().includes('\n')) {
+			var nerfs = hitpointsDisplay.text().split('\n');
+			hitpointsDisplay.html('<del>' + nerfs[0] + '</del> ' + nerfs[1]);
 		}
 	}
 	
 	// handle capture rate display
 	var handleCaptureRate = function (captureRate) {
 		if (captureRate.length < 2) {
-			$('.stage-capture').text('N/A');
-			$('.stage-capture-bonus').text('N/A');	
+			$('[data-attr="stage-capture"]').text('N/A');
+			$('[data-attr="stage-capture-bonus"]').text('N/A');	
 		} else {
 			var captureRateInit = parseInt(captureRate[0].slice(5, -1));
 			var captureRateBonus = parseInt(captureRate[1].slice(6, -1));
-			if (isNaN(captureRateInit)) {
-				$('.stage-capture').text('N/A');
+			if (isNaN(captureRateInit) || isNaN(captureRateBonus)) {
+				$('[data-attr="stage-capture"]').text('N/A');
+				$('[data-attr="stage-capture-bonus"]').text(captureRateBonus);
 			} else {
-				$('.stage-capture').text(captureRateInit);
-			}
-
-			if (isNaN(captureRateBonus)) {
-				$('.stage-capture-bonus').text('N/A');
-			} else {
-				$('.stage-capture-bonus').text(captureRateBonus);
+				$('[data-attr="stage-capture"]').text(captureRateInit);
+				$('[data-attr="stage-capture-bonus"]').text(captureRateBonus);
 			}
 		}
 	};
 
 	// handle stage icon display
 	var handleStageIcon = function(stageIcon) {
-		$('.stage__thumbnail').attr('src', 'images/icons/icon_' + stageIcon + '.png');
+		$('[data-attr="stage-thumbnail"]').attr('src', 'images/icons/icon_' + stageIcon + '.png');
 	};
 
 	// handle board layout display
 	var handleStageLayout = function(stageLayoutUrl) {
-		$('.setup__layout').attr('src', stageLayoutUrl);
+		$('[data-attr="stage-setup-layout"]').attr('src', stageLayoutUrl);
 	};
 	
 	// handle clearing strategy display
 	var handleStageClearing = function(stageClearing) {
-		$('.strategy__walkthrough-content.clearing').text(stageClearing);
+		$('[data-attr="stage-strategy-clearing"]').text(stageClearing);
 	};
 
 	// handle srank strategy & moves display
 	var handleStageSRank = function(stageSRank) {
-		var movesInitPos = stageSRank.indexOf('least');
-		var movesLastPos = stageSRank.indexOf('left');
-		var movesSRank = stageSRank.slice(movesInitPos + 6, movesLastPos - 6);
-
 		var strat = stageSRank.split('\n');
 		strat.shift();
-		
-		$('.stage-srank-moves').text(movesSRank);
-		$('.strategy__walkthrough-content.srank').text(strat.join(' '));
+		$('[data-attr="stage-strategy-srank"]').text(strat.join(' '));
 	};
 	
 	var handleBasePower = function(basePower) {
 		if (isNaN(basePower)) {
-			$('.stage-power').text('N/A');
+			$('[data-attr="stage-power"]').text('N/A');
 		} else {
-			$('.stage-power').text(basePower);
+			$('[data-attr="stage-power"]').text(basePower);
 		}
 	};
 	
@@ -193,7 +185,7 @@
 		if (ability.includes(':')) {
 			ability = ability.slice(14, -1);
 		}
-		$('.stage-ability').text(ability);
+		$('[data-attr="stage-ability"]').text(ability);
 	};
 
 	// TODO : better formatting without having format the source data
@@ -256,7 +248,7 @@
 				console.log(pokemonCollection);
 				pokemonCollection['mega'].forEach(function (value) {
 					if (value.pokemonName.toLowerCase().includes(pokemon)) {
-						$('.strategy-slot--mega').find('.strategy-slot__options').append('<span style="background-image: url(' + value.pokemonIcon + ')"></span>');
+						$('[data-attr="stage-slots-mega"]').append('<span style="background-image: url(' + value.pokemonIcon + ')"></span>');
 					}
 				});
 			} else {
@@ -264,15 +256,39 @@
 					var tempStages = pokemonCollection[key];
 					tempStages.forEach(function (value) {
 						if (value.pokemonName.toLowerCase().startsWith(pokemon.toLowerCase())) {
-							$('.strategy-slot--' + key).find('.strategy-slot__options').append('<span style="background-image: url(' + value.pokemonIcon + ')"></span>');
+							$('[data-attr="stage-slots-' + key + '"]').append('<span style="background-image: url(' + value.pokemonIcon + ')"></span>');
 						}
 					});
 				}
 			}
 		});
-
-		//console.log('concat:');
 		console.log(result);
+	};
+
+	var handleStageType = function (stageType) {
+		$('[data-attr="stage-type"]').text(stageType);
+	};
+
+	var handleStageLimit = function (stageLimit) {
+		$('[data-attr="stage-limit"]').text(stageLimit);
+	};
+
+	var handleStageMoves = function (stageMoves, stageSRank) {
+		var movesInitPos = stageSRank.indexOf('least');
+		var movesLastPos = stageSRank.indexOf('left');
+		var movesSRank = stageSRank.slice(movesInitPos + 6, movesLastPos - 6);
+
+		$('[data-attr="stage-srank-moves"]').text(movesSRank);
+		$('[data-attr="stage-moves"]').text(stageMoves);
+	};
+
+	var handleStageName = function (stageName) {
+		$('[data-attr="stage-name"]').text(stageName);
+	};
+
+	var resetData = function() {
+		$('span[data-attr^="stage-"]').text('---');
+		$('div[data-attr^="stage-slots-"]').empty();
 	};
 
 	var loadStageData = function (stageUrl) {
@@ -300,12 +316,10 @@
 					basePower = item['basePower'];
 					ability = item['ability'];
 					
-					$('span.stage-type').text(stageType);
-					$('span.stage-limit').text(teamLimit);
-					$('span.stage-moves').text(stageMoves);
-					$('.stage-name').text(stageName);
-					$('.stage-number').text(stageId);
-					$('title').text(stageName);
+					handleStageType(stageType);
+					handleStageLimit(teamLimit);
+					handleStageMoves(stageMoves, srankStrat);
+					handleStageName(stageName);
 					
 					handleHP(hitPoints);
 					handleStageIcon(stageIcon);
