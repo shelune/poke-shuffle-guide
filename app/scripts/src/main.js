@@ -173,6 +173,7 @@
 		$('[data-attr="stage-strategy-srank"]').text(strat.join(' '));
 	};
 	
+	// handle base power
 	var handleBasePower = function(basePower) {
 		if (isNaN(basePower)) {
 			$('[data-attr="stage-power"]').text('N/A');
@@ -181,6 +182,7 @@
 		}
 	};
 	
+	// handle ability
 	var handleAbility = function(ability) {
 		if (ability.includes(':')) {
 			ability = ability.slice(14, -1);
@@ -216,11 +218,12 @@
 		console.log('disruption timer: ' + disruptionTimer);
 	};
 
+	// handle recommended team
 	var handleParty = function(recommendedParty) {
 		var choices = recommendedParty.split('\n');
 		var result = [];
 
-		// split & put each pokemon into new array
+		// split & put each pokemon into a new array
 		choices.forEach(function (choice) {
 			if (choice.includes('/')) {
 				var tempChoices = choice.split('/');
@@ -235,12 +238,12 @@
 			}
 		});
 
-		// filter out empty values
+		// filter out empty & duplicate values
 		result = unique(result).filter(function (value) {
 			return value != "";
 		});
 
-		// match pokemon with icon to display out on recommended party
+		// match pokemon with its icon to display out on recommended party
 		result.forEach(function (pokemon) {
 			pokemon = pokemon.trim();
 			if (pokemon.startsWith('[')) {
