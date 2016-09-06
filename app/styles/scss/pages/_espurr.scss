@@ -22,7 +22,24 @@
 		font-size: 4rem;
 		text-align: center;
 		margin-bottom: 40px;
+
+		> span {
+			position: relative;
+
+			&::after {
+				position: absolute;
+				content: '';
+				right: -34px;
+				top: 50%;
+				transform: translateY(-45%);
+				width: 34px;
+				height: 34px;
+				background-image: url(../images/edit-icon.svg);
+				background-size: cover;
+			}
+		}
 	}
+
 	&__info {
 		&--basic {
 			@include clearfix;
