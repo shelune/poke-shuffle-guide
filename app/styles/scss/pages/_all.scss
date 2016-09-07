@@ -1,9 +1,9 @@
 html {
-   font-family: 'Lato', sans-serif;
-   font-size: 14px;
+   font-family: 'Source Sans Pro', sans-serif;
+   font-size: 16px;
 
    @include media-breakpoint-down(sm) {
-   	font-size: 16px;
+   	font-size: 18px;
    }
 }
 
@@ -14,6 +14,10 @@ body {
 ul {
 	list-style: none;
 	padding-left: 0;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Merriweather', sans-serif;
 }
 
 @import "espurr";
