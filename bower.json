@@ -20,6 +20,7 @@
     "tests"
   ],
   "dependencies": {
-    "bootstrap": "v4.0.0-alpha.3"
+    "bootstrap": "v4.0.0-alpha.3",
+    "horsey": "^4.2.2"
   }
 }
