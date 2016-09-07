@@ -34,6 +34,10 @@
 			stageUrl: 'sm'
 		},
 		{
+			levelCap: 120,
+			stageUrl: 'mv'
+		},
+		{
 			levelCap: 135,
 			stageUrl: 'cn'
 		},
@@ -377,5 +381,16 @@
 
 	resetData();
 	loadStageData(stageUrl);
+	
+	/*
+	*********
+	Horsey Autocomplete
+	*********
+	*/
+	
+	horsey(document.querySelector('#stage-selector'), {
+		source: [{ list: ['banana', 'apple', 'orange'] }]
+	});
+	
 
 })();
