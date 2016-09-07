@@ -249,7 +249,7 @@
         "moves": 20,
         "captureRate": "Base: N/A\nBonus:N/A",
         "initialBoardSetup": "http://i.imgur.com/6DzdjHf.png",
-        "disruptions": "Board: Random No. of Eevees\nInitial: None\nTimer: Adds 4 Metal Blocks after 2 turns x2. Adds 1 row of Barrier every 2 turns\n",
+        "disruptions": "Board: Random number of Eevees\nInitial: None\nTimer: Adds 4 Metal Blocks after 2 turns x2. Adds 1 row of Barrier every 2 turns\n",
         "pokemon": 4,
         "recommendedParty": "[Lucario]/[Garchomp]\n\nCombusken,\nTorchic, Phanpy\n\nMoltres, Blaziken,\nEntei, Heatran\n\nGarchomp, Groudon",
         "clearingStrategy": "This stage is almost impossible\nwithout items. Buy Disruption\nDelay + Move+5 to clear it \nfor now. Make sure to combo\nwith your Pyre Team. You are\nstuck with Sableye as Mega as\nthe other are not very effective\n\nNote: If you have Event Pokemon, this\nwill be piece of cake now. M-Luke can\nbeat this itemless",
