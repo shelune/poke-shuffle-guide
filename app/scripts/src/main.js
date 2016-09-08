@@ -80,6 +80,25 @@
 	var pokemonCollection;
 	$.getJSON(pokemonCollectionUrl, function (data) {
 		pokemonCollection = data;
+
+		var options = {
+		data: pokemonCollection['main'],
+		getValue: "location",
+		list: {
+			match: {
+				enabled: true
+			}
+		},
+		highlightPhrase: false,
+		template: {
+			type: "description",
+			fields: {
+				description: "pokemonName"
+			}
+		}
+	};
+
+	$('#stage-selector').easyAutocomplete(options);
 	});
 	
 	// setup stage id
@@ -383,16 +402,9 @@
 	
 	/*
 	*********
-	Horsey Autocomplete
+	Autocomplete
 	*********
-	
-	
-	horsey(document.querySelector('#stage-selector'), {
-		source: pokemonCollection['main'],
-		getText: 'pokemonName',
-  	getValue: 'location'
-	});
-
 	*/
+
 
 })();
