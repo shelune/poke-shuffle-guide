@@ -4,13 +4,12 @@
 @import "../vnd/easy-autocomplete/_easy-autocomplete";
 
 //misc settings
-@import 'config/_settings';
-@import 'config/_mixins';
+@import 'config/_all';
 
 //frameworks
 
 //global things
-@import 'general/_reset';
+@import 'general/_all';
 @import 'layout/_main';
 
 //pages
