@@ -340,6 +340,7 @@
 		$('ul[data-attr^="stage-disruption"]').empty();
 		$('span[data-attr^="stage-"]').text('---');
 		$('div[data-attr^="stage-slots-"]').empty();
+		$('img[data-attr="stage-setup-layout"]').attr('src', 'http://placehold.it/300x300');
 	};
 
 	function unique(list) {
