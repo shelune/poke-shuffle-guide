@@ -56,9 +56,9 @@
             "location": "67 - Meowstic"
         },
         {
-            "pokemonName": "Meowstic 5",
+            "pokemonName": "Meowstic-F",
             "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/678-f.png",
-            "location": "81 - Meowstic 5"
+            "location": "81 - Meowstic-F"
         },
         {
             "pokemonName": "Pichu",
@@ -2355,22 +2355,22 @@
             "location": ""
         },
         {
-            "pokemonName": "Rotom 5",
+            "pokemonName": "Rotom-W",
             "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/479-w.png",
             "location": ""
         },
         {
-            "pokemonName": "Rotom 5",
+            "pokemonName": "Rotom-F",
             "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/479-f.png",
             "location": ""
         },
         {
-            "pokemonName": "Rotom 5",
+            "pokemonName": "Rotom-S",
             "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/479-s.png",
             "location": ""
         },
         {
-            "pokemonName": "Rotom 5",
+            "pokemonName": "Rotom-M",
             "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/479-m.png",
             "location": ""
         },
