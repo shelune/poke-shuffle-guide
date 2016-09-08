@@ -124,7 +124,7 @@
 	};
 
 	// handle stage selection
-	$('.stage-selector').change(function () {
+	$('#stage-selector').change(function () {
 		console.log($(this).val());
 		$('body').attr('stage-data-id', $(this).val());
 		stageId = $('body').attr('stage-data-id');
@@ -385,11 +385,14 @@
 	*********
 	Horsey Autocomplete
 	*********
-	*/
+	
 	
 	horsey(document.querySelector('#stage-selector'), {
-		source: [{ list: ['banana', 'apple', 'orange'] }]
+		source: pokemonCollection['main'],
+		getText: 'pokemonName',
+  	getValue: 'location'
 	});
-	
+
+	*/
 
 })();
