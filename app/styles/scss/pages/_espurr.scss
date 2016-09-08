@@ -27,6 +27,7 @@
 			position: relative;
 
 			&::after {
+				display: none;
 				position: absolute;
 				content: '';
 				right: -34px;
