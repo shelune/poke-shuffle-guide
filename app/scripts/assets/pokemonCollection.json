@@ -36,9 +36,9 @@
             "location": "6 - Pidgey"
         },
         {
-            "pokemonName": "Pidgeotto 2",
+            "pokemonName": "Pidgeotto",
             "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/017.png",
-            "location": "44 - Pidgeotto 2"
+            "location": "44 - Pidgeotto"
         },
         {
             "pokemonName": "Pidgeot",
@@ -1386,9 +1386,9 @@
             "location": "278 - Porygon"
         },
         {
-            "pokemonName": "Porygon2",
+            "pokemonName": "Porygo",
             "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/233.png",
-            "location": "297 - Porygon2"
+            "location": "297 - Porygo"
         },
         {
             "pokemonName": "Spinarak",
