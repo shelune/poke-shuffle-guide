@@ -52,7 +52,7 @@ gulp.task('images-deploy', function() {
 //compiling our Javascripts
 gulp.task('scripts', function() {
     //this is where our dev JS scripts are
-    return gulp.src(['app/scripts/src/_includes/**/*.js', 'app/scripts/src/**/*.js'])
+    return gulp.src(['app/scripts/src/_includes/**/*.js', 'app/scripts/src/**/*.js', '!app/scripts/src/_includes/horsey.js'])
                 //prevent pipe breaking caused by errors from gulp plugins
                 .pipe(plumber())
                 //this is the filename of the compressed version of our JS
