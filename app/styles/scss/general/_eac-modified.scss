@@ -1,0 +1,21 @@
+.easy {
+	&-autocomplete {
+		display: inline-block;
+
+		input {
+			border: none;
+			border-radius: 0;
+			border-bottom: 1px solid $color-border;
+			outline: none;
+			padding: 0;
+			color: $color-text;
+			box-shadow: none; 
+		}
+
+		&-container {
+			ul {
+				top: -10px;
+			}
+		}
+	}
+}
