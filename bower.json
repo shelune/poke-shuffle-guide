@@ -21,6 +21,6 @@
   ],
   "dependencies": {
     "bootstrap": "v4.0.0-alpha.3",
-    "horsey": "^4.2.2"
+    "EasyAutocomplete": "^1.3.5"
   }
 }
