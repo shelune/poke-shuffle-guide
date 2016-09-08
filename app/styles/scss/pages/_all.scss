@@ -3,7 +3,7 @@ html {
    font-size: 16px;
 
    @include media-breakpoint-down(sm) {
-   	font-size: 18px;
+   	font-size: 17.5px;
    }
 }
 
@@ -17,7 +17,7 @@ ul {
 }
 
 h1, h2, h3, h4 {
-	font-family: 'Merriweather', sans-serif;
+	font-family: 'Lustria', sans-serif;
 }
 
 @import "espurr";
