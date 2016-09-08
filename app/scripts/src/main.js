@@ -98,7 +98,6 @@
 	
 	var stageId = $('body').attr('stage-data-id');	
 	var stageUrl = getStage(stageId);
-	console.log(stageUrl);
 
 	// variables for individual stage info
 	var currentArea, stageIcon, hitPoints, stageName, stageType, stageMoves, 
@@ -279,7 +278,7 @@
 			if (result.startsWith('[')) {
 				result = result.slice(1, -1).toLowerCase();
 				pokemonCollection['mega'].forEach(function (referencePoke) {
-					if (referencePoke.pokemonName.toLowerCase().includes(result) && !referencePoke.pokemonName.includes(' X')) {
+					if (referencePoke.pokemonName.toLowerCase().includes(result.toLowerCase()) && !referencePoke.pokemonName.includes(' X')) {
 						$('[data-attr="stage-slots-mega"]').append('<span style="background-image: url(' + referencePoke.pokemonIcon + ')"></span>');
 					}
 				});
@@ -287,7 +286,7 @@
 				for (var key in pokemonCollection) {
 					var division = pokemonCollection[key];
 					division.forEach(function (referencePoke) {
-						if (referencePoke.pokemonName.toLowerCase().startsWith(result.toLowerCase()) && result.trim().length > 0) {
+						if (result.trim().toLowerCase().startsWith(referencePoke.pokemonName.toLowerCase()) && result.trim().length > 0) {
 							$('[data-attr="stage-slots-' + key + '"]').append('<span style="background-image: url(' + referencePoke.pokemonIcon + ')"></span>');
 						}
 					});
@@ -337,6 +336,7 @@
 		$.getJSON(stageUrl, function (data) {
 		// get the area name
 			currentArea = data.shift()['stageNo'];
+			console.log(stageUrl);
 			console.log(currentArea);
 			
 			data.map(function (item) {
