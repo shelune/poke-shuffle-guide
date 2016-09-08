@@ -252,50 +252,49 @@
 	// handle recommended team
 	var handleParty = function(recommendedParty) {
 		var choices = recommendedParty.split('\n');
-		var result = [];
+		var results = [];
 
 		// split & put each pokemon into a new array
 		choices.forEach(function (choice) {
 			if (choice.includes('/')) {
 				var tempChoices = choice.split('/');
-				result = result.concat(tempChoices);
+				results = results.concat(tempChoices);
 			}
 			else if (choice.includes(',')) {
 				var tempChoices = choice.split(',');
-				result = result.concat(tempChoices);
+				results = results.concat(tempChoices);
 			} 
 			else {
-				result.push(choice);
+				results.push(choice);
 			}
 		});
 
 		// filter out empty & duplicate values
-		result = unique(result).filter(function (value) {
+		results = unique(results).filter(function (value) {
 			return value != "";
 		});
 
 		// match pokemon with its icon to display out on recommended party
-		result.forEach(function (pokemon) {
-			pokemon = pokemon.trim();
-			if (pokemon.startsWith('[')) {
-				pokemon = pokemon.slice(1, -1).toLowerCase();
-				pokemonCollection['mega'].forEach(function (value) {
-					if (value.pokemonName.toLowerCase().includes(pokemon) && !value.pokemonName.includes(' X')) {
-						$('[data-attr="stage-slots-mega"]').append('<span style="background-image: url(' + value.pokemonIcon + ')"></span>');
+		results.forEach(function (result) {
+			if (result.startsWith('[')) {
+				result = result.slice(1, -1).toLowerCase();
+				pokemonCollection['mega'].forEach(function (referencePoke) {
+					if (referencePoke.pokemonName.toLowerCase().includes(result) && !referencePoke.pokemonName.includes(' X')) {
+						$('[data-attr="stage-slots-mega"]').append('<span style="background-image: url(' + referencePoke.pokemonIcon + ')"></span>');
 					}
 				});
 			} else {
 				for (var key in pokemonCollection) {
-					var tempStages = pokemonCollection[key];
-					tempStages.forEach(function (value) {
-						if (value.pokemonName.toLowerCase().startsWith(pokemon.toLowerCase())) {
-							$('[data-attr="stage-slots-' + key + '"]').append('<span style="background-image: url(' + value.pokemonIcon + ')"></span>');
+					var division = pokemonCollection[key];
+					division.forEach(function (referencePoke) {
+						if (referencePoke.pokemonName.toLowerCase().startsWith(result.toLowerCase()) && result.trim().length > 0) {
+							$('[data-attr="stage-slots-' + key + '"]').append('<span style="background-image: url(' + referencePoke.pokemonIcon + ')"></span>');
 						}
 					});
 				}
 			}
 		});
-		console.log(result);
+		console.log(results);
 	};
 
 	var handleStageType = function (stageType) {
