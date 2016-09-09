@@ -280,7 +280,7 @@
         "moves": 20,
         "captureRate": "Base: 14%\nBonus:2% /move",
         "initialBoardSetup": "http://i.imgur.com/PSSORRA.png",
-        "disruptions": "Board: Lots of Rocks, Gogoat and Skiddo\nInitial: None\nTimer: Either of the following: Adds 1-2 Columns of Ice after 3 turns. Adds 5 Skiddo after 3 turns\n\nHP<=11500: Either of the following: Adds 1-2 Columns of Ice after 2 turns / Adds 5 Skiddo after 2 turns\n",
+        "disruptions": "Board: Lots of Rocks, Gogoat and Skiddo\nInitial: None\nTimer: Either of the following: Adds 1-2 Columns of Ice after 3 turns / Adds 5 Skiddo after 3 turns\n\nHP<=11500: Either of the following: Adds 1-2 Columns of Ice after 2 turns / Adds 5 Skiddo after 2 turns\n",
         "pokemon": 4,
         "recommendedParty": "[Glalie]/[Charizard Y]/\n[Blaziken]\n\nSalamence, Heracross,\nAvalugg, Braviary,\n\n\nDelphox, Emboar,\nHeatran, Genesect\n\nHo-Oh, Lugia",
         "clearingStrategy": "Your first move should be A6-E2.\nThis move will eliminate all Gogoat\naway. Mega Blaziken is very good\nfor this stage if you get a Pyre at\nthe start of the turn. Overall, the\nstage was not bad and can be done\nitemless. Remember that Skiddo has\nBarrier Bash and may help reduce\nsome barriers.\n\nAlternative start is E2-C4 then E4-B6\nto get rid of almost all non support\nicons, and a few wooden blocks left.\n",
