@@ -80,25 +80,6 @@
 	var pokemonCollection;
 	$.getJSON(pokemonCollectionUrl, function (data) {
 		pokemonCollection = data;
-
-		var options = {
-		data: pokemonCollection['main'],
-		getValue: "location",
-		list: {
-			match: {
-				enabled: true
-			}
-		},
-		highlightPhrase: false,
-		template: {
-			type: "description",
-			fields: {
-				description: "pokemonName"
-			}
-		}
-	};
-
-	$('#stage-selector').easyAutocomplete(options);
 	});
 	
 	// setup stage id
@@ -114,9 +95,6 @@
 		}
 		return "";
 	}
-	
-	var stageId = $('body').attr('stage-data-id');	
-	var stageUrl = getStage(stageId);
 
 	// variables for individual stage info
 	var currentArea, stageIcon, hitPoints, stageName, stageType, stageMoves, 
@@ -141,7 +119,7 @@
 			return data;
 		});
 	};
-
+	/*
 	// handle stage selection
 	$('#stage-selector').change(function () {
 		console.log($(this).val());
@@ -150,7 +128,7 @@
 		var stageUrl = getStage(stageId);
 		resetData();
 		loadStageData(stageUrl);
-	});
+	}); */
 
 	// handle HP
 	var handleHP = function(hitPts) {
@@ -172,7 +150,7 @@
 			var captureRateBonus = parseInt(captureRate[1].slice(6, -1));
 			if (isNaN(captureRateInit) || isNaN(captureRateBonus)) {
 				$('[data-attr="stage-capture"]').text('N/A');
-				$('[data-attr="stage-capture-bonus"]').text(captureRateBonus);
+				$('[data-attr="stage-capture-bonus"]').text('N/A');
 			} else {
 				$('[data-attr="stage-capture"]').text(captureRateInit);
 				$('[data-attr="stage-capture-bonus"]').text(captureRateBonus);
@@ -360,8 +338,7 @@
 			console.log(currentArea);
 			
 			data.map(function (item) {
-				
-				if (item['stageNo'].toString() === stageId) {
+				if (item['stageNo'].toString() === $('body').attr('stage-data-id')) {
 					stageIcon = item['icon'];
 					hitPoints = item['hitPts'];
 					stageName = item['name'];
@@ -376,7 +353,7 @@
 					disruptions = item['disruptions'];
 					basePower = item['basePower'];
 					ability = item['ability'];
-					
+
 					handleStageType(stageType);
 					handleStageLimit(teamLimit);
 					handleStageMoves(stageMoves, srankStrat);
@@ -398,14 +375,54 @@
 		});
 	};
 
+	var stageId = $('body').attr('stage-data-id');	
+	var stageUrl = getStage(stageId);
 	resetData();
 	loadStageData(stageUrl);
-	
+
 	/*
 	*********
 	Autocomplete
 	*********
 	*/
 
+	var options = {
+		url: pokemonCollectionUrl,
+		listLocation: "main",
+		getValue: "pokemonName",
+		list: {
+			match: {
+				enabled: true
+			},
+			onClickEvent: function() {
+				var location = parseInt($('#stage-selector').getSelectedItemData()['location']);
+				$('#stage-selector').val(location);
+				$('body').attr('stage-data-id', location);	
+				var stageUrl = getStage(location);
+				resetData();
+				loadStageData(stageUrl);
+			},
+		},
+		highlightPhrase: false,
+		template: {
+			type: "description",
+			fields: {
+				description: "location"
+			}
+		}
+	};
+
+	$('#stage-selector').easyAutocomplete(options);
+
+	$('#stage-selector').keyup(function (e) {
+		if (e.keyCode === 13) {
+			console.log('ENter pressed');
+			var location = parseInt($('#stage-selector').val());
+			$('body').attr('stage-data-id', location);	
+			var stageUrl = getStage(location);
+			resetData();
+			loadStageData(stageUrl);
+		}
+	});
 
 })();
