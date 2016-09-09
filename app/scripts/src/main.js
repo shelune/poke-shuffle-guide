@@ -97,12 +97,6 @@
 		return "";
 	}
 
-	// variables for individual stage info
-	var currentArea, stageIcon, hitPoints, stageName, stageType, stageMoves, 
-			boardLayout, disruptions, disruptionInit, disruptionBoard, disruptionTimer,
-			basePower, ability, captureRate,
-			recommendedParty, srankStrat, clearStrat, teamLimit;
-
 	var splitBreakLine = function (data) {
 		return data.split('\n');
 	}
@@ -120,16 +114,6 @@
 			return data;
 		});
 	};
-	/*
-	// handle stage selection
-	$('#stage-selector').change(function () {
-		console.log($(this).val());
-		$('body').attr('stage-data-id', $(this).val());
-		stageId = $('body').attr('stage-data-id');
-		var stageUrl = getStage(stageId);
-		resetData();
-		loadStageData(stageUrl);
-	}); */
 
 	// handle HP
 	var handleHP = function(hitPts) {
@@ -204,7 +188,8 @@
 	// TODO : better formatting without having format the source data
 	var handleDisruptions = function(disruptions) {
 		var disruptionArr = disruptions.split(/\n/);
-		var disruptionArrBoard = [], disruptionArrInit = [], disruptionArrTimer = [];
+		var disruptionBoard, disruptionInit, disruptionTimer, disruptionSupport;
+		var disruptionArrBoard = [], disruptionArrInit = [], disruptionArrTimer = [], disruptionArrSupport = [];
 					
 		if (disruptionArr.length <= 1) {
 			disruptionBoard = 'None';
@@ -221,6 +206,9 @@
 				} else if (value.toLowerCase().startsWith('timer') && value.length > value.indexOf(':')) {
 					var separator = value.indexOf(':');
 					disruptionTimer = value.slice(separator + 1, value.length);
+				} else if (value.toLowerCase().includes('support:') || value.toLowerCase().includes('added:')) {
+					var separator = value.indexOf(':');
+					disruptionSupport = value.slice(separator + 1, value.length);
 				}
 			});
 		}
@@ -229,19 +217,33 @@
 		disruptionArrInit = splitPeriod(disruptionInit);
 		disruptionArrBoard = splitPeriod(disruptionBoard);
 
-		$.each(disruptionArrTimer, function(index, value) {
-			value = value + '.';
-			$('[data-attr="stage-disruption-timer"]').append('<li>' + value.trim() + '</li>');
+		if (disruptionSupport) {
+			disruptionArrSupport = splitPeriod(disruptionSupport);
+		} else {
+			$('[data-attr="stage-disruption-support"]').append('<li>None</li>');
+		}
+
+		disruptionArrBoard.forEach(function (disruption) {
+			disruption = disruption + '.';
+			$('[data-attr="stage-disruption-board"]').append('<li>' + disruption.trim() + '</li>');
 		});
 
-		$.each(disruptionArrInit, function(index, value) {
-			value = value + '.';
-			$('[data-attr="stage-disruption-init"]').append('<li>' + value.trim() + '</li>');
+		disruptionArrInit.forEach(function (disruption) {
+			disruption = disruption + '.';
+			$('[data-attr="stage-disruption-init"]').append('<li>' + disruption.trim() + '</li>');
 		});
 
-		$.each(disruptionArrBoard, function(index, value) {
-			value = value + '.';
-			$('[data-attr="stage-disruption-board"]').append('<li>' + value.trim() + '</li>');
+		disruptionArrTimer.forEach(function (disruption) {
+			disruption = disruption + '.';
+			$('[data-attr="stage-disruption-timer"]').append('<li>' + disruption.trim() + '</li>');
+		});
+
+		disruptionArrSupport.forEach(function (disruption, index) {
+			if (index === 0) {
+				$('[data-attr="stage-disruption-support"]').append('<li><strong>' + disruption.trim() + '</strong></li>');
+			} else {
+				$('[data-attr="stage-disruption-support"]').append('<li>' + disruption.trim() + '</li>');
+			}
 		});
 				
 		//console.log(disruptionBoard);
@@ -361,6 +363,8 @@
 					disruptions = item['disruptions'];
 					basePower = item['basePower'];
 					ability = item['ability'];
+
+					console.log(disruptions);
 
 					handleStageType(stageType);
 					handleStageLimit(teamLimit);
