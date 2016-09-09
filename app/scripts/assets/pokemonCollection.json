@@ -2278,6 +2278,11 @@
             "location": "6"
         },
         {
+            "pokemonName": "Raikou",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/243.png",
+            "location": "16"
+        },
+        {
             "pokemonName": "Entei",
             "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/244.png",
             "location": "14"
