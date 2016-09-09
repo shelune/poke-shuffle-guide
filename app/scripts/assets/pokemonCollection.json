@@ -11,11 +11,6 @@
             "location": "59"
         },
         {
-            "pokemonName": "Mega Venusaur",
-            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/003-m.png",
-            "location": "null"
-        },
-        {
             "pokemonName": "Charmander",
             "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/004.png",
             "location": "4"
@@ -26,16 +21,6 @@
             "location": "55"
         },
         {
-            "pokemonName": "Mega Charizard",
-            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/006-m.png",
-            "location": "null"
-        },
-        {
-            "pokemonName": "Mega Charizard X",
-            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/006-mx.png",
-            "location": "null"
-        },
-        {
             "pokemonName": "Squirtle",
             "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/007.png",
             "location": "3"
@@ -44,11 +29,6 @@
             "pokemonName": "Wartortle",
             "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/008.png",
             "location": "57"
-        },
-        {
-            "pokemonName": "Mega Blastoise",
-            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/009-m.png",
-            "location": "null"
         },
         {
             "pokemonName": "Pidgey",
@@ -169,11 +149,6 @@
             "pokemonName": "Mega Audino",
             "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/531-m.png",
             "location": "10"
-        },
-        {
-            "pokemonName": "Mega Absol",
-            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/359-m.png",
-            "location": "null"
         },
         {
             "pokemonName": "Purrloin",
@@ -421,11 +396,6 @@
             "location": "33"
         },
         {
-            "pokemonName": "Mega Lucario",
-            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/448-m.png",
-            "location": "null"
-        },
-        {
             "pokemonName": "Taillow",
             "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/276.png",
             "location": "36"
@@ -491,11 +461,6 @@
             "location": "72"
         },
         {
-            "pokemonName": "Mega Sceptile",
-            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/254-m.png",
-            "location": "50"
-        },
-        {
             "pokemonName": "Torchic",
             "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/255.png",
             "location": "14"
@@ -506,11 +471,6 @@
             "location": "66"
         },
         {
-            "pokemonName": "Mega Blaziken",
-            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/257-m.png",
-            "location": "null"
-        },
-        {
             "pokemonName": "Mudkip",
             "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/258.png",
             "location": "41"
@@ -519,11 +479,6 @@
             "pokemonName": "Marshtomp",
             "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/259.png",
             "location": "63"
-        },
-        {
-            "pokemonName": "Mega Swampert",
-            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/260-m.png",
-            "location": "null"
         },
         {
             "pokemonName": "Lapras",
@@ -866,11 +821,6 @@
             "location": "190"
         },
         {
-            "pokemonName": "Mega Steelix",
-            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/208-m.png",
-            "location": "null"
-        },
-        {
             "pokemonName": "Smeargle",
             "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/235.png",
             "location": "155"
@@ -1031,11 +981,6 @@
             "location": "177"
         },
         {
-            "pokemonName": "Mega Banette",
-            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/354-m.png",
-            "location": "null"
-        },
-        {
             "pokemonName": "Rufflet",
             "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/627.png",
             "location": "171"
@@ -1101,11 +1046,6 @@
             "location": "199"
         },
         {
-            "pokemonName": "Mega Sharpedo",
-            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/319-m.png",
-            "location": "null"
-        },
-        {
             "pokemonName": "Sneasel",
             "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/215.png",
             "location": "181"
@@ -1124,11 +1064,6 @@
             "pokemonName": "Zebstrika",
             "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/523.png",
             "location": "208"
-        },
-        {
-            "pokemonName": "Mega Manectric",
-            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/310-m.png",
-            "location": "null"
         },
         {
             "pokemonName": "Snivy",
@@ -1158,11 +1093,6 @@
         {
             "pokemonName": "Samurott",
             "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/503.png",
-            "location": "null"
-        },
-        {
-            "pokemonName": "Mega Garchomp",
-            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/445-m.png",
             "location": "null"
         },
         {
@@ -1246,16 +1176,6 @@
             "location": "238"
         },
         {
-            "pokemonName": "Mega Gardevoir",
-            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/282-m.png",
-            "location": "null"
-        },
-        {
-            "pokemonName": "Mega Diancie",
-            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/719-m.png",
-            "location": "50"
-        },
-        {
             "pokemonName": "Skitty",
             "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/300.png",
             "location": "222"
@@ -1294,16 +1214,6 @@
             "pokemonName": "Mega Medicham",
             "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/308-m.png",
             "location": "240"
-        },
-        {
-            "pokemonName": "Mega Latias",
-            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/380-m.png",
-            "location": "50"
-        },
-        {
-            "pokemonName": "Mega Latios",
-            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/381-m.png",
-            "location": "50"
         },
         {
             "pokemonName": "Grimer",
@@ -1484,11 +1394,6 @@
             "pokemonName": "Abomasnow",
             "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/460.png",
             "location": "289"
-        },
-        {
-            "pokemonName": "Mega Abomasnow",
-            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/460-m.png",
-            "location": "null"
         },
         {
             "pokemonName": "Flab�b�",
@@ -1904,16 +1809,6 @@
             "pokemonName": "Magikarp",
             "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/129.png",
             "location": "321"
-        },
-        {
-            "pokemonName": "Mega Gyarados",
-            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/130-m.png",
-            "location": "null"
-        },
-        {
-            "pokemonName": "Mega Gyarados S",
-            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/130-ms.png",
-            "location": "null"
         },
         {
             "pokemonName": "Psyduck",
@@ -2520,6 +2415,26 @@
     ],
     "special": [
         {
+            "pokemonName": "Mega Venusaur",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/003-m.png",
+            "location": "null"
+        },
+        {
+            "pokemonName": "Mega Charizard",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/006-m.png",
+            "location": "null"
+        },
+        {
+            "pokemonName": "Mega Charizard X",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/006-mx.png",
+            "location": "null"
+        },
+        {
+            "pokemonName": "Mega Blastoise",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/009-m.png",
+            "location": "null"
+        },
+        {
             "pokemonName": "Pikachu",
             "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/025-a.png",
             "location": "null"
@@ -2545,6 +2460,11 @@
             "location": "5"
         },
         {
+            "pokemonName": "Mega Absol",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/359-m.png",
+            "location": "null"
+        },
+        {
             "pokemonName": "Rotom",
             "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/479-h.png",
             "location": "null"
@@ -2567,6 +2487,26 @@
         {
             "pokemonName": "Rotom-M",
             "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/479-m.png",
+            "location": "null"
+        },
+        {
+            "pokemonName": "Mega Lucario",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/448-m.png",
+            "location": "null"
+        },
+        {
+            "pokemonName": "Mega Sceptile",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/254-m.png",
+            "location": "50"
+        },
+        {
+            "pokemonName": "Mega Blaziken",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/257-m.png",
+            "location": "null"
+        },
+        {
+            "pokemonName": "Mega Swampert",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/260-m.png",
             "location": "null"
         },
         {
@@ -2640,6 +2580,16 @@
             "location": "null"
         },
         {
+            "pokemonName": "Mega Steelix",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/208-m.png",
+            "location": "null"
+        },
+        {
+            "pokemonName": "Mega Banette",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/354-m.png",
+            "location": "null"
+        },
+        {
             "pokemonName": "Carvanha",
             "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/318.png",
             "location": "null"
@@ -2647,6 +2597,11 @@
         {
             "pokemonName": "Sharpedo",
             "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/319.png",
+            "location": "null"
+        },
+        {
+            "pokemonName": "Mega Sharpedo",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/319-m.png",
             "location": "null"
         },
         {
@@ -2757,6 +2712,11 @@
         {
             "pokemonName": "Manectric",
             "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/310.png",
+            "location": "null"
+        },
+        {
+            "pokemonName": "Mega Manectric",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/310-m.png",
             "location": "null"
         },
         {
@@ -2875,6 +2835,16 @@
             "location": "null"
         },
         {
+            "pokemonName": "Mega Garchomp",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/445-m.png",
+            "location": "null"
+        },
+        {
+            "pokemonName": "Mega Gardevoir",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/282-m.png",
+            "location": "null"
+        },
+        {
             "pokemonName": "Darkrai",
             "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/491.png",
             "location": "null"
@@ -2900,14 +2870,29 @@
             "location": "null"
         },
         {
+            "pokemonName": "Mega Diancie",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/719-m.png",
+            "location": "50"
+        },
+        {
             "pokemonName": "Latias",
             "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/380.png",
             "location": "null"
         },
         {
+            "pokemonName": "Mega Latias",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/380-m.png",
+            "location": "50"
+        },
+        {
             "pokemonName": "Latios",
             "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/381.png",
             "location": "null"
+        },
+        {
+            "pokemonName": "Mega Latios",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/381-m.png",
+            "location": "50"
         },
         {
             "pokemonName": "Zubat",
@@ -3050,6 +3035,11 @@
             "location": "null"
         },
         {
+            "pokemonName": "Mega Abomasnow",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/460-m.png",
+            "location": "null"
+        },
+        {
             "pokemonName": "Reshiram",
             "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/643.png",
             "location": "null"
@@ -3095,8 +3085,18 @@
             "location": "null"
         },
         {
+            "pokemonName": "Mega Gyarados",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/130-m.png",
+            "location": "null"
+        },
+        {
             "pokemonName": "Gyarados-S",
             "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/130-s.png",
+            "location": "null"
+        },
+        {
+            "pokemonName": "Mega Gyarados S",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/130-ms.png",
             "location": "null"
         },
         {
