@@ -1,5 +1,6 @@
 ;(function () {
 	// level caps
+	var mainStageCap = 450;
 	var stageCollections = [
 		{
 			levelCap: 10,
@@ -134,6 +135,7 @@
 	var handleHP = function(hitPts) {
 		var hitpointsDisplay = $('[data-attr="stage-hp"]');
 		hitpointsDisplay.text(hitPts);
+		// handle nerfed stages
 		if (hitpointsDisplay.text().includes('\n')) {
 			var nerfs = hitpointsDisplay.text().split('\n');
 			hitpointsDisplay.html('<del>' + nerfs[0] + '</del> ' + nerfs[1]);
@@ -148,6 +150,7 @@
 		} else {
 			var captureRateInit = parseInt(captureRate[0].slice(5, -1));
 			var captureRateBonus = parseInt(captureRate[1].slice(6, -1));
+			// handle mega capture rate
 			if (isNaN(captureRateInit) || isNaN(captureRateBonus)) {
 				$('[data-attr="stage-capture"]').text('N/A');
 				$('[data-attr="stage-capture-bonus"]').text('N/A');
@@ -176,6 +179,7 @@
 	// handle srank strategy & moves display
 	var handleStageSRank = function(stageSRank) {
 		var strat = stageSRank.split('\n');
+		// remove the s-rank requirement
 		strat.shift();
 		$('[data-attr="stage-strategy-srank"]').text(strat.join(' '));
 	};
@@ -305,8 +309,11 @@
 		var movesInitPos = stageSRank.indexOf('least');
 		var movesLastPos = stageSRank.indexOf('left');
 		var movesSRank = stageSRank.slice(movesInitPos + 6, movesLastPos - 6);
-
-		$('[data-attr="stage-srank-moves"]').text(movesSRank);
+		if (isNaN(movesSRank)) {
+			$('[data-attr="stage-srank-moves"]').text('0');
+		} else {
+			$('[data-attr="stage-srank-moves"]').text(movesSRank);
+		}
 		$('[data-attr="stage-moves"]').text(stageMoves);
 	};
 
@@ -318,7 +325,8 @@
 		$('ul[data-attr^="stage-disruption"]').empty();
 		$('span[data-attr^="stage-"]').text('---');
 		$('div[data-attr^="stage-slots-"]').empty();
-		$('img[data-attr="stage-setup-layout"]').attr('src', 'http://placehold.it/300x300');
+		$('img[data-attr="stage-setup-layout"], img[data-attr="stage-thumbnail"]').attr('src', 'http://placehold.it/210x210');
+		$('.stage-selector__helper').remove();
 	};
 
 	function unique(list) {
@@ -416,12 +424,21 @@
 
 	$('#stage-selector').keyup(function (e) {
 		if (e.keyCode === 13) {
-			console.log('ENter pressed');
-			var location = parseInt($('#stage-selector').val());
-			$('body').attr('stage-data-id', location);	
-			var stageUrl = getStage(location);
 			resetData();
-			loadStageData(stageUrl);
+			var location = parseInt($('#stage-selector').val());
+			if (!isNaN(location)) {
+				if (location > mainStageCap) {
+					$('.stage__number').after('<div class="stage-selector__helper">Please show me where that stage is in-game</div>');
+				} else if (location < 1) {
+					$('.stage__number').after('<div class="stage-selector__helper">Even Celebi would not allow you to go back that far</div>');
+				} else {
+					$('body').attr('stage-data-id', location);	
+					var stageUrl = getStage(location);
+					loadStageData(stageUrl);
+				}
+			} else {
+				$('.stage__number').after('<div class="stage-selector__helper">Please input number only or use the suggestions</div>');
+			}
 		}
 	});
 
