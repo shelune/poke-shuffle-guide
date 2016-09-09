@@ -6,14 +6,29 @@
             "location": "2"
         },
         {
+            "pokemonName": "Ivysaur",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/002.png",
+            "location": "59"
+        },
+        {
             "pokemonName": "Charmander",
             "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/004.png",
             "location": "4"
         },
         {
+            "pokemonName": "Charmeleon",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/005.png",
+            "location": "55"
+        },
+        {
             "pokemonName": "Squirtle",
             "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/007.png",
             "location": "3"
+        },
+        {
+            "pokemonName": "Wartortle",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/008.png",
+            "location": "57"
         },
         {
             "pokemonName": "Pidgey",
@@ -91,6 +106,11 @@
             "location": "5"
         },
         {
+            "pokemonName": "Vaporeon",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/134.png",
+            "location": "54"
+        },
+        {
             "pokemonName": "Jolteon",
             "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/135.png",
             "location": "112"
@@ -149,6 +169,11 @@
             "pokemonName": "Mareep",
             "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/179.png",
             "location": "12"
+        },
+        {
+            "pokemonName": "Flaaffy",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/180.png",
+            "location": "53"
         },
         {
             "pokemonName": "Ampharos",
@@ -241,6 +266,16 @@
             "location": "21"
         },
         {
+            "pokemonName": "Lopunny",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/428.png",
+            "location": "52"
+        },
+        {
+            "pokemonName": "Mega Lopunny",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/428-m.png",
+            "location": "60"
+        },
+        {
             "pokemonName": "Klefki",
             "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/707.png",
             "location": "18"
@@ -279,6 +314,11 @@
             "pokemonName": "Ninetales",
             "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/038.png",
             "location": "117"
+        },
+        {
+            "pokemonName": "Zorua",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/570.png",
+            "location": "50"
         },
         {
             "pokemonName": "Zoroark",
@@ -446,9 +486,19 @@
             "location": "43"
         },
         {
+            "pokemonName": "Minccino",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/572.png",
+            "location": "46"
+        },
+        {
             "pokemonName": "Cinccino",
             "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/573.png",
             "location": "113"
+        },
+        {
+            "pokemonName": "Vanillite",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/582.png",
+            "location": "47"
         },
         {
             "pokemonName": "Vanillish",
@@ -461,6 +511,16 @@
             "location": "119"
         },
         {
+            "pokemonName": "Chatot",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/441.png",
+            "location": "48"
+        },
+        {
+            "pokemonName": "Axew",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/610.png",
+            "location": "49"
+        },
+        {
             "pokemonName": "Fraxure",
             "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/611.png",
             "location": "102"
@@ -471,9 +531,24 @@
             "location": "149"
         },
         {
+            "pokemonName": "Hawlucha",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/701.png",
+            "location": "58"
+        },
+        {
+            "pokemonName": "Buizel",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/418.png",
+            "location": "56"
+        },
+        {
             "pokemonName": "Floatzel",
             "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/419.png",
             "location": "145"
+        },
+        {
+            "pokemonName": "Mawile",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/303.png",
+            "location": "51"
         },
         {
             "pokemonName": "Mega Mawile",
