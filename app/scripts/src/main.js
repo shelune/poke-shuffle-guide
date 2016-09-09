@@ -188,8 +188,8 @@
 	// TODO : better formatting without having format the source data
 	var handleDisruptions = function(disruptions) {
 		var disruptionArr = disruptions.split(/\n/);
-		var disruptionBoard, disruptionInit, disruptionTimer, disruptionSupport;
-		var disruptionArrBoard = [], disruptionArrInit = [], disruptionArrTimer = [], disruptionArrSupport = [];
+		var disruptionBoard, disruptionInit, disruptionTimer, disruptionSupport, disruptionCond, disruptionCondStart;
+		var disruptionArrBoard = [], disruptionArrInit = [], disruptionArrTimer = [], disruptionArrSupport = [], disruptionArrCond = [];
 					
 		if (disruptionArr.length <= 1) {
 			disruptionBoard = 'None';
@@ -209,6 +209,11 @@
 				} else if (value.toLowerCase().includes('support:') || value.toLowerCase().includes('added:')) {
 					var separator = value.indexOf(':');
 					disruptionSupport = value.slice(separator + 1, value.length);
+				} else if (value.toLowerCase().includes('hp:') || value.toLowerCase().includes('moves:') || value.toLowerCase().includes('turn:') || value.toLowerCase().includes('health:') || value.toLowerCase().includes('%:')) {
+					var separator = value.indexOf(':');
+					disruptionCond = value.slice(separator + 1, value.length);
+					disruptionCondStart = value.slice(0, separator);
+					console.log(disruptionCond);
 				}
 			});
 		}
@@ -221,6 +226,15 @@
 			disruptionArrSupport = splitPeriod(disruptionSupport);
 		} else {
 			$('[data-attr="stage-disruption-support"]').append('<li>None</li>');
+		}
+
+		if (disruptionCond) {
+			console.log('conditional disruption found');
+			$('[data-attr="stage-disruption-conditionstart"]').text(disruptionCondStart);
+			$('[data-attr="stage-disruption-condition"]').append('<li>' + disruptionCond + '</li>');
+		} else {
+			$('[data-attr="stage-disruption-conditionstart"]').text('None');
+
 		}
 
 		disruptionArrBoard.forEach(function (disruption) {
@@ -363,8 +377,6 @@
 					disruptions = item['disruptions'];
 					basePower = item['basePower'];
 					ability = item['ability'];
-
-					console.log(disruptions);
 
 					handleStageType(stageType);
 					handleStageLimit(teamLimit);
