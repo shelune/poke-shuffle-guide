@@ -99,6 +99,16 @@
 
 			span {
 					text-align: right;
+
+					&.stage-type {
+						display: inline-block;
+						width: 80px;
+						height: 30px;
+						text-indent: 1000px;
+						overflow: hidden;
+						background-size: cover;
+						background-position: 5px;
+					}
 			}
 			
 			strong {
@@ -126,6 +136,10 @@
 .setup {
 	.row {
 		margin-bottom: 40px;
+
+		@include media-breakpoint-down(sm) {
+			margin-bottom: 0;
+		}
 	}
 	
 	> h2 {
@@ -161,7 +175,7 @@
 				border-bottom: 5px solid $color-border;
 			}
 
-			@include media-breakpoint-down(xs) {
+			@include media-breakpoint-down(sm) {
 				flex-basis: 100%;
 				max-width: 100%;
 			}
@@ -225,7 +239,8 @@
 				height: 52px;
 				overflow: hidden;
 				text-indent: 1000px;
-				background-color: #e32636;
+				background-color: transparentize(#e32636, 0.6);
+				border-radius: 8px;
 				background-position: 50%;
 				background-size: cover;
 				display: inline-block;

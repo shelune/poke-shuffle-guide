@@ -189,12 +189,12 @@
 	var handleDisruptions = function(disruptions) {
 		var disruptionArr = disruptions.split(/\n/);
 		var disruptionBoard, disruptionInit, disruptionTimer, disruptionSupport, disruptionCond, disruptionCondStart;
-		var disruptionArrBoard = [], disruptionArrInit = [], disruptionArrTimer = [], disruptionArrSupport = [], disruptionArrCond = [];
+		var disruptionArrBoard = [], disruptionArrInit = [], disruptionArrTimer = [], disruptionArrSupport = [], disruptionArrCond = [], disruptionArrRandom = [];
 					
 		if (disruptionArr.length <= 1) {
-			disruptionBoard = 'None';
-			disruptionInit = 'None';
-			disruptionTimer = 'None';
+			$('[data-attr="stage-disruption-board"]').append('<li>None</li>');
+			$('[data-attr="stage-disruption-init"]').append('<li>None</li>');
+			$('[data-attr="stage-disruption-timer"]').append('<li>None</li>');
 		} else {
 			$.each(disruptionArr, function(line, value) {
 				if (value.toLowerCase().startsWith('board') && value.length > value.indexOf(':')) {
@@ -216,53 +216,73 @@
 					console.log(disruptionCond);
 				}
 			});
-		}
 
-		disruptionArrTimer = splitPeriod(disruptionTimer);
-		disruptionArrInit = splitPeriod(disruptionInit);
-		disruptionArrBoard = splitPeriod(disruptionBoard);
+			disruptionArrTimer = splitPeriod(disruptionTimer);
+			disruptionArrInit = splitPeriod(disruptionInit);
+			disruptionArrBoard = splitPeriod(disruptionBoard);
 
-		if (disruptionSupport) {
-			disruptionArrSupport = splitPeriod(disruptionSupport);
-		} else {
-			$('[data-attr="stage-disruption-support"]').append('<li>None</li>');
-		}
-
-		if (disruptionCond) {
-			console.log('conditional disruption found');
-			$('[data-attr="stage-disruption-conditionstart"]').text(disruptionCondStart);
-			$('[data-attr="stage-disruption-condition"]').append('<li>' + disruptionCond + '</li>');
-		} else {
-			$('[data-attr="stage-disruption-conditionstart"]').text('None');
-
-		}
-
-		disruptionArrBoard.forEach(function (disruption) {
-			disruption = disruption + '.';
-			$('[data-attr="stage-disruption-board"]').append('<li>' + disruption.trim() + '</li>');
-		});
-
-		disruptionArrInit.forEach(function (disruption) {
-			disruption = disruption + '.';
-			$('[data-attr="stage-disruption-init"]').append('<li>' + disruption.trim() + '</li>');
-		});
-
-		disruptionArrTimer.forEach(function (disruption) {
-			disruption = disruption + '.';
-			$('[data-attr="stage-disruption-timer"]').append('<li>' + disruption.trim() + '</li>');
-		});
-
-		disruptionArrSupport.forEach(function (disruption, index) {
-			if (index === 0) {
-				$('[data-attr="stage-disruption-support"]').append('<li><strong>' + disruption.trim() + '</strong></li>');
+			if (disruptionSupport) {
+				disruptionArrSupport = splitPeriod(disruptionSupport);
 			} else {
-				$('[data-attr="stage-disruption-support"]').append('<li>' + disruption.trim() + '</li>');
+				$('[data-attr="stage-disruption-support"]').append('<li>None</li>');
 			}
-		});
+
+			if (disruptionCond) {
+				console.log('conditional disruption found');
+				$('[data-attr="stage-disruption-conditionstart"]').text(disruptionCondStart);
+				$('[data-attr="stage-disruption-condition"]').append('<li>' + disruptionCond + '</li>');
+			} else {
+				$('[data-attr="stage-disruption-conditionstart"]').text('None');
+
+			}
+
+			disruptionArrBoard.forEach(function (disruption) {
+				disruption = disruption + '.';
+				if (disruption.includes('/')) {
+					var separator = disruption.indexOf(':');
+					console.log(separator);
+					disruptionPhrase = disruption.slice(0, separator);
+					disruptionArrRandom = disruption.slice(separator + 1, disruption.length).split('/');
+					$('[data-attr="stage-disruption-board"]').append('<li>Any of the following:<ul></ul></li>');
+					disruptionArrRandom.forEach(function (randomDisruption) {
+						$('[data-attr="stage-disruption-board"] li > ul').append('<li>' + randomDisruption.trim() +'</li>');
+					});
+				} else {
+					$('[data-attr="stage-disruption-board"]').append('<li>' + disruption.trim() + '</li>');
+				}
+			});
+
+			disruptionArrInit.forEach(function (disruption) {
+				disruption = disruption + '.';
+				$('[data-attr="stage-disruption-init"]').append('<li>' + disruption.trim() + '</li>');
+			});
+
+			disruptionArrTimer.forEach(function (disruption) {
+				if (disruption.includes('/')) {
+					var separator = disruption.indexOf(':');
+					console.log(separator);
+					disruptionArrRandom = disruption.slice(separator + 1, disruption.length).split('/');
+					$('[data-attr="stage-disruption-timer"]').append('<li>Any of the following:<ul></ul></li>');
+					disruptionArrRandom.forEach(function (randomDisruption) {
+						$('[data-attr="stage-disruption-timer"] li > ul').append('<li>' + randomDisruption.trim() +'</li>');
+					});
+				} else {
+					$('[data-attr="stage-disruption-timer"]').append('<li>' + disruption.trim() + '</li>');
+				}
+			});
+
+			disruptionArrSupport.forEach(function (disruption, index) {
+				if (index === 0) {
+					$('[data-attr="stage-disruption-support"]').append('<li><strong>' + disruption.trim() + '</strong></li>');
+				} else {
+					$('[data-attr="stage-disruption-support"]').append('<li>' + disruption.trim() + '</li>');
+				}
+			});
 				
 		//console.log(disruptionBoard);
 		//console.log(disruptionInit);
 		//console.log(disruptionArrTimer);
+		}
 	};
 
 	// handle recommended team
@@ -314,7 +334,7 @@
 	};
 
 	var handleStageType = function (stageType) {
-		$('[data-attr="stage-type"]').text(stageType);
+		$('[data-attr="stage-type"]').css('background-image', 'url(images/types/type_' + stageType + '.svg)');
 	};
 
 	var handleStageLimit = function (stageLimit) {
@@ -341,7 +361,9 @@
 		$('ul[data-attr^="stage-disruption"]').empty();
 		$('span[data-attr^="stage-"]').text('---');
 		$('div[data-attr^="stage-slots-"]').empty();
-		$('img[data-attr="stage-setup-layout"], img[data-attr="stage-thumbnail"]').attr('src', 'http://placehold.it/210x210');
+		$('img[data-attr="stage-setup-layout"]').attr('src', 'http://placehold.it/300x300');
+		$('img[data-attr="stage-thumbnail"]').attr('src', 'images/icons/icon_01.png');
+		$('[data-attr="stage-type"]').css('background-image', 'images/types/type_Unknown.svg');
 		$('.stage-selector__helper').remove();
 	};
 

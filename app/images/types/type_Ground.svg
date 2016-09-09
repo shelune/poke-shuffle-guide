@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY st0 "fill:#6D63AC;stroke:#4A494A;stroke-miterlimit:10;">
+	<!ENTITY st1 "fill:#EA4324;stroke:#4A494A;stroke-miterlimit:10;">
+	<!ENTITY st2 "fill:#AABB38;stroke:#4A494A;stroke-miterlimit:10;">
+	<!ENTITY st3 "fill:#9EA9D6;stroke:#4A494A;stroke-miterlimit:10;">
+	<!ENTITY st4 "fill:#7F321B;stroke:#4A494A;stroke-miterlimit:10;">
+	<!ENTITY st5 "fill:#DFAFD1;stroke:#4A494A;stroke-miterlimit:10;">
+	<!ENTITY st6 "fill:#DEC37A;stroke:#4A494A;stroke-miterlimit:10;">
+	<!ENTITY st7 "fill:#9EDCF4;stroke:#4A494A;stroke-miterlimit:10;">
+	<!ENTITY st8 "fill:#6060AB;stroke:#4A494A;stroke-miterlimit:10;">
+	<!ENTITY st9 "fill:#C1BBB1;stroke:#4A494A;stroke-miterlimit:10;">
+	<!ENTITY st10 "fill:#904492;stroke:#4A494A;stroke-miterlimit:10;">
+	<!ENTITY st11 "fill:#FCBD1B;stroke:#4A494A;stroke-miterlimit:10;">
+	<!ENTITY st12 "fill:#4C382C;stroke:#4A494A;stroke-miterlimit:10;">
+	<!ENTITY st13 "fill:#67B945;stroke:#4A494A;stroke-miterlimit:10;">
+	<!ENTITY st14 "fill:#EE4983;stroke:#4A494A;stroke-miterlimit:10;">
+	<!ENTITY st15 "fill:#B9A156;stroke:#4A494A;stroke-miterlimit:10;">
+	<!ENTITY st16 "fill:#B4B4C3;stroke:#4A494A;stroke-miterlimit:10;">
+	<!ENTITY st17 "fill:#5995CF;stroke:#4A494A;stroke-miterlimit:10;">
+	<!ENTITY st18 "fill:#FFFFFF;">
+	<!ENTITY st19 "fill:none;">
+	<!ENTITY st20 "font-family:'OpenSans';">
+	<!ENTITY st21 "font-size:12px;">
+]>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 93.1 55.6" style="enable-background:new 0 0 93.1 55.6;" xml:space="preserve">
+<g id="Layer_1">
+	<path style="&st6;" d="M73.4,43H20.9c-6.6,0-12-5.4-12-12v-3.5c0-6.6,5.4-12,12-12h52.5c6.6,0,12,5.4,12,12V31
+		C85.4,37.6,80,43,73.4,43z"/>
+</g>
+<g id="Layer_2">
+	<rect x="11.7" y="23.5" style="&st19;" width="71" height="23"/>
+	<text transform="matrix(1 0 0 1 25.6669 32.6201)" style="&st18; &st20; &st21;">Ground</text>
+</g>
+</svg>
