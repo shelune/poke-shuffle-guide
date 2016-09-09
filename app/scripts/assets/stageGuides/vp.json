@@ -1,6 +1,6 @@
 [
     {
-        "stageNo": "Violetta Palace"
+        "stageNo": "Violeta Palace"
     },
     {
         "stageNo": 351,
@@ -687,10 +687,10 @@
     },
     {
         "stageNo": 387,
-        "icon": 345,
+        "icon": 315,
         "name": "Elekid",
         "hitPts": 9920,
-        "type": "Elecric",
+        "type": "Electric",
         "moves": 15,
         "captureRate": "Base: 12%\nBonus: 4% /move",
         "initialBoardSetup": "http://i.imgur.com/HH0mbNS.png",
