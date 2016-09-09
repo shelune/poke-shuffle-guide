@@ -124,6 +124,9 @@
 }
 
 .setup {
+	.row {
+		margin-bottom: 40px;
+	}
 	
 	> h2 {
 		font-size: 2rem;
@@ -151,7 +154,7 @@
 	}
 	
 	&__disruption {
-		&--board, &--initial, &--timer {
+		&--board, &--initial, &--timer, &--support, &--condition {
 			> h4 {
 				font-size: 1.5rem;
 				padding-bottom: 10px;
@@ -161,6 +164,15 @@
 			@include media-breakpoint-down(xs) {
 				flex-basis: 100%;
 				max-width: 100%;
+			}
+		}
+
+		&--condition {
+			h5 {
+				text-align: right;
+				margin-top: 10px;
+				padding-bottom: 10px;
+				border-bottom: 1px solid $color-border;
 			}
 		}
 		
