@@ -21,7 +21,7 @@
 	<!ENTITY st17 "fill:#5995CF;stroke:#4A494A;stroke-miterlimit:10;">
 	<!ENTITY st18 "fill:#FFFFFF;">
 	<!ENTITY st19 "fill:none;">
-	<!ENTITY st20 "font-family:'OpenSans';">
+ <!ENTITY st20 "font-family:'Open Sans';">
 	<!ENTITY st21 "font-size:12px;">
 ]>
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
