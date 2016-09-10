@@ -2,6 +2,26 @@
 	color: $color-dark;
 }
 
+.base-header {
+	background: $color-bg-dark;
+	height: 80px;
+	line-height: 80px;
+	padding: 0 15px;
+	
+	&__nav {
+		color: $color-text-white;
+		
+		ul {
+			display: flex;
+		}
+		
+		li:last-of-type {
+			font-size: 1.25rem;
+			margin-left: auto;
+		}
+	}
+}
+
 .stage {
 	margin: 80px 0;
 	/* fix additional padding at sides */
