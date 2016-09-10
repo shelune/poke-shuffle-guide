@@ -150,7 +150,7 @@ gulp.task('html', function() {
 //migrating over all HTML files for deployment
 gulp.task('html-deploy', function() {
     //grab everything, which should include htaccess, robots, etc
-    gulp.src('app/*')
+	gulp.src(['app/*', '!app/bower_components'])
         //prevent pipe breaking caused by errors from gulp plugins
         .pipe(plumber())
         .pipe(gulp.dest('dist'));
