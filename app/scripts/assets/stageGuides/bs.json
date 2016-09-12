@@ -336,7 +336,7 @@
         "disruptions": "Board: None\nInitial: Adds 6 Metal and 6 Tyranitar in rows\n1-2\nTimer: Adds 6 Metal and 6 Tyranitar in rows\n1-2 every 4 moves\n",
         "pokemon": 4,
         "recommendedParty": "[Garchomp]/[Lucario]/\n[Medicham]/[Sceptile]/\n[Swampert]/[Steelix]\n\nConkeldurr, Roserade,\nMilotic, Aggron\n\nGallade, Suicune, \nVirizion, Cobalion\n\nShaymin, Landorus T+L,\nKyurem",
-        "clearingStrategy": "No added support for this Mega\nbattle, it's quite a relief.\n\nThe disruptions hit quite hard though,\nso unless Groudon or Shaymin or\nBellossom delay them consistently,\nyou better buy a Disruption Delay\nto crush this stage.",
+        "clearingStrategy": "No added support for this Mega\nbattle, it's quite a relief.\n\nThe disruptions hit quite hard though,\nso unless Groudon or Bellossom delay them consistently,\nyou better buy a Disruption Delay\nto crush this stage.",
         "srankingStrategy": "Moves: At least 10 moves left\n\nDisruption Delay and Moves +5 will do this.\nSkill boosted Groundon/Bellossom can\navoid you buying the DD, but you never\nknow with % activation...",
         "basePower": "80",
         "ability": "Mega Effects: Erases Pokémon and disruptions around three spots you tap."
@@ -842,7 +842,7 @@
         "pokemon": 4,
         "recommendedParty": "[Heracross]/[Lucario]/\n[Medicham]/[Gardevoir]/\n[Rayquaza]\n\nConkeldurr, Scyther,\nPangoro,\n\nGallade, Genesect,\nXerneas\n\nDiancie, Machamp",
         "clearingStrategy": "My advice is to go full item after\none try itemless. You will understand\nwhy you need a full item run.",
-        "srankingStrategy": "Moves: At least 7 (6.25?) moves left\n\nFull item run should give you this without\ntrouble.\n\nTake with you M Rayquaza and your best\nsuper effective.",
+        "srankingStrategy": "Moves: At least 6 (6.25?) moves left\n\nFull item run should give you this without\ntrouble.\n\nTake with you M Rayquaza and your best\nsuper effective.",
         "mobileNotes": "  ",
         "basePower": 90,
         "ability": "Risk-Taker"
