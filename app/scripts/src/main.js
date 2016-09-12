@@ -75,6 +75,9 @@
 			stageUrl: 'bs'
 		}
 	];
+
+	var modes = ["MAIN", "EXPERT", "SPECIAL"];
+	var currentMode = $('body').attr('stage-mode');
 	
 	// setup stage divisions
 	var pokemonCollectionUrl = 'https://rawgit.com/shelune/poke-shuffle-guide/master/app/scripts/assets/pokemonCollection.json';
@@ -82,19 +85,39 @@
 	$.getJSON(pokemonCollectionUrl, function (data) {
 		pokemonCollection = data;
 	});
+
+	var stageId = $('body').attr('stage-data-id');
+	var stageUrl;
+
+	/******
+	** helper functions - HELPERS
+	******/
 	
 	// setup stage id
-	function getStage(stageId) {
-		var stageUrls = [];
-		stageCollections.forEach(function (stages){
-			if (stageId <= stages.levelCap) {
-				stageUrls.push('https://rawgit.com/shelune/poke-shuffle-guide/master/app/scripts/assets/stageGuides/' + stages.stageUrl + '.json');
+	function getStageUrl(stageId) {
+		if (currentMode === "main-stage") {
+			var stageUrls = [];
+			stageCollections.forEach(function (stages){
+				if (stageId <= stages.levelCap) {
+					stageUrls.push('https://rawgit.com/shelune/poke-shuffle-guide/master/app/scripts/assets/stageGuides/' + stages.stageUrl + '.json');
+				}
+			});  
+			if (stageUrls.length >= 1) {
+				return stageUrls.shift();
 			}
-		});  
-		if (stageUrls.length >= 1) {
-			return stageUrls.shift();
+			return "";
+		} else if (currentMode === "expert-stage") {
+			return 'https://rawgit.com/shelune/poke-shuffle-guide/master/app/scripts/assets/expertGuides/expert.json';
 		}
-		return "";
+		
+	}
+
+	var unwrapProp = function(target, key) {
+		if (target[key]) {
+			return target[key];
+		} else {
+			return "";
+		}
 	}
 
 	var splitBreakLine = function (sentence) {
@@ -115,6 +138,28 @@
 		result.phrase = sentence.slice(separator + 1, sentence.length);
 		result.key = sentence.slice(0, separator);
 		return result;
+	};
+
+	var checkKey = function(sentence, key) {
+		return sentence.toLowerCase().includes(key);
+	};
+
+	var checkKeyArr = function(sentence, keyArr) {
+		var included = false;
+		keyArr.forEach(function(key) {
+			if (checkKey(sentence, key)) {
+				included = true;
+			}
+		});
+		return included;
+	}
+
+	function unique(list) {
+	  var result = [];
+	  list.forEach(function(listItem) {
+	  	if ($.inArray(listItem, result) == -1) result.push(listItem);
+	  });
+	  return result;
 	}
 
 	var getPokemonDivisions = function(stageDivisionUrl) {
@@ -122,10 +167,10 @@
 			return data;
 		});
 	};
-	
-	var checkKey = function(sentence, keys) {
-		return sentence.toLowerCase().includes(keys);
-	}
+
+	/*****
+	** Handle Displaying Data - HANDLES
+	*****/
 
 	// handle HP
 	var handleHP = function(hitPts) {
@@ -217,7 +262,7 @@
 					disruptionTimer = splitColon(value)['phrase'];
 				} else if (checkKey(value, 'support:') || checkKey(value, 'added:')) {
 					disruptionSupport = splitColon(value)['phrase'];
-				} else if (checkKey(value, 'moves:') || checkKey(value, 'turn:') || checkKey(value, 'health:') || checkKey(value, '%:') ||checkKey(value, 'hp:')) {
+				} else if (checkKeyArr(value, ['moves:', 'turn:', 'health:', '%:', 'hp:'])) {
 					disruptionCond = splitColon(value)['phrase'];
 					disruptionCondStart = splitColon(value)['key'];
 				}
@@ -329,8 +374,9 @@
 			if (result.startsWith('[')) {
 				result = result.slice(1, -1).toLowerCase();
 				pokemonCollection['mega'].forEach(function (referencePoke) {
-					if (referencePoke.pokemonName.toLowerCase().includes(result.toLowerCase()) && !referencePoke.pokemonName.includes(' X')) {
-						$('[data-attr="stage-slots-mega"]').append('<span style="background-image: url(' + referencePoke.pokemonIcon + ')"></span>');
+					// clumsy filter for Zard X, dunno how to deal with MMX
+					if (referencePoke.pokemonName.toLowerCase().includes(result.substring(0, result.length - 2).toLowerCase()) && !referencePoke.pokemonName.endsWith(' X') && !result.toLowerCase().includes("any")) {
+						$('[data-attr="stage-slots-mega"]').append('<span class="hint--bottom" aria-label="' + referencePoke.pokemonName + ' - ' + referencePoke.location + '" style="background-image: url(' + referencePoke.pokemonIcon + ')"></span>');
 					}
 				});
 			} else {
@@ -338,7 +384,7 @@
 					var division = pokemonCollection[key];
 					division.forEach(function (referencePoke) {
 						if (result.trim().toLowerCase().startsWith(referencePoke.pokemonName.toLowerCase()) && result.trim().length > 0) {
-							$('[data-attr="stage-slots-' + key + '"]').append('<span style="background-image: url(' + referencePoke.pokemonIcon + ')"></span>');
+							$('[data-attr="stage-slots-' + key + '"]').append('<span class="hint--bottom" aria-label="' + referencePoke.pokemonName + ' - ' + referencePoke.location + '" style="background-image: url(' + referencePoke.pokemonIcon + ')"></span>');
 						}
 					});
 				}
@@ -347,14 +393,17 @@
 		console.log(results);
 	};
 
+	// handle stage type display
 	var handleStageType = function (stageType) {
 		$('[data-attr="stage-type"]').css('background-image', 'url(images/types/type_' + stageType + '.svg)');
 	};
 
+	// handle supports limit
 	var handleStageLimit = function (stageLimit) {
 		$('[data-attr="stage-limit"]').text(stageLimit);
 	};
 
+	// handle stage maximum moves & srank moves
 	var handleStageMoves = function (stageMoves, stageSRank) {
 		var movesInitPos = stageSRank.indexOf('least');
 		var movesLastPos = stageSRank.indexOf('left');
@@ -367,52 +416,53 @@
 		$('[data-attr="stage-moves"]').text(stageMoves);
 	};
 
+	// handle stage Pokemon name display
 	var handleStageName = function (stageName) {
 		$('[data-attr="stage-name"]').text(stageName);
 	};
 
+	// reset site to its original state
 	var resetData = function() {
 		$('ul[data-attr^="stage-disruption"]').empty();
 		$('span[data-attr^="stage-"]').text('---');
-		$('div[data-attr^="stage-slots-"]').empty();
+		$('[data-attr^="stage-slots-"]').empty();
+		$('[data-attr^="stage-strategy-"]').empty();
 		$('img[data-attr="stage-setup-layout"]').attr('src', 'http://placehold.it/300x300');
 		$('img[data-attr="stage-thumbnail"]').attr('src', 'images/icons/icon_01.png');
-		$('[data-attr="stage-type"]').css('background-image', 'images/types/type_Unknown.svg');
+		$('span[data-attr="stage-type"]').css('background-image', 'url(images/types/type_Unknown.svg)');
 		$('.stage-selector__helper').remove();
 	};
 
-	function unique(list) {
-	  var result = [];
-	  $.each(list, function(i, e) {
-	    if ($.inArray(e, result) == -1) result.push(e);
-	  });
-	  return result;
-	}
-
+	// get data from targeted JSON file
 	var loadStageData = function (stageUrl) {
-
+		var stageName, stageIcon, stageType, stageMoves, hitPoints, captureRate, basePower, ability, stageTimer, stageUnlock,
+				boardLayout, disruptions,
+				teamLimit, srankStrat, clearStrat, recommendedParty;
 		$.getJSON(stageUrl, function (data) {
 		// get the area name
 			currentArea = data.shift()['stageNo'];
 			console.log(stageUrl);
 			console.log(currentArea);
 			
+			// filter out the correct stage and process data
 			data.map(function (item) {
 				if (item['stageNo'].toString() === $('body').attr('stage-data-id')) {
-					stageIcon = item['icon'];
-					hitPoints = item['hitPts'];
-					stageName = item['name'];
-					stageType = item['type'];
-					stageMoves = item['moves'];
-					boardLayout = item['initialBoardSetup'];
-					teamLimit = item['pokemon'];
-					recommendedParty = item['recommendedParty'];
-					captureRate = splitBreakLine(item['captureRate']);
-					srankStrat = item['srankingStrategy'];
-					clearStrat = item['clearingStrategy'];
-					disruptions = item['disruptions'];
-					basePower = item['basePower'];
-					ability = item['ability'];
+					stageIcon = unwrapProp(item, 'icon')
+					hitPoints = unwrapProp(item, 'hitPts');
+					stageName = unwrapProp(item, 'name');
+					stageType = unwrapProp(item, 'type');
+					stageMoves = unwrapProp(item, 'moves');;
+					boardLayout = unwrapProp(item, 'initialBoardSetup');
+					teamLimit = unwrapProp(item, 'pokemon');
+					recommendedParty = unwrapProp(item, 'recommendedParty');
+					captureRate = splitBreakLine(unwrapProp(item, 'captureRate'));
+					srankStrat = unwrapProp(item, 'srankingStrategy');
+					clearStrat = unwrapProp(item, 'clearingStrategy');
+					disruptions = unwrapProp(item, 'disruptions');
+					basePower = unwrapProp(item, 'basePower');
+					ability = unwrapProp(item, 'ability');
+					stageTimer = unwrapProp(item, 'time');
+					stageUnlock = unwrapProp(item, 'srank');
 
 					handleStageType(stageType);
 					handleStageLimit(teamLimit);
@@ -435,16 +485,13 @@
 		});
 	};
 
-	var stageId = $('body').attr('stage-data-id');	
-	var stageUrl = getStage(stageId);
+	stageUrl = getStageUrl(stageId);
 	resetData();
 	loadStageData(stageUrl);
 
-	/*
-	*********
-	Autocomplete
-	*********
-	*/
+	/*****
+	** Autocomplete
+	*****/
 
 	var options = {
 		url: pokemonCollectionUrl,
@@ -455,10 +502,10 @@
 				enabled: true
 			},
 			onClickEvent: function() {
-				var location = parseInt($('#stage-selector').getSelectedItemData()['location']);
-				$('#stage-selector').val(location);
-				$('body').attr('stage-data-id', location);	
-				var stageUrl = getStage(location);
+				stageId = parseInt($('#stage-selector').getSelectedItemData()['location']);
+				$('#stage-selector').val(stageId);
+				$('body').attr('stage-data-id', stageId);	
+				stageUrl = getStageUrl(stageId);
 				resetData();
 				loadStageData(stageUrl);
 			},
@@ -477,20 +524,48 @@
 	$('#stage-selector').keyup(function (e) {
 		if (e.keyCode === 13) {
 			resetData();
-			var location = parseInt($('#stage-selector').val());
-			if (!isNaN(location)) {
-				if (location > mainStageCap) {
-					$('.stage__number').after('<div class="stage-selector__helper">Please show me where that stage is in-game</div>');
-				} else if (location < 1) {
+			stageId = parseInt($('#stage-selector').val());
+			if (!isNaN(stageId)) {
+				if (stageId > mainStageCap) {
+					$('.stage__number').after('<div class="stage-selector__helper">Current stage cap is ' + mainStageCap + '</div>');
+				} else if (stageId < 1) {
 					$('.stage__number').after('<div class="stage-selector__helper">Even Celebi would not allow you to go back that far</div>');
 				} else {
-					$('body').attr('stage-data-id', location);	
-					var stageUrl = getStage(location);
+					$('body').attr('stage-data-id', stageId);	
+					stageUrl = getStageUrl(stageId);
 					loadStageData(stageUrl);
 				}
 			} else {
 				$('.stage__number').after('<div class="stage-selector__helper">Please input number only or use the suggestions</div>');
 			}
+		}
+	});
+
+	$('.stage-back').click(function(e) {
+		e.preventDefault();
+		if (parseInt(stageId) < 2) {
+			resetData();
+			$('.stage__number').after('<div class="stage-selector__helper">Even Celebi would not allow you to go back that far</div>');
+		} else {
+			stageId = parseInt(stageId) - 1;
+			$('body').attr('stage-data-id', stageId);
+			stageUrl = getStageUrl(stageId);
+			resetData();
+			loadStageData(stageUrl);
+		}
+	});
+
+	$('.stage-next').click(function(e) {
+		e.preventDefault();
+		if (parseInt(stageId) + 1 > mainStageCap) {
+			resetData();
+			$('.stage__number').after('<div class="stage-selector__helper">Current stage cap is ' + mainStageCap + '</div>');
+		} else {
+			stageId = parseInt(stageId) + 1;
+			$('body').attr('stage-data-id', stageId);
+			stageUrl = getStageUrl(stageId);
+			resetData();
+			loadStageData(stageUrl);
 		}
 	});
 

@@ -1,0 +1,7 @@
+[class*="hint--"]:after {
+	background: $color-bg-dark;
+}
+
+[class*="hint--"]:before {
+	border-bottom-color: $color-bg-dark;
+}
