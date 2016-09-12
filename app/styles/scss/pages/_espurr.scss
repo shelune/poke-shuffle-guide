@@ -2,6 +2,20 @@
 	color: $color-dark;
 }
 
+.alert {
+	background: $color-info;
+	padding: 10px;
+	color: $color-text-white;
+	text-align: center;
+
+	&--division {
+		> strong {
+			cursor: pointer;
+			border-bottom: 1px solid $color-white;
+		}
+	}
+}
+
 .base-header {
 	background: $color-bg-dark;
 	height: 80px;
