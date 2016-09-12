@@ -1,37 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
-	<!ENTITY st0 "fill:#6D63AC;stroke:#4A494A;stroke-miterlimit:10;">
-	<!ENTITY st1 "fill:#EA4324;stroke:#4A494A;stroke-miterlimit:10;">
-	<!ENTITY st2 "fill:#AABB38;stroke:#4A494A;stroke-miterlimit:10;">
-	<!ENTITY st3 "fill:#9EA9D6;stroke:#4A494A;stroke-miterlimit:10;">
-	<!ENTITY st4 "fill:#7F321B;stroke:#4A494A;stroke-miterlimit:10;">
-	<!ENTITY st5 "fill:#DFAFD1;stroke:#4A494A;stroke-miterlimit:10;">
-	<!ENTITY st6 "fill:#DEC37A;stroke:#4A494A;stroke-miterlimit:10;">
-	<!ENTITY st7 "fill:#9EDCF4;stroke:#4A494A;stroke-miterlimit:10;">
-	<!ENTITY st8 "fill:#6060AB;stroke:#4A494A;stroke-miterlimit:10;">
-	<!ENTITY st9 "fill:#C1BBB1;stroke:#4A494A;stroke-miterlimit:10;">
-	<!ENTITY st10 "fill:#904492;stroke:#4A494A;stroke-miterlimit:10;">
-	<!ENTITY st11 "fill:#FCBD1B;stroke:#4A494A;stroke-miterlimit:10;">
-	<!ENTITY st12 "fill:#4C382C;stroke:#4A494A;stroke-miterlimit:10;">
-	<!ENTITY st13 "fill:#67B945;stroke:#4A494A;stroke-miterlimit:10;">
-	<!ENTITY st14 "fill:#EE4983;stroke:#4A494A;stroke-miterlimit:10;">
-	<!ENTITY st15 "fill:#B9A156;stroke:#4A494A;stroke-miterlimit:10;">
-	<!ENTITY st16 "fill:#B4B4C3;stroke:#4A494A;stroke-miterlimit:10;">
-	<!ENTITY st17 "fill:#5995CF;stroke:#4A494A;stroke-miterlimit:10;">
-	<!ENTITY st18 "fill:#FFFFFF;">
-	<!ENTITY st19 "fill:none;">
-	<!ENTITY st20 "font-family:'OpenSans';">
-	<!ENTITY st21 "font-size:12px;">
-]>
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 93.1 55.6" style="enable-background:new 0 0 93.1 55.6;" xml:space="preserve">
-<g id="Layer_1">
-	<path style="&st2;" d="M73.2,43H20.8c-6.6,0-12-5.4-12-12v-3.5c0-6.6,5.4-12,12-12h52.5c6.6,0,12,5.4,12,12V31
-		C85.2,37.6,79.8,43,73.2,43z"/>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 960 560" enable-background="new 0 0 960 560" xml:space="preserve">
+<g id="Layer_1_1_">
+	<path fill="#AABB38" stroke="#4A494A" stroke-miterlimit="10" d="M748.4,433.1H220.6c-66.5,0-120.9-54.4-120.9-120.9V277
+		c0-66.5,54.4-120.9,120.9-120.9h528.8c66.5,0,120.9,54.4,120.9,120.9v35.3C869.3,378.7,814.9,433.1,748.4,433.1z"/>
 </g>
 <g id="Layer_2">
-	<rect x="11.7" y="23.5" style="&st19;" width="71" height="23"/>
-	<text transform="matrix(1 0 0 1 36.2928 32.6201)" style="&st18; &st20; &st21;">Bug</text>
+	<rect x="122.4" y="232.4" fill="none" width="715.1" height="231.7"/>
+	<text transform="matrix(1 0 0 1 370.1378 324.285)" fill="#FFFFFF" font-family="'Open Sans'" font-size="120.8633">Bug</text>
 </g>
 </svg>

@@ -1,0 +1,22 @@
+.about {
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+	
+	main {
+		flex: 1;
+	}
+	
+	&__content {
+		margin-top: 40px;
+		font-size: 1.5em;
+		
+		> a {
+			color: #e32636;
+		}
+		
+		em {
+			font-style: italic;
+		}
+	}
+}

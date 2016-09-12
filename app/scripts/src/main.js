@@ -97,16 +97,24 @@
 		return "";
 	}
 
-	var splitBreakLine = function (data) {
-		return data.split('\n');
-	}
+	var splitBreakLine = function (sentence) {
+		return sentence.split('\n');
+	};
 
-	var splitPeriod = function(data) {
-		return data.split('.');
-	}
+	var splitPeriod = function(sentence) {
+		return sentence.split('.');
+	};
 	
-	var splitSlash = function(data) {
-		return data.split('/');
+	var splitSlash = function(sentence) {
+		return sentence.split('/');
+	};
+	
+	var splitColon = function(sentence) {
+		var result = {key: "", phrase: ""};
+		var separator = sentence.indexOf(':');
+		result.phrase = sentence.slice(separator + 1, sentence.length);
+		result.key = sentence.slice(0, separator);
+		return result;
 	}
 
 	var getPokemonDivisions = function(stageDivisionUrl) {
@@ -114,6 +122,10 @@
 			return data;
 		});
 	};
+	
+	var checkKey = function(sentence, keys) {
+		return sentence.toLowerCase().includes(keys);
+	}
 
 	// handle HP
 	var handleHP = function(hitPts) {
@@ -197,23 +209,17 @@
 			$('[data-attr="stage-disruption-timer"]').append('<li>None</li>');
 		} else {
 			$.each(disruptionArr, function(line, value) {
-				if (value.toLowerCase().startsWith('board') && value.length > value.indexOf(':')) {
-					var separator = value.indexOf(':');
-					disruptionBoard = value.slice(separator + 1, value.length);
-				} else if (value.toLowerCase().startsWith('initial') && value.length > value.indexOf(':')) {
-					var separator = value.indexOf(':');
-					disruptionInit = value.slice(separator + 1, value.length);
-				} else if (value.toLowerCase().startsWith('timer') && value.length > value.indexOf(':')) {
-					var separator = value.indexOf(':');
-					disruptionTimer = value.slice(separator + 1, value.length);
-				} else if (value.toLowerCase().includes('support:') || value.toLowerCase().includes('added:')) {
-					var separator = value.indexOf(':');
-					disruptionSupport = value.slice(separator + 1, value.length);
-				} else if (value.toLowerCase().includes('hp:') || value.toLowerCase().includes('moves:') || value.toLowerCase().includes('turn:') || value.toLowerCase().includes('health:') || value.toLowerCase().includes('%:')) {
-					var separator = value.indexOf(':');
-					disruptionCond = value.slice(separator + 1, value.length);
-					disruptionCondStart = value.slice(0, separator);
-					console.log(disruptionCond);
+				if (checkKey(value, 'board:') && value.length > value.indexOf(':')) {
+					disruptionBoard = splitColon(value)['phrase'];
+				} else if (checkKey(value, 'initial:') && value.length > value.indexOf(':')) {
+					disruptionInit = splitColon(value)['phrase'];
+				} else if (checkKey(value, 'timer:') && value.length > value.indexOf(':')) {
+					disruptionTimer = splitColon(value)['phrase'];
+				} else if (checkKey(value, 'support:') || checkKey(value, 'added:')) {
+					disruptionSupport = splitColon(value)['phrase'];
+				} else if (checkKey(value, 'moves:') || checkKey(value, 'turn:') || checkKey(value, 'health:') || checkKey(value, '%:') ||checkKey(value, 'hp:')) {
+					disruptionCond = splitColon(value)['phrase'];
+					disruptionCondStart = splitColon(value)['key'];
 				}
 			});
 
@@ -228,40 +234,52 @@
 			}
 
 			if (disruptionCond) {
-				console.log('conditional disruption found');
 				$('[data-attr="stage-disruption-conditionstart"]').text(disruptionCondStart);
-				$('[data-attr="stage-disruption-condition"]').append('<li>' + disruptionCond + '</li>');
+				if (disruptionCond.includes('/')) {
+					disruptionArrRandom = splitColon(disruptionCond)['phrase'].split('/');
+					$('[data-attr="stage-disruption-condition"]').append('<li>Any of the following:<ul></ul></li>');
+					disruptionArrRandom.forEach(function (randomDisruption) {
+						$('[data-attr="stage-disruption-condition"] li > ul').append('<li>' + randomDisruption.trim() +'</li>');
+					});
+				} else {
+					$('[data-attr="stage-disruption-condition"]').append('<li>' + disruptionCond + '</li>');
+				}
 			} else {
 				$('[data-attr="stage-disruption-conditionstart"]').text('None');
-
 			}
 
 			disruptionArrBoard.forEach(function (disruption) {
-				disruption = disruption + '.';
+				// detects if have random disrution
 				if (disruption.includes('/')) {
-					var separator = disruption.indexOf(':');
-					console.log(separator);
-					disruptionPhrase = disruption.slice(0, separator);
-					disruptionArrRandom = disruption.slice(separator + 1, disruption.length).split('/');
+					// if yes, get the possible disruptions & add inner ul
+					disruptionArrRandom = splitColon(disruption)['phrase'].split('/');
 					$('[data-attr="stage-disruption-board"]').append('<li>Any of the following:<ul></ul></li>');
+					
+					// split the disruptions into items and insert into the inner ul
 					disruptionArrRandom.forEach(function (randomDisruption) {
 						$('[data-attr="stage-disruption-board"] li > ul').append('<li>' + randomDisruption.trim() +'</li>');
 					});
 				} else {
+					// if not, just add items into the outer ul
 					$('[data-attr="stage-disruption-board"]').append('<li>' + disruption.trim() + '</li>');
 				}
 			});
 
 			disruptionArrInit.forEach(function (disruption) {
-				disruption = disruption + '.';
-				$('[data-attr="stage-disruption-init"]').append('<li>' + disruption.trim() + '</li>');
+				if (disruption.includes('/')) {
+					disruptionArrRandom = splitColon(disruption)['phrase'].split('/');
+					$('[data-attr="stage-disruption-init"]').append('<li>Any of the following:<ul></ul></li>');
+					disruptionArrRandom.forEach(function (randomDisruption) {
+						$('[data-attr="stage-disruption-init"] li > ul').append('<li>' + randomDisruption.trim() +'</li>');
+					});
+				} else {
+					$('[data-attr="stage-disruption-init"]').append('<li>' + disruption.trim() + '</li>');
+				}
 			});
 
 			disruptionArrTimer.forEach(function (disruption) {
 				if (disruption.includes('/')) {
-					var separator = disruption.indexOf(':');
-					console.log(separator);
-					disruptionArrRandom = disruption.slice(separator + 1, disruption.length).split('/');
+					disruptionArrRandom = splitColon(disruption)['phrase'].split('/');
 					$('[data-attr="stage-disruption-timer"]').append('<li>Any of the following:<ul></ul></li>');
 					disruptionArrRandom.forEach(function (randomDisruption) {
 						$('[data-attr="stage-disruption-timer"] li > ul').append('<li>' + randomDisruption.trim() +'</li>');
@@ -278,10 +296,6 @@
 					$('[data-attr="stage-disruption-support"]').append('<li>' + disruption.trim() + '</li>');
 				}
 			});
-				
-		//console.log(disruptionBoard);
-		//console.log(disruptionInit);
-		//console.log(disruptionArrTimer);
 		}
 	};
 
@@ -345,7 +359,7 @@
 		var movesInitPos = stageSRank.indexOf('least');
 		var movesLastPos = stageSRank.indexOf('left');
 		var movesSRank = stageSRank.slice(movesInitPos + 6, movesLastPos - 6);
-		if (isNaN(movesSRank)) {
+		if (/^[a-zA-Z]/.test(movesSRank)) {
 			$('[data-attr="stage-srank-moves"]').text('0');
 		} else {
 			$('[data-attr="stage-srank-moves"]').text(movesSRank);
