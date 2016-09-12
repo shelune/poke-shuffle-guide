@@ -75,6 +75,8 @@
 			stageUrl: 'bs'
 		}
 	];
+
+	var modes = ["MAIN", "EXPERT", "SPECIAL"];
 	
 	// setup stage divisions
 	var pokemonCollectionUrl = 'https://rawgit.com/shelune/poke-shuffle-guide/master/app/scripts/assets/pokemonCollection.json';
@@ -348,7 +350,7 @@
 				result = result.slice(1, -1).toLowerCase();
 				pokemonCollection['mega'].forEach(function (referencePoke) {
 					// clumsy filter for Zard X, dunno how to deal with MMX
-					if (referencePoke.pokemonName.toLowerCase().includes(result.substring(0, result.length - 2).toLowerCase()) && !referencePoke.pokemonName.endsWith(' X')) {
+					if (referencePoke.pokemonName.toLowerCase().includes(result.substring(0, result.length - 2).toLowerCase()) && !referencePoke.pokemonName.endsWith(' X') && !result.toLowerCase().includes("any")) {
 						$('[data-attr="stage-slots-mega"]').append('<span class="hint--bottom" aria-label="' + referencePoke.pokemonName + ' - ' + referencePoke.location + '" style="background-image: url(' + referencePoke.pokemonIcon + ')"></span>');
 					}
 				});
