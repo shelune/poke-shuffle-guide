@@ -1,7 +1,7 @@
 .single-pokemon {
 	color: $color-dark;
 
-	&.main-stage {
+	&[stage-mode="main-stage"] {
 		.expert-stage--excluded {
 			display: flex;
 		}
@@ -10,7 +10,7 @@
 		}
 	}
 
-	&.expert-stage {
+	&[stage-mode="expert-stage"] {
 		.expert-stage--excluded {
 			display: none;
 		}

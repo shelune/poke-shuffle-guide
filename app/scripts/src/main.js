@@ -77,6 +77,7 @@
 	];
 
 	var modes = ["MAIN", "EXPERT", "SPECIAL"];
+	var currentMode = $('body').attr('stage-mode');
 	
 	// setup stage divisions
 	var pokemonCollectionUrl = 'https://rawgit.com/shelune/poke-shuffle-guide/master/app/scripts/assets/pokemonCollection.json';
@@ -93,17 +94,22 @@
 	******/
 	
 	// setup stage id
-	function getStage(stageId) {
-		var stageUrls = [];
-		stageCollections.forEach(function (stages){
-			if (stageId <= stages.levelCap) {
-				stageUrls.push('https://rawgit.com/shelune/poke-shuffle-guide/master/app/scripts/assets/stageGuides/' + stages.stageUrl + '.json');
+	function getStageUrl(stageId) {
+		if (currentMode === "main-stage") {
+			var stageUrls = [];
+			stageCollections.forEach(function (stages){
+				if (stageId <= stages.levelCap) {
+					stageUrls.push('https://rawgit.com/shelune/poke-shuffle-guide/master/app/scripts/assets/stageGuides/' + stages.stageUrl + '.json');
+				}
+			});  
+			if (stageUrls.length >= 1) {
+				return stageUrls.shift();
 			}
-		});  
-		if (stageUrls.length >= 1) {
-			return stageUrls.shift();
+			return "";
+		} else if (currentMode === "expert-stage") {
+			return 'https://rawgit.com/shelune/poke-shuffle-guide/master/app/scripts/assets/expertGuides/expert.json';
 		}
-		return "";
+		
 	}
 
 	var unwrapProp = function(target, key) {
@@ -479,7 +485,7 @@
 		});
 	};
 
-	stageUrl = getStage(stageId);
+	stageUrl = getStageUrl(stageId);
 	resetData();
 	loadStageData(stageUrl);
 
@@ -499,7 +505,7 @@
 				stageId = parseInt($('#stage-selector').getSelectedItemData()['location']);
 				$('#stage-selector').val(stageId);
 				$('body').attr('stage-data-id', stageId);	
-				stageUrl = getStage(stageId);
+				stageUrl = getStageUrl(stageId);
 				resetData();
 				loadStageData(stageUrl);
 			},
@@ -526,7 +532,7 @@
 					$('.stage__number').after('<div class="stage-selector__helper">Even Celebi would not allow you to go back that far</div>');
 				} else {
 					$('body').attr('stage-data-id', stageId);	
-					stageUrl = getStage(stageId);
+					stageUrl = getStageUrl(stageId);
 					loadStageData(stageUrl);
 				}
 			} else {
@@ -543,7 +549,7 @@
 		} else {
 			stageId = parseInt(stageId) - 1;
 			$('body').attr('stage-data-id', stageId);
-			stageUrl = getStage(stageId);
+			stageUrl = getStageUrl(stageId);
 			resetData();
 			loadStageData(stageUrl);
 		}
@@ -557,7 +563,7 @@
 		} else {
 			stageId = parseInt(stageId) + 1;
 			$('body').attr('stage-data-id', stageId);
-			stageUrl = getStage(stageId);
+			stageUrl = getStageUrl(stageId);
 			resetData();
 			loadStageData(stageUrl);
 		}
