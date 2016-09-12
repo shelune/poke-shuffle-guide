@@ -84,6 +84,10 @@
 	$.getJSON(pokemonCollectionUrl, function (data) {
 		pokemonCollection = data;
 	});
+
+	/******
+	** helper functions - HELPERS
+	******/
 	
 	// setup stage id
 	function getStage(stageId) {
@@ -97,6 +101,14 @@
 			return stageUrls.shift();
 		}
 		return "";
+	}
+
+	var unwrapProp = function(target, key) {
+		if (target[key]) {
+			return target[key];
+		} else {
+			return "";
+		}
 	}
 
 	var splitBreakLine = function (sentence) {
@@ -146,6 +158,10 @@
 			return data;
 		});
 	};
+
+	/*****
+	** Handle Displaying Data - HANDLES
+	*****/
 
 	// handle HP
 	var handleHP = function(hitPts) {
@@ -368,14 +384,17 @@
 		console.log(results);
 	};
 
+	// handle stage type display
 	var handleStageType = function (stageType) {
 		$('[data-attr="stage-type"]').css('background-image', 'url(images/types/type_' + stageType + '.svg)');
 	};
 
+	// handle supports limit
 	var handleStageLimit = function (stageLimit) {
 		$('[data-attr="stage-limit"]').text(stageLimit);
 	};
 
+	// handle stage maximum moves & srank moves
 	var handleStageMoves = function (stageMoves, stageSRank) {
 		var movesInitPos = stageSRank.indexOf('least');
 		var movesLastPos = stageSRank.indexOf('left');
@@ -388,10 +407,12 @@
 		$('[data-attr="stage-moves"]').text(stageMoves);
 	};
 
+	// handle stage Pokemon name display
 	var handleStageName = function (stageName) {
 		$('[data-attr="stage-name"]').text(stageName);
 	};
 
+	// reset site to its original state
 	var resetData = function() {
 		$('ul[data-attr^="stage-disruption"]').empty();
 		$('span[data-attr^="stage-"]').text('---');
@@ -402,30 +423,36 @@
 		$('.stage-selector__helper').remove();
 	};
 
+	// get data from targeted JSON file
 	var loadStageData = function (stageUrl) {
-
+		var stageName, stageIcon, stageType, stageMoves, hitPoints, captureRate, basePower, ability, stageTimer, stageUnlock,
+				boardLayout, disruptions,
+				teamLimit, srankStrat, clearStrat, recommendedParty;
 		$.getJSON(stageUrl, function (data) {
 		// get the area name
 			currentArea = data.shift()['stageNo'];
 			console.log(stageUrl);
 			console.log(currentArea);
 			
+			// filter out the correct stage and process data
 			data.map(function (item) {
 				if (item['stageNo'].toString() === $('body').attr('stage-data-id')) {
-					stageIcon = item['icon'];
-					hitPoints = item['hitPts'];
-					stageName = item['name'];
-					stageType = item['type'];
-					stageMoves = item['moves'];
-					boardLayout = item['initialBoardSetup'];
-					teamLimit = item['pokemon'];
-					recommendedParty = item['recommendedParty'];
-					captureRate = splitBreakLine(item['captureRate']);
-					srankStrat = item['srankingStrategy'];
-					clearStrat = item['clearingStrategy'];
-					disruptions = item['disruptions'];
-					basePower = item['basePower'];
-					ability = item['ability'];
+					stageIcon = unwrapProp(item, 'icon')
+					hitPoints = unwrapProp(item, 'hitPts');
+					stageName = unwrapProp(item, 'name');
+					stageType = unwrapProp(item, 'type');
+					stageMoves = unwrapProp(item, 'moves');;
+					boardLayout = unwrapProp(item, 'initialBoardSetup');
+					teamLimit = unwrapProp(item, 'pokemon');
+					recommendedParty = unwrapProp(item, 'recommendedParty');
+					captureRate = splitBreakLine(unwrapProp(item, 'captureRate'));
+					srankStrat = unwrapProp(item, 'srankingStrategy');
+					clearStrat = unwrapProp(item, 'clearingStrategy');
+					disruptions = unwrapProp(item, 'disruptions');
+					basePower = unwrapProp(item, 'basePower');
+					ability = unwrapProp(item, 'ability');
+					stageTimer = unwrapProp(item, 'time');
+					stageUnlock = unwrapProp(item, 'srank');
 
 					handleStageType(stageType);
 					handleStageLimit(teamLimit);
