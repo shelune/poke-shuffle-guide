@@ -157,7 +157,7 @@
         "moves": 15,
         "captureRate": "Base: 5%\nBonus:3% /move",
         "initialBoardSetup": "http://i.imgur.com/OYk1KRe.png",
-        "disruptions": "Board: None\nInitial: Adds Columns of Metal Blocks on\n          3rd and 4th Column\nTimer: Adds 2 Zorua after a turn x2. Adds Columns of Metal Blocks on 3rd and 4th Column after 3 turns. Repeat",
+        "disruptions": "Board: None\nInitial: Adds Columns of Metal Blocks on 3rd and 4th Column\nTimer: Adds 2 Zorua after a turn x2. Adds Columns of Metal Blocks on 3rd and 4th Column after 3 turns. Repeat",
         "pokemon": 4,
         "recommendedParty": "[Any]/[Heracross]\n\nMasquerain, Azumarill,\nSlurpuff, Scyther,\nHeracross, Sawk,\nMienshao\n\nXerneas, Lucario",
         "clearingStrategy": "You can Brute Force this stage with\nMega Audino/Mega Kangakhan/Mega\nAltaria or use a Disruption Delay to\nget its Hit Points lower first before the \ndisruptions\n\nFor those who are using M-Lucario,\nit can't do any good clearing unless\nyou use a DD (or a Zorua replacing\na Metal Block and you switch a Lucario\nthere). Better use any of the 3\nabove",
