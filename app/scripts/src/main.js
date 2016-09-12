@@ -115,6 +115,28 @@
 		result.phrase = sentence.slice(separator + 1, sentence.length);
 		result.key = sentence.slice(0, separator);
 		return result;
+	};
+
+	var checkKey = function(sentence, key) {
+		return sentence.toLowerCase().includes(key);
+	};
+
+	var checkKeyArr = function(sentence, keyArr) {
+		var included = false;
+		keyArr.forEach(function(key) {
+			if (checkKey(sentence, key)) {
+				included = true;
+			}
+		});
+		return included;
+	}
+
+	function unique(list) {
+	  var result = [];
+	  list.forEach(function(listItem) {
+	  	if ($.inArray(listItem, result) == -1) result.push(listItem);
+	  });
+	  return result;
 	}
 
 	var getPokemonDivisions = function(stageDivisionUrl) {
@@ -122,10 +144,6 @@
 			return data;
 		});
 	};
-	
-	var checkKey = function(sentence, keys) {
-		return sentence.toLowerCase().includes(keys);
-	}
 
 	// handle HP
 	var handleHP = function(hitPts) {
@@ -217,7 +235,7 @@
 					disruptionTimer = splitColon(value)['phrase'];
 				} else if (checkKey(value, 'support:') || checkKey(value, 'added:')) {
 					disruptionSupport = splitColon(value)['phrase'];
-				} else if (checkKey(value, 'moves:') || checkKey(value, 'turn:') || checkKey(value, 'health:') || checkKey(value, '%:') ||checkKey(value, 'hp:')) {
+				} else if (checkKeyArr(value, ['moves:', 'turn:', 'health:', '%:', 'hp:'])) {
 					disruptionCond = splitColon(value)['phrase'];
 					disruptionCondStart = splitColon(value)['key'];
 				}
@@ -329,8 +347,9 @@
 			if (result.startsWith('[')) {
 				result = result.slice(1, -1).toLowerCase();
 				pokemonCollection['mega'].forEach(function (referencePoke) {
-					if (referencePoke.pokemonName.toLowerCase().includes(result.toLowerCase()) && !referencePoke.pokemonName.includes(' X')) {
-						$('[data-attr="stage-slots-mega"]').append('<span style="background-image: url(' + referencePoke.pokemonIcon + ')"></span>');
+					// clumsy filter for Zard X, dunno how to deal with MMX
+					if (referencePoke.pokemonName.toLowerCase().includes(result.substring(0, result.length - 2).toLowerCase()) && !referencePoke.pokemonName.endsWith(' X')) {
+						$('[data-attr="stage-slots-mega"]').append('<span class="hint--bottom" aria-label="' + referencePoke.pokemonName + ' - ' + referencePoke.location + '" style="background-image: url(' + referencePoke.pokemonIcon + ')"></span>');
 					}
 				});
 			} else {
@@ -338,7 +357,7 @@
 					var division = pokemonCollection[key];
 					division.forEach(function (referencePoke) {
 						if (result.trim().toLowerCase().startsWith(referencePoke.pokemonName.toLowerCase()) && result.trim().length > 0) {
-							$('[data-attr="stage-slots-' + key + '"]').append('<span style="background-image: url(' + referencePoke.pokemonIcon + ')"></span>');
+							$('[data-attr="stage-slots-' + key + '"]').append('<span class="hint--bottom" aria-label="' + referencePoke.pokemonName + ' - ' + referencePoke.location + '" style="background-image: url(' + referencePoke.pokemonIcon + ')"></span>');
 						}
 					});
 				}
@@ -380,14 +399,6 @@
 		$('[data-attr="stage-type"]').css('background-image', 'images/types/type_Unknown.svg');
 		$('.stage-selector__helper').remove();
 	};
-
-	function unique(list) {
-	  var result = [];
-	  $.each(list, function(i, e) {
-	    if ($.inArray(e, result) == -1) result.push(e);
-	  });
-	  return result;
-	}
 
 	var loadStageData = function (stageUrl) {
 
