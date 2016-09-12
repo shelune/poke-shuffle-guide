@@ -354,7 +354,7 @@
         "moves": 24,
         "captureRate": "Base: 9%\nBonus:2% /move",
         "initialBoardSetup": "http://i.imgur.com/Hs9gURz.png",
-        "disruptions": "Board: Barriers at the bottom\nInitial: None\nTimer: Either of the following: x3 Adds a column of Barrier if you didn't make a 4+ combo / Adds 5 Metal Blocks if you didn't make a 4+ combo, adds Deoxys on a Column after 3 turns. Repeat\n\nAdded Support: Deoxys. Will be replaced by Happiny if Deoxys is added as support",
+        "disruptions": "Board: Barriers at the bottom\nInitial: None\nTimer: Either of the following: Adds a column of Barrier if you didn't make a 4+ combo / Adds 5 Metal Blocks if you didn't make a 4+ combo, adds Deoxys on a Column after 3 turns. x3 Repeat\n\nAdded Support: Deoxys. Will be replaced by Happiny if Deoxys is added as support",
         "pokemon": 4,
         "recommendedParty": "[Gengar]/[Heracross]/\n[Sharpedo]/[Absol]/\n[Banette]\n\nGengar, Zoroark,\nHeracross, Scizor\n\nGenesect, Yveltal\n\nGiratina, Darkrai",
         "clearingStrategy": "Keeping up 4+ combos everytime\nproves to be quite hard.\nI recommend to use a Disruption\nDelay at least to beat the level.\n\nWhen there are metal blocks try\nto match 4 Deoxys together to\nactivate its Swap+ ability, it\nwill replace rocks with Deoxys.",
