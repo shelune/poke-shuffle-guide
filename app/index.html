@@ -14,7 +14,7 @@
 		<link rel="stylesheet" href="styles/styles.css">
 	</head>
 
-	<body class="single-pokemon" stage-data-id="1">
+	<body class="single-pokemon main-stage" stage-data-id="1">
 
 	<header class="base-header">
 		<div class="container">
@@ -50,8 +50,10 @@
 							<ul>
 								<li><strong>Type </strong> <span data-attr="stage-type" class="stage-type">---</span></li>
 								<li><strong>Hit Points </strong> <span data-attr="stage-hp"></span></li>
-								<li><strong>Moves </strong><span data-attr="stage-moves">---</span></li>
-								<li><strong>S-Rank </strong><span><span data-attr="stage-srank-moves">---</span> / <span data-attr="stage-moves">---</span> moves</span></li>
+								<li class="expert-stage--excluded"><strong>Moves </strong><span data-attr="stage-moves">---</span></li>
+								<li class="expert-stage--excluded"><strong>S-Rank </strong><span><span data-attr="stage-srank-moves">---</span> / <span data-attr="stage-moves">---</span> moves</span></li>
+								<li class="expert-stage--included"><strong>Timer </strong> <span data-attr="stage-timer">---</span></li>
+								<li class="expert-stage--included"><strong>S-Ranks needed </strong> <span data-attr="stage-requirement">---</span></li>
 							</ul>
 						</div>
 						<div class="col-xs info__stats">

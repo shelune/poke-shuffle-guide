@@ -1,5 +1,23 @@
 .single-pokemon {
 	color: $color-dark;
+
+	&.main-stage {
+		.expert-stage--excluded {
+			display: flex;
+		}
+		.expert-stage--included {
+			display: none;
+		}
+	}
+
+	&.expert-stage {
+		.expert-stage--excluded {
+			display: none;
+		}
+		.expert-stage--included {
+			display: flex;
+		}
+	}
 }
 
 .base-header {
@@ -143,7 +161,7 @@
 			
 			strong {
 				display: inline-block;
-				width: 80px;
+				width: 120px;
 				text-align: left;
 
 				@include media-breakpoint-down(sm) {
