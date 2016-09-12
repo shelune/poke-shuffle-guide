@@ -27,6 +27,15 @@
 	/* fix additional padding at sides */
 	overflow: hidden;
 	
+	&-directions {
+		display: flex;
+		justify-content: center;
+
+		> a {
+			margin: 0 10px;
+			border-bottom: 1px solid $color-border;
+		}
+	}
 
 	&-selector {
 		border: none;
@@ -40,7 +49,8 @@
 		&__helper {
 			color: #e32636;
 			font-size: 0.8em;
-			margin-top: -40px;
+			margin-top: -10px;
+			margin-bottom: 10px;
 			text-align: center;
 		}
 	}
@@ -48,7 +58,7 @@
 	&__number {
 		font-size: 4rem;
 		text-align: center;
-		margin-bottom: 50px;
+		margin-bottom: 20px;
 
 		> span {
 			position: relative;
@@ -274,6 +284,8 @@
 	
 	// walkthrough
 	&__walkthrough {
+		margin-bottom: 40px;
+
 		> h2 {
 			font-size: 2rem;
 			margin-bottom: 20px;

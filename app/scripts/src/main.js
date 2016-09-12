@@ -85,6 +85,9 @@
 		pokemonCollection = data;
 	});
 
+	var stageId = $('body').attr('stage-data-id');
+	var stageUrl;
+
 	/******
 	** helper functions - HELPERS
 	******/
@@ -416,10 +419,11 @@
 	var resetData = function() {
 		$('ul[data-attr^="stage-disruption"]').empty();
 		$('span[data-attr^="stage-"]').text('---');
-		$('div[data-attr^="stage-slots-"]').empty();
+		$('[data-attr^="stage-slots-"]').empty();
+		$('[data-attr^="stage-strategy-"]').empty();
 		$('img[data-attr="stage-setup-layout"]').attr('src', 'http://placehold.it/300x300');
 		$('img[data-attr="stage-thumbnail"]').attr('src', 'images/icons/icon_01.png');
-		$('[data-attr="stage-type"]').css('background-image', 'images/types/type_Unknown.svg');
+		$('span[data-attr="stage-type"]').css('background-image', 'url(images/types/type_Unknown.svg)');
 		$('.stage-selector__helper').remove();
 	};
 
@@ -475,16 +479,13 @@
 		});
 	};
 
-	var stageId = $('body').attr('stage-data-id');	
-	var stageUrl = getStage(stageId);
+	stageUrl = getStage(stageId);
 	resetData();
 	loadStageData(stageUrl);
 
-	/*
-	*********
-	Autocomplete
-	*********
-	*/
+	/*****
+	** Autocomplete
+	*****/
 
 	var options = {
 		url: pokemonCollectionUrl,
@@ -495,10 +496,10 @@
 				enabled: true
 			},
 			onClickEvent: function() {
-				var location = parseInt($('#stage-selector').getSelectedItemData()['location']);
-				$('#stage-selector').val(location);
-				$('body').attr('stage-data-id', location);	
-				var stageUrl = getStage(location);
+				stageId = parseInt($('#stage-selector').getSelectedItemData()['location']);
+				$('#stage-selector').val(stageId);
+				$('body').attr('stage-data-id', stageId);	
+				stageUrl = getStage(stageId);
 				resetData();
 				loadStageData(stageUrl);
 			},
@@ -517,20 +518,48 @@
 	$('#stage-selector').keyup(function (e) {
 		if (e.keyCode === 13) {
 			resetData();
-			var location = parseInt($('#stage-selector').val());
-			if (!isNaN(location)) {
-				if (location > mainStageCap) {
-					$('.stage__number').after('<div class="stage-selector__helper">Please show me where that stage is in-game</div>');
-				} else if (location < 1) {
+			stageId = parseInt($('#stage-selector').val());
+			if (!isNaN(stageId)) {
+				if (stageId > mainStageCap) {
+					$('.stage__number').after('<div class="stage-selector__helper">Current stage cap is ' + mainStageCap + '</div>');
+				} else if (stageId < 1) {
 					$('.stage__number').after('<div class="stage-selector__helper">Even Celebi would not allow you to go back that far</div>');
 				} else {
-					$('body').attr('stage-data-id', location);	
-					var stageUrl = getStage(location);
+					$('body').attr('stage-data-id', stageId);	
+					stageUrl = getStage(stageId);
 					loadStageData(stageUrl);
 				}
 			} else {
 				$('.stage__number').after('<div class="stage-selector__helper">Please input number only or use the suggestions</div>');
 			}
+		}
+	});
+
+	$('.stage-back').click(function(e) {
+		e.preventDefault();
+		if (parseInt(stageId) < 2) {
+			resetData();
+			$('.stage__number').after('<div class="stage-selector__helper">Even Celebi would not allow you to go back that far</div>');
+		} else {
+			stageId = parseInt(stageId) - 1;
+			$('body').attr('stage-data-id', stageId);
+			stageUrl = getStage(stageId);
+			resetData();
+			loadStageData(stageUrl);
+		}
+	});
+
+	$('.stage-next').click(function(e) {
+		e.preventDefault();
+		if (parseInt(stageId) + 1 > mainStageCap) {
+			resetData();
+			$('.stage__number').after('<div class="stage-selector__helper">Current stage cap is ' + mainStageCap + '</div>');
+		} else {
+			stageId = parseInt(stageId) + 1;
+			$('body').attr('stage-data-id', stageId);
+			stageUrl = getStage(stageId);
+			resetData();
+			loadStageData(stageUrl);
 		}
 	});
 
