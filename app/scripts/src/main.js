@@ -76,11 +76,12 @@
 		}
 	];
 
-	var modes = ["MAIN", "EXPERT", "SPECIAL"];
-	var currentMode = $('body').attr('stage-mode');
+	var modes = ["Main", "Expert", "Special"];
+	var currentMode = $('[stage-data-switcher="current"]').text();
+	var altMode = $('[stage-data-switcher="alt"]').text();
 	
 	// setup stage divisions
-	var pokemonCollectionUrl = 'https://rawgit.com/shelune/poke-shuffle-guide/master/app/scripts/assets/pokemonCollection.json';
+	var pokemonCollectionUrl = 'scripts/assets/pokemonCollection.json';
 	var pokemonCollection;
 	$.getJSON(pokemonCollectionUrl, function (data) {
 		pokemonCollection = data;
@@ -95,21 +96,20 @@
 	
 	// setup stage id
 	function getStageUrl(stageId) {
-		if (currentMode === "main-stage") {
+		if (currentMode === "Main") {
 			var stageUrls = [];
 			stageCollections.forEach(function (stages){
 				if (stageId <= stages.levelCap) {
-					stageUrls.push('https://rawgit.com/shelune/poke-shuffle-guide/master/app/scripts/assets/stageGuides/' + stages.stageUrl + '.json');
+					stageUrls.push('scripts/assets/stageGuides/' + stages.stageUrl + '.json');
 				}
 			});  
 			if (stageUrls.length >= 1) {
 				return stageUrls.shift();
 			}
 			return "";
-		} else if (currentMode === "expert-stage") {
-			return 'https://rawgit.com/shelune/poke-shuffle-guide/master/app/scripts/assets/expertGuides/expert.json';
+		} else if (currentMode === "Expert") {
+			return 'scripts/assets/expertGuides/expert.json';
 		}
-		
 	}
 
 	var unwrapProp = function(target, key) {
@@ -118,18 +118,24 @@
 		} else {
 			return "";
 		}
-	}
+	};
 
 	var splitBreakLine = function (sentence) {
-		return sentence.split('\n');
+		if (sentence) {
+			return sentence.split('\n');
+		}
 	};
 
 	var splitPeriod = function(sentence) {
-		return sentence.split('.');
+		if (sentence) {
+			return sentence.split('.');
+		}
 	};
 	
 	var splitSlash = function(sentence) {
-		return sentence.split('/');
+		if (sentence) {
+			return sentence.split('/');
+		}
 	};
 	
 	var splitColon = function(sentence) {
@@ -169,8 +175,90 @@
 	};
 
 	/*****
+	** Change Mode - MODES
+	*****/
+
+	var changeMode = function(mode) {
+		var tempMode = currentMode;
+		currentMode = altMode;
+		altMode = tempMode;
+	}
+
+	$('[stage-data-switcher]').click(function (e) {
+		e.preventDefault();
+		changeMode();
+		$('[stage-data-switcher="current"]').text(currentMode);
+		$('[stage-data-switcher="alt"]').text(altMode);
+		$('body').attr('stage-mode', currentMode.toLowerCase());
+
+		$('.stage-selector').val('');
+		resetData();
+		handleSuggestions(currentMode);
+		stageUrl = getStageUrl(stageId);
+		loadStageData(stageUrl);
+	});
+
+	/*****
 	** Handle Displaying Data - HANDLES
 	*****/
+
+	// handle autocompletes
+	var handleSuggestions = function(mode) {
+		if (mode === "Main") {
+			var options = {
+				url: pokemonCollectionUrl,
+				listLocation: "main",
+				getValue: "pokemonName",
+				list: {
+					match: {
+						enabled: true
+					},
+					onClickEvent: function() {
+						stageId = parseInt($('#stage-selector').getSelectedItemData()['location']);
+						$('#stage-selector').val(stageId);
+						$('body').attr('stage-data-id', stageId);	
+						stageUrl = getStageUrl(stageId);
+						resetData();
+						loadStageData(stageUrl);
+					},
+				},
+				highlightPhrase: false,
+				template: {
+					type: "description",
+					fields: {
+						description: "location"
+					}
+				}
+			};
+		} else if (mode === "Expert") {
+			var options = {
+				url: pokemonCollectionUrl,
+				listLocation: "expert",
+				getValue: "pokemonName",
+				list: {
+					match: {
+						enabled: true
+					},
+					onClickEvent: function() {
+						stageId = parseInt($('#stage-selector').getSelectedItemData()['location']);
+						$('#stage-selector').val(stageId);
+						$('body').attr('stage-data-id', stageId);	
+						stageUrl = getStageUrl(stageId);
+						resetData();
+						loadStageData(stageUrl);
+					},
+				},
+				highlightPhrase: false,
+				template: {
+					type: "description",
+					fields: {
+						description: "location"
+					}
+				}
+			};
+		}
+		$('#stage-selector').easyAutocomplete(options);
+	}
 
 	// handle HP
 	var handleHP = function(hitPts) {
@@ -242,6 +330,14 @@
 		$('[data-attr="stage-ability"]').text(ability);
 	};
 
+	var handleTimer = function(timer) {
+		$('[data-attr="stage-timer"]').text(timer);
+	};
+
+	var handleUnlockReq = function(requirement) {
+		$('[data-attr="stage-requirement"]').text(requirement);
+	}
+
 	// TODO : better formatting without having format the source data
 	var handleDisruptions = function(disruptions) {
 		var disruptionArr = disruptions.split(/\n/);
@@ -293,46 +389,52 @@
 				$('[data-attr="stage-disruption-conditionstart"]').text('None');
 			}
 
-			disruptionArrBoard.forEach(function (disruption) {
+			if (disruptionArrBoard) {
+				disruptionArrBoard.forEach(function (disruption) {
 				// detects if have random disrution
-				if (disruption.includes('/')) {
-					// if yes, get the possible disruptions & add inner ul
-					disruptionArrRandom = splitColon(disruption)['phrase'].split('/');
-					$('[data-attr="stage-disruption-board"]').append('<li>Any of the following:<ul></ul></li>');
-					
-					// split the disruptions into items and insert into the inner ul
-					disruptionArrRandom.forEach(function (randomDisruption) {
-						$('[data-attr="stage-disruption-board"] li > ul').append('<li>' + randomDisruption.trim() +'</li>');
-					});
-				} else {
-					// if not, just add items into the outer ul
-					$('[data-attr="stage-disruption-board"]').append('<li>' + disruption.trim() + '</li>');
-				}
-			});
+					if (disruption.includes('/')) {
+						// if yes, get the possible disruptions & add inner ul
+						disruptionArrRandom = splitColon(disruption)['phrase'].split('/');
+						$('[data-attr="stage-disruption-board"]').append('<li>Any of the following:<ul></ul></li>');
+						
+						// split the disruptions into items and insert into the inner ul
+						disruptionArrRandom.forEach(function (randomDisruption) {
+							$('[data-attr="stage-disruption-board"] li > ul').append('<li>' + randomDisruption.trim() +'</li>');
+						});
+					} else {
+						// if not, just add items into the outer ul
+						$('[data-attr="stage-disruption-board"]').append('<li>' + disruption.trim() + '</li>');
+					}
+				});
+			}
 
-			disruptionArrInit.forEach(function (disruption) {
-				if (disruption.includes('/')) {
-					disruptionArrRandom = splitColon(disruption)['phrase'].split('/');
-					$('[data-attr="stage-disruption-init"]').append('<li>Any of the following:<ul></ul></li>');
-					disruptionArrRandom.forEach(function (randomDisruption) {
-						$('[data-attr="stage-disruption-init"] li > ul').append('<li>' + randomDisruption.trim() +'</li>');
-					});
-				} else {
-					$('[data-attr="stage-disruption-init"]').append('<li>' + disruption.trim() + '</li>');
-				}
-			});
+			if (disruptionArrInit) {
+				disruptionArrInit.forEach(function (disruption) {
+					if (disruption.includes('/')) {
+						disruptionArrRandom = splitColon(disruption)['phrase'].split('/');
+						$('[data-attr="stage-disruption-init"]').append('<li>Any of the following:<ul></ul></li>');
+						disruptionArrRandom.forEach(function (randomDisruption) {
+							$('[data-attr="stage-disruption-init"] li > ul').append('<li>' + randomDisruption.trim() +'</li>');
+						});
+					} else {
+						$('[data-attr="stage-disruption-init"]').append('<li>' + disruption.trim() + '</li>');
+					}
+				});
+			}
 
-			disruptionArrTimer.forEach(function (disruption) {
-				if (disruption.includes('/')) {
-					disruptionArrRandom = splitColon(disruption)['phrase'].split('/');
-					$('[data-attr="stage-disruption-timer"]').append('<li>Any of the following:<ul></ul></li>');
-					disruptionArrRandom.forEach(function (randomDisruption) {
-						$('[data-attr="stage-disruption-timer"] li > ul').append('<li>' + randomDisruption.trim() +'</li>');
-					});
-				} else {
-					$('[data-attr="stage-disruption-timer"]').append('<li>' + disruption.trim() + '</li>');
-				}
-			});
+			if (disruptionArrTimer) {
+				disruptionArrTimer.forEach(function (disruption) {
+					if (disruption.includes('/')) {
+						disruptionArrRandom = splitColon(disruption)['phrase'].split('/');
+						$('[data-attr="stage-disruption-timer"]').append('<li>Any of the following:<ul></ul></li>');
+						disruptionArrRandom.forEach(function (randomDisruption) {
+							$('[data-attr="stage-disruption-timer"] li > ul').append('<li>' + randomDisruption.trim() +'</li>');
+						});
+					} else {
+						$('[data-attr="stage-disruption-timer"]').append('<li>' + disruption.trim() + '</li>');
+					}
+				});
+			}
 
 			disruptionArrSupport.forEach(function (disruption, index) {
 				if (index === 0) {
@@ -369,6 +471,8 @@
 			return value != "";
 		});
 
+		console.log(results);
+
 		// match pokemon with its icon to display out on recommended party
 		results.forEach(function (result) {
 			if (result.startsWith('[')) {
@@ -390,7 +494,6 @@
 				}
 			}
 		});
-		console.log(results);
 	};
 
 	// handle stage type display
@@ -440,13 +543,16 @@
 				teamLimit, srankStrat, clearStrat, recommendedParty;
 		$.getJSON(stageUrl, function (data) {
 		// get the area name
-			currentArea = data.shift()['stageNo'];
+			if (currentMode === "Main") {
+				console.log(data.shift()['stageNo']);
+			}
+
 			console.log(stageUrl);
-			console.log(currentArea);
 			
 			// filter out the correct stage and process data
 			data.map(function (item) {
-				if (item['stageNo'].toString() === $('body').attr('stage-data-id')) {
+				var tempStage = item['stageNo'];
+				if (parseInt(tempStage) === parseInt($('body').attr('stage-data-id'))) {
 					stageIcon = unwrapProp(item, 'icon')
 					hitPoints = unwrapProp(item, 'hitPts');
 					stageName = unwrapProp(item, 'name');
@@ -468,6 +574,11 @@
 					handleStageLimit(teamLimit);
 					handleStageMoves(stageMoves, srankStrat);
 					handleStageName(stageName);
+
+					if (currentMode === "Expert") {
+						handleTimer(stageTimer);
+						handleUnlockReq(stageUnlock);
+					}
 					
 					handleHP(hitPoints);
 					handleStageIcon(stageIcon);
@@ -487,39 +598,12 @@
 
 	stageUrl = getStageUrl(stageId);
 	resetData();
+	handleSuggestions(currentMode);
 	loadStageData(stageUrl);
 
 	/*****
 	** Autocomplete
 	*****/
-
-	var options = {
-		url: pokemonCollectionUrl,
-		listLocation: "main",
-		getValue: "pokemonName",
-		list: {
-			match: {
-				enabled: true
-			},
-			onClickEvent: function() {
-				stageId = parseInt($('#stage-selector').getSelectedItemData()['location']);
-				$('#stage-selector').val(stageId);
-				$('body').attr('stage-data-id', stageId);	
-				stageUrl = getStageUrl(stageId);
-				resetData();
-				loadStageData(stageUrl);
-			},
-		},
-		highlightPhrase: false,
-		template: {
-			type: "description",
-			fields: {
-				description: "location"
-			}
-		}
-	};
-
-	$('#stage-selector').easyAutocomplete(options);
 
 	$('#stage-selector').keyup(function (e) {
 		if (e.keyCode === 13) {
@@ -567,6 +651,7 @@
 			resetData();
 			loadStageData(stageUrl);
 		}
+		// $("html, body").animate({ scrollTop: 0 }, "slow");
 	});
 
 })();
