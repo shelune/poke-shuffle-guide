@@ -1,6 +1,6 @@
 [
     {
-        "stageNo": "EX1",
+        "stageNo": 1,
         "icon": 435,
         "pokemon": 4,
         "hitPts": 3420,
@@ -19,7 +19,7 @@
         "ability": "Mind Zap"
     },
     {
-        "stageNo": "EX2",
+        "stageNo": 2,
         "icon": 564,
         "pokemon": 4,
         "hitPts": 3456,
@@ -38,7 +38,7 @@
         "ability": "Paralyze"
     },
     {
-        "stageNo": "EX3",
+        "stageNo": 3,
         "icon": 533,
         "pokemon": 4,
         "hitPts": 10935,
@@ -57,7 +57,7 @@
         "ability": "Pummel"
     },
     {
-        "stageNo": "EX4",
+        "stageNo": 4,
         "icon": 193,
         "pokemon": 4,
         "hitPts": 11340,
@@ -76,7 +76,7 @@
         "ability": "Power of 4"
     },
     {
-        "stageNo": "EX5",
+        "stageNo": 5,
         "icon": 194,
         "pokemon": 4,
         "hitPts": 2700,
@@ -95,7 +95,7 @@
         "ability": "Power of 4"
     },
     {
-        "stageNo": "EX6",
+        "stageNo": 6,
         "icon": 195,
         "pokemon": 4,
         "hitPts": 6300,
@@ -114,7 +114,7 @@
         "ability": "Power of 4"
     },
     {
-        "stageNo": "EX7",
+        "stageNo": 7,
         "icon": 52,
         "pokemon": 4,
         "hitPts": 5630,
@@ -133,7 +133,7 @@
         "ability": "Vitality Drain"
     },
     {
-        "stageNo": "EX8",
+        "stageNo": 8,
         "icon": 58,
         "pokemon": 4,
         "hitPts": 8446,
@@ -152,7 +152,7 @@
         "ability": "Stabilize+"
     },
     {
-        "stageNo": "EX9",
+        "stageNo": 9,
         "icon": 55,
         "pokemon": 4,
         "hitPts": 5342,
@@ -171,7 +171,7 @@
         "ability": "Burn"
     },
     {
-        "stageNo": "EX10",
+        "stageNo": 10,
         "icon": 198,
         "pokemon": 4,
         "hitPts": 12020,
@@ -190,7 +190,7 @@
         "ability": "Dancing Dragon"
     },
     {
-        "stageNo": "EX11",
+        "stageNo": 11,
         "icon": 330,
         "pokemon": 4,
         "hitPts": 5918,
@@ -209,7 +209,7 @@
         "ability": "Vitality Drain"
     },
     {
-        "stageNo": "EX12",
+        "stageNo": 12,
         "icon": 333,
         "pokemon": 4,
         "hitPts": 4223,
@@ -228,7 +228,7 @@
         "ability": "Hitting Streak"
     },
     {
-        "stageNo": "EX13",
+        "stageNo": 13,
         "icon": 336,
         "pokemon": 4,
         "hitPts": 5918,
@@ -239,7 +239,7 @@
         "initialBoardSetup": "http://i.imgur.com/wina0XE.png",
         "disruptions": "Board: U-Shaped Metal Blocks in Barriers\nTimer: Adds 2 Barrier every 3 moves\n\nAdded Support: Vaporeon",
         "recommendedParty": "[Ampharos]/[Manectric]/\n[Any]\n\nGrovyle, Emolga,\nRaichu, Dedenne\n\nZapdos, Raikou,\nSceptile\n\nShaymin",
-        "clearingStrategy": "This one is the easiest among the\nHoenn Starters EX. Ampharos'\nAbility may help you or not depending\nif the barrier was targeted or not.",
+        "clearingStrategy": "This one is the easiest among the\nHoenn Starters . Ampharos'\nAbility may help you or not depending\nif the barrier was targeted or not.",
         "srankingStrategy": "Time: 30+ seconds left\nTime+10, DD will do this with a decent\nteam. Mega Start can also be a choice \ninstead of a DD (or you can get both)",
         "notes": "Complexity will remove Vaporeon",
         "mobileNotes": "Same with 3ds. Just catch rate",
@@ -247,7 +247,7 @@
         "ability": "Hitting Streak"
     },
     {
-        "stageNo": "EX14",
+        "stageNo": 14,
         "icon": 320,
         "pokemon": 4,
         "hitPts": 1709,
@@ -266,7 +266,7 @@
         "ability": "Power of 5"
     },
     {
-        "stageNo": "EX15",
+        "stageNo": 15,
         "icon": 321,
         "pokemon": 4,
         "hitPts": 1871,
@@ -285,7 +285,7 @@
         "ability": "Power of 5"
     },
     {
-        "stageNo": "EX16",
+        "stageNo": 16,
         "icon": 319,
         "pokemon": 4,
         "hitPts": 1482,
@@ -304,7 +304,7 @@
         "ability": "Power of 5"
     },
     {
-        "stageNo": "EX17",
+        "stageNo": 17,
         "icon": 575,
         "pokemon": 4,
         "hitPts": 15423,
@@ -323,7 +323,7 @@
         "ability": "Last-Ditch Effort"
     },
     {
-        "stageNo": "EX18",
+        "stageNo": 18,
         "icon": 828,
         "pokemon": 4,
         "hitPts": 10123,
@@ -342,7 +342,7 @@
         "ability": "Quirky+"
     },
     {
-        "stageNo": "EX19",
+        "stageNo": 19,
         "icon": 829,
         "pokemon": 4,
         "hitPts": 10328,
@@ -361,7 +361,7 @@
         "ability": "Power of 5"
     },
     {
-        "stageNo": "EX20",
+        "stageNo": 20,
         "icon": 199,
         "pokemon": 4,
         "hitPts": 25596,
@@ -380,7 +380,7 @@
         "ability": "Swap"
     },
     {
-        "stageNo": "EX21",
+        "stageNo": 21,
         "icon": 757,
         "pokemon": 4,
         "hitPts": 13652,
@@ -399,7 +399,7 @@
         "ability": "Crowd Control"
     },
     {
-        "stageNo": "EX22",
+        "stageNo": 22,
         "icon": 761,
         "pokemon": 3,
         "hitPts": 26158,
@@ -418,7 +418,7 @@
         "ability": "Hitting Streak"
     },
     {
-        "stageNo": "EX23",
+        "stageNo": 23,
         "icon": 764,
         "pokemon": 4,
         "hitPts": 5868,
@@ -437,7 +437,7 @@
         "ability": "Pyre"
     },
     {
-        "stageNo": "EX24",
+        "stageNo": 24,
         "icon": 767,
         "pokemon": 4,
         "hitPts": 9738,
@@ -456,7 +456,7 @@
         "ability": "Mind Zap"
     },
     {
-        "stageNo": "EX25",
+        "stageNo": 25,
         "icon": 741,
         "pokemon": 4,
         "hitPts": 13500,
@@ -474,7 +474,7 @@
         "ability": "Power of 4+"
     },
     {
-        "stageNo": "EX26",
+        "stageNo": 26,
         "icon": 742,
         "pokemon": 4,
         "hitPts": 5760,
@@ -492,7 +492,7 @@
         "ability": "Power of 4+"
     },
     {
-        "stageNo": "EX27",
+        "stageNo": 27,
         "icon": 740,
         "pokemon": 4,
         "hitPts": 21433,
@@ -510,7 +510,7 @@
         "ability": "Power of 4+"
     },
     {
-        "stageNo": "EX28",
+        "stageNo": 28,
         "icon": 727,
         "pokemon": 4,
         "hitPts": 11808,
@@ -528,7 +528,7 @@
         "ability": "Rock Break+"
     },
     {
-        "stageNo": "EX29",
+        "stageNo": 29,
         "icon": 560,
         "pokemon": 4,
         "hitPts": 8586,
@@ -546,7 +546,7 @@
         "ability": "Block Smash+"
     },
     {
-        "stageNo": "EX30",
+        "stageNo": 30,
         "icon": 818,
         "pokemon": 4,
         "hitPts": 20790,
@@ -564,7 +564,7 @@
         "ability": "Eject+"
     },
     {
-        "stageNo": "EX31",
+        "stageNo": 31,
         "icon": 483,
         "pokemon": 4,
         "hitPts": 7510,
@@ -582,7 +582,7 @@
         "ability": "Cloud Clear+"
     },
     {
-        "stageNo": "EX32",
+        "stageNo": 32,
         "icon": 799,
         "pokemon": 4,
         "hitPts": 12470,
@@ -600,7 +600,7 @@
         "ability": "Quirky+"
     },
     {
-        "stageNo": "EX33",
+        "stageNo": 33,
         "icon": 558,
         "pokemon": 4,
         "hitPts": 10210,
@@ -612,13 +612,13 @@
         "disruptions": "Board: (?)\nTimer: Either of the following: Fill column 2 with Ice / Fill column 5 with Ice / Repeat every 3 moves\n\nHP<=49%: Either of the following: Fill columns 3 and 4 with Ice / Fill columns 3 and 4 with Ice / Fill column 2 with Ice / Fill column 5 with Ice / Repeat every 3 moves\n\nAdded Support: Swinub. Will be replaced by Piloswine if Swinub is addes as Support.",
         "recommendedParty": "[Mawile]/[Lucario]/\n[Blaziken]/[Charizard Y]\n\nNinetales, Bronzong,\nAurorus, Steelix,\nTyranitar\n\nBlaziken, Moltres,\nEntei, Delphox\n\nRegirock, Dialga,\nJirachi, Ho-Oh,\nPalkia",
         "clearingStrategy": "  First moves: Match the Mamoswines\ntogether to get rid of them. Then,\nmatch everything as fast as\nyou can. I find M Lucario \nnice as he can get rid of the\ndisruptions pretty nicely.\n\nTyranitar is useful to eject leftovers\nMamoswine. You can't really\ntrigger abilities easily in timed stages,\nso just match everything.\n\nI did it itemless, but if you struggle,\nDisruption Delay should greatly help.\n\nMega Start Lucario or Charizard will\nalso be useful if you struggle itemless,\nto crush the initial board and the\ndisruptions.",
-        "srankingStrategy": "  Time: 30+ seconds left\n\nI think a Time +10s can be enough with\nsome luck, but adding Disruption Delay \nis not a bad idea if you don't want to waste\nmany hearts (if someone could confirm,\nI do not try to S rank EX stages)",
+        "srankingStrategy": "  Time: 30+ seconds left\n\nI think a Time +10s can be enough with\nsome luck, but adding Disruption Delay \nis not a bad idea if you don't want to waste\nmany hearts (if someone could confirm,\nI do not try to S rank  stages)",
         "notes": "  C-1 removes Swinub",
         "basePower": 70,
         "ability": "Barrier Bash+"
     },
     {
-        "stageNo": "EX34",
+        "stageNo": 34,
         "icon": 557,
         "pokemon": 4,
         "hitPts": 8320,
@@ -636,7 +636,7 @@
         "ability": "Rock Break+"
     },
     {
-        "stageNo": "EX35",
+        "stageNo": 35,
         "icon": 559,
         "pokemon": 4,
         "hitPts": 13770,
@@ -654,7 +654,7 @@
         "ability": "Shock Attack"
     },
     {
-        "stageNo": "EX36",
+        "stageNo": 36,
         "icon": 441,
         "pokemon": 4,
         "hitPts": 12456,
@@ -672,7 +672,7 @@
         "ability": "Rock Break+"
     },
     {
-        "stageNo": "EX37",
+        "stageNo": 37,
         "icon": 515,
         "pokemon": 4,
         "hitPts": 8544,
@@ -690,7 +690,7 @@
         "ability": "Power of 5+"
     },
     {
-        "stageNo": "EX38",
+        "stageNo": 38,
         "icon": 108,
         "pokemon": 4,
         "hitPts": 15792,
@@ -708,7 +708,7 @@
         "ability": "Power of 4+"
     },
     {
-        "stageNo": "EX39",
+        "stageNo": 39,
         "icon": 554,
         "pokemon": 4,
         "hitPts": 8577,
@@ -726,7 +726,7 @@
         "ability": "Risk-Taker"
     },
     {
-        "stageNo": "EX40",
+        "stageNo": 40,
         "icon": 348,
         "pokemon": 4,
         "hitPts": 13105,
@@ -744,7 +744,7 @@
         "ability": "Mind Zap"
     },
     {
-        "stageNo": "EX41",
+        "stageNo": 41,
         "icon": 737,
         "pokemon": 4,
         "hitPts": 11300,
@@ -760,5 +760,31 @@
         "notes": "C-1 removes Umbreon",
         "basePower": 80,
         "ability": "Swap+"
+    },
+    {
+        "stageNo": 42,
+        "icon": 111,
+        "pokemon": 4,
+        "hitPts": 8400,
+        "type": "Water",
+        "srank": 430,
+        "time": "0:50",
+        "captureRate": "Base: 1%\nBonus: 6% /3s",
+        "initialBoardSetup": "\"",
+        "basePower": 70,
+        "ability": "Eject+"
+    },
+    {
+        "stageNo": 43,
+        "icon": 150,
+        "pokemon": 4,
+        "hitPts": 7724,
+        "type": "Electric",
+        "srank": 450,
+        "time": "0:40",
+        "captureRate": "Base: 1%\nBonus: 8% /3s",
+        "initialBoardSetup": "\"",
+        "basePower": 60,
+        "ability": "Rock Break+"
     }
 ]
