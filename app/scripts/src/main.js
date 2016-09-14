@@ -1,6 +1,7 @@
 ;(function () {
 	// level caps
 	var mainStageCap = 450;
+	var expertStageCap = 43;
 	var stageCollections = [
 		{
 			levelCap: 10,
@@ -264,16 +265,29 @@
 			resetData();
 			stageId = parseInt($('#stage-selector').val());
 			if (!isNaN(stageId)) {
-				console.log('key pressed?');
-				if (stageId > mainStageCap) {
-					$('.stage__number').after('<div class="stage-selector__helper">Current stage cap is ' + mainStageCap + '</div>');
-				} else if (stageId < 1) {
-					$('.stage__number').after('<div class="stage-selector__helper">Even Celebi would not allow you to go back that far</div>');
-				} else {
-					$('body').attr('stage-data-id', stageId);	
-					stageUrl = getStageUrl(stageId);
-					loadStageData(stageUrl);
+				if (currentMode === "Main") {
+					if (stageId > mainStageCap) {
+						$('.stage__number').after('<div class="stage-selector__helper">Current stage cap is ' + mainStageCap + '</div>');
+					} else if (stageId < 1) {
+						$('.stage__number').after('<div class="stage-selector__helper">Even Celebi would not allow you to go back that far</div>');
+					} else {
+						$('body').attr('stage-data-id', stageId);	
+						stageUrl = getStageUrl(stageId);
+						loadStageData(stageUrl);
+					}
 				}
+				if (currentMode === "Expert") {
+					if (stageId > expertStageCap) {
+						$('.stage__number').after('<div class="stage-selector__helper">Current stage cap is ' + expertStageCap + '</div>');
+					} else if (stageId < 1) {
+						$('.stage__number').after('<div class="stage-selector__helper">Even Celebi would not allow you to go back that far</div>');
+					} else {
+						$('body').attr('stage-data-id', stageId);	
+						stageUrl = getStageUrl(stageId);
+						loadStageData(stageUrl);
+					}
+				}
+				
 			} else {
 				$('.stage__number').after('<div class="stage-selector__helper">Please input number only or use the suggestions</div>');
 			}
@@ -570,6 +584,7 @@
 
 			console.log(stageUrl);
 			
+			$('#stage-selector').val(stageId);
 			// filter out the correct stage and process data
 			data.map(function (item) {
 				var tempStage = item['stageNo'];
