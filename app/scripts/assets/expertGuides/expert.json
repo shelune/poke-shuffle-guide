@@ -770,7 +770,11 @@
         "srank": 430,
         "time": "0:50",
         "captureRate": "Base: 1%\nBonus: 6% /3s",
-        "initialBoardSetup": "\"",
+        "initialBoardSetup": "http://i.imgur.com/Ytj46oI.png",
+        "disruptions": "Board: 16 barriers across rows 2 and 5 and column 4\nInitial: None\nTimer: Every 3 moves adds four barriers adjacent to each other\n\nAdded: Vulpix.",
+        "recommendedParty": "[Rayquaza]/[Venusaur]/\n[Ampharos]\n\nAmpharos, Magnezone, Elektross\n\nRaikou, Virizion\n\nShaymin, Zekrom",
+        "clearingStrategy": "Spend the opening seconds removing barriers along the top three rows while rushing to evolve your mega. Once evolved, try to focus purely on maintaining a combo and let your mega take care of barriers on its own. The HP is low enough to blitz down with a solid 30+ combo if it can be maintained after cleaning up the starting board.",
+        "srankingStrategy": " +10 seconds can be enough, though a DD to ensure barriers never get in the way after the start is a safe addition. Mega Start may be necessary for an uncandied Ampharos.",
         "basePower": 70,
         "ability": "Eject+"
     },
@@ -783,7 +787,11 @@
         "srank": 450,
         "time": "0:40",
         "captureRate": "Base: 1%\nBonus: 8% /3s",
-        "initialBoardSetup": "\"",
+        "initialBoardSetup": "http://i.imgur.com/ccgMls7.png",
+        "disruptions": "Board: 6 barriers and 6 rocks\nInitial: None\nTimer: Every 2 moves, disrupt with rocks in this sequence--3 rocks on the top left diagonal, 3 rocks on the top right diagonal, 3 rocks on the bottom left diagonal, 3 rocks on the bottom right diagonal, then summons rocks in an X pattern. Repeat\n\nAdded: Swablu.",
+        "recommendedParty": "[Rayquaza]/[Garchomp]\n\nExcadrill, Golurk\n\nGliscor\n\nLandorous, Garchomp, Groudon",
+        "clearingStrategy": "Remove the starting barriers as efficiently as possible, and from there maintaining a combo is a necessity to finish with reasonable time remaining. Don't make wasteful moves as every 5th disruption will be an X pattern that will easily kill a combo. With the frustrating starting board, +10 seconds and Disruption Delay may be a necessary resort in order to both complete the level, and finish with an acceptable amount of time remaining.",
+        "srankingStrategy": " +10 seconds and Disruption Delay, potentially adding a Mega Start for Garchomp, is the safest way to S-rank this so long as a combo can be maintained.",
         "basePower": 60,
         "ability": "Rock Break+"
     }
