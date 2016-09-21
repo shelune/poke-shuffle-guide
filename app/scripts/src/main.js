@@ -77,7 +77,6 @@
 		}
 	];
 
-	var modes = ["Main", "Expert", "Special"];
 	var currentMode = $('[stage-data-switcher="current"]').text();
 	var altMode = $('[stage-data-switcher="alt"]').text();
 	
@@ -113,6 +112,7 @@
 		}
 	}
 
+	// get the value with key from target object
 	var unwrapProp = function(target, key) {
 		if (target[key]) {
 			return target[key];
@@ -121,24 +121,28 @@
 		}
 	};
 
+	// split a sentence into array based on breakline
 	var splitBreakLine = function (sentence) {
 		if (sentence) {
 			return sentence.split('\n');
 		}
 	};
 
+	// split a sentence into array based on period.
 	var splitPeriod = function(sentence) {
 		if (sentence) {
 			return sentence.split('.');
 		}
 	};
 	
+	// split a sentence into array based on slash
 	var splitSlash = function(sentence) {
 		if (sentence) {
 			return sentence.split('/');
 		}
 	};
 	
+	// split a sentence into object with key and its value
 	var splitColon = function(sentence) {
 		var result = {key: "", phrase: ""};
 		var separator = sentence.indexOf(':');
@@ -147,10 +151,12 @@
 		return result;
 	};
 
+	// check if a sentence includes a word
 	var checkKey = function(sentence, key) {
 		return sentence.toLowerCase().includes(key);
 	};
 
+	// check a bunch of sentences for a word
 	var checkKeyArr = function(sentence, keyArr) {
 		var included = false;
 		keyArr.forEach(function(key) {
@@ -161,6 +167,7 @@
 		return included;
 	}
 
+	// filter out all repeat items in an array
 	function unique(list) {
 	  var result = [];
 	  list.forEach(function(listItem) {
@@ -324,6 +331,16 @@
 			}
 		}
 	};
+
+	var handleSRankCriteria = function(mode) {
+		if (mode === "Expert") {
+			$('span[data-attr="stage-srank-criteria"]').text('3 seconds');
+		}
+		if (mode === "Main") {
+			$('span[data-attr="stage-srank-criteria"]').text('move');
+			console.log('this mode is ' + mode);
+		}
+	}
 
 	// handle stage icon display
 	var handleStageIcon = function(stageIcon) {
@@ -606,15 +623,16 @@
 					stageTimer = unwrapProp(item, 'time');
 					stageUnlock = unwrapProp(item, 'srank');
 
-					handleStageType(stageType);
-					handleStageLimit(teamLimit);
-					handleStageMoves(stageMoves, srankStrat);
-					handleStageName(stageName);
-
 					if (currentMode === "Expert") {
 						handleTimer(stageTimer);
 						handleUnlockReq(stageUnlock);
 					}
+
+					handleStageType(stageType);
+					handleStageLimit(teamLimit);
+					handleStageMoves(stageMoves, srankStrat);
+					handleStageName(stageName);
+					handleSRankCriteria(currentMode);
 					
 					handleHP(hitPoints);
 					handleStageIcon(stageIcon);
