@@ -1,7 +1,7 @@
 ;(function () {
 	// level caps
 	var mainStageCap = 450;
-	var expertStageCap = 43;
+	var expertStageCap = 45;
 	var stageCollections = [
 		{
 			levelCap: 10,
@@ -74,6 +74,10 @@
 		{
 			levelCap: 450,
 			stageUrl: 'bs'
+		},
+		{
+			levelCap: 470,
+			stageUrl: 'gh'
 		}
 	];
 
@@ -192,7 +196,7 @@
 		altMode = tempMode;
 	}
 
-	$('[stage-data-switcher]').click(function (e) {
+	$('[stage-data-switcher="alt"]').click(function (e) {
 		e.preventDefault();
 		changeMode();
 		$('[stage-data-switcher="current"]').text(currentMode);
@@ -539,7 +543,7 @@
 				for (var key in pokemonCollection) {
 					var division = pokemonCollection[key];
 					division.forEach(function (referencePoke) {
-						if (result.trim().toLowerCase().startsWith(referencePoke.pokemonName.toLowerCase()) && result.trim().length > 0) {
+						if (result.trim().toLowerCase() === (referencePoke.pokemonName.toLowerCase()) && result.trim().length > 0) {
 							$('[data-attr="stage-slots-' + key + '"]').append('<span class="hint--bottom" aria-label="' + referencePoke.pokemonName + ' - ' + referencePoke.location + '" style="background-image: url(' + referencePoke.pokemonIcon + ')"></span>');
 						}
 					});
@@ -574,6 +578,35 @@
 	// handle stage Pokemon name display
 	var handleStageName = function (stageName) {
 		$('[data-attr="stage-name"]').text(stageName);
+	};
+
+	// get stage id, change stage id in body, update stageUrl, reset data, load stage data
+	var handleStagePrep = function (stageId) {
+		$('body').attr('stage-data-id', stageId);
+		stageUrl = getStageUrl(stageId);
+		resetData();
+		loadStageData(stageUrl);
+	};
+
+	// handle backward - forward button
+	var validateProgressBtn = function(modeCap, forward) {
+		if (forward) {
+			if (parseInt(stageId) + 1 > modeCap) {
+				resetData();
+				$('.stage__number').after('<div class="stage-selector__helper">Current stage cap is ' + mainStageCap + '</div>');
+			} else {
+				stageId = parseInt(stageId) + 1;
+				handleStagePrep(stageId);
+			}
+		} else {
+			if (parseInt(stageId) < 2) {
+				resetData();
+				$('.stage__number').after('<div class="stage-selector__helper">Even Celebi would not allow you to go back that far</div>');
+			} else {
+				stageId = parseInt(stageId) - 1;
+				handleStagePrep(stageId);
+			}
+		}
 	};
 
 	// reset site to its original state
@@ -650,42 +683,25 @@
 		});
 	};
 
-	stageUrl = getStageUrl(stageId);
-	resetData();
+	handleStagePrep(stageId);
 	handleSuggestions(currentMode);
-	loadStageData(stageUrl);
 
 	/*****
 	** Autocomplete
 	*****/
 
 	$('.stage-back').click(function(e) {
-		e.preventDefault();
-		if (parseInt(stageId) < 2) {
-			resetData();
-			$('.stage__number').after('<div class="stage-selector__helper">Even Celebi would not allow you to go back that far</div>');
-		} else {
-			stageId = parseInt(stageId) - 1;
-			$('body').attr('stage-data-id', stageId);
-			stageUrl = getStageUrl(stageId);
-			resetData();
-			loadStageData(stageUrl);
-		}
+		validateProgressBtn(mainStageCap, false);
 	});
 
 	$('.stage-next').click(function(e) {
 		e.preventDefault();
-		if (parseInt(stageId) + 1 > mainStageCap) {
-			resetData();
-			$('.stage__number').after('<div class="stage-selector__helper">Current stage cap is ' + mainStageCap + '</div>');
-		} else {
-			stageId = parseInt(stageId) + 1;
-			$('body').attr('stage-data-id', stageId);
-			stageUrl = getStageUrl(stageId);
-			resetData();
-			loadStageData(stageUrl);
+		if (currentMode === "Expert") {
+			validateProgressBtn(expertStageCap, true);
 		}
-		// $("html, body").animate({ scrollTop: 0 }, "slow");
+		if (currentMode === "Main") {
+			validateProgressBtn(mainStageCap, true);
+		}
 	});
 
 })();
