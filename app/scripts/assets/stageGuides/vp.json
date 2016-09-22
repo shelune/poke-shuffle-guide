@@ -1,6 +1,6 @@
 [
     {
-        "stageNo": "Violeta Palace"
+        "stageNo": "Violetta Palace"
     },
     {
         "stageNo": 351,
@@ -563,8 +563,8 @@
         "initialBoardSetup": "http://i.imgur.com/KBUqoEI.png",
         "disruptions": "Board: 6 Barriers and 6 Metal in rows 3-4\nInitial: None\nTimer: Adds 6 Barriers and 6 Metal on rows 3-4 every 3 moves\n\nHP<=56%: Adds 6 Metal and 6 Barriers in columns 3-4 every 4 moves",
         "pokemon": 4,
-        "recommendedParty": "[Lucario]/[Mawile]/\n[Medicham]/[Blastoise]/\n[Swampert]/[Sceptile]\n\nMilotic, Steelix, Klinklang,\nConkeldurr, Pangoro,\nGogoat, Roserade\n\nGallade, Cobalion,\nVirizion, Gliscor\n\nShaymin, Palkia,\nMachamp, Dialga",
-        "clearingStrategy": "First very hard stage in this zone.\nYou will need a Disruption Delay to\nbeat it, because Palkia and Dialga\ncan't keep up with the disruption rate.",
+        "recommendedParty": "[Lucario]/[Mawile]/\n[Medicham]/[Blastoise]/\n[Swampert]/[Sceptile]\n\nMilotic, Steelix, Klinklang,\nConkeldurr, Pangoro,\nGogoat, Roserade\n\nGallade, Cobalion,\nVirizion, Gliscor\n\nShaymin, Palkia,\nMachamp, Dialga, Landorus",
+        "clearingStrategy": "First very hard stage in this zone.\nYou will need a Disruption Delay to\nbeat it, because Palkia and Dialga\ncan't keep up with the disruption rate.\n\nHowever with the additions of new Pokemons & ability, you may not need DD. Go for Jirachi+ M-Steelix, plus Barrier Bash+ and you can eventually beat it itemless. Lando-T is a good support for its damage too.",
         "srankingStrategy": "Moves: At least 11 moves left\n\nBarely got the S rank with 11 moves left\nusing M-Ray, Landorus-T, Dialga and\nPalkia (all Max level, Rayquaza full candy).\nOnly Disruption Delay was used.\n\nIt is safe to assume that DD and Moves +5\nare good with that team, but you may\nneed to switch Mega if your Rayquaza is \nnot candied (or do Disruption Delay + Mega\nStart; Moves +5 would be overkill with this)",
         "notes": "     ",
         "mobileNotes": "  ",
