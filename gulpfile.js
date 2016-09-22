@@ -41,6 +41,13 @@ gulp.task('images', function(tmp) {
         .pipe(gulp.dest('app/images'));
 });
 
+gulp.task('assets-deploy', function(tmp) {
+    gulp.src(['app/scripts/assets/**/*.json'])
+        //prevent pipe breaking caused by errors from gulp plugins
+        .pipe(plumber())
+        .pipe(gulp.dest('dist/scripts/assets'));
+});
+
 //compressing images & handle SVG files
 gulp.task('images-deploy', function() {
     gulp.src(['app/images/**/*', '!app/images/README'])
@@ -207,4 +214,4 @@ gulp.task('default', ['browserSync', 'scripts', 'styles'], function() {
 });
 
 //this is our deployment task, it will set everything for deployment-ready files
-gulp.task('deploy', gulpSequence('clean', 'scaffold', ['scripts-deploy', 'styles-deploy', 'images-deploy'], 'html-deploy'));
+gulp.task('deploy', gulpSequence('clean', 'scaffold', ['assets-deploy', 'scripts-deploy', 'styles-deploy', 'images-deploy'], 'html-deploy'));
