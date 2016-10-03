@@ -14,8 +14,9 @@
         "disruptions": "Board: Lots of Rocks, Lone Starly at the center\nInitial: None\nTimer: Adds 3 Starly every 3 turns",
         "pokemon": 4,
         "recommendedParty": "[Glalie]/[Ampharos]/\n[Manectric]\n\nAmpharos, Aurorus,\nTyranitar, Avalugg\n\nZapdos, Raikou\n\nNone",
-        "clearingStrategy": "C5 - F2 or A1 - C5 to get a good\nstart. You may want to stick with\nGlalie as your Mega if you want\nto Mega Evolve",
-        "srankingStrategy": "Moves: At least 4 moves left\n\nMove+5 will do this good",
+        "clearingStrategy": "C5 – F2 or A1 – C5 to get a good start. Starly has low hit points and a light disruption. \n\nMake careful moves and combo well and clearing this stage should be fairly easy. \n\nTyranitar has Eject, which can help remove the disrupted Starly from the board.",
+        "srankingStrategy": "At least 4 moves left. \n\nGiven the short amount of moves to S-rank, a fast evolving Mega is the key. That is why Ampharos is a weaker option. \n\nIf 5 moves isn’t enough to clear, consider +5 moves to insure the S-rank.",
+        "suggestedTeam": "[Glalie], Tyranitar, Zekrom, Ampharos\n\n[Gengar], Tyranitar, Raikou, Aurorus",
         "basePower": 30,
         "ability": "Crowd Control"
     },
@@ -31,8 +32,9 @@
         "disruptions": "Board: Rocks at 5th and 6th row\nInitial: None\nTimer: Adds 5 Rocks after 3 turns x2. Adds 1 Row in Barriers after 3 turns. Repeat",
         "pokemon": 4,
         "recommendedParty": "[Gengar]/[Heracross]\n\nGengar, Zoroark,\nHeracross, Scizor\n\nGenesect, Yveltal\n\nGiratina",
-        "clearingStrategy": "Just your old simple stage. Get\ndamage fast with Crowd Control or\nPower of 4+",
-        "srankingStrategy": "Moves: At least 7 moves left\n\nThis can be done itemless\n\nIf you are getting short on moves, then\nadd Move+5",
+        "clearingStrategy": "Clear the rocks on the initial board\nand Mega Evolve as soon\nas you can \n\nJust your old simple stage. Get\ndamage fast with Crowd Control or\nPower of 4+",
+        "srankingStrategy": "Moves: At least 7 moves left\n\nThis can be done itemless\n\nTry to activate sleep charm with\nDarkrai to get a 20% boost to damage\nand delay disruptions.\n\nIf you are getting short on moves, then\nadd Move+5",
+        "suggestedTeam": "[Gengar], Yveltal, Giratina-A, Darkrai\n\n[Gengar], Hoopa-C, Bisharp, Yveltal",
         "basePower": 40,
         "ability": "Cloud Clear"
     },
@@ -48,8 +50,9 @@
         "disruptions": "Board: 3 Rocks at the bottom, 1 Goomy\nInitial: None\nTimer: Adds 2 Barriers after 3 turns x2. Randomly Between: Adds 4 Rocks after a turn / Adds 3 Rocks and 1 Goomy after a turn. Repeat",
         "pokemon": 4,
         "recommendedParty": "[Altaria]/[Glalie]/[Gengar]\n\nHaxorus, Snubbull,\nAvalugg\n\nXerneas, Dragonite,\nArticuno\n\nRayquaza, Diancie",
-        "clearingStrategy": "Gengar would be good if the other\nSuper Effective Megas don't work.",
-        "srankingStrategy": "Moves: At least 7 moves left\n\nThis can be done itemless\n\nIf you are getting short on moves, then\nadd Move+5",
+        "clearingStrategy": "The disruptions are light on this\nstage. Match near the rocks to clear\nthem, Mega Evolve, and combo\nas best as you can.",
+        "srankingStrategy": "Moves: At least 7 moves left\n\nThis can be done itemless\n\nActivate Dancing Dragons as much as\nyou can to deal more damage to Goomy.\n\nConsidering using Mega Gengar for better\ncombo potential\n\nIf you are getting short on moves, then\nadd Move+5",
+        "suggestedTeam": "[Glalie], Xerneas, Dragonite, Zygarde-C\n\n[Gengar], Kyuurem-W, Dragonite, Latios",
         "basePower": 50,
         "ability": "Mega Boost"
     },
@@ -65,8 +68,9 @@
         "disruptions": "Board: None\nInitial: None\nTimer: Adds 2 Mime Jr on Row 4 after 4 turns. Randomly Between: Adds 2-5 Barrier if no 5+ lines combo / Adds 2 Mime Jr on Row 1, 3, or 5 if no 5+ lines combo",
         "pokemon": 4,
         "recommendedParty": "[Gengar]/[Heracross]\n\nGengar, Zoroark,\nHeracross, Scizor\n\nGenesect, Yveltal\n\nGiratina",
-        "clearingStrategy": "Not hard even with the disruptions.\nJust do the same trick with Gothita",
-        "srankingStrategy": "Moves: At least 6 moves left\n\nThis can be done itemless\n\nIf you are getting short on moves, then\nadd Move+5",
+        "clearingStrategy": "Higher HP with fewer moves than\nGothorita. Combo as best as you can\nto hold off the disruptions to polish\nthis stage off.\n\n",
+        "srankingStrategy": "Moves: At least 6 moves left\n\nThis can be done itemless\n\nOnce again Darkrai's Sleep Charm can be\na huge help in getting enough damage on \nthis tanky stage. Evolve and let Gengar\ndo his thing\n\nIf you are getting short on moves, then\nadd Move+5",
+        "suggestedTeam": "[Gengar], Yveltal, Giratina-A, Darkrai\n\n[Gengar], Hoopa-C, Bisharp, Yveltal",
         "basePower": 50,
         "ability": "Quirky"
     },
@@ -84,6 +88,7 @@
         "recommendedParty": "[Ampharos]/[Manectric]/\n[Gengar]\n\nAmpharos, Aurorus,\nTyranitar, Avalugg\n\nZapdos, Raikou\n\nNone",
         "clearingStrategy": "If you want to eliminate the Barriers\nand other Pokemon, use a combination\nof Tyranitar and Avalugg (although this\nis not very efficient)\n\nI discourage the use of Glalie here\nbecause its ability (Chill) will delay\nthe disruption. To eliminate the Starly\nand Staravia after the disruption, you\nmust clear the 4th-6th column (seems\nhard but with 1st row support it would\nbe not that hard)",
         "srankingStrategy": "Moves: At least 3 moves left\n\nThis can be done itemless but will\nrequire luck after the disruption\n\nIf you are getting short on moves, then\nadd Move+5\n\nAnother strategy: Bring your own\nStarly and/or Staravia. With this you can\npotentially remove the barriers without\nusing any item and the Mega will do\nthe damage. The downfall to this is the\ncatch rate which would require Great Balls\nor lot of attempt which makes adding a\nMove+5 better",
+        "suggestedTeam": "[Gengar], Tyranitar, Raikou (SS: BB+)\n\n[Gengar], Tyranitar, Avalugg\n\n",
         "notes": " ",
         "mobileNotes": " ",
         "basePower": 50,
@@ -101,8 +106,9 @@
         "disruptions": "Board: 5th and 6th Row in Metal Blocks\nInitial: None\nTimer: Adds a 1x2 Metal Blocks in 1st and 2nd Row after a turn x4. Adds 4 Barrier after 3 turns. Repeat the last disruption",
         "pokemon": 4,
         "recommendedParty": "[Gengar]/[Heracross]\n\nGengar, Zoroark,\nHeracross, Scizor\n\nGenesect, Yveltal\n\nGiratina, Darkrai",
-        "clearingStrategy": "Focus on Power of 4+ here and\nMega evolving your Mega. With so \nmany Metal Blocks on board at first,\nCrowd Control will lose some damage.\nAfter the Metal Blocks, you may want\nto start doing damage with Crowd\nControl",
+        "clearingStrategy": "Skill Swapped Yveltal can give you\nextra room to work with on the board.\nFocus on mega evolving and \nremoving as many blocks as you can.\nPO4+ and Crowd control will help you\ndeal enough damage to clear the stage\n\n",
         "srankingStrategy": "Moves: At least 7 moves left\n\nA combination of Move+5\nand DD will be sufficient to do this",
+        "suggestedTeam": "[Gengar], Yveltal (SS: BS+), Darkrai, Giratina-A\n\n[Gengar], Yveltal (SS: BS+), Genesect, Zoroark",
         "basePower": 50,
         "ability": "Sleep Charm0"
     },
@@ -120,6 +126,7 @@
         "recommendedParty": "[Mawile]/[Gengar]\n\nBronzong, Steelix,\nNidoqueen, Nidoking\n\nNone\n\nDialga, Jirachi",
         "clearingStrategy": "Dialga will get through the Metal\nBlocks here very easy. If you\ndont have Dialga, you may stick\nwith Bronzong. Not a very hard\nstage",
         "srankingStrategy": "Moves: At least 6 moves left\n\nVery easy itemless",
+        "suggestedTeam": "[Gengar], Dialga, Steelix\n\n[Gengar], Bronzong, Nidoqueen",
         "basePower": 30,
         "ability": "Prank"
     },
@@ -137,6 +144,7 @@
         "recommendedParty": "[Blaziken]/[Gengar]/\n[Any]\n\nNinetales, Tyranitar,\nAurorus\n\nDelphox, Heatran\n\nNone",
         "clearingStrategy": "Very easy with an All-Fire team.\nHave Delphox start the combo with\nPyre and have M-Blaziken bomb the\nboard. For those who dont have\nM-Blaziken, you can switch to M-\nGengar for a free complexity and would\nwork just fine",
         "srankingStrategy": "Moves: At least 7 moves left\n\nVery easy itemless\n\nOtherwise, add Move+5",
+        "suggestedTeam": "[Blaziken], Delphox, Ho-Oh, Reshiram\n\n[Charizard-Y], Delphox, Heatran, Moltres\n\n[Gengar], Lugia, Salamence, Braviary",
         "basePower": 30,
         "ability": "Mega Boost"
     },
@@ -154,6 +162,7 @@
         "recommendedParty": "[Blaziken]/[Gengar]\n\nNinetales, Tyranitar,\nAurorus, Scatterbug\n\nDelphox, Heatran\n\nNone",
         "clearingStrategy": "Bring Scatterbug with you otherwise\nyou cant do this. Focus on\ngetting rid of some Scatterbug at first.\nBoth M-Blaziken and M-Gengar work\nwonders here",
         "srankingStrategy": "Moves: At least 2 moves left\n\nIf you want to do this itemless, you will\nrequire luck (easily just go and watch, move\n1 time or try again)\n\nMove+5 will do this very very easy",
+        "suggestedTeam": "[Gengar], Scatterbug, Reshiram",
         "basePower": 40,
         "ability": "Eject"
     },
@@ -170,7 +179,8 @@
         "pokemon": 4,
         "recommendedParty": "[Blaziken]/[Gengar]/\n[Charizard Y]\n\nNinetales, Tyranitar,\nAurorus\n\nDelphox, Heatran\n\nReshiram, Ho-Oh",
         "clearingStrategy": "Once again, M-Blaziken is the best\nfor this stage. If you dont have it,\nthen M-Gengar seems to be just fine.\nSame strategy with Scatterbug. Just\nget Pyre+Mega Combo and you'll do\nthis good (No items needed)\n\nYou may want to take care of the\nbarriers on top while slowly Mega\nEvolving your Pokemon (assuing\nyou dont use Mega Start) The 4\nBarriers on the top is what you need\nto take out as the other 4 on the bottom\nis not that crucial.\n\nWith the release of M-Charizard Y,\nyou get another alternate for Blaziken.\nIt's Mega Effect is perfect for clearing\naway Vivillon's disruptions",
-        "srankingStrategy": "Moves: At least 8 moves left\n\nM-Blaziken + Move+5 + DD will be good\nenough for this (Also add up some luck)\nM-Blaziken will rack up damage if you\nget a successful whole field \"bomb\"\n\nM-Gengar + Complexity + DD is also\ngood getting 2 less Pokemon on the\nboard each time you get a Mega Gengar\nmatch (You may try not using Complexity\nat first since this is beatable without using\na Complexity. You may also want to get\nMove+5 for safety net)",
+        "srankingStrategy": "Moves: At least 8 moves left\n\nM-Blaziken + Move+5 + DD will be good\nenough for this (Also add up some luck)\nM-Blaziken will rack up damage if you\nget a successful whole field \"bomb\"\n\nSimilarly, M-Gengar M+5 and DD can also work using either a Pyre or Sky Blast team.The Pseudo-C-1 effect will help extend long pyre combos for lots of damage \n\n",
+        "suggestedTeam": "[Blaziken], Delphox, Reshiram, Heatran\n\n[Blaziken], Ho-Oh (SS: Pyre), Reshiram, Heatran\n\n[Gengar], Delphox, Hetran, Moltres",
         "basePower": 60,
         "ability": "Astonish"
     },
@@ -186,8 +196,9 @@
         "disruptions": "Board: A lot of Rocks and 2 Meditite\nInitial: None\nTimer: Adds 6 Barriers and 2 Meditite in a 2x4 blocks after 6 moves\n\nNote: Meditite and Barrier will only spawn on the blocks where the initial Meditite is",
         "pokemon": 3,
         "recommendedParty": "[Mewtwo]/[Slowbro]/\n[Gengar]\n\nSalamence, Braviary\n\nMewtwo\n\nVictini, Cresselia, Lugia",
-        "clearingStrategy": "M-Gengar team will do this\neasily itemless",
+        "clearingStrategy": "M-Gengar on a 3-Pokemon stage\nmakes setting up Eject+ and Mind Zap\nvery easy. You should not have too\nmany problems clearing this stage",
         "srankingStrategy": "Moves: At least 8 moves left\nItemless can do this with M-Gengar",
+        "suggestedTeam": "[Gengar], Uxie, Cresselia\n\n[Gengar], Lugia, Uxie",
         "basePower": 40,
         "ability": "Astonish"
     },
@@ -203,8 +214,9 @@
         "disruptions": "Board: Skitty and Rocks on Barrier\nInitial: None\nTimer: Adds 3 Rocks after 2 moves x2. Adds 5 Skitty after 3 moves. Repeat",
         "pokemon": 4,
         "recommendedParty": "[Lucario]/[Gengar]\n\nSawk, Mienshao,\nPangoro, Conkeldurr\n\nLucario\n\nNone",
-        "clearingStrategy": "This stage is very easy. The health\nis very low you can do this itemless",
+        "clearingStrategy": "This stage is very easy. The health\nis very low you can do this itemless\n\nFocus on breaking down the rocks and\ngetting your mega online. Machamp \ncan eject the Skitty, and Lucario can\nerase whole columns after it mega \nevolves.",
         "srankingStrategy": "Moves: At least 6 moves left\nItemless can do this",
+        "suggestedTeam": "[Gengar], Lucario, Conkeldurr, Machamp\n\n[Lucario], Conkeldurr, Machamp, Hitmonlee",
         "basePower": 30,
         "ability": "Mega Boost+"
     },
@@ -222,6 +234,7 @@
         "recommendedParty": "[Mawile]/[Gengar]\n\nBronzong, Steelix,\nNidoqueen\n\nCobalion\n\nJirachi, Dialga",
         "clearingStrategy": "You can do a Jirachi+Mawile combo\nhere. If you didnt get a good match,\nyou may want to use Cobalion's Power\nof 4+ instead. An alternative Mega\nwould be Gengar which is also good",
         "srankingStrategy": "Moves: At least 6 moves left\nMove+5 can do this",
+        "suggestedTeam": "[Mawile], Jirachi, Dialga, Cobalion\n\n[Gengar], Dialga, Cobalion, Nidoqueen",
         "basePower": 40,
         "ability": "Eject"
     },
@@ -239,6 +252,7 @@
         "recommendedParty": "[Manectric]/[Ampharos]/\n[Glalie]/[Gengar]\n\nTyranitar, Ampharos, \nAurorus\n\nZapdos, Raikou,\nTerrakion\n\nKyurem, Gigalith",
         "clearingStrategy": "For initial, A6 to F4 is a good way\nto start. This will wipe all Starly,\nStaravia and Staraptor on the board.\n\nThen, eject the disruptions with \nTyranitar, matching them together\nwill waste your moves.",
         "srankingStrategy": "Moves: At least 10 moves left\nMove+5, DD and Mega Start will be\nenough for this. You can use M-Gengar\nwith a team of super effectives, it works\nquite well. Using Gengar, you can drop\nthe Mega Start as Gengar evolves fast.\n\nExpensive option (but ultra reliable)\nComplexity + DD (Move+5 for safety net)\nSeems to work on most. But the former\nstrategy should work well now that we have\nstronger pokémon  (Kyurem for example)",
+        "suggestedTeam": "[Ampharos], Tyranitar, Raikou (SS: BB+), Terrakion\n\n[Gengar], Jolteon (SS: Ej+, RML), Tyranitar, Raikou (SS: BB+)",
         "basePower": 60,
         "ability": "Stabilize+"
     },
@@ -256,6 +270,7 @@
         "recommendedParty": "[Lucario]/[Garchomp]\n\nNinetales, Excadrill,\nConkeldurr\n\nLucario, Blaziken,\nHeatran, Moltres\n\nGroudon, Garchomp,\nEmboar",
         "clearingStrategy": "Emboar is good for clearing the\nbarriers away. While doing it, you \nmay want to Mega Evolve your Mega.\nThe best Mega would be Lucario to\nwipe away the disruptions away.\n\nWith the release of Palkia, Palkia\nis doing a better Barrier Basher than\nEmboar since it can destroy 3 barriers.\n(Cresselia and Diancie are both NVE\nso don't use them)",
         "srankingStrategy": "Moves: At least 6 moves left\nMove+5 can do this",
+        "suggestedTeam": "[Charizard-Y], Palkia, Delphox, Landorus-T\n\n[Blaziken], Reshiram, Delphox, Ho-Oh",
         "basePower": 50,
         "ability": "Damage Streak"
     },
@@ -273,6 +288,7 @@
         "recommendedParty": "[Gengar]/[Heracross]/\n[Sharpedo]/[Banette]\n\nGengar, Zoroark,\nHeracross, Scizor\n\nGenesect, Yveltal,\nAbsol\n\nGiratina, Darkrai",
         "clearingStrategy": "You'll need to rely on Darkrai's Sleep\nCharm to get rid of disruptions for a\nwhile. The disruption is crazy and\nwill fill your board unless you are\nusing a DD. Just focus on all damage\nyou can get. Giratina's Power of 4+,\nGenesect's Crowd Control and\nDarkrai are the best to use.\n\nSeems Absol as Mind Zapper seems\nto also work to prevent disruptions\n(aside from Darkrai's Sleep Charm)\n\nFor those who are using Banette,\nShuppet is a better choice for a \nMind Zap if you gave it some levels\n(For more Power for Banette's Mega\nEffect)",
         "srankingStrategy": "Moves: At least 12 moves left\nMove+5 can do this\n\nOtherwise, add up a DD",
+        "suggestedTeam": "[Gengar], Darkrai, Giratina-A, Genesect\n\n[Gengar], Darkrai, Yveltal, Zoroark\n\n[Gengar], Darkrai, Yveltal, Absol",
         "basePower": 60,
         "ability": "Prank"
     },
@@ -290,6 +306,7 @@
         "recommendedParty": "[Lucario]/[Garchomp]\n\nNinetales, Excadrill,\nConkeldurr\n\nLucario, Blaziken,\nHeatran, Moltres\n\nGroudon, Garchomp,\nEmboar",
         "clearingStrategy": "First thing to do is get rid of the\nbarriers so after 5 turns, Pokemon will\nskyfall. Emboar will do this quite easily\nThe disruption is not that hard as Mega\nLucario and Mega Garchomp can get\nrid of them easily. For this, Mega\nLucario is better because of faster\nMega Evolving",
         "srankingStrategy": "Moves: At least 7 moves left\nMove+5 can do this",
+        "suggestedTeam": "[Lucario], Reshiram, Landorus-T, Machamp\n\n[Garchomp], Gallade *, Reshiram, Heatran",
         "basePower": 60,
         "ability": "Power of 5"
     },
@@ -307,6 +324,7 @@
         "recommendedParty": "[Gengar]/[Heracross]/\n[Sharpedo]/[Absol]/\n[Banette]\n\nGengar, Zoroark,\nHeracross, Scizor\n\nGenesect, Yveltal\n\nGiratina, Darkrai",
         "clearingStrategy": "Another very hard stage. DD will\nhelp lessen the threats if you can't\nbeat it with Move+5.\n\nTry clearing the Gothita and Gothorita\nfirst by matching them (Even by doing\nthis a Gothita and a Gothitelle will still\nexist) D5-B4/E4 , D6-C4, C4-D4 is\none way of clearing them away",
         "srankingStrategy": "Moves: At least 7 moves left\nMove+5 and DD seems to be the minimum\nitems to use here.\n\nMega Start and DD can do this (you can\nuse Move+5 if you are unsure)",
+        "suggestedTeam": "[Gengar], Darkrai, Giratina-A, Genesect\n\n[Gengar], Hoppa-C, Yveltal (SS: BS+), Genesect",
         "basePower": 60,
         "ability": "Quirky+"
     },
@@ -324,6 +342,7 @@
         "recommendedParty": "[Altaria]/[Glalie]/[Latias]\n\nHaxorus, Avalugg,\nGoomy\n\nXerneas, Dragonite,\nArticuno\n\nRayquaza, Latias",
         "clearingStrategy": "A Hard stage since this one has\nadditional support. I suggest bringing\nGoomy along since it is Super\nEffective and appears in disruption.\nFor Mega, the best one would be\nAltaria since Goomy helps it with its\nability (Mega Boost)\n\nWith the addition of Latias, this stage\nbecomes more easier. Use Mega\nLatias instead if you have it",
         "srankingStrategy": "Moves: At least 7 moves left\nDD, Move+5 is the minimum\n\nComplexity + DD will also be good (in this\ncase, dont add Goomy to your team)",
+        "suggestedTeam": "[Latios], Goomy, Zygarde-50, Kyuurem-W\n\n[Altaria], Goomy, Xerneas, Dragonite",
         "basePower": 60,
         "ability": "Barrier Bash"
     },
@@ -341,6 +360,7 @@
         "recommendedParty": "[Mewtwo]/[Slowbro]/\n[Gengar]\n\nSalamence, Braviary\n\nMewtwo\n\nVictini, Cresselia, Lugia",
         "clearingStrategy": "Lugia ejects the Medicham/Meditite\naway. Cresselia is also good for\nclearing away the Barriers. Seems to\nbe beatable only with items (Move+5\nis minimum)\n\nGengar seems to work alright here too",
         "srankingStrategy": "Moves: At least 9 moves left\nDD and Move+5 can do this.\n\nOr DD, Mega Start and Move+5 for full\neffect",
+        "suggestedTeam": "[Mewtwo-Y], Mew (SS: BS+, RML), Victini, Cresselia\n\n[Slowbro], Uxie, Azelf, Lugia",
         "basePower": 60,
         "ability": "Mega Boost"
     },
@@ -358,6 +378,7 @@
         "recommendedParty": "[Mewtwo]/[Slowbro]/\n[Garchomp]\n\nExcadrill, Stunfisk,\nMarowak, Grimer\n\nMewtwo\n\nCresselia, Victini,\nGarchomp",
         "clearingStrategy": "Very easy. Grimer with Crowd Control\neven helps you here",
         "srankingStrategy": "Moves: At least 4 moves left\nYou can do this itemless. You may want\nto try adding Grimer to your team if you\ncaught it first before S-Ranking\n\nIf all else failed, use Move+5",
+        "suggestedTeam": "[Mewtwo], Landorus-T, Garchomp, Alakazam\n\n[Gengar], Grimer, Landorus-T, Mewtwo",
         "basePower": 50,
         "ability": "Crowd Control"
     },
@@ -375,6 +396,7 @@
         "recommendedParty": "[Gengar]/[Manectric]/\n[Ampharos]\n\nAmpharos, Tyranitar,\nAerodactyl\n\nTerrakion, Articuno\n\nRegice",
         "clearingStrategy": "Another very easy with Gengar.\nyou shouldn't have problems with\nthis stage",
         "srankingStrategy": "Moves: At least 6 moves left\nVery easy itemless",
+        "suggestedTeam": "[Gengar], Tyranitar, Jolteon (SS: Ej+)\n\n[Gengar], Tyranitar, Zekrom",
         "basePower": 40,
         "ability": "Cloud Clear"
     },
@@ -392,6 +414,7 @@
         "recommendedParty": "[Lucario]/[Medicham]/\n[Any]\n\nSawk, Medicham,\nConkeldurr\n\nLucario, Gallade\n\nNone",
         "clearingStrategy": "Another easy one. Nothing worth\nnoting",
         "srankingStrategy": "Moves: At least 7 moves left\nCan be done itemless\n\nOtherwise, Add a Move+5",
+        "suggestedTeam": "[Gengar], Lucario, Machamp, Gallade\n\n[Lucario], Machamp, Gallade, Conkeldurr",
         "basePower": 60,
         "ability": "Rock Break"
     },
@@ -409,6 +432,7 @@
         "recommendedParty": "[Mewtwo]/[Slowbro]/\n[Garchomp]\n\nExcadrill, Stunfisk,\nMarowak, Grimer\n\nMewtwo\n\nCresselia, Victini,\nGarchomp",
         "clearingStrategy": "Cresselia is good here for getting\nrid of the barriers. Any of the 3\nMega works good in this stage.",
         "srankingStrategy": "Moves: At least 8 moves left\nSeems to be doable itemless.\n\nOtherwise, it can be done with Move+5",
+        "suggestedTeam": "[Mewtwo], Cresselia, Grimer, Landorus-T\n\n[Slowbro], Cresselia, Landorus-T, Victini",
         "basePower": 70,
         "ability": "Power of 4+"
     },
@@ -426,6 +450,7 @@
         "recommendedParty": "[Lucario]/[Heracross]/\n[Medicham]/[Gengar]\n\nHeracross, Volcarona,\nConkeldurr\n\nXerneas, Genesect\n\nPinsir",
         "clearingStrategy": "The board will get full of Metal Blocks\nin no time. Still easy to beat because\nit stops after 5 turns and some Metal\nBlocks will disappear at a time.",
         "srankingStrategy": "Moves: At least 5 moves left\nMove+5 will guarantee this\n\nIf you want to do this itemless, try\nM-Gengar. M-Gengar can get a huge combo\nwhen some blocks are gone which will be\n5 turns left. Make sure not to delay\nPawniard's disruption when Mega Evolving\nso you'll have a free one turn.",
+        "suggestedTeam": "[Gengar], Genesect, Xerneas\n\n[Gengar], Gallade, Leavanny",
         "basePower": 50,
         "ability": "Block Smash"
     },
@@ -443,6 +468,7 @@
         "recommendedParty": "[Lucario]/[Medicham]/\n[Any]\n\nSawk, Medicham,\nConkeldurr\n\nLucario, Gallade\n\nNone",
         "clearingStrategy": "The first thing to do is match the\nSkitty at the center. This opens the\n3rd Column for skyfall. Then use the\nremaining Skitty to match the other\nSkitty blocking the skyfall at other\ncolumns.",
         "srankingStrategy": "Moves: At least 7 moves left\nSeems to be beatable itemless. Some\nsay that adding Skitty to the stage helps\n\nMove+5 will do if you are having trouble",
+        "suggestedTeam": "[Lucario], Machamp, Conkeldurr, Gallade\n\n[Gengar[, Machamp, Lucario, Gallade",
         "basePower": 50,
         "ability": "Prank"
     },
@@ -460,6 +486,7 @@
         "recommendedParty": "[Gengar]/[Manectric]/\n[Ampharos]/[Glalie]\n\nAmpharos, Tyranitar,\nAerodactyl\n\nTerrakion, Articuno\n\nRegice",
         "clearingStrategy": "Not really that hard. It was easy\nto combo despite the additional\nsupport.\n\nNote: Eject can sometimes Eject\nthe Wingull away but it does not work\n100% of the time. A user PM me\nthat Eject does indeed work on this\nstage and even sent a proof video. If it\ndoesn't work, dont blame the guide",
         "srankingStrategy": "Moves: At least 12 moves left\nSeems that it is beatable itemless.\n\nOr Move+5 will do",
+        "suggestedTeam": "[Gengar], Tyranitar, Kyuurem, Zekrom\n\n[Aerodactyl], Tyranitar, Raikou, Ampharos *MS\n",
         "basePower": 60,
         "ability": "Power of 4"
     },
@@ -477,6 +504,7 @@
         "recommendedParty": "[Mawile]\n\nBronzong, Steelix,\nNidoqueen, Muk\n\nCobalion\n\nJirachi, Dialga",
         "clearingStrategy": "Stage has been made easier with less\nHP. Not sure how it affects the \nclearing and S ranking strategies.\n\nThe barriers are hard to control\nwithout someone to destroy it.\nCresselia or Palkia may be used to\nget rid of some of them. ",
         "srankingStrategy": "Moves: At least 9 moves left\nSeems to be doable with Move+5\nif you have Jirachi + M-Mawile.\n\nIf Move+5 didn't work for you, you might\nwant to swap Jirachi for Muk (if leveled)\nor Nidoqueen and add Mega Start. Note\nthat M-Mawile's Mega ability will only\nclear half the initial barriers when triggered\nso you have to clear the leftovers yourself.\nIf the Disruption is hard for you, you may\nneed a DD but I don't recommend it.\n\nNow, with the mighty M-Rayquaza, it's\nreliable to use Mega Start and Moves +5.\nEven though Rayquaza is Not Very\nEffective, it can remove the Ralts and Kirlia\nand overall make you able to combo very\nnicely (thanks for the suggestion!)",
+        "suggestedTeam": "[Diancie], Dialga, Muk, Cobalion MS DD M+5\n\n[Mawile], Dialga, Muk, Cobalion\n\n[Gengar] Dialga, Muk, Nidoquen",
         "basePower": 70,
         "ability": "Swap"
     },
@@ -494,6 +522,7 @@
         "recommendedParty": "Any",
         "clearingStrategy": "Pokemon you use doesn't matter.\nHere is the solution:\nB2-E3, D3-D2,\nC4-E3, C5-C4,\nE5-B3",
         "srankingStrategy": "Moves: At least 0 move left\nAlways S-Rank",
+        "suggestedTeam": "Any Team",
         "basePower": 70,
         "ability": "Damage Streak"
     },
@@ -511,6 +540,7 @@
         "recommendedParty": "[Mewtwo]/[Slowbro]/\n[Gengar]\n\nSalamence, Braviary\n\nMewtwo\n\nVictini, Cresselia, Lugia",
         "clearingStrategy": "The HP total has been decreased by a \nthird, so it definitely makes this stage\na lot easier, but I don't know how \nmuch.\n\nThe HP was very high. About near\ndouble regular Medicham's HP.\nLugia can Eject the Meditite's away\nbut after that it has no really use.\nBesides, the Meditite will become\nMetal Blocks anyway. Victini and\nCresselia are supports for Mega\nMewtwo Y if you are going to use it.\nCresselia may be good if it decided to\nthrow barriers at you. Only use\nBraviary if you wish to use Gengar\nand Sky Blast Team (with Salamence\nand Lugia)",
         "srankingStrategy": "Moves: At least 11 moves left\nMove+5, DD, Mega Start with Mewtwo Y\nand at least 2 Psychich seems good.\n\nComplexity + Gengar will leave only\n2 other Pokemon on the board which is\nvery good. However, you'll need a DD\nto constantly stop the Metal Blocks\nfrom Spawning.",
+        "suggestedTeam": "[Mewtwo-Y], Victini, Cresselia, Alakazam\n\n[Mewtwo-Y], Victini, Cresselia, Deoxys",
         "basePower": 60,
         "ability": "Mega Effects: Erases a group of Pokémon in the middle at once."
     }
