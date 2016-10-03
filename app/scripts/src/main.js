@@ -155,6 +155,13 @@
 		return result;
 	};
 
+	// split a sentence into array based on comma
+	var splitComma = function(sentence) {
+		if (sentence) {
+			return sentence.split(',');
+		}
+	}
+
 	// check if a sentence includes a word
 	var checkKey = function(sentence, key) {
 		return sentence.toLowerCase().includes(key);
@@ -552,6 +559,21 @@
 		});
 	};
 
+	// handle suggested team
+	var handleSuggestedTeam = function (suggestions) {
+		var teamList = splitBreakLine(suggestions);
+		teamList.forEach(function (team, index) {
+			if (team.length < 2) {
+				teamList.splice(index, 1);
+			}
+		});
+
+		teamList.forEach(function (team) {
+			var teamMembers = splitComma(team);
+			console.log(teamMembers);
+		});
+	}
+
 	// handle stage type display
 	var handleStageType = function (stageType) {
 		$('[data-attr="stage-type"]').css('background-image', 'url(images/types/type_' + stageType + '.svg)');
@@ -655,6 +677,7 @@
 					ability = unwrapProp(item, 'ability');
 					stageTimer = unwrapProp(item, 'time');
 					stageUnlock = unwrapProp(item, 'srank');
+					suggestedTeam = unwrapProp(item, 'suggestedTeam');
 
 					if (currentMode === "Expert") {
 						handleTimer(stageTimer);
@@ -678,6 +701,7 @@
 
 					handleDisruptions(disruptions);
 					handleParty(recommendedParty);
+					handleSuggestedTeam(suggestedTeam);
 				}	
 			});
 		});
