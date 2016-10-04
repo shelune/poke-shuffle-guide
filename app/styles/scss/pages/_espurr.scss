@@ -278,7 +278,7 @@
 
 .strategy {
 	// recommended team
-	&__team {
+	&__team, &__party {
 		margin-bottom: 40px;
 		> h2 {
 			font-size: 2rem;
