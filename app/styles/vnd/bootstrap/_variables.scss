@@ -42,11 +42,16 @@
 //
 // Grayscale and brand colors for use across Bootstrap.
 
-$color-dark: #3f3f3f;
+$color-dark: #2d2d2d;
 $color-black: #000000;
-$color-white: #ffffff;
-$color-gray: #a59f9f;
+$color-white: #fafafa;
+$color-gray: #f1f1f1;
 $color-info: #5acbe8;
+
+// Redesign Alpha colors
+$color-base: #2DEABD;
+$color-base-darker: #3E534E;
+$color-accent: #FC6C83;
 
 $color-text: $color-dark;
 $color-text-light: #6d6464;
