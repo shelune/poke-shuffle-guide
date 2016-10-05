@@ -1,6 +1,10 @@
 .single-pokemon {
 	color: $color-dark;
 
+	h1, h2, h3, h4 {
+		font-family: 'Lustria', sans-serif;
+	}
+
 	&[stage-mode="main"] {
 		.expert-stage--excluded {
 			display: flex;
@@ -18,9 +22,8 @@
 			display: flex;
 		}
 	}
-}
 
-.alert {
+	.alert {
 	background: $color-info;
 	padding: 10px;
 	color: $color-text-white;
@@ -33,27 +36,6 @@
 		}
 	}
 }
-
-.base-header {
-	background: $color-bg-dark;
-	height: 80px;
-	line-height: 80px;
-	padding: 0 15px;
-	
-	&__nav {
-		color: $color-text-white;
-		
-		ul {
-			display: flex;
-		}
-		
-		li:last-of-type {
-			font-size: 1.25rem;
-			margin-left: auto;
-		}
-	}
-}
-
 .stage {
 	margin: 80px 0;
 	/* fix additional padding at sides */
@@ -341,17 +323,4 @@
 		}
 	}
 }
-
-// footer
-.main-footer {
-	height: 120px;
-	background: $color-bg-dark;
-	display: flex;
-	justify-content: center;
-	
-	> span {
-		align-self: center;
-		font-size: 1.5rem;
-		color: $color-text-white;
-	}
 }

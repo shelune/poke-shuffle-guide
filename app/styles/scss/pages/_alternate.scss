@@ -1,0 +1,92 @@
+%text--heading {
+	font-family: 'Varela Round', sans-serif;
+}
+
+.redesign-alpha {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+
+	.base-header {
+		background: $color-base;
+
+		&__selectors {
+			display: flex;
+			padding: 10px 40px;
+			border-bottom: 1px solid $color-border;
+			box-shadow: 0 0 1px 1px $color-black;
+			
+			.selector {
+				display: flex;
+				font-size: 1.25rem;
+
+				&--mode {
+					margin-left: auto;
+
+					&__indicator {
+						@extend %text--heading;
+						margin: 0 10px;
+					}
+					/* Toggle Switch */
+					&__toggle {
+						display: flex;
+
+						> input[type="checkbox"] {
+							position: absolute;
+							opacity: 0;
+							visibility: hidden;
+						}
+
+						> label {
+							display: block;
+							width: 100px;
+							height: 32px;
+							background-color: $color-accent;
+							border-radius: 50px;
+							position: relative;
+							cursor: pointer;
+							outline: none;
+							transition: all 0.3s ease;
+
+							&::before, &::after {
+								position: absolute;
+								content: '';
+							}
+
+							&::before {
+								top: 2px;
+								left: 2px;
+								bottom: 2px;
+								right: 2px;
+								background-color: $color-gray;
+								border-radius: 50px;
+								transition: all 0.3s ease;
+							}
+
+							&::after {
+								top: 3px;
+								left: 4px;
+								background-color: $color-accent;
+								width: 26px;
+								height: 26px;
+								border-radius: 50%;
+								transition: all 0.3s ease;
+							}
+						}
+					}
+				}
+			}
+		}
+
+	}
+
+	.main-footer {
+		background: $color-base;
+	}
+
+	.content {
+		flex: 1;
+	}
+
+
+}

@@ -17,9 +17,7 @@ ul {
 	padding-left: 0;
 }
 
-h1, h2, h3, h4 {
-	font-family: 'Lustria', sans-serif;
-}
-
+@import "shared";
 @import "espurr";
 @import "about";
+@import "alternate";
