@@ -11,10 +11,11 @@
 		background: $color-base;
 
 		&__selectors {
+			background: #fefefe;
 			display: flex;
 			padding: 10px 40px;
 			border-bottom: 1px solid $color-border;
-			box-shadow: 0 0 1px 1px $color-black;
+			box-shadow: 0 2px 3px -2px $color-black;
 			
 			.selector {
 				display: flex;
@@ -26,20 +27,34 @@
 					&__indicator {
 						@extend %text--heading;
 						margin: 0 10px;
+
+						&[mode-indicator=main] {
+							order: 1;
+						}
+
+						&[mode-indicator=expert] {
+							order: 3;
+						}
 					}
 					/* Toggle Switch */
 					&__toggle {
 						display: flex;
+						position: relative;
 
 						> input[type="checkbox"] {
 							position: absolute;
 							opacity: 0;
 							visibility: hidden;
+
+							&:checked + label::after {
+								margin-left: 55px;
+							}
 						}
 
 						> label {
+							order: 2;
 							display: block;
-							width: 100px;
+							width: 90px;
 							height: 32px;
 							background-color: $color-accent;
 							border-radius: 50px;
@@ -58,7 +73,7 @@
 								left: 2px;
 								bottom: 2px;
 								right: 2px;
-								background-color: $color-gray;
+								background-color: $color-white;
 								border-radius: 50px;
 								transition: all 0.3s ease;
 							}
@@ -73,6 +88,34 @@
 								transition: all 0.3s ease;
 							}
 						}
+
+						@include media-breakpoint-down(sm) {
+							.selector--mode__indicator {
+								position: absolute;
+								font-size: 0.85rem;
+								right: 6px;
+								top: 50%;
+								transform: translateY(-50%);
+								z-index: 1;
+
+								&[mode-indicator=expert] {
+									visibility: hidden;
+									right: 24px;
+								}
+
+								&[mode-indicator=main] {
+									visibility: visible;
+								}	
+							}
+
+							input[type=checkbox]:checked ~ [mode-indicator=main] {
+									visibility: hidden;
+								}
+
+							input[type=checkbox]:checked ~ [mode-indicator=expert] {
+								visibility: visible;
+							}
+						}
 					}
 				}
 			}
@@ -80,8 +123,12 @@
 
 	}
 
+	.content {
+
+	}
+
 	.main-footer {
-		background: $color-base;
+		background: $color-base-darker;
 	}
 
 	.content {
