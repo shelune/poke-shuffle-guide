@@ -1,7 +1,7 @@
 ;(function () {
 	// level caps
 	var mainStageCap = 470;
-	var expertStageCap = 45;
+	var expertStageCap = 44;
 	var stageCollections = [
 		{
 			levelCap: 10,
@@ -543,7 +543,7 @@
 				pokemonCollection['mega'].forEach(function (referencePoke) {
 					// clumsy filter for Zard X, dunno how to deal with MMX
 					if (referencePoke.pokemonName.toLowerCase().includes(result.substring(0, result.length - 2).toLowerCase()) && !referencePoke.pokemonName.endsWith(' X') && !result.toLowerCase().includes("any")) {
-						$('[data-attr="stage-slots-mega"]').append('<span class="hint--bottom" aria-label="' + referencePoke.pokemonName + ' - ' + referencePoke.location + '" style="background-image: url(' + referencePoke.pokemonIcon + ')"></span>');
+						$('[data-attr="stage-slots-mega"]').append('<span class="team-option hint--bottom" aria-label="' + referencePoke.pokemonName + ' - ' + referencePoke.location + '" style="background-image: url(' + referencePoke.pokemonIcon + ')"></span>');
 					}
 				});
 			} else {
@@ -551,7 +551,7 @@
 					var division = pokemonCollection[key];
 					division.forEach(function (referencePoke) {
 						if (result.trim().toLowerCase() === (referencePoke.pokemonName.toLowerCase()) && result.trim().length > 0) {
-							$('[data-attr="stage-slots-' + key + '"]').append('<span class="hint--bottom" aria-label="' + referencePoke.pokemonName + ' - ' + referencePoke.location + '" style="background-image: url(' + referencePoke.pokemonIcon + ')"></span>');
+							$('[data-attr="stage-slots-' + key + '"]').append('<span class="team-option hint--bottom" aria-label="' + referencePoke.pokemonName + ' - ' + referencePoke.location + '" style="background-image: url(' + referencePoke.pokemonIcon + ')"></span>');
 						}
 					});
 				}
@@ -561,22 +561,28 @@
 
 	// handle suggested team
 	var handleSuggestedTeam = function (suggestions) {
+		var teamList, memberList;
 		if (suggestions != "") {
-			var teamList = splitBreakLine(suggestions);
-			teamList.forEach(function (team, index) {
-				if (team.length < 2) {
-					teamList.splice(index, 1);
+			teamList = [];
+			// separate suggestTeam into 2 strings of teams
+			splitBreakLine(suggestions).forEach(function (team, index) {
+				if (team != "") {
+					teamList.push(team);
 				}
 			});
 
 			teamList.forEach(function (team, index) {
-				if (index === 1) {
-					team.forEach(function (member) {
-						if (member.startsWith('[')) {
+				// breakdown team string to array of team members
+				memberList = splitComma(team);
+				console.log(memberList);
+				if (index === 0) {
+					memberList.map(function (member) {
+						if (member.includes('[') || member.includes(']')) {
+							member = member.trim().slice(1, -1).toLowerCase();
 							pokemonCollection['mega'].forEach(function (referencePoke) {
 								// clumsy filter for Zard X, dunno how to deal with MMX
-								if (referencePoke.pokemonName.toLowerCase().includes(member.substring(0, result.length - 2).toLowerCase()) && !referencePoke.pokemonName.endsWith(' X') && !member.toLowerCase().includes("any")) {
-									$('[data-attr="stage-party-optimal"]').append('<span class="hint--bottom" aria-label="' + referencePoke.pokemonName + ' - ' + referencePoke.location + '" style="background-image: url(' + referencePoke.pokemonIcon + ')"></span>');
+								if (referencePoke.pokemonName.toLowerCase().includes(member.substring(0, member.length - 2).toLowerCase()) && !referencePoke.pokemonName.endsWith(' X') && !member.toLowerCase().includes("any")) {
+									$('[data-attr="stage-party-optimal"]').append('<span class="team-option hint--bottom" aria-label="' + referencePoke.pokemonName + ' - ' + referencePoke.location + '" style="background-image: url(' + referencePoke.pokemonIcon + ')"></span>');
 								}
 							});
 						} else {
@@ -584,7 +590,28 @@
 								var division = pokemonCollection[key];
 								division.forEach(function (referencePoke) {
 									if (member.trim().toLowerCase() === (referencePoke.pokemonName.toLowerCase()) && member.trim().length > 0) {
-										$('[data-attr="stage-party-optimal"]').append('<span class="hint--bottom" aria-label="' + referencePoke.pokemonName + ' - ' + referencePoke.location + '" style="background-image: url(' + referencePoke.pokemonIcon + ')"></span>');
+										$('[data-attr="stage-party-optimal"]').append('<span class="team-option hint--bottom" aria-label="' + referencePoke.pokemonName + ' - ' + referencePoke.location + '" style="background-image: url(' + referencePoke.pokemonIcon + ')"></span>');
+									}
+								});
+							}
+						}
+					});
+				} else {
+					memberList.map(function (member) {
+						if (member.includes('[') || member.includes(']')) {
+							member = member.trim().slice(1, -1).toLowerCase();
+							pokemonCollection['mega'].forEach(function (referencePoke) {
+								// clumsy filter for Zard X, dunno how to deal with MMX
+								if (referencePoke.pokemonName.toLowerCase().includes(member.substring(0, member.length - 2).toLowerCase()) && !referencePoke.pokemonName.endsWith(' X') && !member.toLowerCase().includes("any")) {
+									$('[data-attr="stage-party-alternate"]').append('<span class="team-option hint--bottom" aria-label="' + referencePoke.pokemonName + ' - ' + referencePoke.location + '" style="background-image: url(' + referencePoke.pokemonIcon + ')"></span>');
+								}
+							});
+						} else {
+							for (var key in pokemonCollection) {
+								var division = pokemonCollection[key];
+								division.forEach(function (referencePoke) {
+									if (member.trim().toLowerCase() === (referencePoke.pokemonName.toLowerCase()) && member.trim().length > 0) {
+										$('[data-attr="stage-party-alternate"]').append('<span class="team-option hint--bottom" aria-label="' + referencePoke.pokemonName + ' - ' + referencePoke.location + '" style="background-image: url(' + referencePoke.pokemonIcon + ')"></span>');
 									}
 								});
 							}
@@ -592,6 +619,8 @@
 					});
 				}
 			});
+		} else {
+			console.log('Suggested Team Not Found!');
 		}
 	}
 
@@ -657,6 +686,7 @@
 		$('ul[data-attr^="stage-disruption"]').empty();
 		$('span[data-attr^="stage-"]').text('---');
 		$('[data-attr^="stage-slots-"]').empty();
+		$('[data-attr^="stage-party-"]').empty();
 		$('[data-attr^="stage-strategy-"]').empty();
 		$('img[data-attr="stage-setup-layout"]').attr('src', 'http://placehold.it/300x300');
 		$('img[data-attr="stage-thumbnail"]').attr('src', 'images/icons/icon_01.png');
@@ -668,7 +698,7 @@
 	var loadStageData = function (stageUrl) {
 		var stageName, stageIcon, stageType, stageMoves, hitPoints, captureRate, basePower, ability, stageTimer, stageUnlock,
 				boardLayout, disruptions,
-				teamLimit, srankStrat, clearStrat, recommendedParty;
+				teamLimit, srankStrat, clearStrat, recommendedParty, suggestedTeam;
 		$.getJSON(stageUrl, function (data) {
 		// get the area name
 			if (currentMode === "Main") {
