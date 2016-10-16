@@ -3413,7 +3413,13 @@
             "pokemonName": "Ninjask",
             "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/291.png",
             "location": "44"
-        }
+        },
+				{
+					"pokemonName": "Leavanny",
+					"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/542.png",
+					"location": ""
+				}
+			
     ],
     "mega": [
         {
