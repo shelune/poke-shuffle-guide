@@ -1,6 +1,6 @@
 ;(function () {
 	// level caps
-	var mainStageCap = 450;
+	var mainStageCap = 470;
 	var expertStageCap = 45;
 	var stageCollections = [
 		{
@@ -561,17 +561,38 @@
 
 	// handle suggested team
 	var handleSuggestedTeam = function (suggestions) {
-		var teamList = splitBreakLine(suggestions);
-		teamList.forEach(function (team, index) {
-			if (team.length < 2) {
-				teamList.splice(index, 1);
-			}
-		});
+		if (suggestions != "") {
+			var teamList = splitBreakLine(suggestions);
+			teamList.forEach(function (team, index) {
+				if (team.length < 2) {
+					teamList.splice(index, 1);
+				}
+			});
 
-		teamList.forEach(function (team) {
-			var teamMembers = splitComma(team);
-			console.log(teamMembers);
-		});
+			teamList.forEach(function (team, index) {
+				if (index === 1) {
+					team.forEach(function (member) {
+						if (member.startsWith('[')) {
+							pokemonCollection['mega'].forEach(function (referencePoke) {
+								// clumsy filter for Zard X, dunno how to deal with MMX
+								if (referencePoke.pokemonName.toLowerCase().includes(member.substring(0, result.length - 2).toLowerCase()) && !referencePoke.pokemonName.endsWith(' X') && !member.toLowerCase().includes("any")) {
+									$('[data-attr="stage-party-optimal"]').append('<span class="hint--bottom" aria-label="' + referencePoke.pokemonName + ' - ' + referencePoke.location + '" style="background-image: url(' + referencePoke.pokemonIcon + ')"></span>');
+								}
+							});
+						} else {
+							for (var key in pokemonCollection) {
+								var division = pokemonCollection[key];
+								division.forEach(function (referencePoke) {
+									if (member.trim().toLowerCase() === (referencePoke.pokemonName.toLowerCase()) && member.trim().length > 0) {
+										$('[data-attr="stage-party-optimal"]').append('<span class="hint--bottom" aria-label="' + referencePoke.pokemonName + ' - ' + referencePoke.location + '" style="background-image: url(' + referencePoke.pokemonIcon + ')"></span>');
+									}
+								});
+							}
+						}
+					});
+				}
+			});
+		}
 	}
 
 	// handle stage type display
