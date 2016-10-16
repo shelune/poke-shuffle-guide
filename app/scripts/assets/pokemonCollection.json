@@ -2376,6 +2376,21 @@
             "pokemonName": "Hydreigon",
             "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/635.png",
             "location": "41"
+        },
+        {
+            "pokemonName": "Poliwrath",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/062.png",
+            "location": "42"
+        },
+        {
+            "pokemonName": "Electrode",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/101.png",
+            "location": "43"
+        },
+        {
+            "pokemonName": "Ninjask",
+            "pokemonIcon": "http://www.serebii.net/shuffle/pokemon/291.png",
+            "location": "44"
         }
     ],
     "special": [
