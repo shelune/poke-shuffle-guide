@@ -63,6 +63,7 @@ $color-bg-white:  $color-white;
 
 $color-border: $color-gray;
 $color-border-white: $color-white;
+$color-border-dark: darken($color-gray, 30%);
 
 $gray-dark:                 #373a3c !default;
 $gray:                      #55595c !default;
