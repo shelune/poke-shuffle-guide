@@ -196,7 +196,7 @@
 		"recommendedParty": "[Gengar] / [Gyarados Shiny] / [Rayquaza] / [Lucario] / [Gardevoir] / [Scizor]\n\nGardevoir, Conkeldurr, Volcarona, Heracross, Florges, Galvantula\n\nGenesect, Xerneas, Gallade, Lucario\n\nLeavanny, Pinsir, Machamp",
 		"clearingStrategy": "The disruption is random, and it could be easy to deal with (a bunch of Zorua) or game-losing (the blocks spawn in a reverse M-Medicham shape). If you want to take all the possibilities in account, bring M-Gardevoir or M-Scizor.",
 		"srankingStrategy": "Moves: at least 6 moves left\n\nSince you can't predict the disruption, I suggest using a DD+5 and moving on. The initial board is clear so that makes the stage trivial.",
-		"suggestedTeam": "[Rayquaza], Xerneas, Genesect, Heracross",
+		"suggestedTeam": "[Rayquaza], Xerneas, Genesect, Heracross\n\n[Lucario], Gallade, Genesect, Machamp",
 		"basePower": 50,
 		"ability": "Sinister Power"
 	},
