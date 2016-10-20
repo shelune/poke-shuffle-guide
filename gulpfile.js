@@ -157,7 +157,7 @@ gulp.task('html', function() {
 //migrating over all HTML files for deployment
 gulp.task('html-deploy', function() {
     //grab everything, which should include htaccess, robots, etc
-	gulp.src(['app/*', '!app/bower_components'])
+	gulp.src(['app/*.html', '!app/bower_components'])
         //prevent pipe breaking caused by errors from gulp plugins
         .pipe(plumber())
         .pipe(gulp.dest('dist'));
@@ -214,4 +214,4 @@ gulp.task('default', ['browserSync', 'scripts', 'styles'], function() {
 });
 
 //this is our deployment task, it will set everything for deployment-ready files
-gulp.task('deploy', gulpSequence('clean', 'scaffold', ['assets-deploy', 'scripts-deploy', 'styles-deploy', 'images-deploy'], 'html-deploy'));
+gulp.task('deploy', gulpSequence('clean', 'scaffold', ['assets-deploy', 'scripts-deploy', 'styles-deploy', 'images-deploy', 'html-deploy'], 'html-deploy'));

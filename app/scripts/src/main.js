@@ -538,8 +538,8 @@
 
 		// match pokemon with its icon to display out on recommended party
 		results.forEach(function (result) {
-			if (result.startsWith('[')) {
-				result = result.slice(1, -1).toLowerCase();
+			if (result.trim().startsWith('[')) {
+				result = result.trim().slice(1, -1).toLowerCase();
 				pokemonCollection['mega'].forEach(function (referencePoke) {
 					// clumsy filter for Zard X, dunno how to deal with MMX
 					if (referencePoke.pokemonName.toLowerCase().includes(result.substring(0, result.length - 2).toLowerCase()) && !referencePoke.pokemonName.endsWith(' X') && !result.toLowerCase().includes("any")) {
@@ -574,15 +574,16 @@
 			teamList.forEach(function (team, index) {
 				// breakdown team string to array of team members
 				memberList = splitComma(team);
-				console.log(memberList);
+				var suggestedList = [];
 				if (index === 0) {
 					memberList.map(function (member) {
-						if (member.includes('[') || member.includes(']')) {
+						if (member.trim().startsWith('[')) {
 							member = member.trim().slice(1, -1).toLowerCase();
 							pokemonCollection['mega'].forEach(function (referencePoke) {
 								// clumsy filter for Zard X, dunno how to deal with MMX
 								if (referencePoke.pokemonName.toLowerCase().includes(member.substring(0, member.length - 2).toLowerCase()) && !referencePoke.pokemonName.endsWith(' X') && !member.toLowerCase().includes("any")) {
 									$('[data-attr="stage-party-optimal"]').append('<span class="team-option hint--bottom" aria-label="' + referencePoke.pokemonName + ' - ' + referencePoke.location + '" style="background-image: url(' + referencePoke.pokemonIcon + ')"></span>');
+									console.log('mega: ' + referencePoke.pokemonName);
 								}
 							});
 						} else {
@@ -604,6 +605,7 @@
 								// clumsy filter for Zard X, dunno how to deal with MMX
 								if (referencePoke.pokemonName.toLowerCase().includes(member.substring(0, member.length - 2).toLowerCase()) && !referencePoke.pokemonName.endsWith(' X') && !member.toLowerCase().includes("any")) {
 									$('[data-attr="stage-party-alternate"]').append('<span class="team-option hint--bottom" aria-label="' + referencePoke.pokemonName + ' - ' + referencePoke.location + '" style="background-image: url(' + referencePoke.pokemonIcon + ')"></span>');
+									console.log('mega: ' + referencePoke.pokemonName);
 								}
 							});
 						} else {
@@ -619,8 +621,6 @@
 					});
 				}
 			});
-		} else {
-			console.log('Suggested Team Not Found!');
 		}
 	}
 
