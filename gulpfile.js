@@ -45,7 +45,8 @@ gulp.task('assets-deploy', function(tmp) {
     gulp.src(['app/scripts/assets/**/*.json'])
         //prevent pipe breaking caused by errors from gulp plugins
         .pipe(plumber())
-        .pipe(gulp.dest('dist/scripts/assets'));
+        .pipe(gulp.dest('dist/scripts/assets'))
+				.pipe(browserSync.reload({stream: true}));
 });
 
 //compressing images & handle SVG files
@@ -207,7 +208,7 @@ gulp.task('scaffold', function() {
 //  compress all scripts and SCSS files
 gulp.task('default', ['browserSync', 'scripts', 'styles'], function() {
     //a list of watchers, so it will watch all of the following files waiting for changes
-    gulp.watch('app/scripts/src/**', ['scripts']);
+    gulp.watch('app/scripts/src/**', ['scripts', 'assets-deploy']);
     gulp.watch('app/styles/scss/**/*.scss', ['styles']);
     gulp.watch('app/images/**', ['images']);
     gulp.watch('app/*.html', ['html']);
