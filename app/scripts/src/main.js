@@ -160,6 +160,12 @@
 		if (sentence) {
 			return sentence.split(',');
 		}
+	};
+	
+	var checkArrHasDupl = function(arr, element, key) {
+		return arr.some(function(arrItem) {
+			return arrItem[key] === element[key];
+		});
 	}
 
 	// check if a sentence includes a word
@@ -576,13 +582,17 @@
 				memberList = splitComma(team);
 				var suggestedList = [];
 				if (index === 0) {
+					var megaSlot = {'name': '', 'location': '', 'icon': ''};
+					var supportSlots = [];
 					memberList.map(function (member) {
 						if (member.trim().startsWith('[')) {
 							member = member.trim().slice(1, -1).toLowerCase();
 							pokemonCollection['mega'].forEach(function (referencePoke) {
 								// clumsy filter for Zard X, dunno how to deal with MMX
-								if (referencePoke.pokemonName.toLowerCase().includes(member.substring(0, member.length - 2).toLowerCase()) && !referencePoke.pokemonName.endsWith(' X') && !member.toLowerCase().includes("any")) {
-									$('[data-attr="stage-party-optimal"]').append('<span class="team-option hint--bottom" aria-label="' + referencePoke.pokemonName + ' - ' + referencePoke.location + '" style="background-image: url(' + referencePoke.pokemonIcon + ')"></span>');
+								if (referencePoke.pokemonName.toLowerCase().includes(member.substring(0, member.length - 2).toLowerCase()) && !referencePoke.pokemonName.endsWith(' X')) {
+									megaSlot.pokemonName = referencePoke.pokemonName;
+									megaSlot.location = referencePoke.location;
+									megaSlot.pokemonIcon = referencePoke.pokemonIcon;
 									console.log('mega: ' + referencePoke.pokemonName);
 								}
 							});
@@ -591,20 +601,35 @@
 								var division = pokemonCollection[key];
 								division.forEach(function (referencePoke) {
 									if (member.trim().toLowerCase() === (referencePoke.pokemonName.toLowerCase()) && member.trim().length > 0) {
-										$('[data-attr="stage-party-optimal"]').append('<span class="team-option hint--bottom" aria-label="' + referencePoke.pokemonName + ' - ' + referencePoke.location + '" style="background-image: url(' + referencePoke.pokemonIcon + ')"></span>');
+										var supportSlot = {'pokemonName': '', 'location': '', 'pokemonIcon': ''};
+										supportSlot.pokemonName = referencePoke.pokemonName;
+										supportSlot.location = referencePoke.location;
+										supportSlot.pokemonIcon = referencePoke.pokemonIcon;
+										if (!checkArrHasDupl(supportSlots, supportSlot, 'pokemonName')) {
+											supportSlots.push(supportSlot);
+											console.log('added to support ' + supportSlot.pokemonName);
+										}
 									}
 								});
 							}
 						}
 					});
+					$('[data-attr="stage-party-optimal"]').append('<span class="team-option hint--bottom mega" aria-label="' + megaSlot.pokemonName + ' - ' + megaSlot.location + '" style="background-image: url(' + megaSlot.pokemonIcon + ')"></span>');
+					supportSlots.forEach(function (slot) {
+						$('[data-attr="stage-party-optimal"]').append('<span class="team-option hint--bottom" aria-label="' + slot.pokemonName + ' - ' + slot.location + '" style="background-image: url(' + slot.pokemonIcon + ')"></span>');
+					});
 				} else {
+					var megaSlot = {'name': '', 'location': '', 'icon': ''};
+					var supportSlots = [];
 					memberList.map(function (member) {
 						if (member.includes('[') || member.includes(']')) {
 							member = member.trim().slice(1, -1).toLowerCase();
 							pokemonCollection['mega'].forEach(function (referencePoke) {
 								// clumsy filter for Zard X, dunno how to deal with MMX
-								if (referencePoke.pokemonName.toLowerCase().includes(member.substring(0, member.length - 2).toLowerCase()) && !referencePoke.pokemonName.endsWith(' X') && !member.toLowerCase().includes("any")) {
-									$('[data-attr="stage-party-alternate"]').append('<span class="team-option hint--bottom" aria-label="' + referencePoke.pokemonName + ' - ' + referencePoke.location + '" style="background-image: url(' + referencePoke.pokemonIcon + ')"></span>');
+								if (referencePoke.pokemonName.toLowerCase().includes(member.substring(0, member.length - 2).toLowerCase()) && !referencePoke.pokemonName.endsWith(' X')) {
+									megaSlot.pokemonName = referencePoke.pokemonName;
+									megaSlot.location = referencePoke.location;
+									megaSlot.pokemonIcon = referencePoke.pokemonIcon;
 									console.log('mega: ' + referencePoke.pokemonName);
 								}
 							});
@@ -613,11 +638,22 @@
 								var division = pokemonCollection[key];
 								division.forEach(function (referencePoke) {
 									if (member.trim().toLowerCase() === (referencePoke.pokemonName.toLowerCase()) && member.trim().length > 0) {
-										$('[data-attr="stage-party-alternate"]').append('<span class="team-option hint--bottom" aria-label="' + referencePoke.pokemonName + ' - ' + referencePoke.location + '" style="background-image: url(' + referencePoke.pokemonIcon + ')"></span>');
+										var supportSlot = {'pokemonName': '', 'location': '', 'pokemonIcon': ''};
+										supportSlot.pokemonName = referencePoke.pokemonName;
+										supportSlot.location = referencePoke.location;
+										supportSlot.pokemonIcon = referencePoke.pokemonIcon;
+										if (!checkArrHasDupl(supportSlots, supportSlot, 'pokemonName')) {
+											supportSlots.push(supportSlot);
+											console.log('added to support ' + supportSlot.pokemonName);
+										}
 									}
 								});
 							}
 						}
+					});
+					$('[data-attr="stage-party-alternate"]').append('<span class="team-option hint--bottom mega" aria-label="' + megaSlot.pokemonName + ' - ' + megaSlot.location + '" style="background-image: url(' + megaSlot.pokemonIcon + ')"></span>');
+					supportSlots.forEach(function (slot) {
+						$('[data-attr="stage-party-alternate"]').append('<span class="team-option hint--bottom" aria-label="' + slot.pokemonName + ' - ' + slot.location + '" style="background-image: url(' + slot.pokemonIcon + ')"></span>');
 					});
 				}
 			});
