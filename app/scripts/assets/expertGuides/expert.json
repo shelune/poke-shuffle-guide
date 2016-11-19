@@ -816,7 +816,8 @@
 		"pokemon": 4,
 		"recommendedParty": "[Rayquaza]/[Venusaur]/\n[Ampharos]\n\nAmpharos, Magnezone, Elektross\n\nRaikou, Virizion\n\nShaymin, Zekrom",
 		"clearingStrategy": "Spend the opening seconds removing barriers along the top three rows while rushing to evolve your mega. Once evolved, try to focus purely on maintaining a combo and let your mega take care of barriers on its own. The HP is low enough to blitz down with a solid 30+ combo if it can be maintained after cleaning up the starting board.",
-		"srankingStrategy": " +10 seconds can be enough, though a DD to ensure barriers never get in the way after the start is a safe addition. Mega Start may be necessary for an uncandied Ampharos.",
+		"srankingStrategy": " Time: 25s+ left\n\n+10 seconds can be enough, though a DD to ensure barriers never get in the way after the start is a safe addition. Mega Start may be necessary for an uncandied Ampharos.",
+		"notes": "C-1 removes Flareon",
 		"basePower": 70,
 		"ability": "Eject+"
 	},
@@ -834,7 +835,8 @@
 		"pokemon": 4,
 		"recommendedParty": "[Rayquaza]/[Garchomp]\n\nExcadrill, Golurk\n\nGliscor\n\nLandorous, Garchomp, Groudon",
 		"clearingStrategy": "Remove the starting barriers as efficiently as possible, and from there maintaining a combo is a necessity to finish with reasonable time remaining. Don't make wasteful moves as every 5th disruption will be an X pattern that will easily kill a combo. With the frustrating starting board, +10 seconds and Disruption Delay may be a necessary resort in order to both complete the level, and finish with an acceptable amount of time remaining.",
-		"srankingStrategy": " +10 seconds and Disruption Delay, potentially adding a Mega Start for Garchomp, is the safest way to S-rank this so long as a combo can be maintained.",
+		"srankingStrategy": "Time: 20s+ left\n\n+10 seconds and Disruption Delay, potentially adding a Mega Start for Garchomp, is the safest way to S-rank this so long as a combo can be maintained.",
+		"notes": "C-1 removes Swablu",
 		"basePower": 60,
 		"ability": "Rock Break+"
 	},
@@ -852,7 +854,26 @@
 		"pokemon": 4,
 		"recommendedParty": "[Gengar]/[Rayquaza]/[Gyarados Shiny]/[Charizard]\n\nBraviary, Salamence\n\nCharizard, Delphox, Heatran, Entei, Arcanine\n\nReshiram, Ho-Oh, Lugia, Shaymin-S, Unfezant",
 		"clearingStrategy": "The block are a nuisance mainly because of their pattern, try to keep making moves so they disappear automatically. The Ninjask disruption occurs mostly in the middle, so Charizard Y can clear most of it immediately.\nIf you have a hard time keeping up the combo, you may try a team with damage boosting abilities, like Shaymin-S, Unfezant, Arcanine, etc.",
-		"srankingStrategy": " +10 seconds should be enough since it has very low HP, it is very easy if you add a Disruption Delay, since after 5 moves at most you don't have to deal with blocks anymore.",
+		"srankingStrategy": " Time: 25s+ left\n\n+10 seconds should be enough since it has very low HP, it is very easy if you add a Disruption Delay, since after 5 moves at most you don't have to deal with blocks anymore.",
+		"notes": "C-1 removes Nincada",
+		"basePower": 60,
+		"ability": "Paralysis Combo"
+	},
+	{
+		"stageNo": 45,
+		"icon": 302,
+		"name": "Mantine",
+		"hitPts": 17567,
+		"type": "Flying",
+		"srank": 500,
+		"time": "1:00",
+		"captureRate": "Base: 1%\nBonus: 5% /3s",
+		"initialBoardSetup": "http://i.imgur.com/VOqdDtT.png",
+		"disruptions": "Board: barriered rocks on rows 2, 4, 6\nInitial: none\nTimer: Every 3 moves, add barriered rocks on rows 2, 4, or 6.\nIf 8901 HP lost, every 0 moves, add barriered rocks on row 2, 4, or 6.",
+		"pokemon": 4,
+		"recommendedParty": "[Gengar] / [Gyarados-S] / [Charizard Y] / [Aerodacyl] / [Tyranitar] / [Alakazam]",
+		"clearingStrategy": "The disruption is awful, especially because the rocks on row 2 have a very high chance to stop your combo. Also, after reaching amost half of the HP, Mantine will spam barriered rocks without a countdown, making things even more difficult.\n\nThey key is your mega, the most obvious candidates are Aerodactyl and Tyranitar. Aerodactyl has bonus damage, and the disruption will not spawn anything if it hits rocks that are being cleared by the mega effect. Tyranitar on the other hand has the bonus that it stops the timer briefly while the mega effect is active, giving you some breathing room.",
+		"srankingStrategy": "Time: 30s+ left",
 		"basePower": 60,
 		"ability": "Paralysis Combo"
 	}

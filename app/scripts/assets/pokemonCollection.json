@@ -301,7 +301,7 @@
 			"location": "40"
 		},
 		{
-			"pokemonName": "Azumarill",
+			"pokemonName": "Azumarill ",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/184.png",
 			"location": "76"
 		},
@@ -382,7 +382,7 @@
 		},
 		{
 			"pokemonName": "Mega Sableye",
-			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/302.png",
+			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/302-m.png",
 			"location": "30"
 		},
 		{
@@ -551,7 +551,7 @@
 			"location": "145"
 		},
 		{
-			"pokemonName": "Mawile",
+			"pokemonName": "Mawile ",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/303.png",
 			"location": "51"
 		},
@@ -754,6 +754,11 @@
 			"pokemonName": "Mega Aerodactyl",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/142-m.png",
 			"location": "180"
+		},
+		{
+			"pokemonName": "Heatran",
+			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/485.png",
+			"location": "485"
 		},
 		{
 			"pokemonName": "Mega Mewtwo",
@@ -1096,7 +1101,7 @@
 			"location": "215"
 		},
 		{
-			"pokemonName": "Staraptor",
+			"pokemonName": "Staraptor ",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/398.png",
 			"location": "224"
 		},
@@ -1641,7 +1646,7 @@
 			"location": "316"
 		},
 		{
-			"pokemonName": "Tyrantrum",
+			"pokemonName": "Tyrantrum ",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/697.png",
 			"location": "320"
 		},
@@ -1726,7 +1731,7 @@
 			"location": "311"
 		},
 		{
-			"pokemonName": "Fearow",
+			"pokemonName": "Fearow ",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/022.png",
 			"location": "318"
 		},
@@ -2116,14 +2121,34 @@
 			"location": "410"
 		},
 		{
-			"pokemonName": "Hoopa",
+			"pokemonName": "Hoopa-U",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/720-u.png",
 			"location": "450"
+		},
+		{
+			"pokemonName": "Tirtouga",
+			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/564.png",
+			"location": "475"
 		},
 		{
 			"pokemonName": "Archen",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/566.png",
 			"location": "452"
+		},
+		{
+			"pokemonName": "Wailmer",
+			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/320.png",
+			"location": "471"
+		},
+		{
+			"pokemonName": "Wormadam",
+			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/413.png",
+			"location": "494"
+		},
+		{
+			"pokemonName": "Mothim",
+			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/414.png",
+			"location": "498"
 		},
 		{
 			"pokemonName": "Bidoof",
@@ -2146,6 +2171,26 @@
 			"location": "460"
 		},
 		{
+			"pokemonName": "Baltoy",
+			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/343.png",
+			"location": "482"
+		},
+		{
+			"pokemonName": "Claydol",
+			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/344.png",
+			"location": "490"
+		},
+		{
+			"pokemonName": "Helioptile",
+			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/694.png",
+			"location": "483"
+		},
+		{
+			"pokemonName": "Heliolisk",
+			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/695.png",
+			"location": "491"
+		},
+		{
 			"pokemonName": "Nincada",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/290.png",
 			"location": "453"
@@ -2154,6 +2199,21 @@
 			"pokemonName": "Shedinja",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/292.png",
 			"location": "457"
+		},
+		{
+			"pokemonName": "Seedot",
+			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/273.png",
+			"location": "472"
+		},
+		{
+			"pokemonName": "Nuzleaf",
+			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/274.png",
+			"location": "476"
+		},
+		{
+			"pokemonName": "Shiftry",
+			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/275.png",
+			"location": "480"
 		},
 		{
 			"pokemonName": "Beldum",
@@ -2169,6 +2229,11 @@
 			"pokemonName": "Metagross",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/376.png",
 			"location": "470"
+		},
+		{
+			"pokemonName": "Mega Metagross",
+			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/376-m.png",
+			"location": "500"
 		}
 	],
 	"expert": [
@@ -2223,17 +2288,17 @@
 			"location": "10"
 		},
 		{
-			"pokemonName": "Articuno",
+			"pokemonName": "Articuno ",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/144.png",
 			"location": "4"
 		},
 		{
-			"pokemonName": "Zapdos",
+			"pokemonName": "Zapdos ",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/145.png",
 			"location": "5"
 		},
 		{
-			"pokemonName": "Moltres",
+			"pokemonName": "Moltres ",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/146.png",
 			"location": "6"
 		},
@@ -2253,11 +2318,6 @@
 			"location": "15"
 		},
 		{
-			"pokemonName": "Heatran",
-			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/485.png",
-			"location": "17"
-		},
-		{
 			"pokemonName": "Xerneas",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/716.png",
 			"location": "18"
@@ -2268,7 +2328,7 @@
 			"location": "19"
 		},
 		{
-			"pokemonName": "Mewtwo",
+			"pokemonName": "Mewtwo ",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/150.png",
 			"location": "20"
 		},
@@ -2283,7 +2343,7 @@
 			"location": "23"
 		},
 		{
-			"pokemonName": "Greninja",
+			"pokemonName": "Greninja ",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/658.png",
 			"location": "24"
 		},
@@ -2378,6 +2438,11 @@
 			"location": "41"
 		},
 		{
+			"pokemonName": "Mantine",
+			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/226.png",
+			"location": "45"
+		},
+		{
 			"pokemonName": "Poliwrath",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/062.png",
 			"location": "42"
@@ -2455,6 +2520,11 @@
 			"location": ""
 		},
 		{
+			"pokemonName": "Pikachu-S",
+			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/025-s.png",
+			"location": ""
+		},
+		{
 			"pokemonName": "Raichu-W",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/026-w.png",
 			"location": ""
@@ -2510,13 +2580,28 @@
 			"location": ""
 		},
 		{
+			"pokemonName": "Treecko-W",
+			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/252-w.png",
+			"location": ""
+		},
+		{
 			"pokemonName": "Mega Sceptile",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/254-m.png",
 			"location": "50"
 		},
 		{
+			"pokemonName": "Torchic-W",
+			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/255-w.png",
+			"location": ""
+		},
+		{
 			"pokemonName": "Mega Blaziken",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/257-m.png",
+			"location": ""
+		},
+		{
+			"pokemonName": "Mudkip-W",
+			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/258-w.png",
 			"location": ""
 		},
 		{
@@ -2525,12 +2610,17 @@
 			"location": ""
 		},
 		{
+			"pokemonName": "Gengar-S",
+			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/094-s.png",
+			"location": ""
+		},
+		{
 			"pokemonName": "Raikou",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/243.png",
 			"location": "16"
 		},
 		{
-			"pokemonName": "Mewtwo",
+			"pokemonName": "Mewtwo ",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/150.png",
 			"location": ""
 		},
@@ -2610,7 +2700,7 @@
 			"location": ""
 		},
 		{
-			"pokemonName": "Sharpedo",
+			"pokemonName": "Sharpedo ",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/319.png",
 			"location": ""
 		},
@@ -3010,7 +3100,7 @@
 			"location": ""
 		},
 		{
-			"pokemonName": "Machamp",
+			"pokemonName": "Machamp ",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/068.png",
 			"location": ""
 		},
@@ -3320,12 +3410,22 @@
 			"location": ""
 		},
 		{
+			"pokemonName": "Castform-W",
+			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/351-w.png",
+			"location": ""
+		},
+		{
 			"pokemonName": "Mantyke",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/458.png",
 			"location": ""
 		},
 		{
-			"pokemonName": "Tyrogue",
+			"pokemonName": "Mantine",
+			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/226.png",
+			"location": "45"
+		},
+		{
+			"pokemonName": "Tyrogue ",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/236.png",
 			"location": ""
 		},
@@ -3337,6 +3437,11 @@
 		{
 			"pokemonName": "Hitmonchan",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/107.png",
+			"location": ""
+		},
+		{
+			"pokemonName": "Hitmontop",
+			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/237.png",
 			"location": ""
 		},
 		{
@@ -3435,6 +3540,11 @@
 			"location": ""
 		},
 		{
+			"pokemonName": "Carracosta",
+			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/565.png",
+			"location": ""
+		},
+		{
 			"pokemonName": "Ninjask",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/291.png",
 			"location": "44"
@@ -3447,6 +3557,21 @@
 		{
 			"pokemonName": "Drifblim",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/426.png",
+			"location": ""
+		},
+		{
+			"pokemonName": "Sunkern",
+			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/191.png",
+			"location": ""
+		},
+		{
+			"pokemonName": "Sunflora",
+			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/192.png",
+			"location": ""
+		},
+		{
+			"pokemonName": "Meloetta",
+			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/648.png",
 			"location": ""
 		}
 	],
@@ -3518,7 +3643,7 @@
 		},
 		{
 			"pokemonName": "Mega Sableye",
-			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/302.png",
+			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/302-m.png",
 			"location": "30"
 		},
 		{
@@ -3550,6 +3675,11 @@
 			"pokemonName": "Mega Mawile",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/303-m.png",
 			"location": "90"
+		},
+		{
+			"pokemonName": "Mega Gengar",
+			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/094-m.png",
+			"location": "135"
 		},
 		{
 			"pokemonName": "Mega Gengar",
@@ -3665,6 +3795,11 @@
 			"pokemonName": "Mega Alakazam",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/065-m.png",
 			"location": ""
+		},
+		{
+			"pokemonName": "Mega Metagross",
+			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/376-m.png",
+			"location": "500"
 		}
 	]
 }

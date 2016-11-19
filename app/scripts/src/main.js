@@ -1,7 +1,7 @@
 ;(function () {
 	// level caps
-	var mainStageCap = 470;
-	var expertStageCap = 44;
+	var mainStageCap = 500;
+	var expertStageCap = 45;
 	var stageCollections = [
 		{
 			levelCap: 10,
@@ -76,7 +76,7 @@
 			stageUrl: 'bs'
 		},
 		{
-			levelCap: 470,
+			levelCap: 500,
 			stageUrl: 'gh'
 		}
 	];
