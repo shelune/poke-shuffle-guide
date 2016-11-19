@@ -871,7 +871,7 @@
 		"initialBoardSetup": "http://i.imgur.com/VOqdDtT.png",
 		"disruptions": "Board: barriered rocks on rows 2, 4, 6\nInitial: none\nTimer: Every 3 moves, add barriered rocks on rows 2, 4, or 6.\nIf 8901 HP lost, every 0 moves, add barriered rocks on row 2, 4, or 6.",
 		"pokemon": 4,
-		"recommendedParty": "[Gengar] / [Gyarados-S] / [Charizard Y] / [Aerodacyl] / [Tyranitar] / [Alakazam]",
+		"recommendedParty": "[Gengar] / [Gyarados-S] / [Charizard Y] / [Aerodacyl] / [Tyranitar] / [Alakazam]\n\nZapdos, Mamoswine, Kyurem, Electivire, Zekrom, Articuno, Terrakion, Gigalith",
 		"clearingStrategy": "The disruption is awful, especially because the rocks on row 2 have a very high chance to stop your combo. Also, after reaching amost half of the HP, Mantine will spam barriered rocks without a countdown, making things even more difficult.\n\nThey key is your mega, the most obvious candidates are Aerodactyl and Tyranitar. Aerodactyl has bonus damage, and the disruption will not spawn anything if it hits rocks that are being cleared by the mega effect. Tyranitar on the other hand has the bonus that it stops the timer briefly while the mega effect is active, giving you some breathing room.",
 		"srankingStrategy": "Time: 30s+ left",
 		"basePower": 60,
