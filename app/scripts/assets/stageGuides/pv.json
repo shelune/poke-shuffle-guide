@@ -16,7 +16,6 @@
 		"recommendedParty": "[Any]/[Lucario]\n\nHeracross, Scyther,\nScizor\n\nLucario, Xerneas\n\nNone",
 		"clearingStrategy": "Switch F3 with B6 for a big combo\neliminating the barriers at 3rd and\n4th column.",
 		"srankingStrategy": "Moves: At least 8 moves left\n\nClearing Strategy will pretty much do it\n\nOtherwise, use Move+5",
-		"suggestedTeam": "[Ampharos], Winking Cotonee, Shaymin, Raikou",
 		"mobileNotes": "Catch Rate: 22% +3%\n\nAside from the catch rate, there is no other\nchange. Use the same strategy from 3ds.",
 		"basePower": 60,
 		"ability": "Prank"
@@ -35,7 +34,7 @@
 		"recommendedParty": "[Gengar]/[Banette]\n\nZoroark, Scyther,\nScizor, Heracross,\nDuosion\n\nYveltal\n\nGiratina",
 		"clearingStrategy": "Easy with Mega Gengar team",
 		"srankingStrategy": "Moves: At least 5 moves left\n\nEasy without items\n\nAdd a Move+5 if it doesn't work",
-		"suggestedTeam": "[Gengar], Winking Cleffairy, Mew",
+		"suggestedTeam": "[Gengar], Zoroark, Heracross",
 		"mobileNotes": "100% Same with 3ds version. Still easy with\nM-Gengar",
 		"basePower": 50,
 		"ability": "Swap"
@@ -91,6 +90,7 @@
 		"recommendedParty": "[Ampharos]\n\nGrovyle, Raichu,\nLilligant\n\nZapdos, Raikou,\nSceptile\n\nShaymin, Tropius",
 		"clearingStrategy": "Actually beatable without items but\nMove+5 is a safe zone",
 		"srankingStrategy": "Moves: At least 4 moves left\n\nMove+5\n\nDD + Move+5 will do this without problem.",
+		"suggestedTeam": "[Ampharos], Winking Cotonee, Shaymin, Raikou",
 		"mobileNotes": "100% Same with 3ds version. Team is still\nthe same",
 		"basePower": 60,
 		"ability": "Power of 5"
@@ -146,6 +146,7 @@
 		"recommendedParty": "[Altaria]/[Glalie]/\n[Gengar]\n\nHaxorus, Shelgon,\nVailluxe\n\nDragonite, Xerneas,\nArticuno\n\nRayquaza, Diancie",
 		"clearingStrategy": "You have to wait for 4 turns before a\nShelgon spawns and destroy some\nbarriers. Easy to clear. Just make\nsure to catch this one",
 		"srankingStrategy": "Moves: At least 9 moves left\n\nAdd Shelgon to your team. This pretty \nmuch removes most of the barriers on\nfirst turn and will become easy to combo",
+		"suggestedTeam": "[Gengar], Xerneas, Mew",
 		"mobileNotes": "Catch Rate: 3% +3%\n\nLowered catch rate a little. Still easy if you\nadd Shelgon to your team. Also Diancie for\nBarrier Bash+ is very good to get rid of some\nbarriers",
 		"basePower": 60,
 		"ability": "Damage Streak"
@@ -417,6 +418,7 @@
 		"recommendedParty": "[Lucario]/[Blaziken]/\n[Gengar]/[Any]\n\nTyranitar, Conkeldurr,\nSteelix, Ninetales\n\n, Heatran, Blaziken,\nMoltres, Delphox\n\nDialga, Jirachi\n",
 		"clearingStrategy": "You may want to get at least a 2\ncombo every turn or else you'll get\nclog in barriers. Not really much that\nhard. M-Gengar is good at combos if\nyou are getting some trouble\n\nAlso note you may need some items\nif you are using M-Blaziken team\nunless you are lucky with combos",
 		"srankingStrategy": "Moves: At least 13 moves left\n\nIf you are having trouble itemless,\nMove+5 will do this\n\nOr go with Move+5, DD, Mega Start\n(I used only DD, depends on your team\nlevel)",
+		"suggestedTeam": "[Blaziken], Reshiram, Delphox, Charizard",
 		"basePower": 70,
 		"ability": "Barrier Bash"
 	},
@@ -451,7 +453,7 @@
 		"recommendedParty": "[Blastiose]/[Venusaur]/\n[Glalie]\n\nMilotic, Tangrowth,\nAvalugg\n\nChesnaught, Greninja,\nSwampert, Articuno\n\nShaymin, Kyogre,\nManaphy",
 		"clearingStrategy": "Glalie and Blastoise are both good.\nGlalie for combo and Blastoise for\nclearing Blocks. Not that hard.\n\nIt seems that you can use Tropius to\nEject the Excadrill at the bottom and\nclear the board with Rocks. The\nproblem is if you can have a Tropius\nmatch on your first turn",
 		"srankingStrategy": "Moves: At least 15 moves left\n\nGlalie+DD will do this\n\nIf short on Moves, try adding a Move+5",
-		"suggestedTeam": "[Rayquaza]. Palkia, Kyurem, Suicune",
+		"suggestedTeam": "[Rayquaza]. Palkia, Kyurem, Suicune\n\n[Sceptile], Virizion, Deerling, Shaymin",
 		"basePower": 70,
 		"ability": "Power of 5"
 	},

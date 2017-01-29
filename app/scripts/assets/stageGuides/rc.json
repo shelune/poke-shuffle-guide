@@ -451,6 +451,7 @@
 		"recommendedParty": "[Gengar]/[Heracross]/\n[Sharpedo]/[Absol]/\n[Banette]\n\nGengar, Zoroark,\nHeracross, Scizor\n\nGenesect, Yveltal,\nBisharp\n\nGiratina, Darkrai,\nSharpedo",
 		"clearingStrategy": "Sharpedo has Eject, which can get \nrid of the Munna. Bisharp can get rid\nof the rocks fast.\n\nYou do not need more to beat this \nstage, even with the 2 Munna\nBarriers in the middle.",
 		"srankingStrategy": "Moves: At least 6 moves left\n\nIt is possible to do it itemless with\nSharpedo or Lugia to eject the Munna,\nbut Moves +5 is nice if you don't\nwant to try many times and waste\nhearts.",
+		"suggestedTeam": "[Gengar], Umbreon, Darkrai, Giratina",
 		"notes": "     ",
 		"basePower": 40,
 		"ability": "Block Smash"
@@ -958,6 +959,7 @@
 		"recommendedParty": "[Mawile]\n\nMuk, Nidoqueen,\nNidoking, Aegislash\n\nCobalion\n\nDialga, Jirachi,\nCrobat",
 		"clearingStrategy": "M-Steelix is not a great choice as there\nwill be no Metal block to erase.\nThe stage is beatable itemless with\nM-Mawile, use Jirachi if you have it\nto evolve Mawile faster beat it.\n\nMatch some Jigglypuff when they start\naccumulating.",
 		"srankingStrategy": "Moves: At least 7 moves left\n\nUsing a Mega Start seems to work quite\nwell. As usual, if you are having trouble,\ndo not hesitate to throw in a Moves +5,\nit is always very effective when the stage\nis less than 15 moves.",
+		"suggestedTeam": "[Beedrill], Mawile, Cobalion, Muk\n\n[Mawile], Jirachi, Cobalion, Steelix",
 		"notes": "     ",
 		"basePower": 40,
 		"ability": "Barrier Bash"
@@ -1084,7 +1086,7 @@
 		"recommendedParty": "[Gardevoir]/[Latios]/\n[Latias]/[Altaria]/\n[Glalie]\n\nRayquaza, Avalugg\n\nGoodra, Articuno,\nDragonite, Xerneas\n\nDiancie",
 		"clearingStrategy": "Well, this was a nice run in Roseus\nCenter. Big bad Mega Rayquaza is\nvery hard to beat.\nI would say that Mega Start, Disruption\nDelay, and Moves +5 can beat this\nstage. With these items, M-Latios\nis the best to use.\n\nWill try if M-Diancie can help in this\nstage, maybe it can avoid using\na Disruption Delay, message me if\nyou have already tried.",
 		"srankingStrategy": "Moves: At least 11 moves left\n\nFull item run is what you need here for\nthis stage. Mega Start, Disruption Delay,\nMoves +5 and Complexity-1 is what\nit takes to beat this monster.\nFull item run with MLatios/Dragonite/\nXerneas/Goodra gave me S rank with\n4 moves spare.\n\nYou can use Shufflemove to help you\nmake the moves yielding the more combos\nor the most score depending on the\nsituation of the boar.",
-		"suggestedTeam": "[Gengar], Kyurem-W, Zygarde-C, Dragonite.",
+		"suggestedTeam": "[Gengar], Kyurem-W, Zygarde-C, Dragonite\n\n[Latios], Kyurem, Diancie, Articuno",
 		"notes": "You get the Mega Stone for\nRayquaza!",
 		"basePower": 70,
 		"ability": "Mega Effects: Erases a Pokémon of a different type from this Pokémon (max 10)."
