@@ -308,7 +308,7 @@
 					if (stageId > expertStageCap) {
 						$('.stage__number').after('<div class="stage-selector__helper">Current stage cap is ' + expertStageCap + '</div>');
 					} else if (stageId < 1) {
-						$('.stage__number').after('<div class="stage-selector__helper">Even Celebi would not allow you to go back that far</div>');
+						$('.stage__number').after('<div class="stage-selector__helper">Celebi would not allow you to go back that far</div>');
 					} else {
 						$('body').attr('stage-data-id', stageId);	
 						stageUrl = getStageUrl(stageId);
