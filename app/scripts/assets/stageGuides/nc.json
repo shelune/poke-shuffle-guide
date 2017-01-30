@@ -124,7 +124,7 @@
 		"recommendedParty": "[Camerupt] / [Garchomp] / [Rayquaza]\n\nGallade, Golurk, Landorus-T, Machamp, Suicune",
 		"clearingStrategy": "Tricky stage, the disruption is quite annoying. It is recommended to bring something to deal with the blocks (Suicune, Golurk, Gallade) and the Lileep (Rayquaza, Eject++ Manaphy), make sure to bring supports with decent attack power, as the stage is not extremely high on HP, but still solid.",
 		"srankingStrategy": "Moves: At least 10 moves left.\n\nMoves+5 and Disruption Delay makes the S-rank easy to get, as long as you bring something to deal with the initial board and a good candied mega (Rayquaza, Camerupt, Garchomp).\n\nIt can be done with just Moves+5 but it requires a good team and a fast mega evolution.",
-		"suggestedTeam": "[Camerupt], Suicune, Greninja, Groudon\n\n[Rayquaza], Gallade, Machamp, Landorus-T",
+		"suggestedTeam": "[Camerupt], Suicune, Kingdra, Groudon\n\n[Rayquaza], Gallade, Machamp, Landorus-T",
 		"basePower": 50,
 		"ability": "Mind Zap"
 	},
@@ -268,7 +268,7 @@
 		"recommendedParty": "[Tyranitar] / [Camerupt] / [Rayquaza]\n\nSuicune, Groudon, Manaphy, Keldeo, Kingdra, Landorus-T, Gigalith, Kyogre",
 		"clearingStrategy": "Absurdely bulky stage, but at least the disruption is light. Since the first hit cannot be prevented, remember to bring something able to clean Pyroar icons.\n\nThere is plenty of options to avoid the next disruptions (Groudon, Greninja, Kingdra, ...), but remember to bring high attack supports because the HP cannot be neglected so easily.",
 		"srankingStrategy": "Moves: At least 10 moves left.\n\nMoves+5 is necessary because of the HP. It should be enough if you have a strong team, with 100+ attack supports and a good mega for combo (Rayquaza, Tyranitar, Camerupt).\n\nIf you cannot do it, the safest way is to add MegaStart, as the problem is not the disruption but dealing a lot of damage.",
-		"suggestedTeam": "[Tyranitar], Groudon, Kingdra, Suicune\n\n[Rayquaza], Keldeo, Kingdra, Manaphy",
+		"suggestedTeam": "[Tyranitar], Groudon, Kingdra, Suicune\n\n[Rayquaza], Keldeo, Greninja, Manaphy",
 		"basePower": 70,
 		"ability": "Crowd Control"
 	},
@@ -340,7 +340,7 @@
 		"recommendedParty": "[Mewtwo-Y] / [Salamence] / [Rayquaza] / [Tyranitar]\n\nCresslia, Victini, Braviary, Lugia, Salamence, Uxie\n\n",
 		"clearingStrategy": "Still, evolve as fast as you could and clear the board so you can combo comfortably afterwards. Then it's just straight forward comboing",
 		"srankingStrategy": "Moves: At least 7 moves left.\n\nM+5 and DD since you need time to clear the initial board. Unless you have Uxie with high SL, then you can let go DD and save 2k coins but it's risky",
-		"suggestedTeam": "[Mewtwo-Y], Cresslia, Uxie, Alakazam\n\n[Tyranitar], Braviary, Lugia, Salamence",
+		"suggestedTeam": "[Mewtwo-Y], Cresselia, Uxie, Alakazam\n\n[Tyranitar], Braviary, Lugia, Salamence",
 		"basePower": 60,
 		"ability": "Power of 5"
 	},
@@ -358,7 +358,7 @@
 		"recommendedParty": "[Tyranitar] / [Rayquaza] / [Sceptile] / [Camerupt]\n\nGroudon, Kingdra, Bellossom, Shaymin-L, Palkia\n\n",
 		"clearingStrategy": "Grab a Barrier Bash+ with a disruptor (Bellossom / Shaymin-L / Kingdra boosted) and you should be good to go. Focus on breaking the barriers first since they hinder your combos heavily if left unchecked. Either Rayquaza / Tyranitar / Camerupt can be picked as Mega here.",
 		"srankingStrategy": "Moves: At least 10 moves left.\n\nM+5 should already be sufficient, or you can add in another MS for safety purpose. Its HP is rather high so Sleep Charm would help a lot here",
-		"suggestedTeam": "[Tyranitar], Palkia, Bellossom, Shaymin-L\n\n[Tyranitar], Palkia, Keldeo-O, Kingdra",
+		"suggestedTeam": "[Tyranitar], Palkia, Bellossom, Shaymin-L\n\n[Tyranitar], Palkia, Keldeo, Kingdra",
 		"basePower": 50,
 		"ability": "Mega Boost+"
 	},
@@ -430,7 +430,7 @@
 		"recommendedParty": "[Tyranitar] / [Pidgeot] / [Rayquaza] / [Charizard]\n\nDelphox, Reshiram, Ho-Oh, Emboar, Lugia, Salamence, Braviary, Leavanny",
 		"clearingStrategy": "F3 > A3, F4 > E3, F4 > D4, A4 > C4, C5 >D4 \n\nLugia must be brought along to deal with disrupted Foongus icons reliably, otherwise the strongest team available to blitz down its low HP is the best option. +5 moves is recommended for clearing consistenly.",
 		"srankingStrategy": "Moves: At least 7 moves left.\n\nThe puzzle wastes too many initial turns to S-rank itemless without extreme luck, so M+5. M-Beedrill is the only mega that has a chance of evolving before hitting the cutoff. If you don't use the Bee, might as well add in MS.",
-		"suggestedTeam": "[Tyranitar], Delphox, Emboar, Lugia\n\n[M-Beedrill], Leavanny, Emboar, Lugia",
+		"suggestedTeam": "[Tyranitar], Delphox, Emboar, Lugia\n\n[Beedrill], Leavanny, Emboar, Lugia",
 		"basePower": 40,
 		"ability": "Mind Zap"
 	},
@@ -448,7 +448,7 @@
 		"recommendedParty": "[Tyranitar] / [Rayquaza] / [Camerupt]\n\nSuicune, Manaphy, Palkia, Landorus-T, Groudon, Gigalith, Terrakion, Kingdra, Golurk",
 		"clearingStrategy": "Very bulky stage. Break the blocks and get the evolution ASAP. Disruption is annoying but you should be fine with tapping megas coming into play. Manaphy may be of use here but not so reliable",
 		"srankingStrategy": "Moves: At least 10 moves left.\n\nMS , M+5 and DD for me at least. You are dealing more than 2k6 damage per turn and that needs a really clean board. Might be easier if you have SL5 Landorus-T but high combo count matters more.",
-		"suggestedTeam": "[Tyranitar], Suicune, Landorus-T, Gigalith\n\n[Rayquaza], Dolphan, Landorus-T, Golurk",
+		"suggestedTeam": "[Tyranitar], Suicune, Landorus-T, Gigalith\n\n[Rayquaza], Donphan, Landorus-T, Golurk",
 		"basePower": 70,
 		"ability": "Relentless"
 	},
@@ -538,68 +538,8 @@
 		"recommendedParty": "[Tyranitar], Zekrom, Raikou, Kyurem\n\n[Rayquaza], Gigalith, Zekrom, Kyurem",
 		"clearingStrategy": "The stage can be done with MS, DD and M+5. However, it's recommended that you just go all in and get this over with once and for all.",
 		"srankingStrategy": "Moves: At least 10 moves left.\n\nFull Item Run for maximum joy!",
-		"suggestedTeam": "[Tyranitar], Kyurem, Raikou, Zekrom",
+		"suggestedTeam": "[Tyranitar], Kyurem, Raikou, Zekrom\n\n[Tyranitar], Terrakion, Kyurem, Articuno",
 		"basePower": 80,
 		"ability": "Mega Effects: Erases Pokémon (max 10) of the same type as this Pokémon."
-	},
-	{
-		"stageNo": 531
-	},
-	{
-		"stageNo": 532
-	},
-	{
-		"stageNo": 533
-	},
-	{
-		"stageNo": 534
-	},
-	{
-		"stageNo": 535
-	},
-	{
-		"stageNo": 536
-	},
-	{
-		"stageNo": 537
-	},
-	{
-		"stageNo": 538
-	},
-	{
-		"stageNo": 539
-	},
-	{
-		"stageNo": 540
-	},
-	{
-		"stageNo": 541
-	},
-	{
-		"stageNo": 542
-	},
-	{
-		"stageNo": 543
-	},
-	{
-		"stageNo": 544
-	},
-	{
-		"stageNo": 545
-	},
-	{
-		"stageNo": 546
-	},
-	{
-		"stageNo": 547
-	},
-	{
-		"stageNo": 548
-	},
-	{
-		"stageNo": 549
-	},
-	{
-		"stageNo": 550
 	}
 ]
