@@ -502,7 +502,7 @@
 		"recommendedParty": "[Tyranitar] / [Charizard]\n\nReshiram, Emboar, Ho-Oh, Delphox, Lugia, Salamence",
 		"clearingStrategy": "Quite tricky actually, you have to wait for a few turns to clear the supported Pokemons. Just break the barriers after the first disruption and focus on comboing it down. If you feel annoyed with the first few wasted turns, go with MS.\n\nReshiram with Barrier Bash+ is very useful here too but it's not so reliable since a 4-icon match is not always available for you.",
 		"srankingStrategy": "Moves: At least 6 moves left.\n\nM+5 with Shelmet would be enough here, though a bit tricky.\n\nOtherwise you can go for full firepower and add MS in for safety",
-		"suggestedTeam": "[Tyranitar], Shelmet, Emboar, Tornadus-Reshiram\n\n[Tyranitar], Ho-Oh, Delphox, Emboar",
+		"suggestedTeam": "[Tyranitar], Shelmet, Emboar, Reshiram\n\n[Tyranitar], Ho-Oh, Delphox, Emboar",
 		"basePower": 50,
 		"ability": "Final Effort"
 	},
@@ -541,5 +541,65 @@
 		"suggestedTeam": "[Tyranitar], Kyurem, Raikou, Zekrom",
 		"basePower": 80,
 		"ability": "Mega Effects: Erases Pokémon (max 10) of the same type as this Pokémon."
+	},
+	{
+		"stageNo": 531
+	},
+	{
+		"stageNo": 532
+	},
+	{
+		"stageNo": 533
+	},
+	{
+		"stageNo": 534
+	},
+	{
+		"stageNo": 535
+	},
+	{
+		"stageNo": 536
+	},
+	{
+		"stageNo": 537
+	},
+	{
+		"stageNo": 538
+	},
+	{
+		"stageNo": 539
+	},
+	{
+		"stageNo": 540
+	},
+	{
+		"stageNo": 541
+	},
+	{
+		"stageNo": 542
+	},
+	{
+		"stageNo": 543
+	},
+	{
+		"stageNo": 544
+	},
+	{
+		"stageNo": 545
+	},
+	{
+		"stageNo": 546
+	},
+	{
+		"stageNo": 547
+	},
+	{
+		"stageNo": 548
+	},
+	{
+		"stageNo": 549
+	},
+	{
+		"stageNo": 550
 	}
 ]

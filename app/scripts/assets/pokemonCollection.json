@@ -56,7 +56,7 @@
 			"location": "67"
 		},
 		{
-			"pokemonName": "Female Meowstic-F",
+			"pokemonName": "Female-F",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/678-f.png",
 			"location": "81"
 		},
@@ -2126,7 +2126,7 @@
 			"location": "410"
 		},
 		{
-			"pokemonName": "Hoopa Unbound-U",
+			"pokemonName": "Hoopa-U",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/720-u.png",
 			"location": "450"
 		},
@@ -2540,7 +2540,7 @@
 	],
 	"special": [
 		{
-			"pokemonName": "Bulbasaur (Winking)-W",
+			"pokemonName": "Bulbasaur-W",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/001-w.png",
 			"location": ""
 		},
@@ -2550,7 +2550,7 @@
 			"location": ""
 		},
 		{
-			"pokemonName": "Charmander (Winking)-W",
+			"pokemonName": "Charmander-W",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/004-w.png",
 			"location": ""
 		},
@@ -2565,7 +2565,7 @@
 			"location": ""
 		},
 		{
-			"pokemonName": "Squirtle (Winking)-W",
+			"pokemonName": "Squirtle-W",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/007-w.png",
 			"location": ""
 		},
@@ -2585,22 +2585,22 @@
 			"location": ""
 		},
 		{
-			"pokemonName": "Pikachu (Winking)-W",
+			"pokemonName": "Pikachu-W",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/025-w.png",
 			"location": ""
 		},
 		{
-			"pokemonName": "Pikachu (Happy)-HA",
+			"pokemonName": "Pikachu-HA",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/025-ha.png",
 			"location": ""
 		},
 		{
-			"pokemonName": "Pikachu (Spooky)-C",
+			"pokemonName": "Pikachu-C",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/025-c.png",
 			"location": ""
 		},
 		{
-			"pokemonName": "Pikachu (Sleeping)-S",
+			"pokemonName": "Pikachu-S",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/025-s.png",
 			"location": ""
 		},
@@ -2610,12 +2610,12 @@
 			"location": ""
 		},
 		{
-			"pokemonName": "Raichu (Winking)-W",
+			"pokemonName": "Raichu-W",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/026-w.png",
 			"location": ""
 		},
 		{
-			"pokemonName": "Togekiss (Winking)-W",
+			"pokemonName": "Togekiss-W",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/468-w.png",
 			"location": ""
 		},
@@ -2635,27 +2635,27 @@
 			"location": ""
 		},
 		{
-			"pokemonName": "Wash Rotom-W",
+			"pokemonName": "Wash-W",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/479-w.png",
 			"location": ""
 		},
 		{
-			"pokemonName": "Frost Rotom-F",
+			"pokemonName": "Frost-F",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/479-f.png",
 			"location": ""
 		},
 		{
-			"pokemonName": "Fan Rotom-S",
+			"pokemonName": "Fan-S",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/479-s.png",
 			"location": ""
 		},
 		{
-			"pokemonName": "Mow Rotom-M",
+			"pokemonName": "Mow-M",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/479-m.png",
 			"location": ""
 		},
 		{
-			"pokemonName": "Sableye (Spooky)-C",
+			"pokemonName": "Sableye-C",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/302-c.png",
 			"location": ""
 		},
@@ -2665,7 +2665,7 @@
 			"location": ""
 		},
 		{
-			"pokemonName": "Treecko (Winking)-W",
+			"pokemonName": "Treecko-W",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/252-w.png",
 			"location": ""
 		},
@@ -2675,7 +2675,7 @@
 			"location": "50"
 		},
 		{
-			"pokemonName": "Torchic (Winking)-W",
+			"pokemonName": "Torchic-W",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/255-w.png",
 			"location": ""
 		},
@@ -2685,7 +2685,7 @@
 			"location": ""
 		},
 		{
-			"pokemonName": "Mudkip (Winking)-W",
+			"pokemonName": "Mudkip-W",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/258-w.png",
 			"location": ""
 		},
@@ -2695,27 +2695,27 @@
 			"location": ""
 		},
 		{
-			"pokemonName": "Vanillite (Holiday)-S",
+			"pokemonName": "Vanillite-S",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/582-s.png",
 			"location": ""
 		},
 		{
-			"pokemonName": "Gengar (Spooky)-S",
+			"pokemonName": "Gengar-S",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/094-s.png",
 			"location": ""
 		},
 		{
-			"pokemonName": "Snorunt (Winking)-W",
+			"pokemonName": "Snorunt-W",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/361-w.png",
 			"location": ""
 		},
 		{
-			"pokemonName": "Glalie (Winking)-W",
+			"pokemonName": "Glalie-W",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/362-w.png",
 			"location": ""
 		},
 		{
-			"pokemonName": "Delibird (Holiday)-P",
+			"pokemonName": "Delibird-P",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/225-p.png",
 			"location": ""
 		},
@@ -2880,12 +2880,12 @@
 			"location": ""
 		},
 		{
-			"pokemonName": "Shaymin Land Forme",
+			"pokemonName": "Shaymin-L",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/492.png",
 			"location": ""
 		},
 		{
-			"pokemonName": "Shaymin Sky Forme-S",
+			"pokemonName": "Shaymin-S",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/492-s.png",
 			"location": ""
 		},
@@ -2895,12 +2895,12 @@
 			"location": ""
 		},
 		{
-			"pokemonName": "Giratina Altered Forme",
+			"pokemonName": "Giratina-A",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/487.png",
 			"location": ""
 		},
 		{
-			"pokemonName": "Giratina Origin Forme-O",
+			"pokemonName": "Giratina-O",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/487-o.png",
 			"location": ""
 		},
@@ -3125,7 +3125,7 @@
 			"location": ""
 		},
 		{
-			"pokemonName": "Pumpkaboo (Spooky)-S",
+			"pokemonName": "Pumpkaboo-S",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/710-s.png",
 			"location": ""
 		},
@@ -3135,7 +3135,7 @@
 			"location": ""
 		},
 		{
-			"pokemonName": "Pumpkaboo (Spooky)-S",
+			"pokemonName": "Pumpkaboo-S",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/711-s.png",
 			"location": ""
 		},
@@ -3185,7 +3185,7 @@
 			"location": ""
 		},
 		{
-			"pokemonName": "Tornadus Therian Forme-T",
+			"pokemonName": "Tornadus-T",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/641-t.png",
 			"location": ""
 		},
@@ -3195,7 +3195,7 @@
 			"location": ""
 		},
 		{
-			"pokemonName": "Thundurus Therian Forme-T",
+			"pokemonName": "Thundurus-T",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/642-t.png",
 			"location": ""
 		},
@@ -3205,7 +3205,7 @@
 			"location": ""
 		},
 		{
-			"pokemonName": "Landorus Therian Forme-T",
+			"pokemonName": "Landorus-T",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/645-t.png",
 			"location": ""
 		},
@@ -3270,7 +3270,7 @@
 			"location": ""
 		},
 		{
-			"pokemonName": "Snover (Holiday)-S",
+			"pokemonName": "Snover-S",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/459-s.png",
 			"location": ""
 		},
@@ -3280,7 +3280,7 @@
 			"location": ""
 		},
 		{
-			"pokemonName": "Jigglypuff (Winking)-W",
+			"pokemonName": "Jigglypuff-W",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/039-w.png",
 			"location": ""
 		},
@@ -3300,7 +3300,7 @@
 			"location": ""
 		},
 		{
-			"pokemonName": "White Kyurem-W",
+			"pokemonName": "White-W",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/646-w.png",
 			"location": ""
 		},
@@ -3330,7 +3330,7 @@
 			"location": ""
 		},
 		{
-			"pokemonName": "Magikarp (Shiny)-S",
+			"pokemonName": "Magikarp-S",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/129-s.png",
 			"location": ""
 		},
@@ -3345,7 +3345,7 @@
 			"location": ""
 		},
 		{
-			"pokemonName": "Gyarados (Shiny)-S",
+			"pokemonName": "Gyarados-S",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/130-s.png",
 			"location": ""
 		},
@@ -3470,7 +3470,7 @@
 			"location": ""
 		},
 		{
-			"pokemonName": "Clefairy (Winking)-W",
+			"pokemonName": "Clefairy-W",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/035-w.png",
 			"location": ""
 		},
@@ -3490,7 +3490,7 @@
 			"location": ""
 		},
 		{
-			"pokemonName": "Zygarde 10% Forme",
+			"pokemonName": "Zygarde 10% For",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/718-10.png",
 			"location": ""
 		},
@@ -3500,7 +3500,7 @@
 			"location": ""
 		},
 		{
-			"pokemonName": "Zygarde Complete Forme-C",
+			"pokemonName": "Zygarde-C",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/718-c.png",
 			"location": ""
 		},
@@ -3540,7 +3540,7 @@
 			"location": ""
 		},
 		{
-			"pokemonName": "Castform (Winking)-W",
+			"pokemonName": "Castform-W",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/351-w.png",
 			"location": ""
 		},
@@ -3630,7 +3630,7 @@
 			"location": ""
 		},
 		{
-			"pokemonName": "Chikorita (Winking)-W",
+			"pokemonName": "Chikorita-W",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/152-w.png",
 			"location": ""
 		},
@@ -3640,7 +3640,7 @@
 			"location": ""
 		},
 		{
-			"pokemonName": "Cyndaquil (Winking)-W",
+			"pokemonName": "Cyndaquil-W",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/155-w.png",
 			"location": ""
 		},
@@ -3750,7 +3750,7 @@
 			"location": ""
 		},
 		{
-			"pokemonName": "Cubchoo (Holiday)-S",
+			"pokemonName": "Cubchoo-S",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/613-s.png",
 			"location": ""
 		},
