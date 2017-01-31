@@ -376,7 +376,7 @@
 		"recommendedParty": "[Gengar] / [Rayquaza] / [Ampharos] / [Manectric] / [Sceptile]",
 		"clearingStrategy": "Very easy stage, just match the Wailmer when they spawn, then use your preferred team to win.",
 		"srankingStrategy": "Moves: at least 7 moves left\n\nDoable itemless with M-Rayquaza and strong supports, possibly including at least one of Shaymin and Bellossom to stall the disruption timer and avoid losing time with the Wailmer.",
-		"suggestedTeam": "[Rayquaza], Shaymin, Zekrom, Raikou\n\n[Sceptile], Shaymin, Bellossom, Ludicolo",
+		"suggestedTeam": "[Rayquaza], Shaymin-L, Zekrom, Raikou\n\n[Sceptile], Shaymin-L, Bellossom, Ludicolo",
 		"basePower": 60,
 		"ability": "Whirlpool"
 	},
@@ -448,7 +448,7 @@
 		"recommendedParty": "[Gengar] / [Rayquaza] / [Ampharos] / [Manectric] / [Sceptile]\n\nZekrom, Shaymin, Raikou, Ferrothorn, Tangrowth, Bellossom",
 		"clearingStrategy": "The disruption is light, and it's easy to deal with using Zekrom or Ferrothorn.\n\nThe stage is quite bulky, but not hard.",
 		"srankingStrategy": "Moves: at least 10 moves left\n\nDoable itemless, very easy with Moves+5. Bring Shaymin to stall the timer and one Block Smash+ user. You will need very good combos because of the high HP.",
-		"suggestedTeam": "[Rayquaza], Zekrom, Shaymin, Raikou\n\n[Sceptile], Shaymin, Ferrothorn, Tangrowth",
+		"suggestedTeam": "[Rayquaza], Zekrom, Shaymin-L, Raikou\n\n[Sceptile], Shaymin-L, Ferrothorn, Tangrowth",
 		"basePower": 50,
 		"ability": "L-Boost"
 	},
@@ -574,7 +574,7 @@
 		"recommendedParty": "[Gengar] / [Gyarados-S] / [Rayquaza]\n\nSuicune, Shaymin, Kingdra, Bellossom, Glalie, Verizion, Greninja, Palkia",
 		"clearingStrategy": "The puzzle can be cleared with A1-C3, F1-B4, A6-E4, F6-D4.\n\nBlocks will fall, and the next disruption will have a 2-moves timer! There are few moves left, so it's crucial to bring high attack supports and/or a lot of stalling abilities.\n\nShaymin, Bellossom, Suicune, Glalie, Kingdra all shine here.",
 		"srankingStrategy": "Moves: at least 3 moves left\n\nNot too hard, as long as you don't get disrupted after the puzzle. There is not much time to megaevolve, so you can even bring 4 non-mega pokemon.",
-		"suggestedTeam": "[Glalie], Suicune, Shaymin, Kingdra\n\n[Rayquaza], Suicune, Shaymin, Bellossom",
+		"suggestedTeam": "[Glalie], Suicune, Shaymin-L, Greninja-A\n\n[Rayquaza], Suicune, Shaymin-L, Bellossom",
 		"basePower": 50,
 		"ability": "Eject"
 	},
@@ -682,7 +682,7 @@
 		"recommendedParty": "[Gengar] / [Gyarados-S]\n\nKyurem-W, Goodra, Dragonite, Axew, Altaria, Mamoswine",
 		"clearingStrategy": "The disruption is mild and it is a 3-support stage, so bring M-Gengar and a way to deal with Axew: either Axew itself or Goodra/Kyurem-W. The third slot can be either Dragonite to boost combo damage, or something to deal with barriers (Zygarde, Mamoswine, Diancie).",
 		"srankingStrategy": "Moves: at least 4 moves left\n\nAs any 3-support stage, it can be done itemless unless the combo stop early. Remember to bring Axew for a chance of free combo off of a disruption, or something to Eject them and get more attack overall on the board.",
-		"suggestedTeam": "[Gengar], Kyurem-W, Zygarde\n\n[Gengar], Dragonite, Axew",
+		"suggestedTeam": "[Gengar], Kyurem-W, Zygarde-50\n\n[Gengar], Dragonite, Axew",
 		"basePower": 50,
 		"ability": "Dragon Talon"
 	},
@@ -832,7 +832,7 @@
 	},
 	{
 		"stageNo": 497,
-		"icon": 497,
+		"icon": 496,
 		"name": "Mothim",
 		"hitPts": 23800,
 		"type": "Bug",
@@ -844,7 +844,7 @@
 		"recommendedParty": "[Gengar] / [Gyarados-S] / [Rayquaza] / [Tyranitar] / [Charizard Y]\n\nTalonflame, Charizard, Ho-Oh, Gigalith, Salamence, Braviary, Lugia",
 		"clearingStrategy": "The disruption is quite troublesome, bring some Block Smash+ users (Gigalith, Talonflame), or you will not be able to finish the stage.\n\nThe mega can help too, M-Charizard Y or Tyranitar are the obvious choices, but M-Charizard X surprisingly can be useful thanks to its clearing pattern, which will remove the disruption 100% of the times!",
 		"srankingStrategy": "Moves: at least 5 moves left.\n\nIt can be done with as little as Moves+5, using M-Charizard X (thanks to its clearing pattern), and very strong supports.\n\nThe easy way to do it is with Disruption Delay and Moves+5: the board will be clear, and you will be able to combo freely with Pyre or Sky Blast.",
-		"suggestedTeam": "[Tyranitar], Ho-Oh, Talonflame, Charizard\n\n[Charizard X], Gigalith, Salamence, Braviary",
+		"suggestedTeam": "[Tyranitar], Ho-Oh, Talonflame, Charizard\n\n[Charizard], Gigalith, Salamence, Braviary",
 		"basePower": 60,
 		"ability": "+-Boost"
 	},

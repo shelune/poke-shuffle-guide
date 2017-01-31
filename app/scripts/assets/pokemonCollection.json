@@ -381,11 +381,6 @@
 			"location": "30"
 		},
 		{
-			"pokemonName": "Mega Sableye",
-			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/302-m.png",
-			"location": "30"
-		},
-		{
 			"pokemonName": "Surskit",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/283.png",
 			"location": "35"
@@ -1981,11 +1976,6 @@
 			"location": "383"
 		},
 		{
-			"pokemonName": "Unown",
-			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/201-em.png",
-			"location": "373"
-		},
-		{
 			"pokemonName": "Clamperl",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/366.png",
 			"location": "392"
@@ -3290,11 +3280,6 @@
 			"location": ""
 		},
 		{
-			"pokemonName": "Pumpkaboo-S",
-			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/711-s.png",
-			"location": ""
-		},
-		{
 			"pokemonName": "Duskull",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/355.png",
 			"location": ""
@@ -3455,12 +3440,12 @@
 			"location": ""
 		},
 		{
-			"pokemonName": "White-W",
+			"pokemonName": "Kyurem-W",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/646-w.png",
 			"location": ""
 		},
 		{
-			"pokemonName": "Black Kyurem",
+			"pokemonName": "Kyurem-B",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/646-b.png",
 			"location": ""
 		},
@@ -3645,12 +3630,12 @@
 			"location": ""
 		},
 		{
-			"pokemonName": "Zygarde 10% For",
+			"pokemonName": "Zygarde-10",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/718-10.png",
 			"location": ""
 		},
 		{
-			"pokemonName": "Zygarde 50% For",
+			"pokemonName": "Zygarde-50",
 			"pokemonIcon": "http://www.serebii.net/shuffle/pokemon/718.png",
 			"location": ""
 		},
